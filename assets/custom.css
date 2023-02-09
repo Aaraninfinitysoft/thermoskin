@@ -84,7 +84,7 @@ a.product-related-view-btn,a.thermoskin-range-view-list-btn{
 .best-sellers-single-item .sub_header:nth-child(3) + .product-listing-wrapper a{
   background:#ED1C24;
 }
-.thermoskin-browse-page-product .nav-tabs>li.active>a,.thermoskin-browse-page-product .nav-tabs > li >a:hover, .nav-tabs>li.active>a:focus{
+.thermoskin-browse-page-product .nav-tabs>li.active>a,.thermoskin-browse-page-product .nav-tabs > li >a:hover{
     color:#ED1C24!important;
 }
 /* typography  */
@@ -4588,4 +4588,10 @@ padding-top:25px !important;
   padding-bottom:200px;
   
 }
+}
+.tab-content3 .img-pro-tp1 img{
+  object-position: left;
+}
+.product-tabbing-home-main-wrap .tab-pane{
+  padding-bottom: 245px;
 }
