@@ -709,12 +709,9 @@ h3.thermoskin-range-section-title{
     margin: 0;
 }
 .thermoskin-range-section--text-wrapper p{
-/*   font-size:20px; */
   line-height:27px;
-  color:#939393;
   margin:0px;
   padding:10px 0;
-/*   height: 120px; */
 }
 
 a.thermoskin-range-view-list-btn {
@@ -4476,6 +4473,7 @@ body .verticle-section.text-advert-section  .icon-with-text-item.grid__item{
 }
 .Support-Selector{
   overflow:visible;
+  margin-bottom: 140px !important;
 }
 .Support-Selector .image-content-text {
 align-self:center;
