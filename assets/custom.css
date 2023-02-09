@@ -3585,11 +3585,7 @@ ul.footer-content a {
     }
 }
 
-@media (min-width:1199px){
-  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .tab-content{
-  padding-bottom:200px;
-}
-}
+
 /* new css added  */
 .template-customers-login .push--large--one-third{
   margin-top:60px;
@@ -4588,4 +4584,10 @@ padding-top:25px !important;
 }
 .thermoskin-range-view-list-btn{
   margin-top:30px!important;
+}
+@media (min-width:1199px){
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .tab-content{
+  padding-bottom:200px;
+  
+}
 }
