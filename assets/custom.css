@@ -4604,3 +4604,6 @@ padding-top:25px !important;
   max-width: 536px!important;
   margin: auto !important;
 }
+.img-pro-tp > img{
+  filter: grayscale(100%);
+}
