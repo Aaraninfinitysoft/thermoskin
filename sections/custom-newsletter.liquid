@@ -1,0 +1,58 @@
+<div class="centered small--one-whole three-quarters custom-news-letter-main-wrap">
+
+  {% if section.settings.newsletter_title != blank %}
+  <div class="custom-news-letter-heading">
+    <h3>{{ section.settings.newsletter_title }}</h3>
+  </div>
+  {% endif %}
+  
+   <div class="custom-news-letterr-form">
+    {% form 'customer', id: 'newsletter-footer_form' %}
+        {{ form.errors | default_errors }}
+    
+        {% if form.posted_successfully? %}
+            <p class="note form-success">{{ 'general.newsletter_form.confirmation' | t }}</p>
+        {% else %}
+          <div class="input-group">
+            <input class="field__input input-st" autocomplete="name" type="text" id="ContactForm-first_name" name="contact[first_name]" value="" aria-required="true" placeholder="Name" required>
+				
+          </div>
+            <div class="input-group">
+    <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="Email" name="contact[email]" id="Email" class="input-group-field footer-email-input" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}" required>
+    <input type="hidden" name="contact[tags]" value="newsletter" required>
+            </div>
+   </div>
+   <div class="custom-news-letterr-form">
+     <div class="input-group">
+    <input type="submit" class="btn footer-email-submit" name="subscribe" id="subscribe" value="{{ 'general.newsletter_form.submit' | t }}">
+    </div>
+   </div>
+        {% endif %}
+    {% endform %}
+
+</div>
+
+{% schema %}
+  {
+    "name": "news letter",
+    "settings": [
+      {
+        "id": "newsletter_title",
+        "type": "text",
+        "label": "News letter heading",
+        "default": "Store locator"
+      }
+    ],
+       "presets": [
+        {
+            "name": {
+                "en": "Custom news letter",
+                "de": "Bild mit Text",
+                "es": "Imagen con texto",
+                "fr": "Image avec texte",
+                "pt-PT": "Imagem com texto"
+            }
+        }
+    ]
+  }
+{% endschema %}

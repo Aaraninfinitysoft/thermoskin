@@ -1,0 +1,376 @@
+<div class="browse-img-section">
+	<div class="left-cont">
+<div class="left-heading-btn">
+<div class="browse-heading-top-left">
+{% if section.settings.browse_body_content != blank %}
+<h3>{{ section.settings.browse_body_content }}</h3>
+{% endif %}
+</div>
+
+</div>
+ {% comment %}     
+<div class="browse-heading-bottom-left">
+{% if section.settings.ankle_content != blank %}
+<h3>{{ section.settings.ankle_content }}</h3>
+{% endif %}
+</div>
+{% endcomment %}
+</div>
+
+<div class="left-center">
+<!-- partial:index.partial.html -->
+<div class="product">
+  <img src="{{  section.settings.image | img_url: '750x1260' }}">
+
+
+
+  <div class="msdw-hotspot-wrapper av">
+    <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon asd"></div>
+      <div class="msdw-hotspot-info info1">
+        <div class="msdw-hotspot-caption">
+          {% if section.settings.elbow_content != blank %}
+         {{ section.settings.elbow_content }}
+        {% endif %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+ <div class="msdw-hotspot-wrapper av1">
+       <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon asd1"></div>
+      <div class="msdw-hotspot-info info2">
+        <div class="msdw-hotspot-caption">
+        {% if section.settings.wrist_content != blank %}
+        {{ section.settings.wrist_content }}
+        {% endif %}
+        </div>
+      </div>
+
+  </div>
+  </div>
+   <div class="msdw-hotspot-wrapper av2">
+       <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon av-top"></div>
+      <div class="msdw-hotspot-info">
+        <div class="msdw-hotspot-caption">
+         {% if section.settings.shoulder_content != blank %}
+         {{ section.settings.shoulder_content }}
+        {% endif %}
+        </div>
+      </div>
+
+   </div>
+  </div>
+   <div class="msdw-hotspot-wrapper av3">
+    <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon av-top"></div>
+      <div class="msdw-hotspot-info">
+        <div class="msdw-hotspot-caption">
+          {% if section.settings.back_content != blank %}
+           {{ section.settings.back_content }}
+          {% endif %}
+        </div>
+      </div>
+
+ </div>
+  </div>
+   <div class="msdw-hotspot-wrapper av4">
+    <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon av-top"></div>
+      <div class="msdw-hotspot-info">
+        <div class="msdw-hotspot-caption">
+         {% if section.settings.groin_content != blank %}
+         {{ section.settings.groin_content }}
+        {% endif %}
+        </div>
+      </div>
+   </div>
+  </div>
+    <div class="msdw-hotspot-wrapper av5">
+        <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon av-top"></div>
+      <div class="msdw-hotspot-info">
+        <div class="msdw-hotspot-caption">
+          {% if section.settings.leg_content != blank %}
+         {{ section.settings.leg_content }}
+        {% endif %}
+        </div>
+      </div>
+ </div>
+  </div>
+      <div class="msdw-hotspot-wrapper av6">
+     <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon asd2"></div>
+      <div class="msdw-hotspot-info info3">
+        <div class="msdw-hotspot-caption">
+          {% if section.settings.kneee_content != blank %}
+         {{ section.settings.kneee_content }}
+        {% endif %}
+        </div>
+      </div>
+  </div>
+  </div>
+     <div class="msdw-hotspot-wrapper av7">
+     <div class="msdw-hotspot">
+  <div class="msdw-hotspot-icon asd2"></div>
+      <div class="msdw-hotspot-info info3">
+        <div class="msdw-hotspot-caption">
+         {% if section.settings.ankle_content != blank %}
+         {{ section.settings.ankle_content }}
+        {% endif %}
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!-- partial -->
+
+<!--   mobile popup for body part -->
+
+<div class="bg-pop">
+<img src="{{  section.settings.image_m | img_url: '750x1260' }}">
+<a href="#part-1">
+<div class="bg-pop-icon"></div></a>
+
+<a href="#part-2">
+<div class="bg-pop-icon icons-2"></div></a>
+
+<a href="#part-3">
+<div class="bg-pop-icon icons-3"></div></a>
+
+<a href="#part-4">
+<div class="bg-pop-icon icons-4"></div></a>
+
+<a href="#part-5">
+<div class="bg-pop-icon icons-5"></div></a>
+
+<a href="#part-6">
+<div class="bg-pop-icon icons-6"></div></a>
+
+<a href="#part-7">
+<div class="bg-pop-icon icons-7"></div></a>
+
+<a href="#part-8">
+<div class="bg-pop-icon icons-8"></div></a>
+</div>
+
+<div data-ml-modal id="part-1">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+      {% if section.settings.wrist_content != blank %}
+      {{ section.settings.wrist_content }}
+      {% endif %}
+</div>		
+		</div>	
+	</div>
+</div>
+
+<div data-ml-modal id="part-2">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+    {% if section.settings.elbow_content != blank %}
+     {{ section.settings.elbow_content }}
+    {% endif %}
+</div>		
+		</div>		
+	</div>
+</div>
+
+<div data-ml-modal id="part-3">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+      {% if section.settings.kneee_content != blank %}
+       {{ section.settings.kneee_content }}
+      {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+
+
+<div data-ml-modal id="part-4">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+    {% if section.settings.shoulder_content != blank %}
+     {{ section.settings.shoulder_content }}
+    {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+
+<div data-ml-modal id="part-5">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+{% if section.settings.back_content != blank %}
+           {{ section.settings.back_content }}
+          {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+
+<div data-ml-modal id="part-6">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+      {% if section.settings.groin_content != blank %}
+       {{ section.settings.groin_content }}
+      {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+
+
+<div data-ml-modal id="part-7">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m">
+    {% if section.settings.leg_content != blank %}
+    {{ section.settings.leg_content }}
+    {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+<div data-ml-modal id="part-8">
+	<a href="#!" class="modal-overlay"></a>
+	<div class="modal-dialog modal-dialog-lg">
+		<a href="#!" class="modal-close">&times;</a>
+		<div class="modal-content">
+<div class="popup-m popup-ankle-content">
+    {% if section.settings.ankle_content != blank %}
+    <h3>{{ section.settings.ankle_content }}</h3>
+    {% endif %}
+</div>			
+		</div>		
+	</div>
+</div>
+
+<!--   mobile popup -->
+  
+	</div>
+	
+</div>
+<script>
+  const selectHotspot = (e) => {
+  const clickedHotspot = e.target.parentElement;
+  const container = clickedHotspot.parentElement;
+  
+  // only include hotspots within same image to allow one open hotspot per image; change "container" to "document" to allow only one open hotspot for entire page:
+  const hotspots = container.querySelectorAll(".lg-hotspot"); 
+  hotspots.forEach(hotspot => {
+    if (hotspot === clickedHotspot) {
+      hotspot.classList.toggle("lg-hotspot--selected");
+    } else {
+      hotspot.classList.remove("lg-hotspot--selected");
+    }
+  });
+}
+
+(() => {
+  const buttons = document.querySelectorAll(".lg-hotspot__button");
+  buttons.forEach(button => {
+    button.addEventListener("mouseover", selectHotspot);
+  });
+})();
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+{% schema %}
+  {
+    "name": "Browse By Body Parts",
+    "class":"Browse_by_body_part",
+    "settings": [
+      {
+        "id": "browse_body_content",
+        "type": "html",
+        "label": "HTML",
+        "default": "Store locator"
+      },
+      	{
+        "id": "ankle_content",
+        "type": "html",
+        "label": "Ankle html"
+         },
+      	{
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+      	{
+           "type": "image_picker",
+           "id": "image_m",
+           "label": "Mobile Image"
+         },
+        {
+        "id": "wrist_content",
+        "type": "html",
+        "label": "Wrist html"
+         },
+        {
+        "id": "elbow_content",
+        "type": "html",
+        "label": "Elbow html"
+         },
+        {
+        "id": "shoulder_content",
+        "type": "html",
+        "label": "Shoulder html"
+         },
+        {
+        "id": "back_content",
+        "type": "html",
+        "label": "Back html"
+         },
+        {
+        "id": "groin_content",
+        "type": "html",
+        "label": "Groin html"
+         },
+        {
+        "id": "leg_content",
+        "type": "html",
+        "label": "Leg html"
+         },
+        {
+        "id": "kneee_content",
+        "type": "html",
+        "label": "knee html"
+         }
+    ],
+       "presets": [
+        {
+            "name": {
+                "en": "Browse By Body Parts",
+                "de": "Bild mit Text",
+                "es": "Imagen con texto",
+                "fr": "Image avec texte",
+                "pt-PT": "Imagem com texto"
+            }
+        }
+    ]
+  }
+{% endschema %}
+

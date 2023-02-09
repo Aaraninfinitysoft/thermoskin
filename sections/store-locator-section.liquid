@@ -1,0 +1,48 @@
+<div class="centered small--one-whole three-quarters store-locator-main-wrap {% if template.name != "index" %}inner-page-store-locator{% endif %}">
+
+  {% if section.settings.image != blank %}
+    <div class="store-locator-bg">
+  <div class="store-locator-img">
+    <img src="{{  section.settings.image | img_url: '659x850' }}" />
+  </div>
+    </div>
+   {% endif %}
+   <div class="store-locator-form">
+     <span class="find">find A store</span>
+     <span class="near-you">Near You</span>
+    {% if section.settings.store_locator_title != blank %}
+    <h3>{{ section.settings.store_locator_title }}</h3>
+    {% endif %}
+    <input type="submit" class="btn-secandory" value="Let,s Go">
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Store locator",
+    "settings": [
+      {
+        "id": "store_locator_title",
+        "type": "text",
+        "label": "Stote Locator heading",
+        "default": "Store locator"
+      },
+      	{
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+    ],
+       "presets": [
+        {
+            "name": {
+                "en": "Store Locator",
+                "de": "Bild mit Text",
+                "es": "Imagen con texto",
+                "fr": "Image avec texte",
+                "pt-PT": "Imagem com texto"
+            }
+        }
+    ]
+  }
+{% endschema %}

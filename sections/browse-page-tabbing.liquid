@@ -1,0 +1,163 @@
+<div class="best-sllers-tabbing-home-main-wrap {{ template.name }}">
+  <h3>{{ section.settings.title }}</h3>
+  <h4>{{ section.settings.sub_heading }}</h4>
+  <div class="product-tab-content">
+    <div id="exTab2" class="aaaaaa">
+      <ul class="best-sellers-nav nav nav-tabs">
+        {% assign i = 1 %}
+        {% for block in section.blocks %}
+          <li class="{% if i == 1 %} active {% endif %} tab best-sellers-tab">
+            <a href="#best{{ i }}" data-toggle="tab">{{ block.settings.name | escape }}</a>
+          </li>
+          {% assign i = i | plus: 1 %}
+        {% endfor %}
+      </ul>
+
+      <div class="tab-content best-sellers-content">
+        {% assign i = 1 %}
+
+        {% for block in section.blocks %}
+          {% assign handle = block.type %}
+          {% case handle %}
+            {% when 'multiple_category' %}
+              {% assign collectionArr = block.settings.best_seller_id | strip | split: ',' %}
+
+              <div class="multiple_category tab-pane {% if i == 1 %} active {% endif %}" id="best{{ i }}">
+                <div class="best-sellers-single-item" {{ block.shopify_attributes }}>
+                  {% for collectionHandle in collectionArr %}
+                    {% assign curr_coll = collections[collectionHandle] %}
+                    <div class="sub_header">
+                      <h2>
+                        {{ curr_coll.title }}
+                        <small>{{- curr_coll.metafields.custom.best_for }}</small>
+                      </h2>
+                      <span>{{ curr_coll.metafields.custom.short_description }}</span>
+                    </div>
+                    <div class="product-listing-wrapper">
+                    {% for product in curr_coll.products limit: 3 %}
+                      <div class="best-sellers-wrap">
+                        <div class="best-sellers-image">
+                          <img src="{{ product.featured_image | img_url:"535x535" }}">
+                        </div>
+                        <h3 class="best-sellers-title">{{ product.title }}</h3>
+                        <div class="thermoskin-range-section--text-wrapper">
+                          {% if product.description %}
+                            <p>{{ product.description | strip_html | truncate: 100 }}</p>
+                          {% endif %}
+                        </div>
+                        <a class="thermoskin-range-view-list-btn" href="{{ product.url }}">VIEW</a>
+                      </div>
+                    {% endfor %}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+              {% assign i = i | plus: 1 %}
+            {% when 'best_seller' %}
+              {% assign curr_coll = block.settings.best_seller_id %}
+
+              <div class="tab-pane {% if i == 1 %} active {% endif %}" id="best{{ i }}">
+                <div class="best-sellers-single-item" {{ block.shopify_attributes }}>
+                  {% for product in collections[curr_coll].products limit: 3 %}
+                    <div class="best-sellers-wrap">
+                      <div class="best-sellers-image">
+                        <img src="{{ product.featured_image | img_url:"535x535" }}">
+                      </div>
+                      <h3 class="best-sellers-title">{{ product.title }}</h3>
+                      <div class="thermoskin-range-section--text-wrapper">
+                        {% if product.description %}
+                          <p>{{ product.description | strip_html | truncate: 100 }}</p>
+                        {% endif %}
+                      </div>
+                      <a class="thermoskin-range-view-list-btn" href="{{ product.url }}">VIEW</a>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+              {% assign i = i | plus: 1 %}
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Browse page tab product",
+  "class": "thermoskin-browse-page-product",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub Heading"
+    }
+  ],
+  "max_blocks": 8,
+  "blocks": [
+     {
+       "name": "multiple_category",
+       "type": "multiple_category",
+       "settings": [
+          {
+           "type": "text",
+           "id": "name",
+           "label": "Body Part Name"
+         },
+         {
+           "type": "text",
+           "id": "best_seller_id",
+           "label": "Categories",
+           "info":"please type collection handle here with comma sapareted value which you want to include"
+         }
+
+       ]
+     },
+     {
+       "name": "Type",
+       "type": "best_seller",
+       "settings": [
+         {
+           "type": "collection",
+           "id": "best_seller_id",
+           "label": "Collection Type"
+         },
+         {
+           "type": "text",
+           "id": "name",
+           "label": "Collection Name"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Browse page tab product",
+      "settings": {
+        "title": "Best Sellers"
+      },
+      "blocks": [
+        {
+          "type": "best_seller"
+        },
+        {
+          "type": "best_seller"
+        }
+      ]
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Best sellers"
+    },
+    "fr": {
+      "title": "Diaporama"
+    }
+  }
+}
+{% endschema %}

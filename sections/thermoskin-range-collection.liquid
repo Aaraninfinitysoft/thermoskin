@@ -1,0 +1,254 @@
+<div class="grid__item homepage-content homepage-thermoskin-range-wrap">
+
+<div class="wrapper thermoskin-range-wrap">
+
+  {% if section.settings.title != blank %}
+    <div class="sitewide--title-wrapper flex-header">
+      <h3 class="title">{{ section.settings.title | escape }}</h3>
+
+    </div>
+  {% endif %}
+
+  <div class="thermoskin-range-block">
+
+    {% for block in section.blocks %}
+      {%- assign testimonial_has_link = false -%}
+      {% if block.settings.link != blank %}
+        {%- assign testimonial_has_link = true -%}
+      {% endif %}
+
+      <div class="thermoskin-range--single-item" {{ block.shopify_attributes }}>
+        {% if block.settings.image != blank %}
+          <div class="thermoskin-range-section--image">
+            <img src="{{  block.settings.image | img_url: '535x535' }}" />
+          </div>
+        {% endif %}
+
+        {% if block.settings.thermoskin_range_title != blank %}
+          <h3 class="thermoskin-range-section-title">{{ block.settings.thermoskin_range_title | escape }}</h3>
+        {% endif %}
+
+      
+        {% if block.settings.thermoskin_range_text != blank %}
+          <div class="thermoskin-range-section--text-wrapper">
+            {{ block.settings.thermoskin_range_text }}
+          </div>
+        {% endif %}
+
+      {% if testimonial_has_link %}
+      <a class="thermoskin-range-view-list-btn btn" href="{{ block.settings.link }}">Read More</a>
+      {% endif %}
+      </div>
+    {% endfor %}
+
+
+
+    
+  </div>
+</div>
+
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Thermoskin range Section",
+        "de": "Erfahrungsberichte",
+        "es": "Testimonios",
+        "fr": "Témoignages",
+        "pt-PT": "Testemunhos"
+    },
+    "class": "homepage-section-thermoskin-range-wrapper",
+    "settings": [
+        {
+            "type": "select",
+            "id": "colors",
+            "label": {
+                "en": "Color scheme",
+                "de": "Farbschema",
+                "es": "Esquema de colores",
+                "fr": "Palette de couleurs",
+                "pt-PT": "Esquema de cores"
+            },
+            "default": "white",
+            "options": [
+                {
+                    "value": "white",
+                    "label": {
+                        "en": "Minimal",
+                        "fr": "Minimal",
+                        "de": "Minimal",
+                        "es": "Mínimo",
+                        "pt-PT": "Mínimo"
+                    }
+                },
+                {
+                    "value": "light",
+                    "label": {
+                        "en": "Light",
+                        "de": "Licht",
+                        "es": "Luz",
+                        "fr": "Clair",
+                        "pt-PT": "Claro"
+                    }
+                },
+                {
+                    "value": "accent",
+                    "label": {
+                        "en": "Feature",
+                        "de": "Eigenschaft",
+                        "es": "Destacado",
+                        "fr": "Caractéristique",
+                        "pt-PT": "Funcionalidade"
+                    }
+                },
+                {
+                    "value": "dark",
+                    "label": {
+                        "en": "Dark",
+                        "de": "Dunkel",
+                        "es": "Oscuro",
+                        "fr": "Foncé",
+                        "pt-PT": "Escuro"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "checkbox",
+            "id": "circle_images",
+            "label": {
+                "en": "Circular images",
+                "de": "Kreisförmige Bilder",
+                "es": "Imágenes redondas",
+                "fr": "Images circulaires",
+                "pt-PT": "Imagens circulares"
+            },
+            "default": true
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": {
+                "en": "Heading",
+                "de": "Überschrift",
+                "es": "Encabezado",
+                "fr": "Rubrique",
+                "pt-PT": "Título"
+            },
+            "default": {
+                "en": "Your Heading",
+                "de": "Erfahrungsberichte",
+                "es": "Testimonios",
+                "fr": "Témoignages",
+                "pt-PT": "Testemunhos"
+            }
+        },
+        {
+            "type": "url",
+            "id": "viewurl",
+            "label": {
+                "en": "View URl Link",
+                "de": "Überschrift",
+                "es": "Encabezado",
+                "fr": "Rubrique",
+                "pt-PT": "Título"
+            }
+           
+        }
+    ],
+    "max_blocks": 4,
+    "blocks": [
+        {
+            "type": "text",
+            "name": {
+                "en": "Thermoskin range Section",
+                "de": "Erfahrungsbericht",
+                "es": "Testimonio",
+                "fr": "Témoignage",
+                "pt-PT": "Testemunho"
+            },
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": {
+                        "en": "Image",
+                        "de": "Bild",
+                        "es": "Imagen",
+                        "fr": "Image",
+                        "pt-PT": "Imagem"
+                    },
+                    "info": {
+                        "en": "400px x 400px recommended",
+                        "de": "400 px x 400 px empfohlen",
+                        "es": "Recomendado: 400px x 400px",
+                        "fr": "400 x 400 px recommandé",
+                        "pt-PT": "400px x 400px (recomendado)"
+                    }
+                },
+                {
+                    "type": "richtext",
+                    "id": "thermoskin_range_text",
+                    "label": {
+                        "en": "Content",
+                        "de": "Text",
+                        "es": "Texto",
+                        "fr": "Texte",
+                        "pt-PT": "Texto"
+                    }
+                },
+                {
+                    "type": "text",
+                    "id": "thermoskin_range_title",
+                    "label": {
+                        "en": "Heading",
+                        "de": "Kundenname",
+                        "es": "Nombre del cliente",
+                        "fr": "Nom du client",
+                        "pt-PT": "Nome do cliente"
+                    }
+                   
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": {
+                        "en": "Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": {
+                "en": "Thermoskin range Section",
+                "de": "Erfahrungsberichte",
+                "es": "Testimonios",
+                "fr": "Témoignages",
+                "pt-PT": "Testemunhos"
+            },
+            "category": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            }
+           
+        }
+    ]
+}
+{% endschema %}

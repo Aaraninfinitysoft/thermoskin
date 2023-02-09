@@ -1,0 +1,184 @@
+<div class="centered small--one-whole three-quarters product-tabbing-home-main-wrap">
+  <div class="product-tab-content">
+   <div id="exTab2" class="">	
+<ul class="nav nav-tabs">
+  {% assign i = 1 %}
+     {% for block in section.blocks %}
+       
+    <li class="{% if i == 1 %} active {% endif %} tab{{ i }}">
+    <a  href="#{{ i }}" data-toggle="tab">{{ block.settings.tab_title | escape }}</a>
+    </li>
+  {% assign i = i | plus: 1 %}
+	{% endfor %}		
+		</ul>
+
+			<div class="tab-content ">
+            {% assign i = 1 %}
+            {% for block in section.blocks %}
+           
+			  <div class="tab-pane {% if i == 1 %} active {% endif %} tab-content{{ i }}" id="{{ i }}">
+              <div class="product-tab-jo">
+               <div class="product-tab-img">
+            <div class="img-pro-tp">
+            <img src="{{  block.settings.image3 | img_url: '1000x543' }}" />
+              <div class="overlay-bg-{{ i }}"></div>
+            <div class="img-pro-tp1">
+            <img src="{{  block.settings.image4 | img_url: '295x335' }}" />
+            </div>
+            </div>
+            
+            </div>
+                <div class="tab-d-text tab-title{{ i }}">
+                  <h2>{{ block.settings.tab_title | escape }}</h2>
+             
+                {{ block.settings.tab_content}}
+{% comment %}                 <a href="{{ block.settings.link | escape }}">View all products</a> {% endcomment %}
+                </div>
+              </div>
+            </div>
+        {% assign i = i | plus: 1 %}
+        {% endfor %}
+				
+			</div>
+  </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Product Tabbing",
+        "de": "Erfahrungsberichte",
+        "es": "Testimonios",
+        "fr": "Témoignages",
+        "pt-PT": "Testemunhos"
+    },
+    "class": "homepage-section-thermoskin-range-wrapper",
+   	"settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+     {
+    "type": "image_picker",
+    "id": "image1",
+    "label": "Image2"
+  }
+  ],
+    "max_blocks": 3,
+    "blocks": [
+        {
+            "type": "text",
+            "name": {
+                "en": "Product tab list",
+                "de": "Erfahrungsbericht",
+                "es": "Testimonio",
+                "fr": "Témoignage",
+                "pt-PT": "Testemunho"
+            },
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "tab_content",
+                    "label": {
+                        "en": "Content",
+                        "de": "Text",
+                        "es": "Texto",
+                        "fr": "Texte",
+                        "pt-PT": "Texto"
+                    }
+                },
+                {
+                    "type": "text",
+                    "id": "tab_title",
+                    "label": {
+                        "en": "Heading",
+                        "de": "Kundenname",
+                        "es": "Nombre del cliente",
+                        "fr": "Nom du client",
+                        "pt-PT": "Nome do cliente"
+                    }
+                   
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": {
+                        "en": "Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image3",
+                    "label": {
+                        "en": "Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image4",
+                    "label": {
+                        "en": "Link",
+                        "de": "Link",
+                        "es": "Enlace",
+                        "fr": "Lien",
+                        "pt-PT": "Ligação"
+                    },
+                    "info": {
+                        "en": "Optional",
+                        "de": "Optional",
+                        "es": "Opcional",
+                        "fr": "Facultatif",
+                        "pt-PT": "Opcional"
+                    }
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": {
+                "en": "Product tabbing",
+                "de": "Erfahrungsberichte",
+                "es": "Testimonios",
+                "fr": "Témoignages",
+                "pt-PT": "Testemunhos"
+            },
+            "category": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            }
+           
+        }
+    ]
+}
+{% endschema %}
+
+
+

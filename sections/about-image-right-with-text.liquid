@@ -1,0 +1,168 @@
+<link rel="preload" href="{{ 'section-image-with-text.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript>{{ 'section-image-with-text.min.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% case section.settings.colors %}
+  {% when 'white' %}
+    {%- assign color_scheme = 'aboutpage-sections-wrapper--white' -%}
+  {% when 'light' %}
+    {%- assign color_scheme = 'aboutpage-sections-wrapper--light' -%}
+  {% when 'accent' %}
+    {%- assign color_scheme = 'aboutpage-sections-wrapper--accent' -%}
+  {% when 'dark' %}
+    {%- assign color_scheme = 'aboutpage-sections-wrapper--dark' -%}
+{% endcase %}
+
+
+<div class="aboutpage-sections-wrapper3"  data-wetheme-section-id="{{ section.id }}">
+   <div class="thermoskin-quality-content-left">
+    {% if section.settings.title != blank %}
+    <h2 class="aboutpage-sections--title">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    {% if section.settings.text != blank %}
+    <div class="rte featured-row__subtext textarea">{{ section.settings.text }}</div>
+    {% endif %}
+     {% if section.settings.image1 != blank %}
+      <div id="rellax--{{ section.id }}" class="img australian-phys-logo" data-rellax-percentage="0.5" data-rellax-speed="-6">
+        {% assign img_alt = section.settings.image1.alt | default: shop.name %}
+        {% render 'responsive-image' with section.settings.image1, alt: img_alt | escape, sizes: '100vw' %}
+      </div>
+    {% else %}
+      <div id="rellax--{{ section.id }}" class="placeholder-background img" data-rellax-percentage="0.5" data-rellax-speed="-6">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+      </div>
+    {% endif %}
+  </div>
+  <div class="thermoskin-quality-img-right">
+        {% if section.settings.image != blank %}
+          <div id="rellax--{{ section.id }}" class="img" data-rellax-percentage="0.5" data-rellax-speed="-6">
+            {% assign img_alt = section.settings.image.alt | default: shop.name %}
+            {% render 'responsive-image' with section.settings.image, alt: img_alt | escape, sizes: '100vw' %}
+          </div>
+        {% else %}
+          <div id="rellax--{{ section.id }}" class="placeholder-background img" data-rellax-percentage="0.5" data-rellax-speed="-6">
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+          </div>
+        {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": {
+        "en": "Image right with text",
+        "de": "Bild mit Text",
+        "es": "Imagen con texto",
+        "fr": "Image avec texte",
+        "pt-PT": "Imagem com texto"
+    },
+    "class": "image-with-text-wrapper about-page",
+    "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            },
+            "info": {
+                "en": "Minimum recommended dimensions 1000px wide, 750px high",
+                "de": "Empfohlene Mindestabmessungen: 1000px breit, 750px hoch",
+                "es": "Dimensiones mínimas recomendadas de 1000 píxeles de ancho, 750 píxeles de alto",
+                "fr": "Dimensions minimales recommandées : 1 000 pixels en largeur, 750 pixels en hauteur",
+                "pt-PT": "Dimensões mínimas recomendadas 1000px de largura, 750px de altura"
+            }
+        },
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": {
+                "en": "Image 2",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            }
+            
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": {
+                "en": "Heading",
+                "de": "Überschrift",
+                "es": "Encabezado",
+                "fr": "Rubrique",
+                "pt-PT": "Título"
+            },
+            "default": {
+                "en": "Share brand or product details",
+                "de": "Marken- oder Produktdetails teilen",
+                "es": "Compartir marca o detalles del producto",
+                "fr": "Partager les infos sur la marque ou le produit",
+                "pt-PT": "Partilhar detalhes da marca ou produto"
+            }
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            },
+            "default": {
+                "en": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+                "de": "<p>Fügen Sie langen Texten ein Bild hinzu, um dem Produkt, der Kollektion oder dem Blogpost Ihrer Wahl Fokus zu verleihen. Fügen Sie Details bezüglich der Verfügbarkeit oder dem Stil hinzu oder stellen Sie sogar eine Rezension zur Verfügung.</p>",
+                "es": "<p> Combine texto grande con una imagen para focalizar la atención en su producto, colección o publicación del blog. Añada detalles sobre la disponibilidad, el estilo o, incluso, un comentario. </p>",
+                "fr": "<p>Associez un texte en gros caractères à une image pour mettre en valeur le produit, la collection ou l'article de blog que vous avez choisi. Ajoutez des détails sur la disponibilité et le style ou même fournissez un commentaire.</p>",
+                "pt-PT": "<p>Associe um texto de grandes dimensões a uma imagem para destacar o seu produto, coleção ou publicação no blog de eleição. Acrescente detalhes relativos à disponibilidade, estilo, ou até mesmo uma opinião.</p>"
+            }
+        },
+        {
+            "type": "text",
+            "id": "button_label",
+            "label": {
+                "en": "Button label",
+                "de": "Button-Bezeichnung",
+                "es": "Etiqueta del botón",
+                "fr": "Étiquette du bouton",
+                "pt-PT": "Etiqueta do botão"
+            }
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": {
+                "en": "Button link",
+                "de": "Buttonlink",
+                "es": "Enlace del botón",
+                "fr": "Lien du bouton",
+                "pt-PT": "Ligação do botão"
+            }
+        }
+    ],
+    "presets": [
+        {
+            "name": {
+                "en": "About image right with text",
+                "de": "Bild mit Text",
+                "es": "Imagen con texto",
+                "fr": "Image avec texte",
+                "pt-PT": "Imagem com texto"
+            },
+            "category": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            }
+        }
+    ]
+}
+{% endschema %}

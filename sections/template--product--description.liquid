@@ -1,0 +1,137 @@
+<div class="wrapper-padded product-description-container">
+<!--  custom metafield code  -->
+<div class="metafield-main-wrap">
+        <div class="metafield-left-wrap">
+          {% if product.metafields.custom.item_benefits != blank %}
+          <div class="prod-detatila-spec">
+            <h2 class="specification-title">PRODUCT SPECIFICATION</h2>
+              <h3 class="metafield-title">BENEFITS</h3>
+                <ul>
+                  {% assign benefits_cnt = product.metafields.custom.item_benefits.value %}
+                  {% assign num1 = benefits_cnt.size %}
+                  {% assign num = num1 | minus : 1 %}
+                  {% assign range = (0..num) %}
+                  {% for i in range %}
+                     <li>
+                    {{ product.metafields.custom.item_benefits.value[i] }}                   
+                  </li>
+                  {% endfor %}
+                </ul>    
+                <ul class="product-instruction-list">
+                  {% if product.metafields.custom.product_instruction_1 != blank %}
+                  <li>
+                    {{ product.metafields.custom.product_instruction_1 | image_url:'65x65' | img_tag }}
+                    <p>{{ product.metafields.custom.product_instruction_text_1.value}}</p>
+                  </li>
+                  {% endif %}
+                 {% if product.metafields.custom.product_instruction_image_2 != blank %}
+                  <li>
+                    {{ product.metafields.custom.product_instruction_image_2 | image_url:'65x65' | img_tag }}
+                    <p>{{ product.metafields.custom.product_instruction_text_2.value}}</p>
+                  </li>
+                  {% endif %}
+                 {% if product.metafields.custom.product_instruction_image_3 != blank %}
+                  <li>
+                    {{ product.metafields.custom.product_instruction_image_3 | image_url:'65x65' | img_tag }}
+                    <p>{{ product.metafields.custom.product_instruction_text_3.value}}</p>
+                  </li>
+                  {% endif %}
+                </ul>
+          </div>
+          {% endif %}
+          {% if product.metafields.custom.warnings.value != blank %}
+          <h3 class="metafield-title">WARNINGS</h3>
+            {{ product.metafields.custom.warnings.value }}
+          {% endif %}
+          {% if product.metafields.custom.care_instructions.value != blank %}
+          <h3 class="metafield-title">Care Instructions</h3>
+            {{ product.metafields.custom.care_instructions.value }}
+          {% endif %}
+          {% if product.metafields.custom.warranty_description.value != blank %}
+          <h3 class="metafield-title">Warranty Description</h3>
+            {{ product.metafields.custom.warranty_description.value }}
+          {% endif %}
+          {% if product.metafields.custom.warranty_description.value != blank %}
+          <h3 class="metafield-title">Material</h3>
+            {{ product.metafields.custom.material.value }}
+          {% endif %}
+          
+        </div>
+        <div class="metafield-right-wrap">
+          {% if product.metafields.custom.warranty_description.value != blank %}
+          <h3 class="metafield-title">Related Injuries</h3>
+            {{ product.metafields.custom.related_injuries.value }}
+          {% endif %}
+          {% if product.metafields.custom.instructions_on_how_to_wear.value != blank %}
+          <h3 class="metafield-title">Instructions</h3>
+            {{ product.metafields.custom.instructions_on_how_to_wear.value }}
+          {% endif %}
+          {% if product.metafields.custom.occasion_to_be_worn.value != blank %}
+          <h3 class="metafield-title">Occasion to be worn</h3>
+            {{ product.metafields.custom.occasion_to_be_worn.value }}
+          {% endif %}
+
+          <div class="product-buy">
+            <h3>PEOPLE ALSO BROUGHT</h3>
+            <!--  start -->
+            {% assign counter = 0 %}
+            {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
+            {% assign current_product = product %}
+            {% for product in collection.products %}
+            {% unless product.handle == current_product.handle %}
+            {% unless same_vendor and current_product.vendor != product.vendor %}
+            {% unless same_type and current_product.type != product.type %}
+              <div class="product-related-list-wrap">
+                <div class="product-related-img">
+                  <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" />  
+                </div>
+                <div class="product-related-title-btn">
+                  <h3 class="product-related-title">{{product.title}}</h3>
+                  <a class="product-related-view-btn" href="{{ product.url }}">VIEW</a>
+                </div>
+              </div>
+              
+            
+          
+            {% assign counter = counter | plus: 1 %}
+            {% if counter == 3 %}
+            {% break %}
+            {% endif %}
+            {% endunless %}
+            {% endunless %}
+            {% endunless %}
+            {% endfor %}
+            <!-- end -->
+           
+          </div>
+          
+        </div>
+      </div>
+<!--  end custom metafield code-->
+  {% comment %}
+  <div class="product-description product-description_full-width rte{% if section.settings.enable_readmore %} readmore closed{% endif %}" itemprop="description">
+    {{ product.description }}
+  </div>
+  {% endcomment %}
+  
+</div>
+
+{% schema %}
+{
+  "name": "Product description",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_readmore",
+      "label": {
+        "en": "Enable 'read more' for description",
+        "de": "'Mehr erfahren' für eine Beschreibung aktivieren",
+        "es": "Habilitar «más información» para la descripción",
+        "fr": "Activer « Lire la suite » pour la description",
+        "pt-PT": "Ativar \"ler mais\" para descrição"
+      },
+      "default": false
+    }
+  ]
+}
+{% endschema %}
