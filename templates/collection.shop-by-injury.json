@@ -5,7 +5,7 @@
       "type": "common-hero-banner",
       "settings": {
         "image": "{{ collection.image }}",
-        "image_height": "30vw",
+        "image_height": "original",
         "bg_image_overlay_opacity": 20,
         "parallax": false,
         "title": "{{ collection.title }}",
