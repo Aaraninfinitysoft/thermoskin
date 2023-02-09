@@ -6,7 +6,7 @@ once a section/block is added */
 
 window.addEventListener('shopify:section:load', () => {
   const scopedScripts = document.querySelectorAll('script[data-internal-script]');
- 
+
   scopedScripts.forEach(script => {
     const {src, defer, async, type} = script;
     const postLoadedScript = document.createElement('script');
