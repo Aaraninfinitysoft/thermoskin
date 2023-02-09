@@ -4593,5 +4593,9 @@ padding-top:25px !important;
   object-position: left;
 }
 .product-tabbing-home-main-wrap .tab-pane{
-  padding-bottom: 245px;
+  padding-bottom: 185px;
+}
+.thermoskin-range-section-title{
+  padding-top: 25px!important;
+  padding-bottom: 20px!important;
 }
