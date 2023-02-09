@@ -6,8 +6,8 @@
       "settings": {
         "image": "{{ collection.image }}",
         "image_height": "original",
-        "bg_image_overlay_opacity": 20,
-        "parallax": false,
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
         "title": "{{ collection.title }}",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "colors": "dark",
