@@ -4607,3 +4607,7 @@ padding-top:25px !important;
 .img-pro-tp > img{
   filter: grayscale(100%);
 }
+
+.tab-content1 .img-pro-tp > img{
+  filter: grayscale(0);
+}
