@@ -4599,3 +4599,8 @@ padding-top:25px !important;
   padding-top: 25px!important;
   padding-bottom: 20px!important;
 }
+.product-tab-jo .tab-d-text p{
+  font-size: 17px !important;
+  max-width: 536px!important;
+  margin: auto !important;
+}
