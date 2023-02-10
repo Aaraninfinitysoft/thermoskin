@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/home-banner-2x.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/home-banner-2x_3733fedf-aee5-4918-a97e-d747512d5f51.jpg",
             "title": "",
             "text": "",
             "button_label": "",
