@@ -4618,6 +4618,7 @@ padding-top:25px !important;
 .section-medium{
   max-width: 1355px !important;
   margin: auto !important;
+  width: 90%;
 }
 .about-page-section .part-left *{
   text-align: left;
