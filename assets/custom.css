@@ -2160,7 +2160,6 @@ h1{
 .Support-Selector .grid{
   display:flex;
   max-height:490px !important;
-  
   height:490px;
   overflow:visible;
 }
@@ -3747,6 +3746,8 @@ h3.metafield-title {
 .Support-Selector .grid{
   display:flex;
   max-height:420px;
+  max-width: 1640px;
+  margin: auto;
   overflow:visible;
 }
   .store-locator-bg{
@@ -4472,7 +4473,6 @@ body .verticle-section.text-advert-section  .icon-with-text-item.grid__item{
   display:flex;
   max-height:420px;
   overflow:visible;
-  margin:0 !important;
 }
 .Support-Selector{
   overflow:visible;
@@ -4635,4 +4635,7 @@ margin: auto;
 }
 #about .Support-Selector img{
   max-height: 525px !important;
+}
+.Support-Selector{
+  background-color: #f2f2f2;
 }
