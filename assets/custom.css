@@ -4612,6 +4612,10 @@ padding-top:25px !important;
   filter: grayscale(0);
 }
 /* about page */
+.section-medium{
+  max-width: 1355px !important;
+  margin: auto !important;
+}
 #about .homepage-featured-content-wrapper{
   display: flex;
 }
