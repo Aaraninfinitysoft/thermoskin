@@ -4626,3 +4626,9 @@ padding-top:25px !important;
   max-width: 530px;
 margin: auto;
 }
+.about-page-section{
+  display: flex;
+}
+.about-page-section >div{
+  flex-basis: 50%;
+}
