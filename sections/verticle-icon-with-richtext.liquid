@@ -1,7 +1,9 @@
 <link rel="preload" href="{{ 'section-text-blocks.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
 <noscript>{{ 'section-text-blocks.min.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="about-page-section section-medium"></div>
+<div class="about-page-section section-medium">
+
+
 <div class="part-left">
   <div class="wrapper shown-on-scroll animated fadeInUp">
     <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper">
@@ -17,92 +19,82 @@
   </div>
 </div>
 <div class="part-right">
-  <div
-    class="homepage-sections-wrapper text-advert-section homepage-sections-wrapper--{{ section.settings.colors }}"
-    data-wetheme-section-type="text--text-adverts" data-wetheme-section-id="{{ section.id }}"
-  >
-  
-  {% case section.blocks.size %}
-    {% when 1 %}
-      {%- assign column_size = 'large--one-whole medium--one-whole' -%}
-      {%- assign column_amount = 'text-advert-section--one-column' -%}
-    {% when 2 %}
-      {%- assign column_size = 'large--one-half medium--one-half' -%}
-      {%- assign image_size = '1000x' -%}
-    {% when 3 %}
-      {%- assign column_size = 'large--one-third medium--one-third' -%}
-      {%- assign image_size = '700x' -%}
-  {% endcase %}
-  
-    <div class="wrapper-padded small--hide">
-      <div class="grid text-advert-section {{ column_amount }} ">
-  
-        {% for block in section.blocks %}
-          {%- assign advert_has_link = false -%}
-          {% if block.settings.link != blank %}
-            {%- assign advert_has_link = true -%}
+  <link rel="preload" href="{{ 'section-text-blocks.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript>{{ 'section-text-blocks.min.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div
+  class="homepage-sections-wrapper text-advert-section homepage-sections-wrapper--{{ section.settings.colors }}"
+  data-wetheme-section-type="text--text-adverts" data-wetheme-section-id="{{ section.id }}"
+>
+
+{% case section.blocks.size %}
+  {% when 1 %}
+    {%- assign column_size = 'large--one-whole medium--one-whole' -%}
+    {%- assign column_amount = 'text-advert-section--one-column' -%}
+  {% when 2 %}
+    {%- assign column_size = 'large--one-half medium--one-half' -%}
+    {%- assign image_size = '1000x' -%}
+  {% when 3 %}
+    {%- assign column_size = 'large--one-third medium--one-third' -%}
+    {%- assign image_size = '700x' -%}
+  {% when 4 %}
+    {%- assign column_size = 'icon-with-text-item' -%}
+    {%- assign image_size = '700x' -%}
+{% endcase %}
+
+  <div class="wrapper-padded ">
+    <div class="verticle-section grid text-advert-section {{ column_amount }}">
+
+      {% for block in section.blocks %}
+        {%- assign advert_has_link = false -%}
+        {% if block.settings.link != blank %}
+          {%- assign advert_has_link = true -%}
+        {% endif %}
+
+        <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
+{% if block.settings.icon != blank %}
+  <img src="{{  block.settings.icon | img_url:'300x'}}">
+  {% endif %}
+        <div class="text-block">
+          {% if advert_has_link %}
+            <a href="{{ block.settings.link }}">
           {% endif %}
-  
-          <div class="grid__item {{ column_size }}" {{ block.shopify_attributes }}>
-  
-            {% if advert_has_link %}
-              <a href="{{ block.settings.link }}">
+
+            {% if block.settings.heading != blank %}
+              <span class="text-advert-section--header h5">{{ block.settings.heading | escape }}</span>
             {% endif %}
-  
-              {% if block.settings.heading != blank %}
-                <span class="text-advert-section--header h5">{{ block.settings.heading | escape }}</span>
-              {% endif %}
-  
-              {% if block.settings.subheading != blank %}
-                <span class="text-advert-section--sub-header">{{ block.settings.subheading | escape }}</span>
-              {% endif %}
-  
-            {% if advert_has_link %}
-              </a>
+
+            {% if block.settings.subheading != blank %}
+              <span class="text-advert-section--sub-header">{{ block.settings.subheading | escape }}</span>
             {% endif %}
-  
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  
-    <div class="container large--hide small--show medium--hide">
-      <div class="grid text-advert-section swiper-container mobile-homepage-text-adverts {{ column_amount }}">
-        <div class="swiper-wrapper">
-          {% for block in section.blocks %}
-            {%- assign advert_has_link = false -%}
-            {% if block.settings.link != blank %}
-              {%- assign advert_has_link = true -%}
-            {% endif %}
-  
-            <div class="swiper-slide grid__item {{ column_size }}" {{ block.shopify_attributes }}>
-              {% if advert_has_link %}
-                <a href="{{ block.settings.link }}">
-              {% endif %}
-  
-                {% if block.settings.heading != blank %}
-                  <span class="text-advert-section--header h5">{{ block.settings.heading }}</span>
-                {% endif %}
-  
-                {% if block.settings.subheading != blank %}
-                  <span class="text-advert-section--sub-header">{{ block.settings.subheading }}</span>
-                {% endif %}
-  
-              {% if advert_has_link %}
-                </a>
-              {% endif %}
-            </div>
-          {% endfor %}
+
+          {% if advert_has_link %}
+            </a>
+          {% endif %}
         </div>
-      </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
-</div>
 
+ 
+</div>
+<style>
+@media (min-width:768px){
+  #shopify-section-{{section.id}}{
+  margin:100px 0;
+}
+  #shopify-section-{{section.id}} .wrapper-padded{
+  padding-top:0 !important;
+  }
+}
+</style>
+</div>
+</div>
 {% schema %}
 {
     "name": {
-        "en": "Text adverts",
+        "en": "Verticle icon with text",
         "de": "Textanzeigen",
         "es": "Anuncios de texto",
         "fr": "Annonces textuelles",
@@ -177,7 +169,7 @@
           "default": "<p>We place great importance on our responsibility as a leading manufacturer of brace and support products. To do our part in minimising our impact, our solution-oriented approach focuses on waste, water, carbon, and chemistry and spans across every part of our business. Here are just some of the sustainable initiatives we have implemented to date:</p>"
         }
     ],
-    "max_blocks": 3,
+    "max_blocks": 4,
     "blocks": [
         {
             "type": "text",
@@ -248,7 +240,7 @@
     ],
     "presets": [
       {
-        "name": "Text adverts",
+        "name": "Verticle icon with text",
         "category": {
             "en": "Text",
             "de": "Text",
@@ -257,6 +249,9 @@
             "pt-PT": "Texto"
         },
         "blocks": [
+          {
+            "type": "text"
+          },
           {
             "type": "text"
           },
