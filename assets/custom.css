@@ -4634,5 +4634,5 @@ margin: auto;
   flex-basis: 50%;
 }
 #about .Support-Selector img{
-  max-height: 525px;
+  max-height: 525px !important;
 }
