@@ -4175,6 +4175,9 @@ body  .btn-secandory{
   background:#d1d3d4!important;
 }
 @media (min-width:1641px){
+  .thermoskin-quality-content-rigt{
+    padding-right: 130px;
+  }
   body .image-with-text-overlay-wrapper--textPosition-left .homepage-featured-content-box{
     transform: translateX(calc((100% - 1640) / 2))!important;
   }
