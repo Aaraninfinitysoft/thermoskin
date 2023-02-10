@@ -4619,8 +4619,8 @@ padding-top:25px !important;
   max-width: 1355px !important;
   margin: auto !important;
 }
-#about .homepage-featured-content-wrapper{
-  display: flex;
+.about-page-section .left-part *{
+  text-align: left;
 }
 #about .homepage-featured-rich-text{
   max-width: 530px;
