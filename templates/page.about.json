@@ -312,6 +312,7 @@
     },
     "ec43aaff-e529-4a7c-b9a0-2392cdd61d78": {
       "type": "image-right-with-content",
+      "disabled": true,
       "settings": {
         "colors": "light",
         "image": "shopify:\/\/shop_images\/Group335.png",
