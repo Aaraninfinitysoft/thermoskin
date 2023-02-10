@@ -255,6 +255,58 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "11713186-bae7-4fcd-8cc4-791d5d2e9212": {
+      "type": "verticle-icon-with-richtext",
+      "blocks": {
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-0": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_526.png",
+            "heading": "Reducing Water with Dope Dyed Yarn",
+            "subheading": "Our dope dyed yarn process reduces manufacturing water usage by up to 90% whilst contributing to a reduction in energy consumption and water pollution.",
+            "link": ""
+          }
+        },
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-1": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_541.png",
+            "heading": "Limestone Neoprene",
+            "subheading": "Utilising earth mined limestone to replace petrochemicals within the manufacturing process of our products.",
+            "link": ""
+          }
+        },
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-2": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_539.png",
+            "heading": "Solvent- Free",
+            "subheading": "We use water-based glue in the lamination process of all of our products eliminating volatile organic compounds or VOCs.",
+            "link": ""
+          }
+        },
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-3": {
+          "type": "text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_540.png",
+            "heading": "Recycled Rubber foam",
+            "subheading": "Utilising ECO Carbon Black, a ‘green’ alternative made from recycled scrap rubber tires, for the rubber foam used thought-out all of our products.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-0",
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-1",
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-2",
+        "template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212-167601069155f156a2-3"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "REDUCING OUR IMPACT",
+        "description": "<p>We place great importance on our responsibility as a leading manufacturer of brace and support products. To do our part in minimising our impact, our solution-oriented approach focuses on waste, water, carbon, and chemistry and spans across every part of our business. Here are just some of the sustainable initiatives we have implemented to date:<\/p>"
+      }
     }
   },
   "order": [
@@ -268,6 +320,7 @@
     "4b75164b-c289-4c47-8e7e-0b95fa50917b",
     "95e63bbd-4045-49aa-97be-7f9cddc7d2ca",
     "76a4f1f9-5e0e-403c-bc48-1d4b392a4828",
-    "ec43aaff-e529-4a7c-b9a0-2392cdd61d78"
+    "ec43aaff-e529-4a7c-b9a0-2392cdd61d78",
+    "11713186-bae7-4fcd-8cc4-791d5d2e9212"
   ]
 }
