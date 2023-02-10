@@ -4611,3 +4611,11 @@ padding-top:25px !important;
 .tab-content1 .img-pro-tp > img{
   filter: grayscale(0);
 }
+/* about page */
+#about .homepage-featured-content-wrapper{
+  display: flex;
+}
+#about .homepage-featured-rich-text{
+  max-width: 530px;
+margin: auto;
+}
