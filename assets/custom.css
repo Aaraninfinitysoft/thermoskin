@@ -1139,9 +1139,7 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
-  .product-tabbing-home-main-wrap{
-    padding-right: 0 !important;
-  }
+
   .template-index .product-tab-jo{
     display: flex;
     flex-direction: column-reverse;
@@ -5049,7 +5047,7 @@ h3.metafield-title {
   border-bottom-left-radius: 0;
 }
 
-@media(max-width:1640px) {
+@media (min-width:1025px) and (max-width:1640px) {
   .product-tabbing-home-main-wrap {
     padding-right: 5%;
   }
