@@ -5180,6 +5180,9 @@ width: 100% !important;
 padding-left: 0 !important;
 padding-right: 0 !important;
   } 
+  .text-advert-section .icon-with-text-item{
+    flex:0 0 45%;
+  }
 }
 
 @media(min-width:481px) and (max-width:600px) {
