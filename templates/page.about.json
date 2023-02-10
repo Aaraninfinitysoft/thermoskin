@@ -143,6 +143,21 @@
         "description": "<p>We place great importance on our responsibility as a leading manufacturer of brace and support products. To do our part in minimising our impact, our solution-oriented approach focuses on waste, water, carbon, and chemistry and spans across every part of our business. Here are just some of the sustainable initiatives we have implemented to date:<\/p>"
       }
     },
+    "edcf4b46-571d-411c-bd73-fea1a10d1d78": {
+      "type": "support-selector",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/Group_546_cfb99339-7ded-4a8e-be9d-f6dba25be61b.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "ca7a204e-0f8d-47c5-9473-2b3fd5a37e6b": {
       "type": "image--image-with-text",
       "disabled": true,
@@ -317,6 +332,7 @@
     "cb20765d-147c-45ab-aaac-345c75029766",
     "8ea1f114-ee79-43bd-a67f-20a83e405fd7",
     "11713186-bae7-4fcd-8cc4-791d5d2e9212",
+    "edcf4b46-571d-411c-bd73-fea1a10d1d78",
     "ca7a204e-0f8d-47c5-9473-2b3fd5a37e6b",
     "e3f22454-56a3-4171-8bf0-f299f941090c",
     "main",
