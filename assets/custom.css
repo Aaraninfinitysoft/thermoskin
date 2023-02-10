@@ -5173,6 +5173,13 @@ h3.metafield-title {
   .text-advert-section {
     display: flex !important;
   }
+  .template-index .text-advert-section.section-medium{
+width: 100% !important;
+  }
+  .template-index .icon-with-text .wrapper-padded{
+padding-left: 0 !important;
+padding-right: 0 !important;
+  } 
 }
 
 @media(min-width:481px) and (max-width:600px) {
@@ -5608,4 +5615,5 @@ span.brows-pop-icon {
 }
 #about .box-content-top .image-content-text > *{
   max-width:580px;
+  width: 100%;
 }
