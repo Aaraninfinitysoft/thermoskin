@@ -602,6 +602,10 @@ input#search-input {
   text-align: center;
   /* padding-top: 17px; */
 }
+.store-locator-form a {
+  margin: auto;
+
+}
 
 .image-content-text a:hover,.store-locator-form a:hover {
   text-decoration: none;
