@@ -592,7 +592,7 @@ input#search-input {
   margin-left: -145px;
 }
 
-.image-content-text a {
+.image-content-text a,.store-locator-form a {
   text-transform: uppercase;
   margin-top: 50px;
   width: 100%;
@@ -603,7 +603,7 @@ input#search-input {
   /* padding-top: 17px; */
 }
 
-.image-content-text a:hover {
+.image-content-text a:hover,.store-locator-form a:hover {
   text-decoration: none;
   background: #d1d3d4;
   transition: .8s;
@@ -4010,7 +4010,7 @@ h3:empty {
     margin-left: 200px;
   }
 
-  .image-content-text a {
+  .image-content-text a,.store-locator-form a {
     font-size: 20px !important;
     margin-top: 34px;
     max-width: 255px;
