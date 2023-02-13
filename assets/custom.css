@@ -473,7 +473,7 @@ font-size:17px!important;
 
 .store-locator-form .near-you {
   left: -50px;
-  top: 130px;
+  top: 60px;
 }
 
 h1.homepage-sections--title.why-choose-title {
@@ -5229,6 +5229,9 @@ padding-right: 0 !important;
 
     flex: 0 0 40% !important;
   }
+  .find-near-wrapper{
+    top: 60px;
+  }
 }
 
 @media(min-width:992px) and (max-width:1200px) {
@@ -5653,4 +5656,7 @@ span.brows-pop-icon {
 }
 h3:empty{
   display: none;
+}
+.find-near-wrapper{
+ position: absolute;
 }
