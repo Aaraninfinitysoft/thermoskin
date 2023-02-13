@@ -553,9 +553,7 @@ input#search-input {
 .image-content-text h2 {
   font-size: 40px !important;
   line-height: 1.2 !important;
-
   font-family: 'TrashHand' !important;
-  padding-right: 135px;
   padding-top: 76px;
   margin: 0;
   font-weight: 100;
@@ -2985,7 +2983,6 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   .image-content-text h2 {
     font-size: 40px !important;
     line-height: 54px !important;
-    padding-right: 246px;
   }
 
   .image-content-text p {
@@ -5453,9 +5450,12 @@ span.brows-pop-icon {
   max-height: 85px !important;
 }
 
-@media(min-width:1440px) {
+@media(min-width:1441px) {
   .best-sellers-wrap {
     width: 25%;
+  }
+  .image-content-text h2 {
+    padding-right: 135px;
   }
 }
 
