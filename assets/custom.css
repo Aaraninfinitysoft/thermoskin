@@ -598,14 +598,12 @@ input#search-input {
   width: 100%;
   max-width: 155px;
   height: 60px;
-  line-height: 15px;
+  line-height: 38px;
   text-align: center;
+  margin: auto;
   /* padding-top: 17px; */
 }
-.store-locator-form a {
-  margin: auto;
 
-}
 
 .image-content-text a:hover,.store-locator-form a:hover {
   text-decoration: none;
