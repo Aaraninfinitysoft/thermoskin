@@ -473,7 +473,7 @@ font-size:17px!important;
 
 .store-locator-form .near-you {
   left: -50px;
-  top: 60px;
+  top: 52px;
 }
 
 h1.homepage-sections--title.why-choose-title {
@@ -4962,7 +4962,7 @@ h3.metafield-title {
   }
 
   .store-locator-form .near-you {
-    top: 0px;
+    top: -10px;
     left: 85px;
   }
 
