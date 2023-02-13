@@ -8,8 +8,10 @@
     </div>
    {% endif %}
    <div class="store-locator-form">
-     <span class="find">find A store</span>
-     <span class="near-you">Near You</span>
+     <div class="find-near-wrapper">
+      <span class="find">find A store</span>
+      <span class="near-you">Near You</span>
+    </div>
     {% if section.settings.store_locator_title != blank %}
     <h3>{{ section.settings.store_locator_title }}</h3>
     {% endif %}
