@@ -3782,6 +3782,12 @@ h3:empty {
 .testimonial-readmore{
   text-align: center;
 }
+.testimonial-readmore .btn{
+  height:40px;
+  line-height: 40px;
+  min-width: 150px;
+  
+}
 /* responsive */
 
 
