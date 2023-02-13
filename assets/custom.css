@@ -1133,7 +1133,7 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
-  .footer-logo-social-wrap+.grid{
+  #shopify-section-footer .grid{
     display: none;
   }
   .product-tabbing .product-tab-img{
