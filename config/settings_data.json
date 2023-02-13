@@ -115,7 +115,7 @@
           "421045c6-0e1c-49a5-afcf-81de049fd2c8": {
             "type": "content",
             "settings": {
-              "mega-menu": "Shop by Product",
+              "mega-menu": "Browse by Product",
               "mega_image_1": "shopify:\/\/shop_images\/M7A2575_1.png",
               "mega_image_header_1": "Compression",
               "mega_image_subheader_1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore",
@@ -133,7 +133,7 @@
           "7ef41647-33f1-42b2-8c63-54ffb26ea144": {
             "type": "content",
             "settings": {
-              "mega-menu": "Shop by Body Part",
+              "mega-menu": "Browse by Body Part",
               "mega_image_header_1": "",
               "mega_image_subheader_1": "",
               "mega_image_link_1": "",
@@ -148,7 +148,7 @@
           "64b9cb1b-2e93-4dcc-8d31-f98a897dc929": {
             "type": "content",
             "settings": {
-              "mega-menu": "Shop by Injury",
+              "mega-menu": "Browse by Injury",
               "mega_image_header_1": "",
               "mega_image_subheader_1": "",
               "mega_image_link_1": "",
