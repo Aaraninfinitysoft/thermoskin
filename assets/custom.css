@@ -3704,7 +3704,7 @@ h3:empty {
 }
 .testimonial-readmore .btn{
   height:40px;
-  line-height: 40px;
+  line-height: 16px;
   min-width: 150px;
 
 }
@@ -5235,7 +5235,6 @@ h3:empty {
 
   .site-nav--mobile .js-drawer-open-right-link.site-nav__link,
   .site-nav--mobile .site-nav__link:nth-child(2) {
-    padding: 21px 2px !important;
     position: relative;
   }
 
@@ -5381,6 +5380,7 @@ h3:empty {
     font-size: 16px !important;
     height: 50px !important;
     max-width: 155px !important;
+    font-weight: 700!important;
   }
 
   .aboutpage-sections-wrapper2,
