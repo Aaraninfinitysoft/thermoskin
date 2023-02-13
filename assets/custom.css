@@ -302,8 +302,7 @@ ul.the-rmoskon-site-nav.site-nav>li>a {
 }
 
 .log-in-button {
-  padding: 10px;
-  !important;
+  padding: 10px!important;
 }
 
 .site-header__logo img {
@@ -1164,8 +1163,6 @@ ul.nav.nav-tabs:after {
 .overlay-bg-3,
 .overlay-bg-2 {
   border-radius: 30px !important;
-}
-
 }
 
 .site-header .site-header__wrapper {
@@ -2908,7 +2905,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   left: 8px !important;
 }
 
-.#AddToCartForm .ajaxcart__qty,
+#AddToCartForm .ajaxcart__qty,
 #AddToCartForm .js-qty {
   max-width: 150px !important;
   border: 1px solid #939393;
@@ -3786,7 +3783,7 @@ h3:empty {
   height:40px;
   line-height: 40px;
   min-width: 150px;
-  
+
 }
 /* responsive */
 
