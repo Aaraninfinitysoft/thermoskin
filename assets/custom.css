@@ -1133,6 +1133,9 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
+  .footer-logo-social-wrap+.grid{
+    display: none;
+  }
   .product-tabbing .product-tab-img{
 width: calc(100% - 55px);
 padding-bottom: 0 !important;
