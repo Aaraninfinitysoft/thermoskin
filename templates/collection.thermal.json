@@ -71,6 +71,7 @@
     },
     "4d73d92f-0648-4122-b576-2bcaca2eb52b": {
       "type": "thermo-regulation-section7",
+      "disabled": true,
       "settings": {
         "colors": "white",
         "image": "shopify:\/\/shop_images\/Group_262.png",
