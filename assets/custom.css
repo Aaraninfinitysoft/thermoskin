@@ -1032,20 +1032,14 @@ input[type="submit"]:hover {
   /*     padding-left: calc((100% - 1640px) / 2); */
 }
 
-/* .product-tab-content{
-  width:100%;
-  padding: 0 40px;
-} */
+
 .nav {
   width: 100% !important;
   float: right !important;
-  max-width: 730px;
+
 }
 
 .nav-tabs {
-  /*     border-bottom: 10px solid #D1D3D4 !important;
-    max-width: 574px !important;
-    border-radius: 5px !important; */
   position: relative;
 }
 
