@@ -986,7 +986,6 @@ input[type="submit"] {
   font-size: 20px;
   line-height: 32px;
   height: 60px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1088,84 +1087,7 @@ ul.nav.nav-tabs:after {
   text-align: center !important;
 }
 
-
-.Support-Selector .image-content-text p {
-  line-height: 25px !important;
-}
-
-.thermoskin-range-block {
-  overflow: scroll;
-}
-
-#shopify-section-footer .grid {
-  display: none !important;
-}
-
-.shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
-  margin: 60px 0;
-}
-
-.product-tabbing .product-tab-img {
-  width: calc(100% - 55px);
-  padding-bottom: 0 !important;
-  transform: translateX(-30px);
-}
-
-.overlay-bg-2 {
-  width: 100%;
-}
-
-.product-tabbing .tab-d-text {
-  margin-bottom: 92px;
-}
-
-.img-pro-tp1 img {
-  width: 110px !important;
-  height: 145px !important;
-  border-radius: 20px !important;
-  margin-left: 50%;
-}
-
-
-
-#shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .product-tab-jo {
-  display: flex;
-  flex-direction: column-reverse;
-  margin-top: 0 !important;
-
-}
-
-.img-pro-tp1 {
-  right: 0 !important;
-}
-
-#shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .nav-tabs>li {
-  margin-bottom: 15px !important;
-  flex: 1;
-}
-
-#shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 {
-  padding: 0 5%;
-}
-
-#shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 .tab-d-text {
-  margin-bottom: 30px !important;
-}
-
-#shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 .img-pro-tp {
-  position: relative;
-  padding-right: 55px;
-}
-
-.tab-d-text {
-  max-width: 100% !important;
-}
-
-.overlay-bg-3,
-.overlay-bg-2 {
-  border-radius: 30px !important;
-}
-
+/*  */
 .site-header .site-header__wrapper {
   position: relative;
   display: flex;
@@ -3782,7 +3704,7 @@ h3:empty {
 }
 .testimonial-readmore .btn{
   height:40px;
-  line-height: 16px;
+  line-height: 40px;
   min-width: 150px;
 
 }
@@ -3830,6 +3752,83 @@ h3:empty {
 }
 
 @media(max-width:1024px) {
+  .Support-Selector .image-content-text p {
+    line-height: 25px !important;
+  }
+  
+  .thermoskin-range-block {
+    overflow: scroll;
+  }
+  
+  #shopify-section-footer .grid {
+    display: none !important;
+  }
+  
+  .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
+    margin: 60px 0;
+  }
+  
+  .product-tabbing .product-tab-img {
+    width: calc(100% - 55px);
+    padding-bottom: 0 !important;
+    transform: translateX(-30px);
+  }
+  
+  .overlay-bg-2 {
+    width: 100%;
+  }
+  
+  .product-tabbing .tab-d-text {
+    margin-bottom: 92px;
+  }
+  
+  .img-pro-tp1 img {
+    width: 110px !important;
+    height: 145px !important;
+    border-radius: 20px !important;
+    margin-left: 50%;
+  }
+  
+  
+  
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .product-tab-jo {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0 !important;
+  
+  }
+  
+  .img-pro-tp1 {
+    right: 0 !important;
+  }
+  
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .nav-tabs>li {
+    margin-bottom: 15px !important;
+    flex: 1;
+  }
+  
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 {
+    padding: 0 5%;
+  }
+  
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 .tab-d-text {
+    margin-bottom: 30px !important;
+  }
+  
+  #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 .img-pro-tp {
+    position: relative;
+    padding-right: 55px;
+  }
+  
+  .tab-d-text {
+    max-width: 100% !important;
+  }
+  
+  .overlay-bg-3,
+  .overlay-bg-2 {
+    border-radius: 30px !important;
+  }
+  
   #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .nav-tabs {
     max-width: unset;
     float: unset !important;
@@ -5236,6 +5235,7 @@ h3:empty {
 
   .site-nav--mobile .js-drawer-open-right-link.site-nav__link,
   .site-nav--mobile .site-nav__link:nth-child(2) {
+    padding: 21px 2px !important;
     position: relative;
   }
 
