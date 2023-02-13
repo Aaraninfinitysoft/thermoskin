@@ -3758,7 +3758,11 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
-  
+  .customized-heading {
+    font-size: 33px !important;
+    white-space: nowrap;
+    transform: translate(33px, 0px) rotate(345deg) !important;
+  }
   .thermoskin-range-block {
     overflow: scroll;
   }
@@ -5202,11 +5206,7 @@ h3:empty {
     margin-right: auto;
   }
 
-  .customized-heading {
-    font-size: 33px !important;
-    white-space: nowrap;
-    transform: translate(0px, 0px) rotate(345deg) !important;
-  }
+
 
   ul.footer-content a {
     font-size: 16px;
