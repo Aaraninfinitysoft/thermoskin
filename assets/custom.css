@@ -2538,7 +2538,9 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   h1 {
     text-align: center !important;
   }
-
+.browse-img-section{
+  margin-top: 35px !important;
+}
   .Support-Selector .grid {
     display: flex;
     max-height: 490px !important;
@@ -5630,4 +5632,7 @@ span.brows-pop-icon {
 #about .box-content-top .image-content-text > *{
   max-width:580px;
   width: 100%;
+}
+h3:empty{
+  display: none;
 }
