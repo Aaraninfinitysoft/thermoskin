@@ -1134,7 +1134,10 @@ ul.nav.nav-tabs:after {
     width: 100% !important;
   }
   #shopify-section-footer .grid{
-    display: none;
+    display: none !important;
+  }
+  .product-tabbing{
+    margin-top: -80px !important;
   }
   .product-tabbing .product-tab-img{
 width: calc(100% - 55px);
