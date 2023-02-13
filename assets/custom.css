@@ -598,9 +598,9 @@ input#search-input {
   width: 100%;
   max-width: 155px;
   height: 60px;
-  line-height: 27px;
+  line-height: 15px;
   text-align: center;
-  padding-top: 17px;
+  /* padding-top: 17px; */
 }
 
 .image-content-text a:hover {
@@ -3706,6 +3706,7 @@ h3:empty {
   height:40px;
   line-height: 16px;
   min-width: 150px;
+  font-size: 18px !important;
 
 }
 /* responsive */
