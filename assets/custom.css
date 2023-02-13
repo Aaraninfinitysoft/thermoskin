@@ -3761,7 +3761,6 @@ h3:empty {
   .customized-heading {
     font-size: 33px !important;
     white-space: nowrap;
-    transform: translate(33px, 0px) rotate(345deg) ;
   }
   .thermoskin-range-block {
     overflow: scroll;
