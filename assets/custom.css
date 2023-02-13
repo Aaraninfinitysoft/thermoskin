@@ -1133,6 +1133,13 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
+  .product-tabbing .product-tab-img{
+width: calc(100% - 55px);
+padding-bottom: 0 !important;
+  }
+  .overlay-bg-2{
+    width: 100%;
+  }
   .product-tabbing .tab-d-text{
     margin-bottom: 92px;
   } 
