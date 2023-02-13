@@ -1095,7 +1095,9 @@ ul.nav.nav-tabs:after {
     left: 0;
     margin-top: -5px;
   }
-
+  .product-tabbing-home-main-wrap .tab-pane {
+    padding-bottom: 185px;
+  }
   .homepage-section-thermoskin-range-wrapper .nav-tabs {
     width: 45% !important;
     max-width: 100% !important;
@@ -1131,7 +1133,14 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
-
+  .product-tabbing .tab-d-text{
+    margin-bottom: 92px;
+  } 
+  .img-pro-tp1 img {
+    width: 110px !important;
+    height: 145px !important;
+    border-radius: 20px !important;
+  }
   .template-index .product-tab-jo{
     display: flex;
     flex-direction: column-reverse;
@@ -3160,6 +3169,9 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
     display: flex;
     overflow: scroll;
   }
+  .img-pro-tp img{
+    border-radius: 20px;
+  }
 .product-tabbing .nav-tabs li{
   flex: 1;
 }
@@ -3415,11 +3427,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 .Support-Selector{
   text-align: center;
 }
-  .img-pro-tp1 img {
-    width: 110px !important;
-    height: 150px !important;
-    border-radius: 20px !important;
-  }
+
 
   #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 #exTab2 {
     padding: 0 !important;
@@ -5416,6 +5424,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   width: fit-content;
   margin: auto;
   position: relative;
+  text-align: left;
 }
 
 .Support-Selector .image-content-text h2 {
@@ -5555,9 +5564,7 @@ span.brows-pop-icon {
   object-position: left;
 }
 
-.product-tabbing-home-main-wrap .tab-pane {
-  padding-bottom: 185px;
-}
+
 
 .thermoskin-range-section-title {
   padding-top: 25px !important;
