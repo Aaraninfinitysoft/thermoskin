@@ -3837,6 +3837,11 @@ h3:empty {
     font-size: 37px !important;
     line-height: 1 !important;
   }
+  .template-index .product-tab-jo {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1600px) {
@@ -5557,11 +5562,7 @@ h3:empty {
   .testimonial--single-item>div>* {
     margin-left: 50px !important;
   }
-  .template-index .product-tab-jo {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-  }
+
   .product-tab-jo .tab-d-text p {
     font-size: 17px !important;
     max-width: 536px !important;
