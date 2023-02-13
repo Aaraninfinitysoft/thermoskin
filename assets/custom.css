@@ -2988,7 +2988,6 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   .image-content-text p {
     font-size: 23px !important;
     line-height: 32px !important;
-    text-align: center;
   }
 
 
@@ -3409,7 +3408,9 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   .best-sellers-title {
     height: auto !important;
   }
-
+.Support-Selector{
+  text-align: center;
+}
   .img-pro-tp1 img {
     width: 110px !important;
     height: 150px !important;
