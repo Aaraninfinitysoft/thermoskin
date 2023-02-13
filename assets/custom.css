@@ -2875,7 +2875,6 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   }
 
   .nav {
-    max-width: 650px;
     width: 95% !important;
   }
 }
@@ -3001,9 +3000,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
     text-align: center;
   }
 
-  .box-content-top {
-    height: 405px;
-  }
+
 
   .image-content-text {
     width: 100%;
@@ -3038,9 +3035,9 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
     margin-left: 50px;
   }
 
-  .nav {
+  /* .nav {
     max-width: 650px;
-  }
+  } */
 
   .av-top {
     margin-top: 78px;
@@ -3283,10 +3280,6 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   .box-content-top {
     margin-top: 40px;
     margin-bottom: 40px;
-  }
-
-  .nav {
-    max-width: 410px;
   }
 
   .nav-tabs>li.active>a,
