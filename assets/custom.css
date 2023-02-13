@@ -4433,7 +4433,9 @@ h3:empty {
   .browse-img-section {
     margin-top: 35px !important;
   }
-
+  .layout-fix-collection .shopify-section{
+    margin: 0 !important;
+  }
   .product-tabbing {
     margin-top: -80px !important;
   }
