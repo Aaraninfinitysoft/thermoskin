@@ -120,6 +120,7 @@
     },
     "575e86dd-65ff-4e74-aa82-a799c5e547b4": {
       "type": "image-right-with-content",
+      "disabled": true,
       "settings": {
         "colors": "light",
         "image": "shopify:\/\/shop_images\/Group335.png",
@@ -132,6 +133,21 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "783b0f45-7200-4eba-b3d9-42ccf59a101e": {
+      "type": "support-selector",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/Group_578.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Unsure which product is right for you?",
+        "text": "<p>Searching through the endless options can be confusing. Let us recommend the best product for your need.<\/p>",
+        "button_label": "Lets Go",
+        "button_link": "#"
+      }
     }
   },
   "order": [
@@ -139,6 +155,7 @@
     "47937955-07f3-47f4-868e-aafa63291b57",
     "7eee2116-ab10-4fd6-b367-a920627c193f",
     "main",
-    "575e86dd-65ff-4e74-aa82-a799c5e547b4"
+    "575e86dd-65ff-4e74-aa82-a799c5e547b4",
+    "783b0f45-7200-4eba-b3d9-42ccf59a101e"
   ]
 }
