@@ -1133,6 +1133,14 @@ ul.nav.nav-tabs:after {
     display: flex;
     width: 100% !important;
   }
+  .Support-Selector .image-content-text h2{
+    font-size: 37px !important;
+    line-height: 1 !important;
+  }
+  }
+  .Support-Selector .image-content-text p{
+    line-height: 25px !important;
+  }
   .thermoskin-range-block {
     overflow: scroll;
   }
@@ -4925,13 +4933,7 @@ h3.metafield-title {
     font-size: 26px !important;
     line-height: 35px !important;
   }
-
-  body .product-tab-content .nav>li>a {
-    texr-align: left !important;
-  }
-
   body .btn-secandory {
-    font-weight: 400 !important;
     font-size: 16px !important;
     height: 50px !important;
     max-width: 155px !important;
