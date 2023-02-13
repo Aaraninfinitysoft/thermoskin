@@ -63,7 +63,7 @@ a.thermoskin-range-view-list-btn {
 
 .Support-Selector a,
 #shopify-section-template--15542929424590__6f24c02e-d1dc-4936-a5e8-f519d3ae64bb a,
-.store-locator-form input,
+.store-locator-form a,
 .btn-secandory {
   background: var(--btn-secendory-bg-color);
   font-size: var(--btn-secendory-font-size);
@@ -5383,6 +5383,7 @@ h3:empty {
     max-width: 155px !important;
     font-weight: 700!important;
     text-transform: uppercase !important;
+    display: block;
   }
 
   .aboutpage-sections-wrapper2,
