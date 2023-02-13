@@ -3160,7 +3160,12 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
     display: flex;
     overflow: scroll;
   }
-
+.product-tabbing .nav-tabs li{
+  flex: 1;
+}
+.product-tabbing .nav-tabs{
+  display: flex;
+}
   .store-locator-form {
     /* padding-left: 276px; */
     padding-right: 15px;
