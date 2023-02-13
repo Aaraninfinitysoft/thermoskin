@@ -4014,7 +4014,7 @@ h3:empty {
     margin-top: 34px;
     max-width: 255px;
     height: 57px;
-    padding-top: 9px;
+    /* padding-top: 9px; */
   }
 
   .custom-news-letter-heading h3 {
