@@ -601,7 +601,7 @@ input#search-input {
   line-height: 38px;
   text-align: center;
   margin: auto;
-  /* padding-top: 17px; */
+  margin-top: 34px;
 }
 
 
@@ -4014,15 +4014,6 @@ h3:empty {
     max-width: 545px;
     margin-left: 200px;
   }
-
-  .image-content-text a,.store-locator-form a {
-    font-size: 20px !important;
-    margin-top: 34px;
-    max-width: 255px;
-    height: 57px;
-    /* padding-top: 9px; */
-  }
-
   .custom-news-letter-heading h3 {
     font-size: 21px;
     color: #414042;
