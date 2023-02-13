@@ -5381,6 +5381,7 @@ h3:empty {
     height: 50px !important;
     max-width: 155px !important;
     font-weight: 700!important;
+    text-transform: uppercase !important;
   }
 
   .aboutpage-sections-wrapper2,
