@@ -1192,9 +1192,7 @@ transform: translateX(-30px);
   .overlay-bg-2 {
    border-radius: 30px !important;
   }
-  body,html{
-    overflow-x: hidden !important;
-  }
+
 }
 
 .site-header .site-header__wrapper {
