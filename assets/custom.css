@@ -5659,4 +5659,6 @@ h3:empty{
 }
 .find-near-wrapper{
  position: absolute;
+ width: 100%;
+ top: 0;
 }
