@@ -986,6 +986,7 @@ input[type="submit"] {
   font-size: 20px;
   line-height: 32px;
   height: 60px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -3781,7 +3782,7 @@ h3:empty {
 }
 .testimonial-readmore .btn{
   height:40px;
-  line-height: 40px;
+  line-height: 16px;
   min-width: 150px;
 
 }
@@ -5235,7 +5236,6 @@ h3:empty {
 
   .site-nav--mobile .js-drawer-open-right-link.site-nav__link,
   .site-nav--mobile .site-nav__link:nth-child(2) {
-    padding: 21px 2px !important;
     position: relative;
   }
 
