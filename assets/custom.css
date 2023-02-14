@@ -3114,9 +3114,7 @@ h3.metafield-title {
   height: 100%;
 }
 
-.layout-fix-collection .grid__item {
-  margin-bottom: 30px !important;
-}
+
 
 .product-grid--price {
   margin-top: auto !important;
@@ -4431,6 +4429,9 @@ h3:empty {
   h1 {
     text-align: center !important;
   }
+  .layout-fix-collection .grid__item {
+    margin-bottom: 83px !important;
+  }
   .banner-with-icon-set .homepage-featured-content-wrapper .responsive-image-wrapper img{
   height: 310px !important ;
   object-fit: cover;
@@ -5448,7 +5449,9 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
-
+  .layout-fix-collection .grid__item {
+    margin-bottom: 60px !important;
+  }
   .Support-Selector .img-wrapper-31 {
     align-self: end;
   }
