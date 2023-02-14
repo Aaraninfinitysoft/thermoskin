@@ -3724,14 +3724,21 @@ h3:empty {
 }
 .active-facets__button.button--tertiary{
   box-shadow:none !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 0;
 }
 .active-facets> a:first-child{
   order: 1;
+  margin-left: auto;
+    margin-right: 20px;
 }
 .active-facets .icon-close-small{
   background-color: #fff;
   border-radius: 50%;
   border: 1px solid #414042;
+  margin-right: 10px;
 }
 /* responsive */
 
