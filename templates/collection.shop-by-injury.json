@@ -139,8 +139,8 @@
           "settings": {
             "injury_type": "Thermal",
             "name": "Thermal",
-            "description": "",
-            "sub_description": ""
+            "description": "Best for: Post 72 hours & for chronic or overuse injuries for enhanced recovery and rehabilitation.",
+            "sub_description": "For enhanced recovery and rehabilitation, our exclusive thermo regulation material has been clinically validated to convert moisture into heat working to increase muscle temperature and blood flow to aid recovery."
           }
         },
         "2a537b89-c632-47dd-a591-dd8f0a5f58a4": {
@@ -148,12 +148,13 @@
           "settings": {
             "injury_type": "Sport",
             "name": "Sport",
-            "description": "",
-            "sub_description": ""
+            "description": "Best for: Providing support during increased activity.",
+            "sub_description": "Designed with a unique 3 layer material technology to assist with performance, durability and comfort, during periods of increased activity."
           }
         },
         "ee992916-a7d8-4916-9e06-f8f83c05b36d": {
           "type": "Injury",
+          "disabled": true,
           "settings": {
             "injury_type": "",
             "name": "",
