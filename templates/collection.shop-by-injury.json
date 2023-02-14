@@ -205,7 +205,7 @@
         "tablet-products-per-row": 2,
         "mobile-products-per-row": 1,
         "collection-products-per-page": 21,
-        "pagination_options": "pagination_load_more"
+        "pagination_options": "pagination_default"
       }
     }
   },
