@@ -2760,13 +2760,15 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 }
 
 /* new css for collection page */
-
+.collection-main-body-inner .grid__item{
+  padding-left: 12px !important;
+}
 .template-collection .image-with-text-overlay-wrapper .image-with-text-overlay__content-box {
   justify-content: flex-start;
 }
 
 .collection-main-body-inner img {
-  border-radius: 35px;
+  border-radius: 30px;
 }
 
 .facets__summary .count-bubble {
@@ -5519,7 +5521,7 @@ h3:empty {
 
   .section-header.collection h1 {
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
 }
 @media(max-width:640px) {
