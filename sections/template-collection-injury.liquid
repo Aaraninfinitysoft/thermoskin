@@ -115,7 +115,7 @@
         <input type="hidden" id="grid_item_width_classes" value="{{ grid_item_width }}" />
 {% for block in section.blocks %}
   {%- if block.type == "Injury" -%}
-    {% assign injury = block.settings.product_type %}
+    {% assign injury = block.settings.injury_type %}
     <div>
 <h1>{{block.settings.name}} <small>{{block.settings.description}}</small> </h1>
 <p>{{block.settings.sub_description}}</p>
@@ -126,7 +126,6 @@
       id="template--collection"
     >
       {% for product in collection.products %}
-{{product.type}}
        {% if product.type == injury %}
         <div class="grid__item {{ grid_item_width }}">
           {% render 'grid-view-item', product: product, collection: collection, hover_effect: image_block.settings.hover-effect, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
