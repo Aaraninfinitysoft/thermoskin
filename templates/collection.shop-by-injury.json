@@ -128,7 +128,7 @@
         "3cc0c5ed-5a4e-44f0-8567-2a92d62f1b47": {
           "type": "Injury",
           "settings": {
-            "injury_type": "Health Care",
+            "injury_type": "Compression",
             "name": "Compression",
             "description": "",
             "sub_description": ""
