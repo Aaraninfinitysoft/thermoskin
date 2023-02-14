@@ -3712,7 +3712,27 @@ h3:empty {
 
 
 }
-
+.active-facets.active-facets-desktop{
+  position: absolute;
+    top: 0;
+    width: 90vw;
+    background: #F2F2F2;
+    padding: 10px 0;
+}
+.layout-fix-collection{
+  position: relative;
+}
+.active-facets__button.button--tertiary{
+  box-shadow:none !important;
+}
+.active-facets> a:first-child{
+  order: 1;
+}
+.active-facets .icon-close-small{
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #414042;
+}
 /* responsive */
 
 
