@@ -3760,21 +3760,23 @@ h3:empty {
   height: 59px;
   background-image: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Path_4139.png?v=1676353206');
   background-size: contain;
-  transform: rotate(-39deg);
   background-repeat: no-repeat;
   display: block;
   z-index: 2;
-  right: 62px;
-  top: 180px;
+  right: 5%;
+  top: 7%;
 
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::after{
-  content: 'enhanced recovery ';
+  content: 'enhanced recovery';
   position: absolute;
   transform: rotate(-39deg);
   white-space: pre;
-  right: 62px;
-  top: 180px;
+  right: 8%;
+  top: calc(7% + 40px);
+  font-family: TrashHand!important;
+  font-size: 60px;
+
 }
 /* responsive */
 
