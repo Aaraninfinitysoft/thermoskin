@@ -3739,6 +3739,7 @@ h3:empty {
   border-radius: 50%;
   border: 1px solid #414042;
   margin-right: 10px;
+  margin-bottom: 0 !important;
 }
 /* responsive */
 
