@@ -125,20 +125,20 @@
     "7fe89629-7c93-4c10-809c-a207aded63db": {
       "type": "template-collection-injury",
       "blocks": {
-        "8e007825-82ee-4265-8846-9a593f3fc3f4": {
-          "type": "Injury",
-          "settings": {
-            "injury_type": "Thermal",
-            "name": "",
-            "description": "",
-            "sub_description": ""
-          }
-        },
         "3cc0c5ed-5a4e-44f0-8567-2a92d62f1b47": {
           "type": "Injury",
           "settings": {
             "injury_type": "Health Care",
-            "name": "",
+            "name": "Compression",
+            "description": "",
+            "sub_description": ""
+          }
+        },
+        "8e007825-82ee-4265-8846-9a593f3fc3f4": {
+          "type": "Injury",
+          "settings": {
+            "injury_type": "Thermal",
+            "name": "Thermal",
             "description": "",
             "sub_description": ""
           }
@@ -146,8 +146,8 @@
         "2a537b89-c632-47dd-a591-dd8f0a5f58a4": {
           "type": "Injury",
           "settings": {
-            "injury_type": "",
-            "name": "",
+            "injury_type": "Sport",
+            "name": "Sport",
             "description": "",
             "sub_description": ""
           }
@@ -185,8 +185,8 @@
         }
       },
       "block_order": [
-        "8e007825-82ee-4265-8846-9a593f3fc3f4",
         "3cc0c5ed-5a4e-44f0-8567-2a92d62f1b47",
+        "8e007825-82ee-4265-8846-9a593f3fc3f4",
         "2a537b89-c632-47dd-a591-dd8f0a5f58a4",
         "ee992916-a7d8-4916-9e06-f8f83c05b36d",
         "461f46a6-c98f-4a81-8a38-b39895f37693",
