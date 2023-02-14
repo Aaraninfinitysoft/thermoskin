@@ -5715,5 +5715,9 @@ h3:empty {
     padding-bottom: 200px;
 
   }
+  .section-header.collection h1 {
+    display: flex;
+    align-items: baseline;
+  }
 }
 /* rensponsive end */
