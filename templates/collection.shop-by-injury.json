@@ -130,8 +130,8 @@
           "settings": {
             "injury_type": "Compression",
             "name": "Compression",
-            "description": "",
-            "sub_description": ""
+            "description": "Best for: Within the first 72 hours of an acute (sudden) injury to reduce swelling & general support for ongoing muscle maintenance post injury.",
+            "sub_description": "Compression supports contour to the shape of the affected area to provide even compression to reduce swelling and support for injured muscles and joints."
           }
         },
         "8e007825-82ee-4265-8846-9a593f3fc3f4": {
@@ -204,7 +204,7 @@
         "desktop-products-per-row": 3,
         "tablet-products-per-row": 2,
         "mobile-products-per-row": 1,
-        "collection-products-per-page": 21,
+        "collection-products-per-page": 14,
         "pagination_options": "pagination_default"
       }
     }
