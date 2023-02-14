@@ -182,6 +182,11 @@
           "type": "product_card_price",
           "settings": {
           }
+        },
+        "1cd274a1-3405-4390-a36d-95ef3bfa78ab": {
+          "type": "product_card_button",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -192,7 +197,8 @@
         "461f46a6-c98f-4a81-8a38-b39895f37693",
         "93aa56c6-10f5-4818-9c43-0bf1351adcce",
         "a0a87b53-fe67-4471-84c6-be8abbfd2bd9",
-        "54d0ae2f-ee66-4beb-927b-9b550886ebb4"
+        "54d0ae2f-ee66-4beb-927b-9b550886ebb4",
+        "1cd274a1-3405-4390-a36d-95ef3bfa78ab"
       ],
       "settings": {
         "desktop-products-per-row": 4,
