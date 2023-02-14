@@ -173,6 +173,21 @@
         "collection-products-per-page": 4,
         "pagination_options": "pagination_default"
       }
+    },
+    "91df2870-25f5-42da-bad2-39332fc33afa": {
+      "type": "support-selector",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/Group_578.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Unsure which product is right for you?",
+        "text": "<p>Searching through the endless options can be confusing. Let us recommend the best product for your need.<\/p>",
+        "button_label": "lets go",
+        "button_link": "#"
+      }
     }
   },
   "order": [
@@ -181,6 +196,7 @@
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
     "collection-header",
     "filtering",
-    "product-grid"
+    "product-grid",
+    "91df2870-25f5-42da-bad2-39332fc33afa"
   ]
 }
