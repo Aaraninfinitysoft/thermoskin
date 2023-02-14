@@ -147,6 +147,9 @@ input:focus-visible {
   outline: 3px solid #414042;
   /* That'll show 'em */
 }
+.active-facets-mobile{
+align-items: center;
+}
 
 a:focus {
   color: #fff;
