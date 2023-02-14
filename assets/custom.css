@@ -168,7 +168,11 @@ h6 {
 p {
   font-family: 'Open Sans', sans-serif !important;
 }
-
+.collection-style--grid h1{
+  display: flex;
+  line-height: 1;
+  align-items: center;
+}
 /* rs css started */
 .mega-menu-wrapper .mega-menu .site-nav__dropdown:not(.theme-editor-active) {
   transform: translateY(0px) !important;
