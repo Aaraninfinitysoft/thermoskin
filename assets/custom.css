@@ -3710,7 +3710,9 @@ h3:empty {
   min-width: 150px;
   font-size: 18px !important;
 
+
 }
+
 /* responsive */
 
 
@@ -4426,6 +4428,11 @@ h3:empty {
 @media screen and (max-width:767px) {
   h1 {
     text-align: center !important;
+  }
+  .banner-with-icon-set .homepage-featured-content-wrapper .responsive-image-wrapper img{
+  height: 310px !important ;
+  object-fit: cover;
+  object-position: right;
   }
   .customized-heading {
     transform: translate(0, 0px) rotate(345deg)  !important;
