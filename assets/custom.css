@@ -3755,9 +3755,11 @@ h3:empty {
   position: relative;
   width: 120px;
   height: 59px;
-  background-image: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Path-4139.png?v=1669013387');
+  background-image: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Path_4139.png?v=1676353206');
   background-size: contain;
   transform: rotate(-39deg);
+  display: block;
+  z-index: 2;
 
 }
 /* responsive */
