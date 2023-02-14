@@ -83,6 +83,7 @@
     },
     "product-grid": {
       "type": "template--collection",
+      "disabled": true,
       "blocks": {
         "product_card_image": {
           "type": "product_card_image",
@@ -120,6 +121,40 @@
         "collection-products-per-page": 4,
         "pagination_options": "pagination_default"
       }
+    },
+    "7fe89629-7c93-4c10-809c-a207aded63db": {
+      "type": "template-collection-injury",
+      "blocks": {
+        "3cc0c5ed-5a4e-44f0-8567-2a92d62f1b47": {
+          "type": "Injury",
+          "settings": {
+            "injury_type": "Health Care",
+            "name": "",
+            "description": "",
+            "sub_description": ""
+          }
+        },
+        "8e007825-82ee-4265-8846-9a593f3fc3f4": {
+          "type": "Injury",
+          "settings": {
+            "injury_type": "Thermal",
+            "name": "",
+            "description": "",
+            "sub_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "3cc0c5ed-5a4e-44f0-8567-2a92d62f1b47",
+        "8e007825-82ee-4265-8846-9a593f3fc3f4"
+      ],
+      "settings": {
+        "desktop-products-per-row": 4,
+        "tablet-products-per-row": 2,
+        "mobile-products-per-row": 1,
+        "collection-products-per-page": 4,
+        "pagination_options": "pagination_load_more"
+      }
     }
   },
   "order": [
@@ -127,6 +162,7 @@
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
     "collection-header",
     "filtering",
-    "product-grid"
+    "product-grid",
+    "7fe89629-7c93-4c10-809c-a207aded63db"
   ]
 }
