@@ -168,7 +168,7 @@ h6 {
 p {
   font-family: 'Open Sans', sans-serif !important;
 }
-.collection-style--grid h1{
+ h1{
   display: flex;
   line-height: 1;
   align-items: end;
