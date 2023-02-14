@@ -126,7 +126,7 @@
       id="template--collection"
     >
       {% for product in collection.products %}
-
+{{product.type}}
        {% if product.type == injury %}
         <div class="grid__item {{ grid_item_width }}">
           {% render 'grid-view-item', product: product, collection: collection, hover_effect: image_block.settings.hover-effect, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
