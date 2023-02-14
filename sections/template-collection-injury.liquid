@@ -113,51 +113,64 @@
       <div class="collection-main-body grid-uniform">
 
         <input type="hidden" id="grid_item_width_classes" value="{{ grid_item_width }}" />
+{% for block in section.blocks %}
+  {%- if block.type == "Injury" -%}
+    {% assign injury = block.settings.product_type %}
+    <div>
+<h1>{{block.settings.name}} <small>{{block.settings.description}}</small> </h1>
+<p>{{block.settings.sub_description}}</p>
+    </div>
+    <div
+      class="collection-main-body-inner"
+      data-grid-id="{{ section.id }}"
+      id="template--collection"
+    >
+      {% for product in collection.products %}
 
-        <div
-          class="collection-main-body-inner"
-          data-grid-id="{{ section.id }}"
-          id="template--collection"
-        >
-          {% for product in collection.products %}
-
-            <div class="grid__item {{ grid_item_width }}">
-              {% render 'grid-view-item', product: product, collection: collection, hover_effect: image_block.settings.hover-effect, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
-            </div>
-          {% else %}
-            {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0 %}
-
-              <div class="grid__item">
-                <div class="grid grid--uniform">
-                  {% for i in (1..8) %}
-                    <div class="grid__item wow fadeInUp">
-                      <div class="grid-view-item">
-                        <a href="#" class="grid-view-item__link">
-                          <div class="grid-view-item__image">
-                            {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-                            {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
-                          </div>
-                          <div class="h4 grid-view-item__title">{{ 'homepage.onboarding.product_title' | t }}</div>
-                          <div class="grid-view-item__meta">
-                            <span class="product-price__price">{{ 1999 | money }}</span>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  {% endfor %}
-                </div>
-              </div>
-            {% else %}
-              {% comment %}
-                If collection exists but is empty, display message
-              {% endcomment %}
-              <div class="grid__item">
-                <p>{{ 'collections.general.no_matches' | t }}</p>
-              </div>
-            {% endif %}
-         
-          {% endfor %}
+       {% if product.type == injury %}
+        <div class="grid__item {{ grid_item_width }}">
+          {% render 'grid-view-item', product: product, collection: collection, hover_effect: image_block.settings.hover-effect, blocks: product_card_blocks, enable_badges: image_block.settings.enable_badges %}
         </div>
+       {% endif %}
+      {% else %}
+        {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0 %}
+
+          <div class="grid__item">
+            <div class="grid grid--uniform">
+              {% for i in (1..8) %}
+                <div class="grid__item wow fadeInUp">
+                  <div class="grid-view-item">
+                    <a href="#" class="grid-view-item__link">
+                      <div class="grid-view-item__image">
+                        {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                        {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                      <div class="h4 grid-view-item__title">{{ 'homepage.onboarding.product_title' | t }}</div>
+                      <div class="grid-view-item__meta">
+                        <span class="product-price__price">{{ 1999 | money }}</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          {% comment %}
+            If collection exists but is empty, display message
+          {% endcomment %}
+          <div class="grid__item">
+            <p>{{ 'collections.general.no_matches' | t }}</p>
+          </div>
+        {% endif %}
+     
+      {% endfor %}
+    </div>
+    
+  {%- endif -%}
+  
+{% endfor %}
+        
       </div>
     </div>
     {{ paginate_style }}
@@ -293,6 +306,46 @@
         }
     ],
     "blocks": [
+      {
+        "type": "Injury",
+        "name": "Injury Box",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "text",
+            "id": "injury_type",
+            "label": {
+                "en": "Product Type",
+                "de": "Hover-Effekt aktivieren",
+                "es": "Habilitar efecto hover",
+                "fr": "Activer l'effet survol",
+                "pt-PT": "Ativar efeito ao passar o rato"
+            },
+            "info": {
+                "en": "We are categorising products on basis of you product type please fill correct product type here",
+                "de": "Zweites Produktbild beim Hover anzeigen",
+                "es": "Mostar la segunda imagen del producto al pasar el ratón sobre la imagen",
+                "fr": "Afficher l'image du second produit survolé",
+                "pt-PT": "Mostrar imagem do segundo produto ao passar o rato"
+            }
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Injury Name"
+          },
+          {
+            "type": "text",
+            "id": "description",
+            "label": "Injury Description"
+          },
+          {
+            "type": "text",
+            "id": "sub_description",
+            "label": "Injury Sub Description"
+          }
+        ]
+      },
       {
         "type": "product_card_image",
         "name": "Product image",
