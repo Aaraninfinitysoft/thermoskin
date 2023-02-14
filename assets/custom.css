@@ -5677,6 +5677,13 @@ h3:empty {
 }
 
 @media(min-width:768px) and (max-width:1024px) {
+  .layout-fix-collection {
+    padding-top: 40px;
+    }
+    .active-facets.active-facets-desktop{
+      top: 14px;   
+    }
+  
   .thermoskin-range--single-item {
 
     flex: 0 0 40% !important;
@@ -5685,6 +5692,7 @@ h3:empty {
   .find-near-wrapper {
     top: 60px;
   }
+
 }
 
 @media(min-width:992px) and (max-width:1200px) {
