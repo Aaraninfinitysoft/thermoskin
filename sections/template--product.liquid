@@ -228,9 +228,7 @@
 
                     {%- when 'options' -%}
                       <!-- Size chart code custome -->
-                      {% if product.metafields.custom.item_size_cms_.value != blank or product.metafields.custom.item_size_inches.value %}
-                      <a class="size-chart-toggler"  href="#ex1" rel="modal:open">Size Chart</a>
-                      {% endif %}
+                      
                       
                       <div id="ex1" class="modal size-chart-model">
                           <h2>{{ product.title }}</h2>

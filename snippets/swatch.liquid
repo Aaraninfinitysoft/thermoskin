@@ -62,7 +62,12 @@
     <div class="swatch clearfix" data-option-index="{{ option_index }}">
 
       {% if product.options_with_values.size > 0 or is_color == true %}
-        <div class="header">{{ swatch }}</div>
+        <div class="header">
+          <span>{{ swatch }}</span>
+          {% if product.metafields.custom.item_size_cms_.value != blank or product.metafields.custom.item_size_inches.value %}
+            <a class="size-chart-toggler"  href="#ex1" rel="modal:open">Size Chart</a>
+            {% endif %}
+      </div>
       {% endif %}
 
       <div class="swatch-items-wrapper clearfix">
