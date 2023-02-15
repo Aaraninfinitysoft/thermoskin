@@ -3676,7 +3676,37 @@ span.brows-pop-icon {
 .tab-content1 .img-pro-tp>img {
   filter: grayscale(0);
 }
-
+.review-header{
+  display: flex;
+  justify-content: space-between;
+}
+.review-header img{
+  max-width: 160px;
+}
+.review-wrapper{
+  max-width: 1920px;
+  width: 90%;
+  margin: auto!important;
+}
+.review-footer{
+display: flex;
+justify-content: center;
+background-color: #F2F2F2;
+}
+.review-footer .btn{
+  width:125px;
+  border-radius: 25px;
+  background: #D1D3D4;
+}
+.review-footer .btn_group{
+display: flex;
+}
+.review-footer .btn-blu{
+  background-color: #0085a6;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
 /* about page */
 .section-medium {
   max-width: 1355px !important;
