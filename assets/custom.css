@@ -2886,9 +2886,7 @@ margin-left: 30px;
 #AddToCartForm .product-sub-label{
   margin: 0 !important;
 }
-#AddToCartForm .swatches-wrapper{
-  margin-left: 50px;
-}
+
 .spr-starrating{
   color: #939393;
 }
@@ -5790,6 +5788,9 @@ h3:empty {
 @media(min-width:1201px) {
   .owl-item {
     width: 1120px !important;
+  }
+  #AddToCartForm .swatches-wrapper{
+    margin-left: 50px;
   }
 }
 
