@@ -4,7 +4,7 @@
         <div class="metafield-left-wrap">
           {% if product.metafields.custom.item_benefits != blank %}
           <div class="prod-detatila-spec">
-            <h2 class="specification-title">PRODUCT SPECIFICATION</h2>
+            {% comment %} <h2 class="specification-title">PRODUCT SPECIFICATION</h2> {% endcomment %}
               <h3 class="metafield-title">BENEFITS</h3>
                 <ul>
                   {% assign benefits_cnt = product.metafields.custom.item_benefits.value %}
@@ -87,7 +87,7 @@
                 </div>
                 <div class="product-related-title-btn">
                   <h3 class="product-related-title">{{product.title}}</h3>
-                  <a class="product-related-view-btn" href="{{ product.url }}">VIEW</a>
+                  <a class="product-related-view-btn" href="{{ product.url }}">VIEW Product</a>
                 </div>
               </div>
               
