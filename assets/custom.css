@@ -126,7 +126,9 @@ a.thermoskin-range-view-list-btn {
 .best-sellers-single-item .sub_header:nth-child(7) h2 small {
   color: #002C62;
 }
-
+.thermo-sup-level{
+  clear: both;
+}
 .thermoskin-browse-page-product .nav-tabs>li.active>a,
 .thermoskin-browse-page-product .nav-tabs>li>a:hover {
   color: #ED1C24 !important;
@@ -2886,8 +2888,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 .product-details-product-title {
   font-size: 38px !important;
   line-height: 1.2 !important;
-  color: #414042 !important;
-  font-weight: 700 !important;
+  font-weight: 900 !important;
 }
 
 .product-details-wrapper .swatch .header {
@@ -3189,6 +3190,7 @@ h3.metafield-title {
 
 .thermoskin-product-type {
   color: #d9000d;
+  font-weight: bold;
 }
 
 [open] .facets__summary,
