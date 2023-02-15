@@ -84,17 +84,17 @@
             "link": ""
           }
         },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
         "options": {
           "type": "options",
           "settings": {
             "product_variant_style": "swatches",
             "thumbnail_changes_variant": false,
             "hide_soldout_variants": false
-          }
-        },
-        "quantity": {
-          "type": "quantity",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -127,8 +127,8 @@
         "a357b9f4-f5e1-4980-893b-98ab76951be3",
         "price",
         "18c58aeb-aaed-495f-bc50-bc327805b505",
-        "options",
         "quantity",
+        "options",
         "buy_buttons",
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf"
       ],
