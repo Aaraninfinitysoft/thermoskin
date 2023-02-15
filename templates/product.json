@@ -263,6 +263,21 @@
         "read_more": "Read More",
         "title": ""
       }
+    },
+    "93f96473-397a-43a1-9eb6-2c08b9e094b1": {
+      "type": "support-selector",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/Group_578.png",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "center",
+        "title": "Unsure which product is right for you?",
+        "text": "<p>Searching through the endless options can be confusing. Let us recommend the best product for your need. <\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -271,6 +286,7 @@
     "product-recommendations",
     "recently-viewed",
     "1669953271294744f5",
-    "4a103cfe-86be-4163-b000-5fcdade41519"
+    "4a103cfe-86be-4163-b000-5fcdade41519",
+    "93f96473-397a-43a1-9eb6-2c08b9e094b1"
   ]
 }
