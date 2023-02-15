@@ -64,9 +64,12 @@
       {% if product.options_with_values.size > 0 or is_color == true %}
         <div class="header">
           <span>{{ swatch }}</span>
-          {% if product.metafields.custom.item_size_cms_.value != blank or product.metafields.custom.item_size_inches.value %}
-            <a class="size-chart-toggler"  href="#ex1" rel="modal:open">Size Chart</a>
-            {% endif %}
+          {%- if swatch == 'Size' -%}
+            {% if product.metafields.custom.item_size_cms_.value != blank or product.metafields.custom.item_size_inches.value %}
+              <a class="size-chart-toggler"  href="#ex1" rel="modal:open">Size Chart</a>
+              {% endif %}
+          {%- endif -%}
+            
       </div>
       {% endif %}
 
