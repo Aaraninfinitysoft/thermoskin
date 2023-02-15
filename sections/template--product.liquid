@@ -160,14 +160,15 @@
                       <h1 itemprop="name" {{ block.shopify_attributes }} class="product-details-product-title" {{ block.shopify_attributes }}>{{ product.title | escape }}</h1>
                     {%- when 'description' -%}    
                       <div class="product-descriptoon-thermoskin">
-                      <h3 class="prod_desc_lebel">Product Description</h3>
+                
                       {{ product.description }}
                       </div>
-                      {% if product.metafields.custom.support_level.value != blank %}
-                      <p class="thermo-sup-level"><strong>Support level: </strong>{{ product.metafields.custom.support_level.value }}</p>
-                      {% endif %}
+              
 
                     {%- when 'price' -%}
+                      {% if product.metafields.custom.support_level.value != blank %}
+                        <p class="thermo-sup-level"><strong>Support level: </strong>{{ product.metafields.custom.support_level.value }}</p>
+                        {% endif %}
                       <div {{ block.shopify_attributes }}>
                         <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
                         <p id="ComparePrice" class="{% if settings.show_discount == 'hide' %}sale-price{% endif %}{% unless on_sale %} js{% endunless %}" v-if="isSale" v-money="variant.compare_at_price">
