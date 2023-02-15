@@ -3187,7 +3187,10 @@ h3.metafield-title {
   margin-bottom: 20px !important;
 
 }
-
+.qtn-option-wrapper,.qtn-option-wrapper> div:first-child{
+  display: flex;
+  flex-wrap: wrap;
+}
 .thermoskin-product-type {
   color: #d9000d;
   font-weight: bold;

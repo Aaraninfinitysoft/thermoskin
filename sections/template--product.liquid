@@ -287,6 +287,7 @@
                       </div>
                       
                        <!-- end Size chart code custome -->
+                       <div class="qtn-option-wrapper">
                       {% render 'product-options', product: product, variant_style: options_block.settings.product_variant_style, section_id: section.id, current_variant: current_variant, hide_soldout_variants: options_block.settings.hide_soldout_variants, block_attributes: options_block.shopify_attributes %}
 
                       {%- if qtn == true -%}
@@ -328,7 +329,7 @@
                           </noscript>
                         </div>
                       {%- endif -%}
-                        
+                    </div>
                     {%- when 'giftwrap' -%}
                       {% if settings.giftwrap_product_selector > '' and product.available and wrap_product %}
                         {% if wrap_product.available %}
