@@ -2888,7 +2888,10 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   margin: 0 !important;
 }
 #AddToCartForm .swatches-wrapper{
-  margin-left: 8px;
+  margin-left: 50px;
+}
+.spr-starrating{
+  color: #939393;
 }
 .product-details-product-title {
   font-size: 38px !important;
