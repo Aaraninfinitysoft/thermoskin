@@ -1,7 +1,30 @@
+ 
+ {% assign imgUrl = section.settings.right_image | img_url:"160x" %}
+<div class="review-wrapper">
+  <div class="review-header" ><h2 class="heading">{{product.title}}</h2>  <img src="{{imgUrl}}"></div>
+  <div class="review-counter"><div class="review_html"></div> </div>
+  <div class="review-footer review-bg">
+  <div>{{section.settings.desccription}}</div><div calss="btn_group"><span class="btn btn-blu write-review-trigger">Yes</span> <span class="btn">No</span> </div>
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "product review section",
-    "settings": []
+    "settings": [
+     
+      {
+        "type": "image_picker",
+        "id": "right_image",
+        "label": "custome image"
+      },
+      {
+        "type": "richtext",
+        "id": "desccription",
+        "label": "description",
+        "default": "<p>Would you recommend this product?</p>"
+      }
+    ]
   }
 {% endschema %}
 
