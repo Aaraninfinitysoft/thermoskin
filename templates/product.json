@@ -195,6 +195,12 @@
         "recently_viewed_title": "Recently viewed products"
       }
     },
+    "93287d9f-ae5b-49be-b372-7c210f196438": {
+      "type": "product-review-section",
+      "settings": {
+        "desccription": "<p>Would you recommend this product?<\/p>"
+      }
+    },
     "1669953271294744f5": {
       "type": "apps",
       "blocks": {
@@ -285,6 +291,7 @@
     "product-description",
     "product-recommendations",
     "recently-viewed",
+    "93287d9f-ae5b-49be-b372-7c210f196438",
     "1669953271294744f5",
     "4a103cfe-86be-4163-b000-5fcdade41519",
     "93f96473-397a-43a1-9eb6-2c08b9e094b1"
