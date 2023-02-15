@@ -119,6 +119,13 @@ a.thermoskin-range-view-list-btn {
 .best-sellers-single-item .sub_header:nth-child(3)+.product-listing-wrapper a {
   background: #ED1C24;
 }
+.best-sellers-single-item .sub_header:nth-child(7)+.product-listing-wrapper a {
+  background: #002C62;
+}
+.best-sellers-single-item .sub_header:nth-child(7) h2,
+.best-sellers-single-item .sub_header:nth-child(7) h2 small {
+  color: #002C62;
+}
 
 .thermoskin-browse-page-product .nav-tabs>li.active>a,
 .thermoskin-browse-page-product .nav-tabs>li>a:hover {
