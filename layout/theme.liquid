@@ -256,9 +256,9 @@
       });
 })($);
 $(document).ready(function(){
-    $('.size-chart-toggler').click(function({
-    $('.size-chart-model').show();
-    }))   
+    $('.size-chart-toggler').click(function(){
+      $('.size-chart-model').show();
+      })   
  setTimeout(()=>{ if($("body#challenge").length) $(window).scrollTop(0)},2000);
   $('.homepage-section-thermoskin-range-wrapper .nav-tabs li').hover(function(){
   var contentId = $(this).find('a').attr('href');
