@@ -2884,7 +2884,12 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 .specification-title {
   color: #414042 !important;
 }
-
+#AddToCartForm .product-sub-label{
+  margin: 0 !important;
+}
+#AddToCartForm .swatches-wrapper{
+  margin-left: 8px;
+}
 .product-details-product-title {
   font-size: 38px !important;
   line-height: 1.2 !important;

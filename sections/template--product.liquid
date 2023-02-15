@@ -291,7 +291,7 @@
                       {% render 'product-options', product: product, variant_style: options_block.settings.product_variant_style, section_id: section.id, current_variant: current_variant, hide_soldout_variants: options_block.settings.hide_soldout_variants, block_attributes: options_block.shopify_attributes %}
 
                       {%- if qtn == true -%}
-                        <div class="{% if options_block.settings.product_variant_style == 'dropdowns' %}selector-wrapper{% else %}swatches-wrapper{% endif %} {% if section.settings.image_size == 'large' %}col-md-12{% else %}col-md-6{% endif %} col-sm-12 col-xs-12" {{ block.shopify_attributes }}>
+                        <div class="{% if options_block.settings.product_variant_style == 'dropdowns' %}selector-wrapper{% else %}swatches-wrapper{% endif %} {% if section.settings.image_size == 'large' %}{% else %}{% endif %}  {{ block.shopify_attributes }}>
                           <label for="Quantity" class="quantity-selector product-sub-label">{{ 'products.product.quantity' | t }}</label>
   
                           <div class="js-qty">
