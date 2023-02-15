@@ -34,7 +34,7 @@
                       <span>{{ curr_coll.metafields.custom.short_description }}</span>
                     </div>
                     <div class="product-listing-wrapper">
-                    {% for product in curr_coll.products limit: 3 %}
+                    {% for product in curr_coll.products limit: 4 %}
                       <div class="best-sellers-wrap">
                         <div class="best-sellers-image">
                           <img src="{{ product.featured_image | img_url:"535x535" }}">
