@@ -77,6 +77,7 @@
         },
         "18c58aeb-aaed-495f-bc50-bc327805b505": {
           "type": "text-with-icon",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "Free shipping",
