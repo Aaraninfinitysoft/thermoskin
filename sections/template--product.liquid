@@ -147,7 +147,8 @@
                           class="product__meta--sku {% if current_variant.sku == "" %}js{% endif %}"
                           v-if="variant && variant.sku !== ''"
                         >
-                          <h4>{{ 'customer.order.sku' | t }}: <span class="js__currentVariantSKU" v-text="variant.sku">{{ current_variant.sku }}</span></h4>
+                          <div class="js__currentVariantSKU-wrapper"> 
+                          <strong>{{ 'customer.order.sku' | t }}: </strong><span class="js__currentVariantSKU" v-text="variant.sku"> {{ current_variant.sku }}</span></div>
                         </div>
                         {% if product.vendor != "" %}
                           <div class="product__meta--vendor">
@@ -287,6 +288,46 @@
                       
                        <!-- end Size chart code custome -->
                       {% render 'product-options', product: product, variant_style: options_block.settings.product_variant_style, section_id: section.id, current_variant: current_variant, hide_soldout_variants: options_block.settings.hide_soldout_variants, block_attributes: options_block.shopify_attributes %}
+
+                      {%- if qtn == true -%}
+                        <div class="{% if options_block.settings.product_variant_style == 'dropdowns' %}selector-wrapper{% else %}swatches-wrapper{% endif %} {% if section.settings.image_size == 'large' %}col-md-12{% else %}col-md-6{% endif %} col-sm-12 col-xs-12" {{ block.shopify_attributes }}>
+                          <label for="Quantity" class="quantity-selector product-sub-label">{{ 'products.product.quantity' | t }}</label>
+  
+                          <div class="js-qty">
+                            <button type="button" aria-label="-" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" v-on:click="decreaseQuantity">
+                              <i class="fa fa-minus" aria-hidden="true"></i>
+                              <span class="fallback-text">−</span>
+                            </button>
+                            <input
+                              v-model="quantity"
+                              type="text"
+                              class="js-qty__num"
+                              value="1"
+                              min="1"
+                              aria-label="quantity"
+                              pattern="[0-9]*"
+                              name="quantity-js"
+                              id="Quantity"
+                            >
+                            <button type="button" aria-label="+" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" v-on:click="increaseQuantity">
+                              <i class="fa fa-plus" aria-hidden="true"></i>
+                              <span class="fallback-text">+</span>
+                            </button>
+                          </div>
+  
+                          <noscript>
+                            <input
+                              class="quantity-noscript"
+                              type="number"
+                              name="quantity"
+                              id="Quantity-{{ section.id }}"
+                              aria-label="quantity"
+                              min="1"
+                              value="1"
+                            >
+                          </noscript>
+                        </div>
+                      {%- endif -%}
                         
                     {%- when 'giftwrap' -%}
                       {% if settings.giftwrap_product_selector > '' and product.available and wrap_product %}
@@ -299,44 +340,8 @@
                       {% endif %}
 
                     {%- when 'quantity' -%}
-                      <div class="{% if options_block.settings.product_variant_style == 'dropdowns' %}selector-wrapper{% else %}swatches-wrapper{% endif %} {% if section.settings.image_size == 'large' %}col-md-12{% else %}col-md-6{% endif %} col-sm-12 col-xs-12" {{ block.shopify_attributes }}>
-                        <label for="Quantity" class="quantity-selector product-sub-label">{{ 'products.product.quantity' | t }}</label>
-
-                        <div class="js-qty">
-                          <button type="button" aria-label="-" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" v-on:click="decreaseQuantity">
-                            <i class="fa fa-minus" aria-hidden="true"></i>
-                            <span class="fallback-text">−</span>
-                          </button>
-                          <input
-                            v-model="quantity"
-                            type="text"
-                            class="js-qty__num"
-                            value="1"
-                            min="1"
-                            aria-label="quantity"
-                            pattern="[0-9]*"
-                            name="quantity-js"
-                            id="Quantity"
-                          >
-                          <button type="button" aria-label="+" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" v-on:click="increaseQuantity">
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                            <span class="fallback-text">+</span>
-                          </button>
-                        </div>
-
-                        <noscript>
-                          <input
-                            class="quantity-noscript"
-                            type="number"
-                            name="quantity"
-                            id="Quantity-{{ section.id }}"
-                            aria-label="quantity"
-                            min="1"
-                            value="1"
-                          >
-                        </noscript>
-                      </div>
-
+                      
+{% assign qtn = true %}
                     {%- when 'buy_buttons' -%}
                       <div class="paymentButtonsWrapper" {{ block.shopify_attributes }}>
                         <button type="submit" aria-label="{{ 'products.product.add_to_cart' | t }}" name="add" id="AddToCart" class="btn{% if buttons_block.settings.show_smart_checkout and product.selling_plan_groups.size == 0 %} add-to-cart--secondary{% endif %}"
