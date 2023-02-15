@@ -256,10 +256,7 @@
       });
 })($);
 $(document).ready(function(){
-    $('.size-chart-toggler').click(function(){
-      alert('alert')
-      $('.size-chart-model').slideDown();
-      })   
+   
  setTimeout(()=>{ if($("body#challenge").length) $(window).scrollTop(0)},2000);
   $('.homepage-section-thermoskin-range-wrapper .nav-tabs li').hover(function(){
   var contentId = $(this).find('a').attr('href');
@@ -329,6 +326,14 @@ var varTitle = '';
 
 
 
+  
+</script>
+<script>
+  var toggler = document.querySelector('.size-chart-toggler');
+  var size_chart = document.querySelector('.size-chart-model');
+  toggler.addEventListener(function(){
+    size_chart.style.display = 'block'
+  })
   
 </script>
  {% include 'smile-initializer' %}
