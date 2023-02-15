@@ -23,6 +23,11 @@
           "settings": {
           }
         },
+        "bd3c9930-fefc-4c8f-bc32-e0dd02bb9683": {
+          "type": "vendor_sku",
+          "settings": {
+          }
+        },
         "c3bd677d-180a-4d0a-919f-2c17fbd56fda": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -36,7 +41,7 @@
         "8a3987b1-8c77-4604-9d4a-207bde10d9f7": {
           "type": "description",
           "settings": {
-            "prod_desc": "Product Description"
+            "prod_desc": ""
           }
         },
         "6c0bf80c-0f0c-472b-b362-7f1642432258": {
@@ -61,11 +66,6 @@
             "icon": "icon-514",
             "text": "{{ product.metafields.custom.icon_group.value.icon_text_3.value }}",
             "link": "{{ product.metafields.custom.icon_group.value.link_3.value }}"
-          }
-        },
-        "bd3c9930-fefc-4c8f-bc32-e0dd02bb9683": {
-          "type": "vendor_sku",
-          "settings": {
           }
         },
         "price": {
@@ -118,12 +118,12 @@
         "media",
         "sale_badge",
         "title",
+        "bd3c9930-fefc-4c8f-bc32-e0dd02bb9683",
         "c3bd677d-180a-4d0a-919f-2c17fbd56fda",
         "8a3987b1-8c77-4604-9d4a-207bde10d9f7",
         "6c0bf80c-0f0c-472b-b362-7f1642432258",
         "cbcf6445-9631-45f5-b292-f9f19b0d3066",
         "a357b9f4-f5e1-4980-893b-98ab76951be3",
-        "bd3c9930-fefc-4c8f-bc32-e0dd02bb9683",
         "price",
         "18c58aeb-aaed-495f-bc50-bc327805b505",
         "options",
