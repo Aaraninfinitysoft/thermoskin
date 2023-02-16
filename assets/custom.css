@@ -3876,6 +3876,9 @@ h3:empty {
     color: var(--heading--color);
 
 }
+.thermo-sup-level+div+div div{
+  padding-left: 0 !important;
+}
 /* responsive */
 
 
@@ -5624,6 +5627,9 @@ h3:empty {
 @media (min-width:768px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .product-details-product-title{
+    margin-bottom: 0 !important;
   }
   .layout-fix-collection .grid__item {
     margin-bottom: 60px !important;
