@@ -3533,7 +3533,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 
 .Support-Selector .image-content-text h2 {
   padding-top: 0 !important;
-  font-size: 55px;
+  font-size: 55px !important;
 }
 
 .Support-Selector .responsive-image-wrapper {
