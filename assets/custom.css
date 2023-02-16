@@ -133,7 +133,7 @@ a.thermoskin-range-view-list-btn {
   clear: both;
 }
 .thermo-sup-level + div + div{
-  width: 100%;
+  width: 100% !important;
   color: #ED1C24;
 }
 .thermo-sup-level + div + div span{
