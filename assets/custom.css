@@ -3866,22 +3866,22 @@ h3:empty {
   content: '';
   position: absolute;
   width: 120px;
-  height: 59px;
+  height: 120px;
   background-image: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Path_4139.png?v=1676353206');
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
   z-index: 2;
-  right: 5%;
-  top: 6.7%;
+  right: 8%;
+  top: 42.7%;
 
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::after{
   content: 'enhanced recovery';
   position: absolute;
   transform: rotate(350deg);
-  right: 12%;
-  top: calc(7% + 62px);
+  right: 16%;
+  top: calc(52% + 62px);
   font-family: TrashHand!important;
   font-size: 60px;
   width: 100px;
@@ -6046,3 +6046,8 @@ max-width: 710px !important;
 }
 
 /* thermal collection template end*/
+.thermal.template-collection .banner-with-icon-set{
+  max-width: 1920px;
+  margin: auto;
+  position: relative;
+}
