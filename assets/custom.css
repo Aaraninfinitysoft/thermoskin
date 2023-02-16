@@ -1480,7 +1480,10 @@ footer.site-footer.footer-alignment--left {
   margin-top: 20px;
   margin-right: 20px;
 }
-
+.product-descriptoon-thermoskin{
+  margin-top: 25px !important;
+  margin-bottom: 17.7px ;
+}
 .social-tx p {
   margin: 0;
   padding: 0;
@@ -3221,6 +3224,9 @@ h3.metafield-title {
   display: flex;
   flex-wrap: wrap;
 }
+.qtn-option-wrapper{
+  margin-top: 19.7px;
+}
 .thermoskin-product-type {
   color: #d9000d;
   font-weight: bold;
@@ -3876,7 +3882,7 @@ h3:empty {
     color: var(--heading--color);
 
 }
-.thermo-sup-level+div+div div{
+.thermo-sup-level+div+div div,.thermo-sup-level+div+div div span{
   padding-left: 0 !important;
 }
 /* responsive */
@@ -5761,9 +5767,7 @@ h3:empty {
   .thermo-sup-level{
     margin-top: 23.7px;
   }
-  .qtn-option-wrapper{
-    margin-top: 19.7px;
-  }
+
   .flex-header .homepage-sections-view-prod-btn {
     display: none;
   }
