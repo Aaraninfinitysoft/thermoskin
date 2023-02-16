@@ -6029,6 +6029,13 @@ h3:empty {
     line-height: 30px;;
   }
 }
+
+@media(max-width:1200px){
+  #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
+    flex-wrap: wrap!important;
+  }
+  
+}
 /* rensponsive end */
 
 /* page about  */
@@ -6074,3 +6081,14 @@ max-width: 710px !important;
   margin: auto;
   position: relative;
 }
+#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon:first-child  img{
+  width: 63px;
+    }
+    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon  img{
+  width: 47px;
+  min-height: 62px;
+  object-fit: contain;
+    }
+    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon:last-child  img{
+  width: 70px;
+    }
