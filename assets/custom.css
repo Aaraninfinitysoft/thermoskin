@@ -6038,5 +6038,8 @@ display: flex;
 width: fit-content !important;
 float: none;
 }
+#shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
+flex-wrap: nowrap !important;
+}
 
 /* thermal collection template end*/
