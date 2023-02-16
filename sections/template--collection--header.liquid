@@ -8,7 +8,7 @@
         <div {{ block.shopify_attributes }}>{% render block %}</div>
       {%- when 'title' -%}
         <div class="sitewide--title-wrapper wrapper-padded" {{ block.shopify_attributes }}>
-          <h1 class="page--title">{{ collection.title }} <small>{{ block.settings.description }}</small></h1>
+          <h1 class="page--title">{{ collection.title }} Products<small>{{ block.settings.description }}</small></h1>
         </div>
       {%- when 'description' -%}
         {% if collection.description != blank %}
