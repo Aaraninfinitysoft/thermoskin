@@ -135,6 +135,10 @@ a.thermoskin-range-view-list-btn {
 .thermo-sup-level + div + div{
   width: 100% !important;
   color: #ED1C24;
+  float: none !important;
+}
+.thermo-sup-level + div + div div{
+display: block!important;
 }
 .thermo-sup-level + div + div span{
  font-size: 16px;
