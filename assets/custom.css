@@ -5717,6 +5717,28 @@ h3:empty {
   .product-description-container .metafield-main-wrap>div {
     width: 100%
   }
+  .review-footer .btn-blu{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .text-with-icon div span{
+    font-size: 11px !important;
+  }
+  .js__currentVariantSKU-wrapper{
+    font-size: 12px !important;
+  }
+  .product-descriptoon-thermoskin p,.metafield-main-wrap{
+    font-size: 15px !important;
+  }
+  .thermoskin-product-type,.thermo-sup-level{
+    font-size: 16px !important;
+  }
+  .product-description-container h3{
+    font-size: 17px !important;
+  }
+  .product-details-product-title{
+    font-size: 26px !important;
+  }
   .review-footer{
     flex-direction: column;
     align-items: center;
