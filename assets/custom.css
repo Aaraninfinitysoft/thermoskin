@@ -6031,7 +6031,7 @@ h3:empty {
 }
 
 @media(max-width:1200px){
-  #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
+ body #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
     flex-wrap: wrap!important;
   }
   
