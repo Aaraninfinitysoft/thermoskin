@@ -95,10 +95,17 @@
           "settings": {
             "description": "<p>{{ collection.metafields.custom.best_for | metafield_tag }}<\/p>"
           }
+        },
+        "455622a8-8690-4c43-a8d3-48715d780170": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "7fc2c1fb-e123-4f6d-80b4-229aa35f7d5d"
+        "7fc2c1fb-e123-4f6d-80b4-229aa35f7d5d",
+        "455622a8-8690-4c43-a8d3-48715d780170"
       ],
       "settings": {
       }
