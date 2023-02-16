@@ -5719,6 +5719,9 @@ h3:empty {
   }
   .review-footer .btn-blu{
     margin-left: 0;
+  
+  }
+  .btn_group{
     margin-top: 10px;
   }
   .text-with-icon div span{
@@ -5745,6 +5748,9 @@ h3:empty {
   }
   .flex-header .homepage-sections-view-prod-btn {
     display: none;
+  }
+  .template-product .main-content .shopify-section:first-child{
+    margin-top: 20px!important;
   }
 }
 
