@@ -14,6 +14,10 @@
 .image-with-text-wrapper.about-page {
   margin-bottom: 0 !important;
 }
+.image-with-text-wrapper.about-page {
+  margin-top: 32px !important;
+
+}
 
 #shopify-section-announcement-bar,
 #shopify-section-header {
@@ -6009,4 +6013,15 @@ h3:empty {
   font-size: 18px !important;
   line-height: 24px !important;
 }
+body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212{
+  margin-top: 150px !important;
+}
 /* page about  end */
+/* thermal collection template */
+#shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a h2{
+  height: 64px;
+}
+#shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .homepage-featured-content-box-inner{
+ margin-bottom: 99px;
+}
+/* thermal collection template end*/
