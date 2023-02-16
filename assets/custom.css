@@ -780,7 +780,7 @@ span.dot {
 .homepage-thermoskin-range-wrap h2.homepage-sections--title {
   color: #414042;
   text-align: left;
-  font-weight: 800;
+  font-weight: 900;
   padding-bottom: 20px;
   margin: 0;
 }
@@ -922,6 +922,9 @@ a.thermoskin-range-view-list-btn:hover {
   margin: 0px !important;
   width: 100% !important;
   max-width: unset !important;
+}
+.sitewide--title-wrapper .homepage-section-title{
+  font-weight: 900 !important;
 }
 
 .homepage-sections-wrapper.homepage-sections-wrapper--white.feature-row--no-overlapping.content-width .homepage-sections--title {
@@ -6000,3 +6003,10 @@ h3:empty {
   }
 }
 /* rensponsive end */
+
+/* page about  */
+.homepage-content--template--15650287550670__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .featured-row__subtext{
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+/* page about  end */
