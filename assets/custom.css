@@ -5769,6 +5769,9 @@ h3:empty {
   .thermo-sup-level+div+div div{
     padding-left: 0 !important;
   }
+  .review-footer>div:first-child{
+    margin-top: 12px !important;
+  }
   #shopify-section-template--15650287386830__product-description{
     margin-top: 0 !important;
   }
