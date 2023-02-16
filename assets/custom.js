@@ -8,6 +8,9 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
-
-  
 });
+ 
+var reviewinterval = setInterval(() => {
+  var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
+  console.log(reviewBlock); 
+}, 1000);

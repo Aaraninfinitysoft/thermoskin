@@ -3682,6 +3682,7 @@ span.brows-pop-icon {
 }
 .review-header img{
   max-width: 160px;
+  object-fit: contain;
 }
 .review-wrapper{
   max-width: 1920px;
@@ -3692,20 +3693,25 @@ span.brows-pop-icon {
 display: flex;
 justify-content: center;
 background-color: #F2F2F2;
+padding: 20px 0;
 }
 .review-footer .btn{
   width:125px;
   border-radius: 25px;
   background: #D1D3D4;
 }
+.review-footer p{
+  margin: 0;
+}
 .review-footer .btn_group{
 display: flex;
 }
 .review-footer .btn-blu{
-  background-color: #0085a6;
+  background-color: #00AEEF;
   color: #fff;
   display: inline-block;
   margin-right: 10px;
+  margin-left: 40px;
 }
 /* about page */
 .section-medium {
