@@ -139,6 +139,7 @@ a.thermoskin-range-view-list-btn {
 }
 .thermo-sup-level + div + div div{
 display: block!important;
+text-align: left!important;
 }
 .thermo-sup-level + div + div span{
  font-size: 16px;
@@ -3715,6 +3716,7 @@ display: flex;
 justify-content: center;
 background-color: #F2F2F2;
 padding: 20px 0;
+align-items: center;
 }
 .review-footer .btn{
   width:125px;
