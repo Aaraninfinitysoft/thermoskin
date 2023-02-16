@@ -10,7 +10,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
 });
  
-var reviewinterval = setInterval(() => {
+setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
-  console.log(reviewBlock); 
-}, 1000);
+var   reviewBlock2 = document.querySelector('.review_html');
+reviewBlock2.appendChild(reviewBlock)
+ var ii = document.querySelector('.write-review-trigger');
+ ii.addEventListener('click',()=>{
+  var trig = document.querySelector('.spr-summary-actions-newreview');
+  trig.click();
+})
+
+}, 3000);
