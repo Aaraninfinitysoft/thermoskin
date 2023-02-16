@@ -5741,16 +5741,43 @@ h3:empty {
   }
   .product-details-product-title{
     font-size: 26px !important;
+    line-height: 35px !important;
+    margin-bottom: 40px !important;
   }
   .review-footer{
     flex-direction: column;
     align-items: center;
   }
+  .product-descriptoon-thermoskin{
+    margin-top: 25px !important;
+    margin-bottom: 44.5px ;
+  }
+  .thermo-sup-level{
+    margin-top: 23.7px;
+  }
+  .qtn-option-wrapper{
+    margin-top: 19.7px;
+  }
   .flex-header .homepage-sections-view-prod-btn {
     display: none;
   }
+  .thermo-sup-level+div+div span{
+    font-size: 12px !important;
+    line-height: 21px;
+    margin-bottom: 19.7px;
+  }
+  .product-details-wrapper .swatches-wrapper{
+    margin-top: 33.3px !important;
+    margin-top: 27.2px !important;
+  }
   .template-product .main-content .shopify-section:first-child{
     margin-top: 20px!important;
+  }
+  .paymentButtonsWrapper #AddToCart{
+    margin-bottom: 19.7px !important;
+  }
+  .product-details-wrapper, .metafield-main-wrap{
+    border: 0!important;
   }
 }
 
