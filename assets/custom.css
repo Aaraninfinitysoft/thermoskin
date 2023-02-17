@@ -4667,9 +4667,7 @@ h3:empty {
     position:static ;
 
   }
-  .best-sllers-tabbing-home-main-wrap  .best-sellers-wrap{
-    margin-top: 74px;
-  }
+
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
     width: 100px !important;
     margin-right:30px !important ;
@@ -5713,6 +5711,9 @@ h3:empty {
 @media (min-width:769px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .best-sllers-tabbing-home-main-wrap .best-sellers-wrap{
+    margin-top: 74px;
   }
   .best-sllers-tabbing-home-main-wrap .best-sellers-tab a{
     padding-top: 15px !important;
