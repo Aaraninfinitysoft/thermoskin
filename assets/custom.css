@@ -4667,6 +4667,7 @@ h3:empty {
     display: flex;
     max-height: 490px !important;
     height: 490px;
+    margin: 0 !important;
     overflow: visible;
   }
 
