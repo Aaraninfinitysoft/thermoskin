@@ -3118,6 +3118,7 @@ h3.metafield-title {
 .thermal.template-collection .collection-info__sidebar{
   display: none;
 }
+
 .collection-filters__item.sorting,.facets__wrapper{
   padding-top: 0 !important;
 }
@@ -5537,6 +5538,12 @@ h3:empty {
     object-fit: cover;
     object-position: 100%;
   }
+  .collection.section-header .page--title{
+    flex-wrap: wrap !important;
+  }
+  .collection-title-custom{
+    margin-bottom: 15px;
+  }
   .product-details-wrapper .swatches-wrapper{
     width: 100% !important;
   }
@@ -5654,6 +5661,9 @@ h3:empty {
 @media (min-width:768px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .thermal.template-collection #CollectionProductGrid{
+    padding-top: 30px;
   }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .homepage-featured-content-box-inner{
     margin-bottom: 99px;
