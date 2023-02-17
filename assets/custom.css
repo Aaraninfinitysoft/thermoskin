@@ -6130,10 +6130,15 @@ body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .icon-set-wrapper{
 display: flex;
 }
+
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
-width: fit-content !important;
+width: 100px !important;
+margin-right:30px !important ;
 float: none;
 }
+#shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon:last-child{
+  margin-right:0 !important ;
+} 
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
 flex-wrap: nowrap !important;
 }
