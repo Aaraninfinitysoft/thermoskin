@@ -533,15 +533,6 @@ h1.homepage-sections--title.why-choose-title {
   /*     padding-left: 30px; */
 }
 
-.centered.small--one-whole.three-quarters .grid__item-inner.grid__item-inner--html {
-  /*     background-image: url(https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Component_126_4.png?v=1668652628); */
-  /*     background-position: center;
-    height: 880px;
-    width: 100%;
-    background-position-x: -200px;
-    background-size: cover;
-    background-repeat: no-repeat; */
-}
 
 .browse-btn {
   margin-left: -80px;
@@ -5838,7 +5829,7 @@ h3:empty {
     flex-wrap: wrap;
   }
   .metafield-right-wrap{
-    padding: 0
+    padding: 0;
     margin-top: 20px;
   }
   .review-header{
