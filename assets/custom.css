@@ -2982,7 +2982,7 @@ h3.metafield-title {
 }
 
 /* about page */
-.homepage-featured-content-box,
+#about .homepage-featured-content-box,
 .aboutpage-sections-wrapper3 .thermoskin-quality-content-left {
   padding: 20px !important;
 }
