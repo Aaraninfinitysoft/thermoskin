@@ -3445,6 +3445,7 @@ h1 small,
 h1 small * {
   font-size: 18px;
   color: inherit;
+  line-height: 21px;
   margin: 0;
 
 }
@@ -4647,6 +4648,10 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  .active-facets.active-facets-desktop{
+    position:static ;
+
+  }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
     width: 100px !important;
     margin-right:30px !important ;
