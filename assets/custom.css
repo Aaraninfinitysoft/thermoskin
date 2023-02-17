@@ -3126,6 +3126,7 @@ h3.metafield-title {
 }
 .collection-filters__sort:focus{
   border-radius: 55px 55px 0 0!important;
+  border-color: rgba(65, 64, 66, 0.5) ;
 }
 .btn.Ajax-add-to-cart{
   margin-top: 20px;
