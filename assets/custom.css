@@ -3118,8 +3118,14 @@ h3.metafield-title {
 .thermal.template-collection .page--title {
   color: #ed1c24;
 }
+.thermal.template-collection .section-header.collection {
+  margin-top: 90px !important;
+}
 .thermal.template-collection .collection-info__sidebar{
   display: none;
+}
+.collection-filters__sort:focus{
+  border-radius: 55px 55px 0 0!important;
 }
 .btn.Ajax-add-to-cart{
   margin-top: 20px;
