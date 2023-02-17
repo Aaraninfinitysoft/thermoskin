@@ -3115,7 +3115,15 @@ h3.metafield-title {
 .thermal.template-collection .page--title {
   color: #ed1c24;
 }
-
+.thermal.template-collection .collection-info__sidebar{
+  display: none;
+}
+.collection-filters__item.sorting{
+  padding-top: 0 !important;
+}
+.facets__heading{
+  margin-top: 38.7px !important;
+}
 .template-collection .feature-row--no-overlapping .homepage-indiv-section-wrapper {
   padding-top: 50px !important;
 }
@@ -3645,7 +3653,7 @@ span.brows-pop-icon {
 .collection-grid--title,
 .product-grid--title {
   padding-top: 25px !important;
-  padding-bottom: 20px;
+  padding-bottom: 14px;
 }
 
 .product-grid--descripiton p {
