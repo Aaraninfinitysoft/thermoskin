@@ -4660,7 +4660,7 @@ h3:empty {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
   /* h1 {
     text-align: center !important;
   } */
@@ -5590,7 +5590,7 @@ h3:empty {
 }
 
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   body:not(.template-collection) .homepage-indiv-section-wrapper .homepage-content--image img {
     min-height: 400px;
     width: 100%;
@@ -5716,9 +5716,13 @@ h3:empty {
     flex-direction: column-reverse;
   }
 }
-@media (min-width:768px) {
+@media (min-width:769px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .best-sllers-tabbing-home-main-wrap .best-sellers-tab a{
+    padding-top: 15px !important;
+    padding-bottom: 30px !important;
   }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div span{
     min-width: 130px !important;
@@ -5826,7 +5830,7 @@ h3:empty {
     align-items: end;
   }
 }
-@media(max-width:767px) {
+@media(max-width:768px) {
   .product-description-container .metafield-main-wrap {
     flex-wrap: wrap;
   }
@@ -5924,7 +5928,7 @@ h3:empty {
   }
 }
 
-@media(min-width:767px) and (max-width:1199px) {
+@media(min-width:769px) and (max-width:1199px) {
   .footer-logo-social-wrap+div {
     flex-wrap: wrap;
 
@@ -6038,19 +6042,19 @@ padding: 0 40px;
   }
 }
 
-@media(min-width:601px) and (max-width:767px) {
+@media(min-width:601px) and (max-width:768px) {
   .owl-item {
     width: 600px !important;
   }
 }
 
-@media(min-width:768px) and (max-width:991px) {
+@media(min-width:769px) and (max-width:991px) {
   .owl-item {
     width: 750px !important;
   }
 }
 
-@media(min-width:768px) and (max-width:1024px) {
+@media(min-width:769px) and (max-width:1024px) {
   .layout-fix-collection {
     padding-top: 40px;
     }
@@ -6104,7 +6108,7 @@ padding: 0 40px;
     justify-content: start;
   }
 }
-@media(min-width:768px) and (max-width:1639px) {
+@media(min-width:769px) and (max-width:1639px) {
   .thermoskin-quality-content-rigt {
     padding-left: 100px;
   }
@@ -6200,10 +6204,7 @@ max-width: 710px !important;
    .template-index .text-advert-section .grid__item,.text-advert-section .grid__item{
       justify-content: start;
     }
-    .best-sllers-tabbing-home-main-wrap .best-sellers-tab a{
-      padding-top: 15px !important;
-      padding-bottom: 30px !important;
-    }
+ 
     .best-sllers-tabbing-home-main-wrap  .best-sellers-wrap{
       margin-top: 74px;
     }
