@@ -4654,7 +4654,7 @@ h3:empty {
   }
 }
 
-@media screen and (max-width:767px) {
+@media (max-width:767px) {
   /* h1 {
     text-align: center !important;
   } */
