@@ -3973,6 +3973,10 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
+  .tab-pane.active .best-sellers-single-item {
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
   .customized-heading {
     font-size: 33px !important;
     white-space: nowrap;
@@ -4777,10 +4781,7 @@ h3:empty {
     margin-right: 0px !important;
   }
 
-  .tab-pane.active .best-sellers-single-item {
-    flex-wrap: nowrap;
-    overflow: scroll;
-  }
+
 
   .multiple_category .best-sellers-single-item {
     flex-wrap: wrap !important;
@@ -6058,6 +6059,9 @@ padding: 0 40px;
   .layout-fix-collection {
     padding-top: 40px;
     }
+    .best-sellers-wrap {
+     flex: 0 0 40%;
+    }
     .active-facets.active-facets-desktop{
       top: 14px;   
     }
@@ -6130,9 +6134,6 @@ padding: 0 40px;
   }
 }
 @media(min-width:1441px) {
-  .best-sellers-wrap {
-    width: 25%;
-  }
 
   .image-content-text h2 {
     padding-right: 150px;
