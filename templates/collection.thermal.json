@@ -36,7 +36,7 @@
         "image_height": "original",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
-        "title": "Why {{ collection.title }}",
+        "title": "Why {{ collection.title }}?",
         "text": "",
         "colors": "dark",
         "textPosition": "left",
