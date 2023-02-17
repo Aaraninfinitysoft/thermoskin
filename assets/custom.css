@@ -3145,6 +3145,8 @@ h3.metafield-title {
 }
 
 .section--collection--headear {
+  margin-left: auto !important;
+  margin-right: auto !important;
   margin-bottom: 0 !important;
 }
 
