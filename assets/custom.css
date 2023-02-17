@@ -3138,17 +3138,13 @@ h3.metafield-title {
   color: #0092D7;
 }
 
-.layout-fix-collection {
-  max-width: 1920px !important;
+.layout-fix-collection,.section--collection--headear {
+  max-width: 1640px !important;
   width: 90% !important;
   margin: auto !important;
 }
 
 .section--collection--headear {
-  max-width: 1920px !important;
-  width: 90% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
   margin-bottom: 0 !important;
 }
 
