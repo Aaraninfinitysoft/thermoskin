@@ -3422,7 +3422,9 @@ text-transform: lowercase;
   margin: auto !important;
 
 }
-
+.testimonial-header.sitewide--title-wrapper{
+  max-width: 1640px !important;
+}
 .testimonial-header h3 {
   text-align: left;
 }
