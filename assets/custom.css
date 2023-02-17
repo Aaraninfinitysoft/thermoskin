@@ -3129,7 +3129,9 @@ h3.metafield-title {
 .thermal.template-collection .collection-info__sidebar{
   display: none;
 }
-
+ h1 small span{
+text-transform: lowercase;
+}
 .collection-filters__sort:focus{
   border-radius: 55px 55px 0 0!important;
   outline-color: rgba(65, 64, 66, 0.5) ;
