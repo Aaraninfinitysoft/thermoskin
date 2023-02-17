@@ -3936,7 +3936,9 @@ h3:empty {
     left: 0;
     margin-top: -5px;
   }
-
+  .best-sellers-wrap{
+    width: 25%;
+  }
   .product-tabbing-home-main-wrap .tab-pane {
     padding-bottom: 185px;
   }
@@ -3973,9 +3975,7 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
-  .best-sellers-wrap{
-    width: 25%;
-  }
+
   .tab-pane.active .best-sellers-single-item {
     flex-wrap: nowrap;
     overflow: scroll;
