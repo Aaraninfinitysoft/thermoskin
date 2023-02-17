@@ -3876,11 +3876,7 @@ h3:empty {
 .active-facets.active-facets-desktop:empty{
   display: none !important;
 }
-.section-header.collection h1 {
-  display: flex;
-  align-items: end;
-  line-height: 30px;;
-}
+
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy{
   position: relative;
 }
@@ -5678,6 +5674,11 @@ h3:empty {
 @media (min-width:768px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .section-header.collection h1 {
+    display: flex;
+    align-items: end;
+    line-height: 30px;;
   }
   .template-collection .image-with-text-overlay-wrapper .image-with-text-overlay__content-box {
     justify-content: flex-start;
