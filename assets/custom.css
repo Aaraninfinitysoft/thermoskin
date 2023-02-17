@@ -4676,6 +4676,9 @@ h3:empty {
     position:static ;
 
   }
+  .best-sllers-tabbing-home-main-wrap  .best-sellers-wrap{
+    margin-top: 74px;
+  }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
     width: 100px !important;
     margin-right:30px !important ;
@@ -5835,7 +5838,7 @@ h3:empty {
     flex-wrap: wrap;
   }
   .metafield-right-wrap{
-    padding: 0;
+    padding: 0
     margin-top: 20px;
   }
   .review-header{
@@ -6205,9 +6208,7 @@ max-width: 710px !important;
       justify-content: start;
     }
  
-    .best-sllers-tabbing-home-main-wrap  .best-sellers-wrap{
-      margin-top: 74px;
-    }
+   
     .best-sllers-tabbing-home-main-wrap ul.nav.nav-tabs:after{
 margin-top: 73px;
     }
