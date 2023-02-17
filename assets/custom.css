@@ -3124,6 +3124,7 @@ h3.metafield-title {
 .thermal.template-collection .collection-info__sidebar{
   display: none;
 }
+
 .collection-filters__sort:focus{
   border-radius: 55px 55px 0 0!important;
   outline-color: rgba(65, 64, 66, 0.5) ;
@@ -4643,7 +4644,9 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
-
+  .thermal.template-collection .homepage-section-title{
+    text-align: center !important;
+  }
   .layout-fix-collection .grid__item {
     margin-bottom: 83px !important;
   }
