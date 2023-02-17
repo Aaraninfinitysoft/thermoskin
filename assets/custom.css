@@ -5962,7 +5962,9 @@ h3:empty {
   .text-advert-section .icon-with-text-item {
     flex: 0 0 45%;
   }
-
+  .template-collection .homepage-featured-content-box-inner{
+padding: 0 40px;
+  }
 }
 
 @media(min-width:481px) and (max-width:600px) {
