@@ -639,7 +639,7 @@ input#search-input {
   width: 100%;
   max-width: 155px;
   height: 60px;
-  line-height: 42px;
+  line-height: 38px;
   text-align: center;
   margin: auto;
   margin-top: 34px;
@@ -3437,7 +3437,6 @@ h1 small,
 h1 small * {
   font-size: 18px;
   color: inherit;
-  line-height: 21px;
   margin: 0;
 
 }
@@ -4640,6 +4639,14 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
+    width: 100px !important;
+    margin-right:30px !important ;
+    float: none;
+    }
+    #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon:last-child{
+      margin-right:0 !important ;
+    } 
   .thermal.template-collection .homepage-section-title{
     text-align: center !important;
   }
@@ -6131,15 +6138,10 @@ body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .icon-set-wrapper{
 display: flex;
 }
-
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
-width: 100px !important;
-margin-right:30px !important ;
+width: fit-content !important;
 float: none;
 }
-#shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon:last-child{
-  margin-right:0 !important ;
-} 
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon div{
 flex-wrap: nowrap !important;
 }
