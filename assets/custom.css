@@ -3310,9 +3310,7 @@ text-transform: lowercase;
   justify-content: space-between;
   align-items: center;
 }
-.homepage-thermoskin-range-wrap .title{
-  margin-bottom: 36px;
-}
+
 .flex-header>* {
   flex: 1;
 }
@@ -5968,7 +5966,9 @@ h3:empty {
   .testimonial--single-item>div>* {
     margin-left: 50px !important;
   }
-
+  .homepage-thermoskin-range-wrap .title{
+    margin-bottom: 36px;
+  }
   .product-tab-jo .tab-d-text p {
     font-size: 17px !important;
     max-width: 536px !important;
