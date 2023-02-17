@@ -9,7 +9,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
 });
- var metatitle = document.querySelector('.thermal.template-collection .page--title .metafield-multi_line_text_field');
+ var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
 
  var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';
