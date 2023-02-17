@@ -2622,7 +2622,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   width:fit-content !important;
   flex-shrink: 0;
   flex-grow: 1;
-  
+
 }
 .template-index .best-sllers-tabbing-home-main-wrap .best-sellers-nav{
   display:flex;
@@ -4658,6 +4658,11 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  .template-index .best-sllers-tabbing-home-main-wrap .best-sellers-nav{
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100% !important;
+  }
   .active-facets.active-facets-desktop{
     position:static ;
 
