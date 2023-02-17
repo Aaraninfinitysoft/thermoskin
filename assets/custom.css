@@ -3136,7 +3136,7 @@ text-transform: lowercase;
   border-radius: 55px 55px 0 0!important;
   outline-color: rgba(65, 64, 66, 0.5) ;
 }
-.btn.Ajax-add-to-cart{
+#browse-by-body-part .btn.Ajax-add-to-cart{
   margin-top: 20px;
 }
 .collection-filters__item.sorting,.facets__wrapper{
