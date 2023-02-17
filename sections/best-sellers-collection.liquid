@@ -22,7 +22,7 @@
     
         <div class="tab-pane {% if i == 1 %} active {% endif %}" id="best{{ i }}">
            <div class="best-sellers-single-item" {{ block.shopify_attributes }}>
-          {% for product in collections[curr_coll].products limit:3 %}
+          {% for product in collections[curr_coll].products limit:4 %}
             <div class="best-sellers-wrap">
             <div class="best-sellers-image">
               <img src="{{ product.featured_image | img_url:"535x535" }}">
