@@ -3319,7 +3319,9 @@ text-transform: lowercase;
   justify-content: space-between;
   align-items: center;
 }
-
+.homepage-thermoskin-range-wrap .title{
+  margin-bottom: 36px;
+}
 .flex-header>* {
   flex: 1;
 }
