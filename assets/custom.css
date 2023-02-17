@@ -3130,6 +3130,9 @@ h3.metafield-title {
 .template-collection .feature-row--no-overlapping .homepage-indiv-section-wrapper {
   padding-top: 50px !important;
 }
+.sitewide--title-wrapper{
+  max-width: 100% !important;
+}
 
 .compression.template-collection h1 {
   color: #0092D7;
@@ -3867,7 +3870,7 @@ h3:empty {
 }
 .section-header.collection h1 {
   display: flex;
-  align-items: center;
+  align-items: end;
   line-height: 30px;;
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy{
@@ -5667,6 +5670,9 @@ h3:empty {
   .thermal.template-collection #CollectionProductGrid{
     padding-top: 30px;
   }
+  .collection-filters > * + *{
+    margin-left: 0 !important;
+  }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .homepage-featured-content-box-inner{
     margin-bottom: 99px;
    }
@@ -5748,7 +5754,7 @@ h3:empty {
 
   .section-header.collection h1 {
     display: flex;
-    align-items: center;
+    align-items: end;
   }
 }
 @media(max-width:767px) {
@@ -6048,7 +6054,7 @@ h3:empty {
   }
   .section-header.collection h1 {
     display: flex;
-    align-items: center;
+    align-items: end;
     line-height: 30px;;
   }
 }
