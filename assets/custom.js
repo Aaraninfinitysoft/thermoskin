@@ -11,9 +11,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title .metafield-multi_line_text_field');
 
- var best_for = document.createElement('stronge');
+ var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';
- metatitle.appendChild(best_for);
+ metatitle.prepend(best_for);
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
 var   reviewBlock2 = document.querySelector('.review_html');
