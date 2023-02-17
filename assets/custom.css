@@ -2112,10 +2112,11 @@ position: absolute;
 
 .msdw-hotspot-icon {
   position: absolute;
+  opacity: 0.57;
   z-index: 9;
   width: 30px;
   height: 30px;
-  background-color: #da212854;
+  background-color: #DA2128;
   border-radius: 50%;
   border: 3px solid #cee3ec94;
 
@@ -3628,8 +3629,9 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 span.brows-pop-icon {
   width: 20px;
   height: 20px;
-  background-color: #da212854;
+  background-color: #da2128;
   border-radius: 50%;
+  opacity: 0.57;
   border: 3px solid #cee3ec94;
 }
 
