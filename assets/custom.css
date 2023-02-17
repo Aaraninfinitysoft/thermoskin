@@ -2623,6 +2623,10 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   width:fit-content !important;
   padding: 0 35px;
 }
+.template-index .best-sllers-tabbing-home-main-wrap .best-sellers-nav{
+  display:flex;
+  justify-content:space-around;
+}
 .best-sellers-tab a {
   padding: 10px 0px !important;
 
