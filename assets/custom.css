@@ -3118,7 +3118,7 @@ h3.metafield-title {
 .thermal.template-collection .collection-info__sidebar{
   display: none;
 }
-.collection-filters__item.sorting{
+.collection-filters__item.sorting,.facets__wrapper{
   padding-top: 0 !important;
 }
 .facets__heading{
