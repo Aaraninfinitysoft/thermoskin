@@ -2810,9 +2810,7 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 .collection-main-body-inner .grid__item{
   padding-left: 12px !important;
 }
-.template-collection .image-with-text-overlay-wrapper .image-with-text-overlay__content-box {
-  justify-content: flex-start;
-}
+
 
 .collection-main-body-inner img {
   border-radius: 30px;
@@ -3118,6 +3116,7 @@ h3.metafield-title {
 .thermal.template-collection .page--title {
   color: #ed1c24;
 }
+
 .thermal.template-collection .section-header.collection {
   margin-top: 90px !important;
 }
@@ -5679,6 +5678,9 @@ h3:empty {
 @media (min-width:768px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .template-collection .image-with-text-overlay-wrapper .image-with-text-overlay__content-box {
+    justify-content: flex-start;
   }
   .collection-title-custom{
     white-space: nowrap;
