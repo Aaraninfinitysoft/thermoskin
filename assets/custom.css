@@ -6196,3 +6196,7 @@ max-width: 710px !important;
    .template-index .text-advert-section .grid__item,.text-advert-section .grid__item{
       justify-content: start;
     }
+    .best-sllers-tabbing-home-main-wrap .best-sellers-tab a{
+      padding-top: 15px !important;
+      padding-bottom: 30px !important;
+    }
