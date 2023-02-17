@@ -5945,7 +5945,13 @@ h3:empty {
   .owl-item {
     width: 320px !important;
   }
-
+  .Support-Selector .grid {
+    display: flex;
+    max-height: 540px !important;
+    height: 540px;
+    margin: 0 !important;
+    overflow: visible;
+  }
   .text-advert-section {
     display: flex !important;
   }
