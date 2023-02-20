@@ -30,5 +30,8 @@ cd.forEach((cdm)=>{
 cdm.childElementCount;
 console.log('count')
 console.log(cdm.childElementCount)
+if(cdm.childElementCount == 1){
+  cdm.style.display = 'none'; 
+}
 
 })
