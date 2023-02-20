@@ -3126,6 +3126,7 @@ h3.metafield-title {
   }
 .thermal.template-collection .section-header.collection {
   margin-top: 99px !important;
+  height: 84px;
 }
 .thermal.template-collection .collection-info__sidebar{
   display: none;
@@ -3869,6 +3870,7 @@ h3:empty {
     width: 90vw;
     background: #F2F2F2;
  align-items: center !important;
+ margin: 0 !important;
 }
 .layout-fix-collection{
   position: relative;
