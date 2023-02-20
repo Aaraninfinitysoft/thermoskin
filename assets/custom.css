@@ -4058,7 +4058,7 @@ h3:empty {
   
   .overlay-bg-3,
   .overlay-bg-2 {
-    border-radius: 30px !important;
+    border-radius: 20px !important;
   }
   
   #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .nav-tabs {
@@ -4405,7 +4405,7 @@ h3:empty {
   }
 
   .img-pro-tp img {
-    border-radius: 20px;
+    border-radius: 20px !important;
   }
 
   .product-tabbing .nav-tabs li {
@@ -5036,7 +5036,6 @@ h3:empty {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 50px;
   }
 
   /*   .product-tab-jo {
@@ -6033,13 +6032,7 @@ margin: auto;
   .owl-item {
     width: 320px !important;
   }
-  .Support-Selector .grid {
-    display: flex;
-    max-height: 540px !important;
-    height: 540px;
-    margin: 0 !important;
-    overflow: visible;
-  }
+
  
   .text-advert-section {
     display: flex !important;
