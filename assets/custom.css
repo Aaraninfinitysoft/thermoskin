@@ -5661,8 +5661,14 @@ h3:empty {
   .product-details-wrapper .swatches-wrapper{
     width: 100% !important;
   }
-  collection-filtering-form + .container{
+  collection-filtering-form + .container,.collection-filters{
     width: 100%;
+    padding: 0 !important;
+  }
+  .active-facets-mobile{
+    margin-left: 0 !important;
+    padding-bottom: 20px !important;
+    padding-top: 5px !important;
   }
   .store-locator-form .find,
   .store-locator-form .near-you {
@@ -6327,4 +6333,9 @@ margin-top: 73px;
     }
     .mob-clear-all{
       flex-basis: 100%;
+      order: 1;
+      text-align: center;
+    }
+    .mob-clear-all a{
+      display: block !important;
     }
