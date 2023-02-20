@@ -6361,3 +6361,6 @@ margin-top: 73px;
       width: fit-content;
       margin: auto !important;
     }
+    .mob-clear-all:only-child{
+      display: none !important;
+    }
