@@ -5655,6 +5655,17 @@ h3:empty {
   .collection.section-header .page--title{
     flex-wrap: wrap !important;
   }
+  .layout-fix-collection{
+    width:100% !important;
+  }
+  .mobile-facets__open{
+    width: 90% !important;
+    margin: auto;
+  }
+  .thermal.template-collection .section-header.collection{
+    padding-left:5% ;
+    padding-right: 5%;
+  }
   .collection-title-custom{
     margin-bottom: 15px;
   }
@@ -6340,4 +6351,5 @@ margin-top: 73px;
     .mob-clear-all a{
       display: block !important;
       width: fit-content;
+      margin: auto !important;
     }
