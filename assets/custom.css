@@ -4665,11 +4665,15 @@ h3:empty {
   }
   .text-advert-section .grid__item .text-advert-section--sub-header{
     font-size: 11px !important;
+    margin-top: auto !important;
   }
   .template-index .best-sllers-tabbing-home-main-wrap .best-sellers-nav{
     flex-wrap: wrap;
     justify-content: start;
     width: 100% !important;
+  }
+  .template-index .text-advert-section .grid__item :nth-child(3) > *, .text-advert-section .grid__item:nth-child(3) > *{
+    padding: 0 !important;
   }
   .template-index .best-sllers-tabbing-home-main-wrap .best-sellers-tab{
     flex-grow:0 !important;
