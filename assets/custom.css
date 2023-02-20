@@ -5775,7 +5775,7 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
-  
+
   .thermal.template-collection .section-header.collection {
     margin-top: 99px !important;
     height: 84px;
@@ -6324,4 +6324,7 @@ margin-top: 73px;
     }
     .footer-header{
       text-transform: uppercase !important;
+    }
+    .mob-clear-all{
+      flex-basis: 100%;
     }
