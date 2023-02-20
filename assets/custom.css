@@ -3132,6 +3132,7 @@ h3.metafield-title {
 }
  h1 small span{
 text-transform: lowercase;
+letter-spacing: initial;
 }
 .collection-filters__sort:focus{
   border-radius: 55px 55px 0 0!important;
@@ -6267,4 +6268,8 @@ max-width: 710px !important;
    
     .best-sllers-tabbing-home-main-wrap ul.nav.nav-tabs:after{
 margin-top: 73px;
+    }
+    a.active-facets__button{
+      font-size: 17px!important;
+      text-decoration: none;
     }
