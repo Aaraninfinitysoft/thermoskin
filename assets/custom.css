@@ -3075,6 +3075,7 @@ h3.metafield-title {
 .template-collection .quick-add-wrapper .sold-out-button {
 font-size: 18px !important;
 line-height: 24px !important;
+margin-top: 10px !important;
 }
 .template-collection .swatch .header,.template-collection .product-grid--descripiton{
   font-size: 17px !important;
@@ -6363,4 +6364,7 @@ margin-top: 73px;
     }
     .mob-clear-all:only-child{
       display: none !important;
+    }
+    .template-collection .swatch .swatch-element{
+
     }
