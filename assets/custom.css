@@ -3088,7 +3088,7 @@ line-height: 30px !important;
   font-size: 18px !important;
 line-height: 24px !important;
 }
-.template-collection .swatch .swatch-element label{
+.template-collection .swatch .swatch-element label,.template-collection .swatch .swatch-element{
   width: 34px !important;
 height: 34px !important;
 }
