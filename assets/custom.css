@@ -5660,11 +5660,7 @@ h3:empty {
   }
   .mobile-facets__open{
     width: 90% !important;
-    margin: auto;
-  }
-  .thermal.template-collection .section-header.collection{
-    padding-left:5% ;
-    padding-right: 5%;
+    margin: auto !important;
   }
   .collection-title-custom{
     margin-bottom: 15px;
