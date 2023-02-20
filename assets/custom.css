@@ -6020,11 +6020,16 @@ h3:empty {
   .template-index .text-advert-section.section-medium {
     width: 100% !important;
   }
-
+  .icon-with-text-item .h5{
+    font-size: 14px;
+  }
+  .text-advert-section .grid__item .text-advert-section--sub-header{
+    font-size: 11px !important;
+  }
   .template-index .icon-with-text .wrapper-padded {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    padding-top: 8px !important;
+    padding-top: 20px !important;
     padding-bottom: 40px !important;
   }
 
