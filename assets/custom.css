@@ -635,7 +635,9 @@ input#search-input {
   margin: auto;
   margin-top: 34px;
 }
-
+.store-locator-form a {
+  margin-top: 10px !important;
+}
 
 .image-content-text a:hover,.store-locator-form a:hover {
   text-decoration: none;
