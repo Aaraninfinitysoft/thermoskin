@@ -230,7 +230,7 @@
 
   <div class="container">
       <div class="active-facets active-facets-mobile">
-          <a href="{{ collection.url }}?sort_by={{ sort_by }}" class="active-facets__button button button--secondary js-facet-remove">{{ 'sections.collection_template.clear_all' | t }}</a>
+          <a href="{{ collection.url }}?sort_by={{ sort_by }}" class="active-facets__button button button--secondary js-facet-remove">{{ 'sections.collection_template.clear_all' | t }} {{ icon_close }}</a>
 
           {%- for filter in collection.filters -%}
               {%- for value in filter.active_values -%}
