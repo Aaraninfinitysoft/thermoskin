@@ -4758,7 +4758,12 @@ h3:empty {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
-
+.store-locator-form{
+  padding-top: 16px;
+}
+.store-locator-form a{
+  margin-top: 13px !important;
+}
   [data-ml-modal] .modal-dialog {
     margin: 50% auto;
   }
