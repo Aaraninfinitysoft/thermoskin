@@ -198,7 +198,7 @@
           "dd4e2188-458c-44c8-89d7-6f0a952347b8": {
             "type": "menu",
             "settings": {
-              "menu_title": "SHOP BY PRODUCT",
+              "menu_title": "Browse BY PRODUCT",
               "menu_title-2": "",
               "footer_linklist": "footer",
               "footer_linklist-2": ""
@@ -207,7 +207,7 @@
           "fc8f4b0e-1830-45c4-92b2-e32fb633539d": {
             "type": "menu",
             "settings": {
-              "menu_title": "SHOP BY BODY PART",
+              "menu_title": "Browse BY BODY PART",
               "menu_title-2": "",
               "footer_linklist": "browse-by-body-part",
               "footer_linklist-2": ""
@@ -216,7 +216,7 @@
           "5b55e5eb-c78d-49c6-a809-dd22b96a15bb": {
             "type": "menu",
             "settings": {
-              "menu_title": "SHOP BY INJURY",
+              "menu_title": "Browse BY INJURY",
               "menu_title-2": "",
               "footer_linklist": "browse-by-sport",
               "footer_linklist-2": ""
