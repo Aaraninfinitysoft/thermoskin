@@ -3071,7 +3071,7 @@ h3.metafield-title {
   text-transform: uppercase !important;
   width: auto !important;
 }
-.template-collection .quick-add-wrapper .Ajax-add-to-cart
+.template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 font-size: 18px !important;
 line-height: 24px !important;
