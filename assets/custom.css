@@ -5673,7 +5673,8 @@ h3:empty {
     padding: 0 !important;
   }
   .active-facets-mobile{
-    margin-left: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     padding-bottom: 20px !important;
     width: 90% !important;
     padding-top: 5px !important;
