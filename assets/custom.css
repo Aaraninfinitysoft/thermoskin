@@ -3906,14 +3906,14 @@ h3:empty {
   display: block;
   z-index: 2;
   right: 8%;
-  top: 42.7%;
+  top: 46.7%;
 
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::after{
   content: 'enhanced recovery';
   position: absolute;
   transform: rotate(350deg);
-  right: 16%;
+  right: 18%;
   top: calc(52% + 62px);
   font-family: TrashHand!important;
   font-size: 60px;
