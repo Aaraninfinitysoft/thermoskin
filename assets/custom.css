@@ -4660,6 +4660,12 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  .icon-with-text-item .h5{
+    font-size: 14px !important;
+  }
+  .text-advert-section .grid__item .text-advert-section--sub-header{
+    font-size: 11px !important;
+  }
   .template-index .best-sllers-tabbing-home-main-wrap .best-sellers-nav{
     flex-wrap: wrap;
     justify-content: start;
@@ -6020,12 +6026,7 @@ h3:empty {
   .template-index .text-advert-section.section-medium {
     width: 100% !important;
   }
-  .icon-with-text-item .h5{
-    font-size: 14px;
-  }
-  .text-advert-section .grid__item .text-advert-section--sub-header{
-    font-size: 11px !important;
-  }
+ 
   .template-index .icon-with-text .wrapper-padded {
     padding-left: 0 !important;
     padding-right: 0 !important;
