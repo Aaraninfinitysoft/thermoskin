@@ -6176,6 +6176,9 @@ padding: 0 40px;
   .layout-fix-collection {
     padding-top: 40px;
     }
+    .store-locator-bg{
+      flex: 1;
+    }
     .best-sellers-wrap {
      flex: 0 0 40%;
     }
@@ -6374,4 +6377,7 @@ margin-top: 73px;
 color: #D1D3D4 !important;
 background-color: #fff !important;
 border: 1px solid #939393 !important;
+    }
+    .template-collection .swatch .swatch-element{
+      margin-right: 7px !important;
     }
