@@ -480,7 +480,7 @@ font-size:17px!important;
 }
 
 .store-locator-img img {
-  max-height: 70vh;
+  max-height: 470px;
   width: auto;
   margin: auto;
   display: block;
@@ -6141,6 +6141,11 @@ padding: 0 40px;
   .image-content-text h2 {
     padding-right: 150px;
   }
+  .store-locator-form .find,
+.store-locator-form .near-you {
+  left: -155px;
+  padding: 28px 30px;
+}
 }
 @media (min-width:1199px) {
   #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .tab-content {
