@@ -5755,6 +5755,9 @@ h3:empty {
   .best-sllers-tabbing-home-main-wrap .best-sellers-wrap{
     margin-top: 74px;
   }
+  .template-collection .featured-row__subtext{
+padding-top: 40px !important;
+  }
   .best-sllers-tabbing-home-main-wrap .best-sellers-tab a{
     padding-top: 15px !important;
     padding-bottom: 30px !important;
