@@ -5682,6 +5682,7 @@ h3:empty {
   }
   collection-filtering-form+.container {
     background-color: #F2F2F2;
+    margin-top: 15px !important;
   }
   .store-locator-form .find,
   .store-locator-form .near-you {
