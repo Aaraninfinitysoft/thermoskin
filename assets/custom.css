@@ -3076,6 +3076,22 @@ h3.metafield-title {
 font-size: 18px !important;
 line-height: 24px !important;
 }
+.template-collection .swatch .header,.template-collection .product-grid--descripiton{
+  font-size: 17px !important;
+line-height: 22px !important;
+}
+.template-collection .product-grid--price{
+  font-size: 22px !important;
+line-height: 30px !important;
+}
+.template-collection .swatch .swatch-element label{
+  font-size: 18px !important;
+line-height: 24px !important;
+}
+.template-collection .swatch .swatch-element{
+  width: 34px !important;
+height: 34px !important;
+}
 .sold-out-button {
   border-radius: 55px !important;
 }
