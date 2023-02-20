@@ -3656,7 +3656,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   color: #fff;
   background: rgb(255, 255, 255);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 12%, rgba(0, 0, 0, .8354692218684349) 12%, rgba(0, 0, 0, .75) 75%, rgba(255, 255, 255, 0) 75%);
-  bottom: -55px;
+  bottom: -55px; 
   transform: translate(25px,0px) rotate(345deg);
 }
 
