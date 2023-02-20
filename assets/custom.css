@@ -3972,7 +3972,10 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
-
+.template-index  .Support-Selector .image-content-text p {
+  line-height: 20px !important;
+  font-size: 15px !important;
+}
   .tab-pane.active .best-sellers-single-item {
     flex-wrap: nowrap;
     overflow: scroll;
@@ -5844,6 +5847,7 @@ h3:empty {
   }
   .template-index .best-sellers-title{
     font-size: 18px !important;
+    line-height: 24px !important;
   }
   .browse-img-section .browse-heading-top-left{
 max-width: 150px;
