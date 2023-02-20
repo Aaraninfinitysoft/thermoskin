@@ -6348,6 +6348,9 @@ margin-top: 73px;
     .footer-header{
       text-transform: uppercase !important;
     }
+    .collection-main-body-inner .grid__item{
+      padding: 0 5px !important;
+    }
     .mob-clear-all{
       flex-basis: 100%;
       order: 1;
