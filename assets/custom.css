@@ -4665,6 +4665,13 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  h1.page--title p{
+    margin-top: 15px ;
+    margin-bottom: 20px ;
+  } 
+  .collection-main-body-inner img{
+    border-radius: 10px !important;
+  }
   .icon-with-text-item .h5{
     font-size: 14px !important;
   }
@@ -5742,6 +5749,9 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
+  .find-near-wrapper{
+    left: -60px;
+  }
   .best-sllers-tabbing-home-main-wrap .best-sellers-wrap{
     margin-top: 74px;
   }
@@ -6181,7 +6191,6 @@ padding: 0 40px;
   }
   .store-locator-form .find,
 .store-locator-form .near-you {
-  left: -155px;
   padding: 28px 30px;
 }
 }
