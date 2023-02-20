@@ -3249,6 +3249,8 @@ text-transform: lowercase;
 .facets__summary,
 .collection-filters .collection-filters__sort {
   padding: .8rem 2rem !important;
+  padding-top: 10px !important;
+  padding-bottom: 14px !important;
   height: auto !important;
   border-radius: 55px;
 }
