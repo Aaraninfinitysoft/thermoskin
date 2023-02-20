@@ -3845,7 +3845,7 @@ h3:empty {
   position: absolute;
   width: 100%;
   top: 60px;
-  left: -27px;
+  left: 0;
 }
 .testimonial-readmore{
   text-align: center;
@@ -4418,10 +4418,7 @@ h3:empty {
     display: flex;
   }
 
-  .store-locator-form {
-    /* padding-left: 276px; */
-    padding-right: 15px;
-  }
+
 
   .site-header .site-header__wrapper {
     width: 98%;
@@ -5511,6 +5508,7 @@ h3:empty {
 
   .social-tx {
     margin: 0 !important;
+    margin-right:16px !important ;
   }
 
   footer.site-footer.footer-alignment--left {
