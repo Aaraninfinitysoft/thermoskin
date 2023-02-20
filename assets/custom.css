@@ -4692,6 +4692,11 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  .template-collection .quick-add-wrapper .Ajax-add-to-cart,
+.template-collection .quick-add-wrapper .sold-out-button {
+width: 100% !important;
+max-width: 171px !important;
+}
   h1.page--title p{
     margin-top: 15px ;
     margin-bottom: 20px ;
