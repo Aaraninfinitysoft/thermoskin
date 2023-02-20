@@ -5464,6 +5464,12 @@ h3:empty {
 
   .Support-Selector .image-content-text {
     width: 90% !important;
+    max-width: 360px !important;
+    margin-top: 0 !important;
+  }
+
+  .Support-Selector .btn-secandory {
+ margin-top: 0 !important;
   }
 
   .shopify-section.Support-Selector {
