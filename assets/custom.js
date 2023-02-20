@@ -25,3 +25,10 @@ reviewBlock2.appendChild(reviewBlock)
 })
 
 }, 3000);
+var cd = document.querySelectorAll('.active-facets');
+cd.forEach((cdm)=>{
+cdm.childElementCount;
+console.log('count')
+console.log(cdm.childElementCount)
+
+})
