@@ -1476,6 +1476,7 @@ footer.site-footer.footer-alignment--left {
 .social-tx {
   margin-top: 20px;
   margin-right: 20px;
+  text-transform: uppercase;
 }
 .product-descriptoon-thermoskin{
   margin-top: 25px !important;
@@ -3870,7 +3871,6 @@ h3:empty {
     width: 90vw;
     background: #F2F2F2;
  align-items: center !important;
- margin: 0 !important;
 }
 .layout-fix-collection{
   position: relative;
@@ -6281,4 +6281,7 @@ margin-top: 73px;
     }
     .template-collection.thermal .js-filter[data-index="2"]{
       display: none !important;
+    }
+    .footer-header{
+      text-transform: uppercase !important;
     }
