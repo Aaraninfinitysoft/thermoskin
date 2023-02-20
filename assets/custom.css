@@ -3649,7 +3649,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   position: absolute;
   white-space: nowrap;
   font-family: TrashHand !important;
-  font-size: 69px;
+  font-size: 55px;
   line-height: 1;
   text-transform: uppercase;
   padding: 35px 30px;
@@ -6053,11 +6053,11 @@ margin: auto;
   }
 
   .collection-grid {
-    width: calc(100% - 400px) !important;
+    width: calc(100% - 300px) !important;
   }
 
   .collection-filtering-section {
-    width: 400px !important;
+    width: 300px !important;
   }
 
   .facets__form-inner {
@@ -6218,6 +6218,16 @@ padding: 0 40px;
 
   .image-content-text h2 {
     padding-right: 150px;
+  }
+  .customized-heading{
+    font-size: 69px;
+  }
+  .collection-grid {
+    width: calc(100% - 400px) !important;
+  }
+
+  .collection-filtering-section {
+    width:400px !important;
   }
   .store-locator-form .find,
 .store-locator-form .near-you {
