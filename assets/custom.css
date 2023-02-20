@@ -3091,6 +3091,7 @@ line-height: 24px !important;
 .template-collection .swatch .swatch-element label,.template-collection .swatch .swatch-element{
   width: 34px !important;
 height: 34px !important;
+outline: 0;
 }
 .sold-out-button {
   border-radius: 55px !important;
@@ -3648,15 +3649,15 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   position: absolute;
   white-space: nowrap;
   font-family: TrashHand !important;
-  font-size: 55px;
+  font-size: 69px;
   line-height: 1;
   text-transform: uppercase;
-  padding: 28px 30px;
+  padding: 25px 30px;
   color: #fff;
   background: rgb(255, 255, 255);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 12%, rgba(0, 0, 0, .8354692218684349) 12%, rgba(0, 0, 0, .75) 75%, rgba(255, 255, 255, 0) 75%);
-  bottom: -51px;
-  transform: translate(55px, 10px) rotate(345deg);
+  bottom: -60px;
+  transform: translate(50px,0px) rotate(345deg);
 }
 
 span.brows-pop-icon {
