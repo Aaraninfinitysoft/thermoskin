@@ -5688,6 +5688,9 @@ h3:empty {
   .store-locator-form .near-you {
     font-size: 28px;
   }
+  .active-facets{
+    margin-top: 0 !important;
+  }
 
   .Support-Selector .img-wrapper-31 {
     align-self: start;
