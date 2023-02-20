@@ -5675,7 +5675,11 @@ h3:empty {
   .active-facets-mobile{
     margin-left: 0 !important;
     padding-bottom: 20px !important;
+    width: 90% !important;
     padding-top: 5px !important;
+    background-color: #F2F2F2;
+  }
+  collection-filtering-form+.container {
     background-color: #F2F2F2;
   }
   .store-locator-form .find,
