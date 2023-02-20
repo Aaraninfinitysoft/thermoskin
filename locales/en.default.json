@@ -379,7 +379,7 @@
       "giftwrap_note_placeholder": "Add your gift message here"
     },
     "product": {
-      "sold_out": "Sold out",
+      "sold_out": "Out Of Stock",
       "on_sale": "On sale",
       "on_sale_from_html": "On Sale from {{ price }}",
       "unavailable": "Unavailable",
