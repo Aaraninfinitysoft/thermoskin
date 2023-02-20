@@ -3885,6 +3885,7 @@ h3:empty {
   margin-left: auto;
     margin-right: 20px;
     margin-bottom: 0 !important;
+    background-color: #fff;
 }
 .active-facets .icon-close-small{
   background-color: #fff;
@@ -6272,4 +6273,10 @@ margin-top: 73px;
     a.active-facets__button{
       font-size: 17px!important;
       text-decoration: none;
+    }
+    .facets__summary .count-bubble{
+      display: none !important;
+    }
+    .template-collection.thermal .js-filter[data-index="2"]{
+      display: none !important;
     }
