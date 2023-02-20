@@ -4674,7 +4674,7 @@ h3:empty {
   }
 
   .content-width,
-  .wrapper-padded {
+ body:not(.template-collection) .wrapper-padded {
     padding: 0 17px !important;
   }
 
