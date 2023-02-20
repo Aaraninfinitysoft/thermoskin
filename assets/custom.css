@@ -4672,7 +4672,10 @@ h3:empty {
     position:static ;
 
   }
-
+  body .text-advert-section .grid__item{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
   #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a .text-with-icon {
     width: 100px !important;
     margin-right:30px !important ;
@@ -6009,6 +6012,7 @@ h3:empty {
     margin: 0 !important;
     overflow: visible;
   }
+ 
   .text-advert-section {
     display: flex !important;
   }
@@ -6020,6 +6024,8 @@ h3:empty {
   .template-index .icon-with-text .wrapper-padded {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    padding-top: 8px !important;
+    padding-bottom: 40px !important;
   }
 
   .text-advert-section .icon-with-text-item {
