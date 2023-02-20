@@ -3150,7 +3150,6 @@ outline: 0;
   }
 .thermal.template-collection .section-header.collection {
   margin-top: 99px !important;
-  height: 84px;
 }
 .thermal.template-collection .collection-info__sidebar{
   display: none;
@@ -5775,6 +5774,10 @@ h3:empty {
 @media (min-width:769px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  .thermal.template-collection .section-header.collection {
+    margin-top: 99px !important;
+    height: 84px;
   }
   .find-near-wrapper{
     left: -60px;
