@@ -5676,6 +5676,9 @@ max-width: 171px !important;
     object-fit: cover;
     object-position: 100%;
   }
+  #browse-by-injury h1{
+    flex-wrap: wrap;
+  }
   .collection.section-header .page--title{
     flex-wrap: wrap !important;
   }
