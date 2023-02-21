@@ -6194,6 +6194,9 @@ padding: 0 40px;
     .store-locator-bg{
       flex: 1;
     }
+    #browse-by-body-part .customized-heading{
+      font-size: 45px !important;
+    }
     .best-sellers-wrap {
      flex: 0 0 40%;
     }
