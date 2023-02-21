@@ -6275,6 +6275,7 @@ margin-bottom: 140px;
   #browse-by-body-part .Support-Selector{
     margin-top: 270px !important;
   }
+
   .image-content-text h2 {
     padding-right: 150px;
   }
@@ -6297,6 +6298,9 @@ margin-bottom: 140px;
   #shopify-section-template--15542929424590__d7171adc-3734-48a6-9634-3990226fe598 .tab-content {
     padding-bottom: 200px;
 
+  }
+  #browse-by-body-part .customized-heading{
+    transform: translate(70px) rotate(345deg);
   }
   .section-header.collection h1 {
     display: flex;
@@ -6429,3 +6433,4 @@ margin-top: 88px !important;
       padding-top: 26px !important;
       padding-bottom: 4px !important;
     }
+   
