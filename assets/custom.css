@@ -4710,6 +4710,13 @@ h3:empty {
   #browse-by-body-part .Support-Selector{
     margin-top: 200px !important;
   }
+  #browse-by-injury .mobile-facets__open.btn{
+    margin-top: 25px !important;
+  }
+  #browse-by-injury .homepage-featured-content-box{
+    width: 90% !important;
+    margin: auto !important;
+  }
   .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 width: 100% !important;
