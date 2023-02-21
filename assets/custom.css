@@ -4704,7 +4704,7 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
-  #about .Support-Selector{
+  #browse-by-body-part .Support-Selector{
     margin-top: 200px !important;
   }
   .template-collection .quick-add-wrapper .Ajax-add-to-cart,
@@ -6272,7 +6272,7 @@ padding: 0 40px;
   #about .homepage-featured-content-box-inner{
 margin-bottom: 140px;
   }
-  #about .Support-Selector{
+  #browse-by-body-part .Support-Selector{
     margin-top: 270px !important;
   }
   .image-content-text h2 {
