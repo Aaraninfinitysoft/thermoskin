@@ -1011,11 +1011,9 @@ a.thermoskin-range-view-list-btn:hover {
 }
 
 .store-locator-form h3 {
-  color: #414042;
   font-weight: 800;
   text-transform: uppercase;
   margin: 0;
-
 }
 
 input[type="submit"] {
@@ -4009,7 +4007,7 @@ h3:empty {
 
   .store-locator-form h3 {
     font-size: 40px !Important;
-    line-height: 75px;
+    line-height: 1.4;
   }
 }
 
@@ -5431,7 +5429,7 @@ max-width: 171px !important;
   }
 
   .store-locator-form h3 {
-    color: #414042;
+
     font-weight: 800;
     text-transform: uppercase;
     margin: 0;
