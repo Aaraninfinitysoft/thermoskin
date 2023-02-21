@@ -4716,7 +4716,7 @@ h3:empty {
   #browse-by-injury .mobile-facets__open.btn{
     margin-top: 25px !important;
   }
-  .product-form-vue{
+  .product-form-vue,.template-product .form-vertical,.template-product .product-details--form-wrapper{
     margin: 0 !important; 
   }
   #browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
