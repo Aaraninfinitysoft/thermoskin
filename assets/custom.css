@@ -3341,6 +3341,9 @@ letter-spacing: initial;
 .mobile-nav--expanded{
   background-color: #F2F2F2;
 }
+#NavDrawer.drawer{
+max-width: 100% !important;
+}
 /*SearchContainer  */
 #SearchContainer {
   padding: 0 0 0 30px;
