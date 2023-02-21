@@ -6541,3 +6541,9 @@ margin-top: 0 !important;
   .product-related-list-wrap{
    margin-bottom: 33px; 
   }
+  .thermo-sup-level+div+div span{
+   text-transform: uppercase;
+  }
+  .swatch[data-option-index="1"],.swatch[data-option-index="2"]{
+margin-left: 3px;
+  }
