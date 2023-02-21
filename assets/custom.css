@@ -1309,6 +1309,7 @@ li.thermoskin-single-menu .site-nav__link:hover {
 .product-related-img {
   width: 147px;
   height: 147px;
+  flex-shrink: 0;
   margin-right: 44px;
 }
 
@@ -4707,6 +4708,9 @@ h3:empty {
   #browse-by-body-part .customized-heading {
     transform: translate(40px) rotate(345deg);
 }
+.product-related-list-wrap{
+  margin-bottom: 16px; 
+ }
 #shopify-section-template--15650287386830__product-form{
   margin: 0 !important;
 }
@@ -5849,6 +5853,7 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
+
   body .product-related-title-btn h3{
   
     margin-bottom: 17px !important;
@@ -6521,4 +6526,7 @@ margin-top: 0 !important;
     line-height: 20px !important;
     margin-bottom: 10px !important;
 
+  }
+  .product-related-list-wrap{
+   margin-bottom: 33px; 
   }
