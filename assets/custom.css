@@ -4721,7 +4721,10 @@ h3:empty {
   #browse-by-injury .homepage-featured-content-box-inner{
     margin-top: 40px;
   }
-
+  #browse-by-body-part .homepage-featured-content-box-inner{
+    margin-top: 43px !important;
+    margin-bottom: 43px !important;
+  }
   h1.page--title p{
     margin-top: 15px ;
     margin-bottom: 20px ;
