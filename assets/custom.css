@@ -6415,3 +6415,6 @@ margin-bottom: 20px !important;
 margin-bottom: 25px !important;
 margin-top: 88px !important;
     }
+    #browse-by-body-part .nav{
+      width: 100% !important;
+    }
