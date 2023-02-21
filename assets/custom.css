@@ -2806,8 +2806,8 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
 .sub_header h2 small {
   margin-left: 15px !important;
   flex: 1;
-  font-size: 14px;
-  text-transform: capitalize;
+  font-size: 18px;
+  text-transform: lowercase;
 }
 
 /* new css for collection page */
