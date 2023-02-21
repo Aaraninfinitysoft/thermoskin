@@ -6453,5 +6453,11 @@ margin-top: 88px !important;
     line-height: 22px !important;
    }
    #browse-by-injury h1{
+    font-size: 40px !important;
+    display: flex;
     text-transform: uppercase !important;
+   }
+   #browse-by-injury h1 small{
+    font-size: 18px !important;
+    text-transform: lowercase !important;
    }
