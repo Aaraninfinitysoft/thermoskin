@@ -102,10 +102,10 @@ a.thermoskin-range-view-list-btn {
   border-color: var(--heading--color) !important;
 }
 
-.best-sellers-single-item .sub_header h2,
+/* .best-sellers-single-item .sub_header h2,
 .best-sellers-single-item .sub_header h2 small {
   color: #9E0B0F;
-}
+} */
 
 .best-sellers-single-item .sub_header+.product-listing-wrapper a {
   background: #9E0B0F;
@@ -879,6 +879,7 @@ h3.thermoskin-range-section-title {
 .thermoskin-range-section--text-wrapper p {
   line-height: 27px;
   margin: 0px;
+  font-size: 17px;
   padding: 10px 0;
 }
 
@@ -6417,4 +6418,8 @@ margin-top: 88px !important;
     }
     #browse-by-body-part .nav{
       width: 100% !important;
+    }
+    #browse-by-body-part .best-sellers-title{
+      padding-top: 26px !important;
+      padding-bottom: 4px !important;
     }
