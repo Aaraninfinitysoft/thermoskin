@@ -2991,6 +2991,9 @@ h3.metafield-title {
   margin-bottom: 100px;
   width: 100% !important;
     }
+ #about .homepage-section-title{
+  margin-bottom: 40px !important;
+ }   
 .australian-phys-logo .responsive-image-wrapper {
   align-items: start !important;
   justify-content: start !important;
