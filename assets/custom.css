@@ -6279,8 +6279,11 @@ margin-bottom: 140px;
   }
   #browse-by-body-part .Support-Selector{
     margin-top: 270px !important;
+  
   }
-
+  #browse-by-body-part .customized-heading {
+    transform: translate(100px) rotate(345deg);
+}
   .image-content-text h2 {
     padding-right: 150px;
   }
