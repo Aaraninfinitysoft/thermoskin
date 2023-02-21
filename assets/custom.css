@@ -6407,7 +6407,8 @@ margin-top: 45px !important;
     }
     #browse-by-body-part .sub_header h2{
 display: flex !important;
-align-items: center !important;
+align-items: end !important;
+line-height: 30px !important;
     }
     #browse-by-body-part .sub_header:not(:nth-child(1)){
 margin-bottom: 25px !important;
