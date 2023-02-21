@@ -5679,7 +5679,7 @@ max-width: 171px !important;
   #browse-by-injury h1{
     flex-wrap: wrap;
   }
-  #browse-by-injury h1 > *{
+  #browse-by-injury h1 small{
    margin: 0 !important;
   }
   .collection.section-header .page--title{
