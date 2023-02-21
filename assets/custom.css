@@ -3338,7 +3338,9 @@ letter-spacing: initial;
   width: 90% !important;
 }
 
-
+.mobile-nav--expanded{
+  background-color: #F2F2F2;
+}
 /*SearchContainer  */
 #SearchContainer {
   padding: 0 0 0 30px;
