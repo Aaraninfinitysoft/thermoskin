@@ -6448,3 +6448,10 @@ margin-top: 88px !important;
    #browse-by-injury .homepage-featured-content-box-inner{
     margin-bottom: 115px !important;
    }
+   #browse-by-injury .featured-row__subtext{
+    font-size: 18px !important;
+    line-height: 22px !important;
+   }
+   #browse-by-injury h1{
+    text-transform: uppercase !important;
+   }
