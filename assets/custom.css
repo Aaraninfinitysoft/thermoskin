@@ -6409,6 +6409,7 @@ margin-top: 45px !important;
 display: flex !important;
 align-items: end !important;
 line-height: 30px !important;
+margin-bottom: 20px !important;
     }
     #browse-by-body-part .sub_header:not(:nth-child(1)){
 margin-bottom: 25px !important;
