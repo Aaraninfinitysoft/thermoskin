@@ -3330,7 +3330,9 @@ letter-spacing: initial;
   font-size: 40px !important;
 }
 
-
+#about .verticle-section.text-advert-section  .text-advert-section--header{
+  text-transform: uppercase;
+}
 .aboutpage-sections-wrapper3,
 .aboutpage-sections-wrapper2 {
   width: 90% !important;
