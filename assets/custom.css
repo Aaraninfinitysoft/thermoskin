@@ -4706,6 +4706,9 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  #browse-by-body-part .customized-heading {
+    transform: translate(40px) rotate(345deg);
+}
   #browse-by-body-part .Support-Selector{
     margin-top: 200px !important;
   }
@@ -6441,4 +6444,7 @@ margin-top: 88px !important;
       padding-top: 26px !important;
       padding-bottom: 4px !important;
     }
-   
+   /* browse-by-injury */
+   #browse-by-injury .homepage-featured-content-box-inner{
+    margin-bottom: 115px !important;
+   }
