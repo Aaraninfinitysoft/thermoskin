@@ -3871,9 +3871,6 @@ display: flex;
 
 #about .box-content-top>div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
   max-width: 50%;
   padding: 0;
   flex-basis: 50%;
@@ -6400,4 +6397,9 @@ border: 1px solid #939393 !important;
     }
     .template-collection .swatch .swatch-element{
       margin-right: 7px !important;
+    }
+
+    /* brows body parts */
+    #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
+      margin-bottom: 75px !important;
     }
