@@ -4716,6 +4716,9 @@ h3:empty {
   #browse-by-injury .mobile-facets__open.btn{
     margin-top: 25px !important;
   }
+  .product-form-vue{
+    margin: 0 !important; 
+  }
   #browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
     width: 90% !important;
     margin: auto !important;
@@ -6499,6 +6502,7 @@ margin-top: 0 !important;
   .paymentButtonsWrapper #AddToCart{
     background-color: #414042 !important ;
     text-transform: uppercase;
+    color:#fff !important;
   }
   .paymentButtonsWrapper #AddToCart:hover{
     background-color: #D1D3D4 !important ;
