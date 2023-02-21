@@ -6461,3 +6461,7 @@ margin-top: 88px !important;
     font-size: 18px !important;
     text-transform: lowercase !important;
    }
+   body .Ajax-add-to-cart:hover{
+    background-color: #939393 !important;
+    color: #fff !important;
+   }
