@@ -6545,5 +6545,5 @@ margin-top: 0 !important;
    text-transform: uppercase;
   }
   .swatch[data-option-index="1"],.swatch[data-option-index="2"]{
-margin-left: 3px;
+margin-left: 3px !important;
   }
