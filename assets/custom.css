@@ -3321,10 +3321,13 @@ letter-spacing: initial;
 
 
 /*aboutpage  */
-.aboutpage-sections--title {
-  font-size: 40px;
+ .aboutpage-sections--title {
+  font-size: 40px !important;
   font-weight: 800;
-  color: #414042;
+  text-transform: uppercase !important;
+}
+#about .homepage-sections--title{
+  font-size: 40px !important;
 }
 
 
