@@ -4016,8 +4016,8 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
-  .product-description-container .metafield-main-wrap{
-    flex-wrap: wrap;
+  .product-description-container .metafield-main-wrap .metafield-right-wrap,.product-description-container .metafield-main-wrap .metafield-left-wrap{
+    width: 100% !important;
   }
 .template-index  .Support-Selector .image-content-text p {
   line-height: 20px !important;
