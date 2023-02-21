@@ -6468,3 +6468,6 @@ margin-top: 88px !important;
    #browse-by-injury .quick-add-wrapper .Ajax-add-to-cart{
 margin-top: 0 !important;
    }
+   .template-collection .product-grid--price {
+    margin-bottom: 16px !important;
+  }
