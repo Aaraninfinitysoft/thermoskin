@@ -148,7 +148,7 @@
                           v-if="variant && variant.sku !== ''"
                         >
                           <div class="js__currentVariantSKU-wrapper"> 
-                          <strong>{{ 'customer.order.sku' | t }}: </strong><span class="js__currentVariantSKU" v-text="variant.sku"> {{ current_variant.sku }}</span></div>
+                          <strong>{{ 'customer.order.sku' | t }} Code: </strong><span class="js__currentVariantSKU" v-text="variant.sku"> {{ current_variant.sku }}</span></div>
                         </div>
                         {% if product.vendor != "" %}
                           <div class="product__meta--vendor">
