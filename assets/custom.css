@@ -4030,10 +4030,7 @@ h3:empty {
     flex-wrap: nowrap;
     overflow: scroll;
   }
-  .customized-heading {
-    font-size: 33px !important;
-    white-space: nowrap;
-  }
+
   .thermoskin-range-block {
     overflow: scroll;
   }
@@ -6276,7 +6273,12 @@ padding: 0 40px;
     width: 950px !important;
   }
 }
-
+@media (max-width:991px) {
+  .customized-heading {
+    font-size: 33px !important;
+    white-space: nowrap;
+  }
+}
 @media(min-width:1201px) {
   .owl-item {
     width: 1120px !important;
