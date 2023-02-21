@@ -4713,7 +4713,7 @@ h3:empty {
   #browse-by-injury .mobile-facets__open.btn{
     margin-top: 25px !important;
   }
-  #browse-by-injury .homepage-featured-content-box{
+  #browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
     width: 90% !important;
     margin: auto !important;
     float: none !important;
@@ -4721,11 +4721,7 @@ h3:empty {
   #browse-by-injury .homepage-featured-content-box-inner{
     margin-top: 40px;
   }
- .Ajax-add-to-cart,
-.sold-out-button {
-width: 100% !important;
-max-width: 171px !important;
-}
+
   h1.page--title p{
     margin-top: 15px ;
     margin-bottom: 20px ;
@@ -6488,4 +6484,9 @@ margin-top: 0 !important;
   }
   .block--3 h1{
     color: var(--heading--color) !important;
+  }
+  .Ajax-add-to-cart,
+  .sold-out-button {
+  width: 100% !important;
+  max-width: 171px !important;
   }
