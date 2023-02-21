@@ -2984,11 +2984,13 @@ h3.metafield-title {
 }
 
 /* about page */
-#about .homepage-featured-content-box,
 .aboutpage-sections-wrapper3 .thermoskin-quality-content-left {
   padding: 20px !important;
 }
-
+#about .homepage-featured-content-box-inner{
+  margin-bottom: 100px;
+  width: 100% !important;
+    }
 .australian-phys-logo .responsive-image-wrapper {
   align-items: start !important;
   justify-content: start !important;
@@ -6254,7 +6256,9 @@ padding: 0 40px;
   }
 }
 @media(min-width:1441px) {
-
+  #about .homepage-featured-content-box-inner{
+margin-bottom: 140px;
+  }
   .image-content-text h2 {
     padding-right: 150px;
   }
