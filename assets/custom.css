@@ -2992,7 +2992,10 @@ h3.metafield-title {
   width: 100% !important;
     }
  #about .homepage-section-title{
-  margin-bottom: 40px !important;
+  margin-bottom: 32px !important;
+ }   
+ #about .Support-Selector .btn{
+  max-width: 154px !important;
  }   
 .australian-phys-logo .responsive-image-wrapper {
   align-items: start !important;
