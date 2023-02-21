@@ -4020,7 +4020,7 @@ h3:empty {
   line-height: 20px !important;
   font-size: 15px !important;
 }
-  .tab-pane.active .best-sellers-single-item {
+ .template-index .tab-pane.active .best-sellers-single-item {
     flex-wrap: nowrap;
     overflow: scroll;
   }
