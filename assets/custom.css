@@ -1307,9 +1307,9 @@ li.thermoskin-single-menu .site-nav__link:hover {
 }
 
 .product-related-img {
-  width: 200px;
-  height: 196px;
-  padding: 20px;
+  width: 147px;
+  height: 147px;
+  margin-right: 44px;
 }
 
 a.product-related-view-btn {
@@ -1320,7 +1320,7 @@ a.product-related-view-btn {
   line-height: 20px;
   display: inline-block;
   text-transform: uppercase;
-  max-width: 91px;
+  max-width: 179px;
   height: 41px;
   width: 100%;
   text-align: center;
@@ -5692,6 +5692,11 @@ h3:empty {
     object-fit: cover;
     object-position: 100%;
   }
+  .product-related-img {
+  
+    margin-right: 37px !important;
+  }
+  
   #browse-by-injury h1{
     flex-wrap: wrap;
   }
@@ -5844,7 +5849,11 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
+  body .product-related-title-btn h3{
+  
+    margin-bottom: 17px !important;
 
+  }
   .thermal.template-collection .section-header.collection {
     margin-top: 99px !important;
     height: 84px;
@@ -6506,4 +6515,10 @@ margin-top: 0 !important;
   }
   .paymentButtonsWrapper #AddToCart:hover{
     background-color: #D1D3D4 !important ;
+  }
+  .product-related-title-btn h3{
+    font-size: 15px !important;
+    line-height: 20px !important;
+    margin-bottom: 10px !important;
+
   }
