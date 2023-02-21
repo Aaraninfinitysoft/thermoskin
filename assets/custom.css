@@ -35,7 +35,7 @@ h2,
 .product-grid--title a,
 .icon-with-text-item .h5,
 .product__meta--sku,
-.newsletter-footer .footer-header {
+.newsletter-footer .footer-header,h2 small {
   color: var(--heading--color)
 }
 .prod-detatila-spec ul{
@@ -102,10 +102,10 @@ a.thermoskin-range-view-list-btn {
   border-color: var(--heading--color) !important;
 }
 
-/* .best-sellers-single-item .sub_header h2,
-.best-sellers-single-item .sub_header h2 small {
-  color: #9E0B0F;
-} */
+.sub_header h2 + span{
+  color: var(--heading--color);
+  font-size: 18px !important;
+}
 
 .best-sellers-single-item .sub_header+.product-listing-wrapper a {
   background: #9E0B0F;
@@ -2656,9 +2656,9 @@ p.h4.mega-menu--image-title a.hover_effect--3:hover {
   flex-direction: column;
 }
 
-/* .thermoskin-range-section--text-wrapper {
+.thermoskin-range-section--text-wrapper {
   margin-top: auto;
-} */
+}
 
 .best-sellers-wrap a {
   position: relative !important;
@@ -4704,6 +4704,9 @@ h3:empty {
   /* h1 {
     text-align: center !important;
   } */
+  #about .Support-Selector{
+    margin-top: 200px !important;
+  }
   .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 width: 100% !important;
@@ -6268,6 +6271,9 @@ padding: 0 40px;
 @media(min-width:1441px) {
   #about .homepage-featured-content-box-inner{
 margin-bottom: 140px;
+  }
+  #about .Support-Selector{
+    margin-top: 270px !important;
   }
   .image-content-text h2 {
     padding-right: 150px;
