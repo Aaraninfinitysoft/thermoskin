@@ -4721,8 +4721,8 @@ h3:empty {
   #browse-by-injury .homepage-featured-content-box-inner{
     margin-top: 40px;
   }
-  .template-collection .quick-add-wrapper .Ajax-add-to-cart,
-.template-collection .quick-add-wrapper .sold-out-button {
+ .Ajax-add-to-cart,
+.sold-out-button {
 width: 100% !important;
 max-width: 171px !important;
 }
