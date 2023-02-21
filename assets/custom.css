@@ -4019,6 +4019,9 @@ h3:empty {
   .product-description-container .metafield-main-wrap .metafield-right-wrap,.product-description-container .metafield-main-wrap .metafield-left-wrap{
     width: 100% !important;
   }
+  .product-description-container .metafield-main-wrap {
+    flex-wrap: wrap;
+  }
 .template-index  .Support-Selector .image-content-text p {
   line-height: 20px !important;
   font-size: 15px !important;
