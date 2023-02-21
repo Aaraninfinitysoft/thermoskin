@@ -4707,6 +4707,9 @@ h3:empty {
   #browse-by-body-part .customized-heading {
     transform: translate(40px) rotate(345deg);
 }
+#shopify-section-template--15650287386830__product-form{
+  margin: 0 !important;
+}
   #browse-by-body-part .Support-Selector{
     margin-top: 200px !important;
   }
@@ -6495,6 +6498,7 @@ margin-top: 0 !important;
   }
   .paymentButtonsWrapper #AddToCart{
     background-color: #414042 !important ;
+    text-transform: uppercase;
   }
   .paymentButtonsWrapper #AddToCart:hover{
     background-color: #D1D3D4 !important ;
