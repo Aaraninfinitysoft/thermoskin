@@ -4716,6 +4716,7 @@ h3:empty {
   #browse-by-injury .homepage-featured-content-box{
     width: 90% !important;
     margin: auto !important;
+    float: none !important;
   }
   .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
