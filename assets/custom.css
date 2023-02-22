@@ -5898,7 +5898,9 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
-
+  .mobile-dropdown{
+    display: none !important;
+  }
   body .product-related-title-btn h3{
   
     margin-bottom: 17px !important;
