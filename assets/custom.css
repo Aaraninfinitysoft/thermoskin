@@ -6578,6 +6578,7 @@ margin-top: 88px !important;
    #browse-by-injury h1{
     font-size: 40px !important;
     display: flex;
+    line-height: 30px !important;
     text-transform: uppercase !important;
    }
    #browse-by-injury h1 small{

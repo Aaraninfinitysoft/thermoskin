@@ -2,18 +2,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
 
   // add best for
-  var metatitle = document.querySelectorAll('small p');
-var best_for = document.createElement('strong');
 $('small p').each(function(){
   $(this).prepend('<strong>Best For</strong>')
 })
-best_for.textContent = 'Best For';
-alert(metatitle.length)
-metatitle.forEach(function(meta){
-console.log(meta)
-meta.insertBefore(best_for, meta.children[0]);
-meta.prepend(best_for)
-});
   // best sellers dropown
 
 
