@@ -3858,10 +3858,7 @@ display: flex;
   text-align: left;
 }
 
-#about .homepage-featured-rich-text {
-  max-width: 530px;
-  margin: auto;
-}
+
 
 
 
@@ -4713,6 +4710,12 @@ h3:empty {
     width: 100%;
     background-color: #fff;
     display: none !important;
+  }
+  #about .homepage-featured-rich-text {
+    max-width: 100%;
+    width: 100% !important;
+    left: auto !important;
+    margin-bottom: 50px;
   }
   .review-header img{
    display: none;
@@ -5936,6 +5939,10 @@ h3:empty {
 @media (min-width:769px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  #about .homepage-featured-rich-text {
+    max-width: 530px;
+    margin: auto;
   }
   #about .Support-Selector img {
     max-height: 525px !important;
