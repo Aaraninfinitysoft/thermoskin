@@ -130,7 +130,7 @@
           "settings": {
             "injury_type": "Compression",
             "name": "Compression",
-            "description": ": Within the first 72 hours of an acute (sudden) injury to reduce swelling & general support for ongoing muscle maintenance post injury.",
+            "description": "<span>: Within the first 72 hours of an acute (sudden) injury to reduce swelling & general support for ongoing muscle maintenance post injury.<\/span>",
             "color_scheme": "#00aeef",
             "sub_description": "Compression supports contour to the shape of the affected area to provide even compression to reduce swelling and support for injured muscles and joints."
           }
