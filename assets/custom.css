@@ -6696,3 +6696,6 @@ h2 small{
 #browse-by-injury h1 small strong{
   text-transform: capitalize;
 }
+.template-product .text-with-icon{
+  padding-bottom: 34px !important;
+}
