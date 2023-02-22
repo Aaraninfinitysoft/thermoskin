@@ -29,6 +29,12 @@ dropdown.addEventListener('click',function(){
     dropdown.classList.add('dropdown_open')
   }
 })
+
+// mobile navigation design change
+document.querySelectorAll('.mobile-nav__has-sublist').forEach((mobNavTab)=>{
+  var elmT = mobNavTab.querySelector('.mobile-nav__toggle');
+  mobNavTab.prepend(elmT)
+})
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
 
@@ -56,9 +62,5 @@ if(cdm.childElementCount == 1){
 }
 
 })
-// mobile navigation design change
-document.querySelectorAll('.mobile-nav__has-sublist').forEach((mobNavTab)=>{
-  var elmT = mobNavTab.querySelector('.mobile-nav__toggle');
-  mobNavTab.prepend(elmT)
-})
+
 
