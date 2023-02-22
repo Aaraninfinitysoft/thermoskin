@@ -3175,6 +3175,9 @@ letter-spacing: initial;
 #browse-by-body-part .btn.Ajax-add-to-cart{
   margin-top: 20px;
 }
+#browse-by-body-part  .browse-heading-top-left{
+  margin-top: 177px;
+}
 .collection-filters__item.sorting,.facets__wrapper{
   padding-top: 0 !important;
 }
