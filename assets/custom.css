@@ -6600,7 +6600,7 @@ margin-left: 3px !important;
     border-radius: 45px;
     margin-top: 14px;
   }
-  .dropdown_open svg{
+  .dropdown_open + span svg{
     transform: scaleY(-1);
   }
   .best-seller-header{
