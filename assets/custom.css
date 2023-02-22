@@ -141,6 +141,7 @@ a.thermoskin-range-view-list-btn {
 }
 .thermo-sup-level{
   clear: both;
+  margin-top: 19px !important;
 }
 .thermo-sup-level + div + div{
   width: 100% !important;
@@ -3319,7 +3320,7 @@ letter-spacing: initial;
   margin-bottom: 10px;
 }
 .product-descriptoon-thermoskin{
-  margin-top: 14px !important;
+  margin-top: 23px !important;
 }
 [open] .facets__summary,
 .facets__disclosure[open] {
