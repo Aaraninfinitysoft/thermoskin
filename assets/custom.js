@@ -37,12 +37,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 var metatitle = document.querySelectorAll('.template-collection small p');
 var best_for = document.createElement('strong');
 best_for.textContent = 'Best For';
-metatitle.forEach((title) => {
-  title.prepend(best_for)
+alert(metatitle.length)
+metatitle.forEach(function(meta){
+console.log(meta)
 });
-if (metatitle.length != 0 ) {
 
-}
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
   var reviewBlock2 = document.querySelector('.review_html');
