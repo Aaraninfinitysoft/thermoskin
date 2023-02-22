@@ -4712,6 +4712,7 @@ h3:empty {
   .best-seller-header .nav{
     flex-direction: column;
     position: absolute;
+    align-items: center;
     top: 45px;
     width: 100%;
     background-color: #fff;
