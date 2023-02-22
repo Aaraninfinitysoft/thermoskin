@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   var popup = document.querySelector('.best-sellers-nav');
   var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
   var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
-  if (tabs) {
+  if (tabs.length != 0) {
     tabs.forEach((tab) => {
       tab.addEventListener('click', function () {
         var content = tab.textContent;
