@@ -37,16 +37,7 @@ document.querySelectorAll('.mobile-nav__has-sublist').forEach((mobNavTab)=>{
 })
 });
 
-if(document.body.classList.contains('browse-by-body-part')){
-  var metatitles = document.querySelectorAll('.browse-by-body-part h2 small p');
 
-  var best_for1 = document.createElement('strong');
-  best_for.textContent = 'Best For';
-  metatitles.forEach((meta)=>{
-    alert('meta')
-meta.prepend(best_for1)
-  });
-}
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
 
  var best_for = document.createElement('strong');
