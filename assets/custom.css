@@ -4708,7 +4708,7 @@ h3:empty {
     display: none !important;
   }
   #about .homepage-content--template--15650287550670__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .img{
-    background-position: center;
+    background-position: right !important;
   }
   .nav.pop-in{
     display: flex !important;
