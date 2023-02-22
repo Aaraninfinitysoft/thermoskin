@@ -43,6 +43,7 @@ if(document.body.classList.contains('browse-by-body-part')){
   var best_for1 = document.createElement('strong');
   best_for.textContent = 'Best For';
   metatitles.forEach((meta)=>{
+    alert('meta')
 meta.prepend(best_for1)
   });
 }
