@@ -6699,6 +6699,6 @@ h2 small{
 .template-product .text-with-icon{
   padding-bottom: 34px !important;
 }
-.swatch .header{
+.swatch .header,.quantity-selector.product-sub-label{
   margin-bottom: 10px !important;
 }
