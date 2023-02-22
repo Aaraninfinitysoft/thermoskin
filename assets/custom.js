@@ -56,3 +56,9 @@ if(cdm.childElementCount == 1){
 }
 
 })
+// mobile navigation design change
+document.querySelectorAll('.mobile-nav__has-sublist').forEach((mobNavTab)=>{
+  var elmT = mobNavTab.querySelector('.mobile-nav__toggle');
+  mobNavTab.prepend(elmT)
+})
+
