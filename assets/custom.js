@@ -4,6 +4,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // add best for
   var metatitle = document.querySelectorAll('small p');
 var best_for = document.createElement('strong');
+$('small p').each(function(){
+  $(this).prepend('<strong>Best For</strong>')
+})
 best_for.textContent = 'Best For';
 alert(metatitle.length)
 metatitle.forEach(function(meta){
