@@ -6645,3 +6645,6 @@ margin-left: 3px !important;
   .image-with-text-overlay-wrapper .homepage-content--image:before{
     display: none !important;
   }
+  .Support-Selector .grid__item{
+    padding-left: 0 !important;
+  }
