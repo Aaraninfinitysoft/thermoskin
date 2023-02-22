@@ -16,6 +16,7 @@ tabs.forEach((tab)=>{
 tab.addEventListener('click',function(){
   var content = tab.textContent;
   dropdown.textContent = content;
+  popup.classList.remove('pop-in')
 })
 })
 dropdown.addEventListener('click',function(){
