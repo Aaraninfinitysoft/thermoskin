@@ -3724,8 +3724,8 @@ span.brows-pop-icon,span.dot {
   color: var(--heading--color) !important;
 }
 
-.collection-variant-wrapper .collection-variant:not(first-child) {
-  margin-left: 15px;
+.collection-variant-wrapper{
+  gap: 15px;
 }
 
 .collection-variant-wrapper .collection-variant:first-child {
