@@ -6576,5 +6576,8 @@ margin-left: 3px !important;
     color: #414042;
     padding: 0 30px;
     font-size: 18px;
+    line-height: 40px;
+    max-width: 360px;
+    border-radius: 45px;
     margin-top: 14px;
   }
