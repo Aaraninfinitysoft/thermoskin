@@ -3348,6 +3348,10 @@ letter-spacing: initial;
 }
 #NavDrawer.drawer{
 max-width: 100% !important;
+text-align: right;
+}
+.drawer{
+  max-width: 100% !important;
 }
 /*SearchContainer  */
 #SearchContainer {
