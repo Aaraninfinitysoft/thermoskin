@@ -32,8 +32,8 @@ dropdown.addEventListener('click',function(){
 
  var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';
- metatitle.forEach(element => {
-  element.prepend(best_for)
+ metatitle.forEach((title) => {
+  title.prepend(best_for)
  });;
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
