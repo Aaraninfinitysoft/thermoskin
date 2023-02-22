@@ -6569,3 +6569,12 @@ margin-top: 0 !important;
   .swatch[data-option-index="1"],.swatch[data-option-index="2"]{
 margin-left: 3px !important;
   }
+  .mobile-dropdown{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #414042;
+    color: #414042;
+    padding: 0 30px;
+    font-size: 18px;
+    margin-top: 14px;
+  }
