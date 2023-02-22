@@ -6235,7 +6235,9 @@ margin: auto;
   .text-advert-section {
     display: flex !important;
   }
-
+  #about .verticle-section.text-advert-section{
+display: block !important;
+  }
   .template-index .text-advert-section.section-medium {
     width: 100% !important;
   }
