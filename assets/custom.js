@@ -40,6 +40,7 @@ best_for.textContent = 'Best For';
 alert(metatitle.length)
 metatitle.forEach(function(meta){
 console.log(meta)
+meta.prepend(best_for)
 });
 
 setTimeout(() => {
