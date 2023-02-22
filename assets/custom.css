@@ -6614,3 +6614,6 @@ margin-left: 3px !important;
   .mobile-nav__link{
     text-align: right;
   }
+  .mobile-nav__item button{
+    padding-right: 36px;
+  }
