@@ -6701,7 +6701,7 @@ h2 small{
 .mobile-nav__toggle{
   width: auto !important;
 }
-#browse-by-injury h1 small strong{
+#browse-by-injury h1 small strong::first-letter{
   text-transform: capitalize;
 }
 .template-product .text-with-icon{
