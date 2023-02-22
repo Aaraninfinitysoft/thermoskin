@@ -4707,6 +4707,7 @@ h3:empty {
   }
   #about .homepage-featured-content-box-inner{
     margin-bottom: 60px !important;
+    margin-top: 40px !important;
    
       }
       .Support-Selector .grid__item{
@@ -6649,3 +6650,6 @@ margin-left: 3px !important;
   .image-with-text-overlay-wrapper .homepage-content--image:before{
     display: none !important;
   }
+h2 small{
+  line-height: 21px !important;
+}
