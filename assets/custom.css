@@ -6711,3 +6711,9 @@ h2 small{
   margin-bottom: 10px !important;
   display: inline-block;
 }
+@media(max-width:420px){
+  a.product-related-view-btn{
+    font-size: 13px !important;
+    line-height: 21px !important;
+  }
+}
