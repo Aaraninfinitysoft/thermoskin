@@ -9,6 +9,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
   // best sellers dropown
+var popup =   document.querySelector('.best-sellers-nav');
 var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
 var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
 tabs.forEach((tab)=>{
@@ -16,6 +17,10 @@ tab.addEventListener('click',function(){
   var content = tab.textContent;
   dropdown.textContent = content;
 })
+})
+dropdown.addEventListener('click',function(){
+  var dis = 
+  popup.style.display = 'flex !important';
 })
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
