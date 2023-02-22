@@ -6628,3 +6628,7 @@ margin-left: 3px !important;
   .mobile-nav,.mobile-nav-header{
     text-align: right;
   }
+  /* about us */
+  .image-with-text-overlay-wrapper .homepage-content--image:before{
+    display: none !important;
+  }
