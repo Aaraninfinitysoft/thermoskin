@@ -19,7 +19,7 @@ tab.addEventListener('click',function(){
 })
 })
 dropdown.addEventListener('click',function(){
-  var dis = 
+  // var dis = 
   popup.style.display = 'flex !important';
 })
 });
