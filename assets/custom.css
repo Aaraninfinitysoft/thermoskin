@@ -6666,3 +6666,14 @@ margin-left: 3px !important;
 h2 small{
   line-height: 21px !important;
 }
+/* mobile nav */
+.mobile-nav__has-sublist{
+  display: flex !important;
+  flex-direction: row-reverse;
+}
+.mobile-nav__has-sublist .mobile-nav__link{
+  width: calc(100% - 25px);
+}
+.mobile-nav__toggle{
+  width: auto !important;
+}
