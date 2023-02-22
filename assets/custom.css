@@ -5781,7 +5781,7 @@ h3:empty {
     font-size: 15px !important;
     line-height: 21px;
   }
-  #browse-by-injury h1{
+  body#browse-by-injury h1{
     flex-wrap: wrap;
     font-size: 26px !important;
     line-height: 37px !important;
