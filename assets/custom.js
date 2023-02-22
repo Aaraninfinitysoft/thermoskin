@@ -8,6 +8,15 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
+  // best sellers dropown
+var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
+var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
+tabs.forEach((tab)=>{
+tab.addEventListener('click',function(){
+  var content = tab.textContent;
+  dropdown.textContent = content;
+})
+})
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
 
@@ -34,13 +43,4 @@ if(cdm.childElementCount == 1){
   cdm.style.display = 'none'; 
 }
 
-})
-// best sellers dropown
-var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
-var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
-tabs.forEach((tab)=>{
-tab.addEventListener('click',function(){
-  var content = tab.textContent;
-  dropdown.textContent = content;
-})
 })
