@@ -4813,8 +4813,9 @@ h3:empty {
     transform: translate(0, 0px) rotate(345deg)  !important;
   }
   #about .customized-heading{
-    transform: translate(-22px,0px) rotate(345deg)!important;
+    transform: translate(-5%) rotate(345deg)!important;
     padding: 20px 10px;
+    font-size: 40px!important;
   }
   .browse-img-section {
     margin-top: 40px !important;
