@@ -5712,6 +5712,8 @@ h3:empty {
   #browse-by-body-part .sub_header h2 small{
     flex:auto !important;
     width:100% ;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
   }
   #browse-by-injury h1{
     flex-wrap: wrap;
