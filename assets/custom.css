@@ -5941,7 +5941,9 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
-
+  body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212{
+    margin-top: 150px !important;
+  }
   #about .Support-Selector img {
     max-height: 525px !important;
   }
@@ -6478,9 +6480,7 @@ margin-bottom: 140px;
   font-size: 18px !important;
   line-height: 24px !important;
 }
-body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212{
-  margin-top: 150px !important;
-}
+
 /* page about  end */
 /* thermal collection template */
 #shopify-section-template--15650287714510__b6bc63ae-47df-4c52-aa8e-11f0c738600a h2{
