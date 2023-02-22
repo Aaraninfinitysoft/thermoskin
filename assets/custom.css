@@ -4709,6 +4709,10 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  .thermal.template-collection .homepage-featured-content-box-inner{
+    margin-top: 22px !important;
+    margin-bottom: 22px !important;
+  }
   .template-collection .product-grid--price{
     font-size: 20px !important; 
     line-height: 27px !important;
