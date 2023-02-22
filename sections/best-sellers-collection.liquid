@@ -3,6 +3,9 @@
    <h4>{{ section.settings.sub_heading }}</h4>
   <div class="product-tab-content">
    <div id="exTab2" class="">	
+   <div class="mobile-dropdown">
+  <span class="dropdown_value">{{section.blocks[0].name}}</span>
+  </div>
     <ul class="best-sellers-nav nav nav-tabs">
         {% assign i = 1 %}
         {% for block in section.blocks %}
