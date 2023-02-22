@@ -6227,7 +6227,7 @@ margin: auto;
   }
 
   .facets__form-inner {
-    max-width: 250px;
+    max-width: 260px;
   }
 
   .testimonials-block .testimonial--single-item {
@@ -6678,4 +6678,7 @@ h2 small{
 }
 .mobile-nav__toggle{
   width: auto !important;
+}
+.facets__disclosure{
+  margin: 0 !important;
 }
