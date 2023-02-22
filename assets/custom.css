@@ -5730,9 +5730,13 @@ h3:empty {
   .collection.section-header .page--title{
     flex-wrap: wrap !important;
   }
-  h3, .homepage-section-title{
+  h3, .homepage-section-title,.page--title{
     font-size: 26px !important;
     line-height: 22px !important;
+  }
+  .social-tx p{
+    font-size: 15px !important;
+    line-height: 20px !important;
   }
   .layout-fix-collection{
     width:100% !important;
