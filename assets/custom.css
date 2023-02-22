@@ -5724,6 +5724,9 @@ h3:empty {
   
     margin-right: 37px !important;
   }
+  #browse-by-body-part .best-sellers-single-item{
+    margin-top: 38px !important;
+  }
   #browse-by-body-part .sub_header h2{
     flex-wrap: wrap;
   }
@@ -5871,7 +5874,7 @@ h3:empty {
   }
 
   .best-sllers-tabbing-home-main-wrap>h4 {
-    display: none;
+   text-align: center;
   }
 
   .homepage-content--template--15542929490126__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .img {
@@ -6600,6 +6603,7 @@ margin-left: 3px !important;
     line-height: 40px;
     max-width: 360px;
     border-radius: 45px;
+    margin: 0 auto;
     margin-top: 14px;
   }
   .dropdown_open + span svg{
@@ -6619,4 +6623,7 @@ margin-left: 3px !important;
   }
   .sub_header h2 small strong,.sub_header h2 small  p{
    display: inline; 
+  }
+  .mobile-nav,.mobile-nav-header{
+    text-align: right;
   }
