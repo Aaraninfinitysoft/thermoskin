@@ -3727,7 +3727,7 @@ span.brows-pop-icon,span.dot {
 }
 
 .collection-variant-wrapper{
-  gap: 15px;
+  gap: 24px;
 }
 
 .collection-variant-wrapper .collection-variant:first-child {
@@ -6536,7 +6536,7 @@ color: #D1D3D4 !important;
 background-color: #fff !important;
 border: 1px solid #939393 !important;
     }
-    .template-collection .swatch .swatch-element{
+    .template-collection .swatch .swatch-element:not(:last-child){
       margin-right: 7px !important;
     }
 
