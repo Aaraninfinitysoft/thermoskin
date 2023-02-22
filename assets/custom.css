@@ -6608,3 +6608,9 @@ margin-left: 3px !important;
   .best-seller-header{
     position: relative;
   }
+  .mobile-nav__toggle{
+    transform: scaleX(-1);
+  }
+  .mobile-nav__link{
+    text-align: right;
+  }
