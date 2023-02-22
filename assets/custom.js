@@ -11,7 +11,7 @@ $('small p').each(function(){
   var popup = document.querySelector('.best-sellers-nav');
   var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
   var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
-  if (tabs.length != 0) {
+  
     tabs.forEach((tab) => {
       tab.addEventListener('click', function () {
         var content = tab.textContent;
@@ -29,7 +29,7 @@ $('small p').each(function(){
         dropdown.classList.add('dropdown_open')
       }
     })
-  }
+  
 
 
   // end
