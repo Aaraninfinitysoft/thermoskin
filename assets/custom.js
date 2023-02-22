@@ -19,9 +19,11 @@ tab.addEventListener('click',function(){
 })
 })
 dropdown.addEventListener('click',function(){
-  // var dis = 
-  alert('popu p clicked')
-  popup.style.display = 'flex!important';
+  if(popup.classList.contains('pop-in')){
+    popup.classList.remove('pop-in')
+  }else{
+    popup.classList.add('pop-in')
+  }
 })
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');

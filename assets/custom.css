@@ -4714,6 +4714,9 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  .nav.pop-in{
+    display: flex !important;
+  }
   #browse-by-body-part .customized-heading {
     transform: translate(40px) rotate(345deg);
 }
