@@ -640,7 +640,7 @@ input#search-input {
   margin-top: 34px;
 }
 .store-locator-form a {
-  margin-top: 10px !important;
+  margin-top: 0px !important;
 }
 
 .image-content-text a:hover,.store-locator-form a:hover {
