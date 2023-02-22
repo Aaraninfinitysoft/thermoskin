@@ -20,7 +20,8 @@ tab.addEventListener('click',function(){
 })
 dropdown.addEventListener('click',function(){
   // var dis = 
-  popup.style.display = 'flex !important';
+  alert('popu p clicked')
+  popup.style.display = 'flex!important';
 })
 });
  var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
