@@ -4686,7 +4686,7 @@ h3:empty {
 
   .content-width,
  body:not(.template-collection) .wrapper-padded {
-    padding: 0 17px !important;
+    /* padding: 0 17px !important; */
   }
 
   ul.the-rmoskon-site-nav.site-nav li a {
