@@ -4717,6 +4717,15 @@ h3:empty {
   .nav.pop-in{
     display: flex !important;
   }
+  .dropdown_value{
+    display: inline-block;
+    width: calc(100% - 26px);
+  }
+  .dropdown_value + span {
+    position: absolute;
+    right: 25px;
+    top: 6px;
+  }
   #browse-by-body-part .customized-heading {
     transform: translate(40px) rotate(345deg);
 }
@@ -6579,6 +6588,8 @@ margin-left: 3px !important;
   }
   .mobile-dropdown{
     width: 100%;
+    position: relative;
+    cursor: pointer;
     height: 45px;
     border: 1px solid #414042;
     color: #414042;
@@ -6588,6 +6599,9 @@ margin-left: 3px !important;
     max-width: 360px;
     border-radius: 45px;
     margin-top: 14px;
+  }
+  .dropdown_open svg{
+    transform: scaleY(-1);
   }
   .best-seller-header{
     position: relative;

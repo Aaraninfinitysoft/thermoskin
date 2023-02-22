@@ -16,14 +16,17 @@ tabs.forEach((tab)=>{
 tab.addEventListener('click',function(){
   var content = tab.textContent;
   dropdown.textContent = content;
+  dropdown.classList.remove('dropdown_open')
   popup.classList.remove('pop-in')
 })
 })
 dropdown.addEventListener('click',function(){
   if(popup.classList.contains('pop-in')){
     popup.classList.remove('pop-in')
+    dropdown.classList.remove('dropdown_open')
   }else{
     popup.classList.add('pop-in')
+    dropdown.classList.add('dropdown_open')
   }
 })
 });
