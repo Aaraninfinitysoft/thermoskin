@@ -4709,6 +4709,9 @@ h3:empty {
     margin-bottom: 60px !important;
    
       }
+      .Support-Selector .grid__item{
+        padding-left: 0 !important;
+      }
   #about .homepage-content--template--15650287550670__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .img{
     background-position: right !important;
   }
@@ -6645,7 +6648,4 @@ margin-left: 3px !important;
   /* about us */
   .image-with-text-overlay-wrapper .homepage-content--image:before{
     display: none !important;
-  }
-  .Support-Selector .grid__item{
-    padding-left: 0 !important;
   }
