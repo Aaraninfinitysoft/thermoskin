@@ -64,5 +64,22 @@ if(cdm.childElementCount == 1){
 }
 
 })
+document.querySelectorAll('.facets__item').forEach(
+  function(item){
+item.addEventListener('click',function(){
+  cd.forEach((cdm)=>{
+    cdm.childElementCount;
+    console.log('count')
+    console.log(cdm.childElementCount)
+    if(cdm.childElementCount == 1){
+      cdm.style.display = 'none'; 
+    }else{
+      cdm.style.display = 'block'; 
+    }
+    
+    })
+})
+  }
+)
 
 
