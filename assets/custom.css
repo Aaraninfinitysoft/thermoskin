@@ -3854,9 +3854,7 @@ display: flex;
   margin: auto;
 }
 
-.about-page-section {
-  display: flex;
-}
+
 
 .about-page-section>div {
   flex-basis: 50%;
@@ -6183,6 +6181,9 @@ margin: auto;
   }
   .homepage-thermoskin-range-wrap .title{
     margin-bottom: 36px;
+  }
+  .about-page-section {
+    display: flex;
   }
   .product-tab-jo .tab-d-text p {
     font-size: 17px !important;
