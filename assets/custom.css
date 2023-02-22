@@ -105,6 +105,7 @@ a.thermoskin-range-view-list-btn {
 .sub_header h2 + span{
   color: var(--heading--color);
   font-size: 18px !important;
+  line-height: 21px;
 }
 
 .best-sellers-single-item .sub_header+.product-listing-wrapper a {
@@ -5712,8 +5713,13 @@ h3:empty {
   #browse-by-body-part .sub_header h2 small{
     flex:auto !important;
     width:100% ;
+    font-size: 15px !important;
     margin-left: 0 !important;
     margin-top: 20px !important;
+  }
+  .sub_header h2 + span{
+    font-size: 15px !important;
+    line-height: 21px;
   }
   #browse-by-injury h1{
     flex-wrap: wrap;
@@ -5723,6 +5729,10 @@ h3:empty {
   }
   .collection.section-header .page--title{
     flex-wrap: wrap !important;
+  }
+  h3, .homepage-section-title{
+    font-size: 26px !important;
+    line-height: 22px !important;
   }
   .layout-fix-collection{
     width:100% !important;
