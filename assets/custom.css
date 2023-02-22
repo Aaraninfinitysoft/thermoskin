@@ -3349,9 +3349,7 @@ letter-spacing: initial;
 #NavDrawer.drawer{
 text-align: right;
 }
-.drawer{
-  max-width: 100% !important;
-}
+
 /*SearchContainer  */
 #SearchContainer {
   padding: 0 0 0 30px;
