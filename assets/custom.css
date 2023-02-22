@@ -4714,6 +4714,9 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  .product-related-img img{
+    border-radius: 10px;
+  }
   .thermal.template-collection .homepage-featured-content-box-inner{
     margin-top: 22px !important;
     margin-bottom: 22px !important;
@@ -5744,6 +5747,10 @@ h3:empty {
     width: 100%;
     object-fit: cover;
     object-position: 100%;
+  }
+  a.product-related-view-btn{
+    font-size: 16px !important;
+    line-height: 21px !important;
   }
   .product-related-img {
   
