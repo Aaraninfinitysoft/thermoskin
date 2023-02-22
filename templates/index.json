@@ -286,13 +286,26 @@
             "link": "",
             "stars": 5
           }
+        },
+        "8b9825f6-81ce-42cc-baf5-d9ce2de8b845": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-01-30_at_11.47.45_am.png",
+            "testimonial_text": "<p>After meeting strict criteria, the Thermoskin range of heat retainer products have been endorsed – the first and only such range to carry the APA name. We are excited to put our name to such an excellent range of products.<\/p>",
+            "customer_name": "Eddie Farrah",
+            "customer_occupation": "Head Physiotherapist, South Sydney Rabbitohs (NRL)",
+            "publish-date": "",
+            "link": "",
+            "stars": 5
+          }
         }
       },
       "block_order": [
         "template--15542929424590__663c8e68-404f-4ff8-aeac-61711d2db7a0-167507613427d70dbd-0",
         "b2aaf341-f4dc-4710-afdf-4b2843a8190f",
         "079d4cbc-5d3b-46ac-a7e0-d80a2dea4408",
-        "1fda2f8d-6c80-46b9-b4d4-12ec5f3709d3"
+        "1fda2f8d-6c80-46b9-b4d4-12ec5f3709d3",
+        "8b9825f6-81ce-42cc-baf5-d9ce2de8b845"
       ],
       "settings": {
         "colors": "white",
