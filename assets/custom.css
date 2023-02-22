@@ -3347,7 +3347,6 @@ letter-spacing: initial;
   background-color: #F2F2F2;
 }
 #NavDrawer.drawer{
-max-width: 100% !important;
 text-align: right;
 }
 .drawer{
