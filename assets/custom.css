@@ -4729,7 +4729,8 @@ h3:empty {
     top: 6px;
   }
   #browse-by-body-part .customized-heading {
-    transform: translate(40px) rotate(345deg);
+    transform: translate(90px ,-56px) rotate(345deg) !important;
+    padding: 25px 30px !important;
 }
 .product-related-img {
  border-radius: 10px;
