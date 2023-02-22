@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 var metatitle = document.querySelectorAll('.template-collection small p');
-if (metatitle) {
+if (metatitle.length != 0 ) {
   var best_for = document.createElement('strong');
   best_for.textContent = 'Best For';
   metatitle.forEach((title) => {
