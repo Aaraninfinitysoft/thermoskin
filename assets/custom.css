@@ -3867,11 +3867,6 @@ display: flex;
 .Support-Selector {
   background-color: #f2f2f2;
 }
-
-#about .box-content-top>div {
-
-}
-
 #about .box-content-top .image-content-text>* {
   max-width: 580px;
   width: 100%;
@@ -4711,6 +4706,9 @@ h3:empty {
     width: 100%;
     background-color: #fff;
     display: none !important;
+  }
+  #about .homepage-content--template--15650287550670__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .img{
+    background-position: center;
   }
   .nav.pop-in{
     display: flex !important;
