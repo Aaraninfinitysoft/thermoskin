@@ -3228,8 +3228,6 @@ letter-spacing: initial;
 .layout-fix-collection .product-grid--price a {
   color: #414042 !important;
   text-decoration: none;
-  font-size: 18px !important;
-
 }
 
 .layout-fix-collection .product-grid--price a .money {
@@ -4710,6 +4708,10 @@ h3:empty {
     width: 100%;
     background-color: #fff;
     display: none !important;
+  }
+  .template-collection .product-grid--price{
+    font-size: 20px !important; 
+    line-height: 27px !important;
   }
   #about .homepage-featured-content-box-inner{
     margin-bottom: 60px !important;
