@@ -28,11 +28,13 @@ dropdown.addEventListener('click',function(){
 });
 
 
- var metatitle = document.querySelector('.template-collection small p');
+ var metatitle = document.querySelectorAll('.template-collection small p');
 
  var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';
- metatitle.prepend(best_for);
+ metatitle.array.forEach(element => {
+  element.prepend(best_for)
+ });;
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
 var   reviewBlock2 = document.querySelector('.review_html');
