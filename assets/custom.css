@@ -5783,6 +5783,8 @@ h3:empty {
   }
   #browse-by-injury h1{
     flex-wrap: wrap;
+    font-size: 26px !important;
+    line-height: 37px !important;
   }
   #browse-by-injury h1 small{
    margin: 0 !important;
