@@ -3678,7 +3678,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   transform: translate(27px,0px) rotate(345deg);
 }
 
-span.brows-pop-icon {
+span.brows-pop-icon,span.dot {
   width: 20px;
   height: 20px;
   background-color: #da2128;
