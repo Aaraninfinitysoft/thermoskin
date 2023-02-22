@@ -32,7 +32,7 @@ dropdown.addEventListener('click',function(){
 
  var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';
- metatitle.array.forEach(element => {
+ metatitle.forEach(element => {
   element.prepend(best_for)
  });;
 setTimeout(() => {
