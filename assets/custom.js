@@ -1,11 +1,3 @@
-// $(document).ready(function(){
-//   $(".mega-menu-block.menu--421045c6-0e1c-49a5-afcf-81de049fd2c8 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth:nth-child(4)").click(function(){
-//     $(".thermoskin-hd1").css({"color": "yellow"});
-//   });
-// });
-
-
-
 window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
   // best sellers dropown
@@ -29,12 +21,10 @@ dropdown.addEventListener('click',function(){
     dropdown.classList.add('dropdown_open')
   }
 })
+// end
 
-// mobile navigation design change
-document.querySelectorAll('.mobile-nav__has-sublist').forEach((mobNavTab)=>{
-  var elmT = mobNavTab.querySelector('.mobile-nav__toggle');
-  mobNavTab.prepend(elmT)
-})
+
+
 });
 
 
