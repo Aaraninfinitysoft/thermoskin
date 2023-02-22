@@ -4706,9 +4706,12 @@ h3:empty {
 }
 
 @media (max-width:768px) {
-  /* h1 {
-    text-align: center !important;
-  } */
+  .best-seller-header .nav{
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+  }
   #browse-by-body-part .customized-heading {
     transform: translate(40px) rotate(345deg);
 }
@@ -6580,4 +6583,7 @@ margin-left: 3px !important;
     max-width: 360px;
     border-radius: 45px;
     margin-top: 14px;
+  }
+  .best-seller-header{
+    position: relative;
   }
