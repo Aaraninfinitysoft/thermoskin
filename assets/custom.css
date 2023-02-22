@@ -5706,6 +5706,9 @@ h3:empty {
   
     margin-right: 37px !important;
   }
+  #browse-by-body-part .sub_header h2{
+    flex-wrap: wrap;
+  }
   #browse-by-body-part .sub_header h2 small{
     flex:auto !important;
     width:100% ;
