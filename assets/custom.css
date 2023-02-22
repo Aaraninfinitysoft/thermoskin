@@ -4714,6 +4714,9 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  .review-header img{
+   display: none;
+  }
   .product-related-img img{
     border-radius: 10px;
   }
