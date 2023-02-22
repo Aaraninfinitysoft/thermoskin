@@ -28,7 +28,7 @@ dropdown.addEventListener('click',function(){
 });
 
 
- var metatitle = document.querySelector('.thermal.template-collection .page--title small p');
+ var metatitle = document.querySelector('.template-collection .page--title small p');
 
  var best_for = document.createElement('strong');
  best_for.textContent = 'Best For';

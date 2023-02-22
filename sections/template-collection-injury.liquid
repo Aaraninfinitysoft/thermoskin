@@ -122,8 +122,8 @@
       }
       </style>
     {% assign injury = block.settings.injury_type %}
-    <div class="block--{{forloop.index}}">
-<h1 style="color:{{block.settings.color_scheme}}">{{block.settings.name}} <small><p>{{block.settings.description}}</p></small> </h1>
+    <div class="block--{{forloop.index}} page--title">
+<h2 style="color:{{block.settings.color_scheme}}">{{block.settings.name}} <small><p>{{block.settings.description}}</p></small> </h2>
 <p>{{block.settings.sub_description}}</p>
     </div>
 
