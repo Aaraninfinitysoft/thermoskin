@@ -2990,7 +2990,7 @@ h3.metafield-title {
 }
 #about .homepage-featured-content-box-inner{
   margin-bottom: 100px;
-  width: 100% !important;
+  width: 90% !important;
     }
  #about .homepage-section-title{
   margin-bottom: 32px !important;
@@ -4707,6 +4707,10 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  #about .homepage-featured-content-box-inner{
+    margin-bottom: 60px !important;
+   
+      }
   #about .homepage-content--template--15650287550670__0fdf8c23-1607-47d9-876c-3f5ab6decf40 .img{
     background-position: right !important;
   }
