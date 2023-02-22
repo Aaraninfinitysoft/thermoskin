@@ -35,3 +35,12 @@ if(cdm.childElementCount == 1){
 }
 
 })
+// best sellers dropown
+var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
+var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
+tabs.forEach((tab)=>{
+tab.addEventListener('click',function(){
+  var content = tab.textContent;
+  dropdown.textContent = content;
+})
+})
