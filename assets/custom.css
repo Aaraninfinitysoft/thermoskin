@@ -338,6 +338,7 @@ ul.the-rmoskon-site-nav.site-nav li a {
   color: #414042;
   font-size: 16px;
   line-height: 26px;
+
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 600;
 }
@@ -5901,7 +5902,7 @@ h3:empty {
     max-width: 300px;
     padding-right: 20px;
   }
-  h3 {
+  h3,.aboutpage-sections--title {
     font-size: 26px !important;
     line-height: 35px !important;
   }
