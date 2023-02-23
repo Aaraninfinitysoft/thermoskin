@@ -6739,3 +6739,9 @@ h2 small{
 .template-index .Support-Selector{
   margin-top:155px !important;
 }
+.best-sellers-sub-heading{
+  font-weight: normal !important;
+}
+.best-sellers-sub-heading strong{
+  font-weight: bold;
+}
