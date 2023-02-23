@@ -6832,3 +6832,10 @@ text-transform: capitalize;
 .banner-with-icon-set .banner-lable-wrapper .banner-lable{
   background: transparent !important;
 }
+#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
+.banner-with-icon-set .banner-lable-wrapper span:first-child{
+  transform: translate(99px,-31px);
+}
+.collection-filters .collection-filters__sort{
+  width: 100% !important;
+}
