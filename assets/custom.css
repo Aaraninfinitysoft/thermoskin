@@ -3902,6 +3902,7 @@ h3:empty {
   position: absolute;
     top: 0;
     width: 90vw;
+    max-width: 1640px;
     background: #F2F2F2;
  align-items: center !important;
 }
@@ -6838,4 +6839,7 @@ text-transform: capitalize;
 }
 .collection-filters .collection-filters__sort{
   width: 100% !important;
+}
+.active-facets{
+  display: flex !important;
 }
