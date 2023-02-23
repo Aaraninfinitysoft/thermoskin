@@ -5982,6 +5982,9 @@ h3:empty {
   .best-sellers-wrap {
     padding-left: 15px;
   }
+  body .active-facets-mobile{
+    display: none !important;
+  }
   #browse-by-body-part  .browse-heading-top-left{
     margin-top: 177px;
   }
