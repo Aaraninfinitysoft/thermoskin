@@ -4722,6 +4722,9 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
+  body .verticle-section.text-advert-section .icon-with-text-item.grid__item{
+    width:100% !important;
+  }
 .template-index .best-sellers-sub-heading{
   display: none;
 }
