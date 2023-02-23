@@ -6821,6 +6821,10 @@ padding-right: 0 !important;
 .best-sllers-tabbing-home-main-wrap h4 strong{
   font-weight: bold  !important;
 }
+small p strong{
+  display: inline-block;
+}
 small p strong::first-letter{
 text-transform: capitalize;
+
 }
