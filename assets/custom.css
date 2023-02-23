@@ -6745,3 +6745,6 @@ h2 small{
 .best-sellers-sub-heading strong{
   font-weight: bold;
 }
+.template-index .thermoskin-range-section-title{
+  width: calc(100% - 8px);
+}
