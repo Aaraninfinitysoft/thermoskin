@@ -391,6 +391,12 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
 .why-choose-section {
   padding: 20px 0 !important;
 }
+.inner-absolute-layer{
+  position: absolute;
+  right: 11%;
+  top: 60%;
+  transform: rotate(350deg);
+}
 
 /* rs css started */
 .template-index .header-section.sticky-header.sticky-header-open:not(.unstuck) .overlay-header .top-links a:hover {
@@ -6229,8 +6235,9 @@ margin: auto;
 
   }
   .inner-absolute-layer{
-    right: 11%;
-    top: 57%;
+    right: 10%;
+    top: 55%;
+    font-size: 45px;
   }
   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
     height: 75px;
@@ -6863,12 +6870,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   width: 100%;
   height: 100%;
 }
-.inner-absolute-layer{
-  position: absolute;
-  right: 11%;
-  top: 60%;
-  transform: rotate(350deg);
-}
+
 .inner-absolute-layer span{
   display: block;
 }
