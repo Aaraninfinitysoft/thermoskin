@@ -2,34 +2,39 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('.collection-filtering-section,.collection-grid').wrapAll('<div class="layout-fix-collection"></div>')
 
   // add best for
-$('small p').each(function(){
-  $(this).prepend('<strong>Best For</strong>')
-})
+  $('small p').each(function () {
+    $(this).prepend('<strong>Best For</strong>')
+  })
   // best sellers dropown
+
+  // about page tag
+  var tag = `<div class="banner-lable-wrapper">< span class="banner-lable" > LIFE </span ><span class="banner-lable"> UNSTOPPABLE</span></div >`
+$('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper').append(tag);
+  // end
 
 
   var popup = document.querySelector('.best-sellers-nav');
   var tabs = document.querySelectorAll('.best-sellers-nav .best-sellers-tab');
   var dropdown = document.querySelector('.mobile-dropdown .dropdown_value')
-  
-    tabs.forEach((tab) => {
-      tab.addEventListener('click', function () {
-        var content = tab.textContent;
-        dropdown.textContent = content;
-        dropdown.classList.remove('dropdown_open')
-        popup.classList.remove('pop-in')
-      })
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', function () {
+      var content = tab.textContent;
+      dropdown.textContent = content;
+      dropdown.classList.remove('dropdown_open')
+      popup.classList.remove('pop-in')
     })
-    dropdown.addEventListener('click', function () {
-      if (popup.classList.contains('pop-in')) {
-        popup.classList.remove('pop-in')
-        dropdown.classList.remove('dropdown_open')
-      } else {
-        popup.classList.add('pop-in')
-        dropdown.classList.add('dropdown_open')
-      }
-    })
-  
+  })
+  dropdown.addEventListener('click', function () {
+    if (popup.classList.contains('pop-in')) {
+      popup.classList.remove('pop-in')
+      dropdown.classList.remove('dropdown_open')
+    } else {
+      popup.classList.add('pop-in')
+      dropdown.classList.add('dropdown_open')
+    }
+  })
+
 
 
   // end
