@@ -6814,3 +6814,10 @@ padding-right: 0 !important;
 #browse-by-body-part .homepage-featured-content-box{
   justify-content: flex-start !important;
 }
+.best-sllers-tabbing-home-main-wrap h4{
+  color: var(--heading--color) !important;
+  font-weight: normal  !important;
+}
+.best-sllers-tabbing-home-main-wrap h4 strong{
+  font-weight: normal  !important;
+}
