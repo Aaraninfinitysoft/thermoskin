@@ -4690,7 +4690,7 @@ h3:empty {
   }
 
   .footer-logo img {
-    width: 46% !important;
+    max-height: 50.31px !important;
   }
 
   .site-header__logo img {
