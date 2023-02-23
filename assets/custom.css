@@ -6810,3 +6810,7 @@ padding-right: 0 !important;
 #about .homepage-featured-rich-text{
   left: 10px !important;
 }
+/* brows body parts */
+#browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
+  justify-content: flex-start !important;
+}
