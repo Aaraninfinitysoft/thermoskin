@@ -6811,6 +6811,6 @@ padding-right: 0 !important;
   left: 10px !important;
 }
 /* brows body parts */
-#browse-by-body-part .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
+#browse-by-body-part .homepage-featured-content-box{
   justify-content: flex-start !important;
 }
