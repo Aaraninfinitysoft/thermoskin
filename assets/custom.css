@@ -6851,3 +6851,17 @@ text-transform: capitalize;
 summary .icon-caret, .select .icon-caret, .customer select + svg{
   height: 12px !important;
 }
+.browse-banner-lable-wrapper{
+  transform: initial;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.inner-relative-layer{
+  position: relative;
+  width: 100%;
+}
