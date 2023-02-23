@@ -6786,3 +6786,6 @@ h2 small{
 .about-page-section.section-medium .wrapper-padded{
   padding: 0 !important;
 }
+.about-page-section.section-medium .text-advert-section{
+  overflow: auto !important;
+}
