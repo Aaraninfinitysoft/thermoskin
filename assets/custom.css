@@ -6348,6 +6348,9 @@ padding: 0 40px;
     .store-locator-bg{
       flex: 1;
     }
+    .product-tabbing .product-tab-img{
+      width: calc(100% - 250px);
+    }
     #browse-by-body-part .customized-heading{
       font-size: 45px !important;
     }
