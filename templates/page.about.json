@@ -4,7 +4,7 @@
       "type": "common-hero-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/about.jpg",
-        "image_height": "30vw",
+        "image_height": "original",
         "bg_image_overlay_opacity": 15,
         "parallax": false,
         "title": "About us",
