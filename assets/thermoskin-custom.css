@@ -1,42 +1,50 @@
 /* rs css started */
 /* sixth block started */
 .thermoskin-best-sellers .nav-tabs>li.active>a {
-color:var(--primary-btn-bg-color) !important;
-  font-weight:900;
+  color: var(--primary-btn-bg-color) !important;
+  font-weight: 900;
 }
+
 /* a.thermoskin-range-view-list-btn{
 position: absolute;
     bottom: -70px;
 } */
-a.thermoskin-range-view-list-btn:focus{
-color:#fff;
+a.thermoskin-range-view-list-btn:focus {
+  color: #fff;
 }
-.thermoskin-range--single-item{
-position:relative;
-      display: flex;
-    flex-direction: column;
+
+.thermoskin-range--single-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.nav>li>a{
-text-transform: uppercase;
+
+.nav>li>a {
+  text-transform: uppercase;
 }
-.mega-menu-block.menu--421045c6-0e1c-49a5-afcf-81de049fd2c8:hover .mega-menu-wrapper .inner .mega-menu--image .h4 a{
-   color: red!important;
+
+.mega-menu-block.menu--421045c6-0e1c-49a5-afcf-81de049fd2c8:hover .mega-menu-wrapper .inner .mega-menu--image .h4 a {
+  color: red !important;
 }
+
 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth:hover .hover_effect--1 {
-    color: #00AEEF !important;
-  border-bottom:2px solid #00AEEF;
-  padding-bottom:10px;
+  color: #00AEEF !important;
+  border-bottom: 2px solid #00AEEF;
+  padding-bottom: 10px;
 }
+
 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth:hover .hover_effect--2 {
-    color: #ed1c24 !important;
-  border-bottom:2px solid #ed1c24;
-  padding-bottom:10px;
+  color: #ed1c24 !important;
+  border-bottom: 2px solid #ed1c24;
+  padding-bottom: 10px;
 }
+
 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth:hover .hover_effect--3 {
-    color: #414042 !important;
-  border-bottom:2px solid #414042;
-  padding-bottom:10px;
+  color: #414042 !important;
+  border-bottom: 2px solid #414042;
+  padding-bottom: 10px;
 }
+
 /* li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth:hover .h4 a{
 color:#000!important;
 } */
@@ -47,77 +55,87 @@ color:#000!important;
     color: #fff!important;
 } */
 
-.menu--421045c6-0e1c-49a5-afcf-81de049fd2c8 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth{
-  width: 33.33%!important;
+.menu--421045c6-0e1c-49a5-afcf-81de049fd2c8 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth {
+  width: 33.33% !important;
 }
-.menu--7ef41647-33f1-42b2-8c63-54ffb26ea144 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth{
-    width: 22%!important;
+
+.menu--7ef41647-33f1-42b2-8c63-54ffb26ea144 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth {
+  width: 22% !important;
 }
-.menu--64b9cb1b-2e93-4dcc-8d31-f98a897dc929 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth{
-    width: 22%!important;
+
+.menu--64b9cb1b-2e93-4dcc-8d31-f98a897dc929 li.dropdown-submenu.grid__item.large--one-fifth.medium--one-fifth {
+  width: 22% !important;
 }
+
 .bg_color_left a {
-    max-width: 150px;
-    width: 100%;
-    display: block;
-    border-radius: 50px;
-    height: 38px;
-    font-size: 18px!important;
-    color: #fff!important;
-    background-color: #414042!important;
-    border: none;
-    text-transform: uppercase;
-    transition: .8s;
-    text-align: center;
-    text-decoration: none!important;
-    line-height: 37px!important;
+  max-width: 150px;
+  width: 100%;
+  display: block;
+  border-radius: 50px;
+  height: 38px;
+  font-size: 18px !important;
+  color: #fff !important;
+  background-color: #414042 !important;
+  border: none;
+  text-transform: uppercase;
+  transition: .8s;
+  text-align: center;
+  text-decoration: none !important;
+  line-height: 37px !important;
 }
-.tab-title1 p:nth-child(3){
-    color: #00AEEF;
-      padding-top: 15px;
-  font-weight:600;
+
+.tab-title1 p:nth-child(3) {
+  color: #00AEEF;
+  padding-top: 15px;
+  font-weight: 600;
 }
-.tab-title2 p:nth-child(3){
-    color: #ed1c24;
-      padding-top: 15px;
-font-weight:600;
+
+.tab-title2 p:nth-child(3) {
+  color: #ed1c24;
+  padding-top: 15px;
+  font-weight: 600;
 }
-.tab-title3 p:nth-child(3){
-    color: #414042;
-      padding-top: 15px;
-   font-weight:600;
+
+.tab-title3 p:nth-child(3) {
+  padding-top: 15px;
 }
+
 .product-tabbing-home-main-wrap p strong {
-    font-weight: 900;
+  font-weight: 900;
 }
-@media (max-width:1600px){
-.tab-d-text p{
-font-size:16px;
-      padding-top: 5px;
-}
+
+@media (max-width:1600px) {
+  .tab-d-text p {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
   .tab-d-text a {
     font-size: 16px;
 
     padding: 10px 26px;
- 
+
     margin-top: 40px;
   }
+
   .img-pro-tp1 {
     position: absolute;
-/*     top: 60px; */
+    /*     top: 60px; */
     right: -88px;
     top: 50%;
     /* left: 50%; */
     -ms-transform: translate(-50%, -50%);
     transform: translate(0%, -50%);
     text-align: center;
+  }
 }
-}
-@media (min-width:1601px){
-.tab-d-text{
-max-width:620px;
-}
-    .img-pro-tp1 {
+
+@media (min-width:1601px) {
+  .tab-d-text {
+    max-width: 620px;
+  }
+
+  .img-pro-tp1 {
     position: absolute;
     top: 60px;
     right: -88px;
@@ -126,54 +144,64 @@ max-width:620px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(0%, -50%);
     text-align: center;
+  }
 }
-}
-@media (min-width:1890px){
-.product-tab-img {
+
+@media (min-width:1890px) {
+  .product-tab-img {
     transform: inherit;
-}
+  }
+
   .img-pro-tp {
 
     left: -60px;
 
-}
+  }
+
   .img-pro-tp img {
 
     object-position: top;
+  }
 }
-}
-@media screen and (max-width: 1024px){
- body {
+
+@media screen and (max-width: 1024px) {
+  body {
     height: 100%;
     left: 0;
-    margin: 0!important;
+    margin: 0 !important;
     overflow-x: hidden;
-    position: absolute!important;
+    position: absolute !important;
     top: 0;
-    width: 100%;}
+    width: 100%;
+  }
 
   .img-pro-tp1 img {
     width: 250px;
     height: 100px;
-}
+  }
+
   .img-pro-tp img {
     width: 100%;
- 
+
     height: 352px;
     object-fit: cover;
 
     object-position: top;
-}
+  }
+
   .img-pro-tp1 img {
     width: 250px;
     height: 150px;
+  }
+
+  .overlay-bg-2 {
+    height: 100%;
+  }
+
+  .overlay-bg-3 {
+    height: 100%;
+  }
 }
-  .overlay-bg-2{
-height: 100%;
-}
-  .overlay-bg-3{
-height: 100%;
-}
-}
+
 /* sixth block end */
 /* rs css started */
