@@ -3950,8 +3950,8 @@ h3:empty {
   top: 46.7%;
 
 }
-#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::after{
-  content: 'enhanced recovery';
+#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
+.banner-with-icon-set .banner-lable-wrapper{
   position: absolute;
   transform: rotate(350deg);
   right: 18%;
@@ -4047,7 +4047,7 @@ h3:empty {
   .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
     margin: 60px 0;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
     top: calc(25% + 62px);
     font-size: 33px;
   }
@@ -4445,7 +4445,7 @@ h3:empty {
   input#subscribe {
     margin-left: 35px;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
     font-size: 45px;
     right: 14%;
     top: calc(48% + 62px);
@@ -6392,7 +6392,7 @@ padding: 0 40px;
     .active-facets.active-facets-desktop{
       top: 14px;   
     }
-    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
       font-size: 37px;
       top: 64%;
     right: 12%;
