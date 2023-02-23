@@ -6843,3 +6843,6 @@ text-transform: capitalize;
 /* .active-facets{
   display: flex !important;
 } */
+summary .icon-caret, .select .icon-caret, .customer select + svg{
+  height: 12px !important;
+}
