@@ -6777,6 +6777,3 @@ h2 small{
 .template-index .thermoskin-range-section-title{
   width: calc(100% - 8px);
 }
-body,html{
-  overflow-x:hidden ;
-}
