@@ -3180,9 +3180,7 @@ letter-spacing: initial;
 #browse-by-body-part .btn.Ajax-add-to-cart{
   margin-top: 20px;
 }
-#browse-by-body-part  .browse-heading-top-left{
-  margin-top: 177px;
-}
+
 .collection-filters__item.sorting,.facets__wrapper{
   padding-top: 0 !important;
 }
@@ -5974,6 +5972,9 @@ h3:empty {
 @media (min-width:769px) {
   .best-sellers-wrap {
     padding-left: 15px;
+  }
+  #browse-by-body-part  .browse-heading-top-left{
+    margin-top: 177px;
   }
   body #shopify-section-template--15650287550670__11713186-bae7-4fcd-8cc4-791d5d2e9212{
     margin-top: 150px !important;
