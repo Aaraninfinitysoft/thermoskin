@@ -6783,3 +6783,6 @@ h2 small{
 #rellax--template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper .banner-lable-wrapper{
   font-size: 53px;
 }
+.about-page-section.section-medium .wrapper-padded{
+  padding: 0 !important;
+}
