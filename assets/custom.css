@@ -5903,7 +5903,7 @@ h3:empty {
     max-width: 300px;
     padding-right: 20px;
   }
-  h3,.aboutpage-sections--title {
+  h3,.aboutpage-sections--title,#about .homepage-sections--title {
     font-size: 26px !important;
     line-height: 35px !important;
   }
