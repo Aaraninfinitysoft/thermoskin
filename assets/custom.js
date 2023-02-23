@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // best sellers dropown
 
   // about page tag
-  var tag = '<div class="banner-lable-wrapper">< span class="banner-lable" > LIFE </span ><span class="banner-lable"> UNSTOPPABLE</span></div >'
+  var tag = '<div class="banner-lable-wrapper"><span class="banner-lable">LIFE </span><span class="banner-lable"> UNSTOPPABLE</span></div>'
 $('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper').append(tag);
   // end
 
