@@ -81,7 +81,7 @@ document.querySelectorAll('.facets__item').forEach(
         if (cdm.childElementCount == 1) {
           cdm.style.display = 'none';
         } else {
-          cdm.style.display = 'block';
+          cdm.style.display = 'flex';
         }
 
       })

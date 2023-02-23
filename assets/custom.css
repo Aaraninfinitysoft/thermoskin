@@ -6840,6 +6840,6 @@ text-transform: capitalize;
 .collection-filters .collection-filters__sort{
   width: 100% !important;
 }
-.active-facets{
+/* .active-facets{
   display: flex !important;
-}
+} */
