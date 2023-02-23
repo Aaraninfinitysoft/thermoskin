@@ -4735,6 +4735,9 @@ h3:empty {
     margin-top: 22px !important;
     margin-bottom: 22px !important;
   }
+  .mobile-dropdown{
+    max-width: 100% !important;
+  }
   .template-collection .product-grid--price{
     font-size: 20px !important; 
     line-height: 27px !important;
