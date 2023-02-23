@@ -3,7 +3,7 @@
     "0fdf8c23-1607-47d9-876c-3f5ab6decf40": {
       "type": "common-hero-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/about-banner-2x.jpg",
+        "image": "shopify:\/\/shop_images\/about.jpg",
         "image_height": "30vw",
         "bg_image_overlay_opacity": 15,
         "parallax": false,
