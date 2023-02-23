@@ -4742,6 +4742,10 @@ h3:empty {
     width: 90% !important;
     margin: auto !important;
   }
+  .template-index .product-tabbing .nav{
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
   .template-collection .product-grid--price{
     font-size: 20px !important; 
     line-height: 27px !important;
