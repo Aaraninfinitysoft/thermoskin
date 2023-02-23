@@ -4722,7 +4722,9 @@ h3:empty {
     background-color: #fff;
     display: none !important;
   }
-
+.template-index .best-sellers-sub-heading{
+  display: none;
+}
   .review-header img{
    display: none;
   }
