@@ -6822,7 +6822,7 @@ padding-right: 0 !important;
   font-weight: bold  !important;
 }
 small p strong{
-  display: inline-block;
+  display: inline-block !important;
 }
 small p strong::first-letter{
 text-transform: capitalize;
