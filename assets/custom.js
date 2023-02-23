@@ -13,7 +13,7 @@ $('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f55
 // end
 
 // browse by body Parts Tag
-var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><span class="banner-lable">enhanced </span><span class="banner-lable"> recovery</span></div></div>'
+var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">enhanced </span><span class="banner-lable"> recovery</span></div></div></div>'
 $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set').append(tag2);
 
 

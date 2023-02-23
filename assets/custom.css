@@ -6860,3 +6860,12 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   width: 100%;
   height: 100%;
 }
+.inner-absolute-layer{
+
+}
+.inner-absolute-layer span{
+  display: block;
+}
+.inner-absolute-layer span:last-child{
+  margin-left: 40px;
+}
