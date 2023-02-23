@@ -3945,8 +3945,8 @@ h3:empty {
   background-repeat: no-repeat;
   display: block;
   z-index: 2;
-  right: 8%;
-  top: 46.7%;
+  right: 7%;
+  top: 45.7%;
 
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
@@ -6227,6 +6227,10 @@ margin: auto;
   .footer-logo-social-wrap+div {
     flex-wrap: wrap;
 
+  }
+  .inner-absolute-layer{
+    right: 11%;
+    top: 57%;
   }
   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
     height: 75px;
