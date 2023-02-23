@@ -3958,8 +3958,8 @@ h3:empty {
 .banner-with-icon-set .banner-lable-wrapper{
   position: absolute;
     transform: rotate(350deg);
-    left: 65%;
-    top: calc(60% + 62px);
+    left: 66%;
+    top: calc(61% + 62px);
     font-family: TrashHand!important;
     font-size: 60px;
     line-height: 1;
@@ -6840,7 +6840,7 @@ text-transform: capitalize;
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
 .banner-with-icon-set .banner-lable-wrapper span:first-child{
-  transform: translate(150px,-50px);
+  transform: translate(180px,-50px);
 }
 .collection-filters .collection-filters__sort{
   width: 100% !important;
