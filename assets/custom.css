@@ -5849,6 +5849,16 @@ h3:empty {
   .store-locator-form .find,
   .store-locator-form .near-you {
     font-size: 28px;
+    padding: 20px 10px;
+  }
+  .store-locator-form .near-you{
+    top: -20px !important;
+  }
+  body .find-near-wrapper{
+    top: 40px;
+  }
+  .store-locator-img img{
+    max-height: 271px !important;
   }
   .active-facets{
     margin-top: 0 !important;
