@@ -4129,7 +4129,11 @@ h3:empty {
     width: 100%;
   }
 }
-
+@media (max-width:1024px) {
+  .thermoskin-range-block {
+    overflow: scroll;
+  }
+}
 @media (max-width: 1600px) {
   .slider-section--template--15542929424590__image-slideshow {
     overflow-x: hidden;
