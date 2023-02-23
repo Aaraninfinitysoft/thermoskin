@@ -5857,9 +5857,7 @@ h3:empty {
   body .find-near-wrapper{
     top: 40px;
   }
-  .store-locator-img img{
-    max-height: 271px !important;
-  }
+
   .active-facets{
     margin-top: 0 !important;
   }
@@ -6505,6 +6503,11 @@ margin-bottom: 140px;
     flex-wrap: wrap!important;
   }
   
+}
+@media (max-width:640px) {
+  .store-locator-img img{
+    max-height: 271px !important;
+  }
 }
 /* rensponsive end */
 
