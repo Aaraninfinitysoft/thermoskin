@@ -6632,6 +6632,9 @@ border: 1px solid #939393 !important;
     .color.swatch-element input:checked+label,.color.swatch-element input+label{
 border-color: transparent !important;
     }
+    .color.swatch-element input+label:after{
+      display: none !important;
+    }
     /* brows body parts */
     #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
       margin-bottom: 75px !important;
