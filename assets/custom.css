@@ -6629,7 +6629,9 @@ border: 1px solid #939393 !important;
     .template-collection .swatch .swatch-element:not(:last-child){
       margin-right: 1px !important;
     }
-
+    .color.swatch-element input:checked+label,.color.swatch-element input+label{
+border-color: transparent !important;
+    }
     /* brows body parts */
     #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
       margin-bottom: 75px !important;
