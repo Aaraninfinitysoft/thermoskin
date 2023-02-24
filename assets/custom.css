@@ -6634,6 +6634,9 @@ border: 1px solid #939393 !important;
     #browse-by-body-part .browse-heading-top-left h2{
 display: none !important;
     }
+    .layout-fix-collection .product-grid--price a .money{
+      font-weight: 600 !important;
+    }
     #browse-by-body-part .best-sellers-single-item{
 margin-top: 45px !important;
     }
