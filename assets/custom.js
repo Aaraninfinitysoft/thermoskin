@@ -38,13 +38,7 @@ $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-ic
       dropdown.classList.add('dropdown_open')
     }
   })
-
-
-
   // end
-
-
-
 });
 
 
@@ -62,18 +56,23 @@ setTimeout(() => {
 
 }, 3000);
 var cd = document.querySelectorAll('.active-facets');
-cd.forEach((cdm) => {
+cd.forEach((cdm) =>{
   cdm.childElementCount;
   console.log('count')
   console.log(cdm.childElementCount)
-  if (cdm.childElementCount == 1) {
+  if (cdm.childElementCount == 1){
     cdm.style.display = 'none';
   }
-
 })
 document.querySelectorAll('.facets__item').forEach(
   function (item) {
     item.addEventListener('click', function () {
+      setTimeout(function(){
+          // add best for
+  $('small p').each(function () {
+    $(this).prepend('<strong>Best For</strong>')
+  })
+      },500)
       cd.forEach((cdm) => {
         cdm.childElementCount;
         console.log('count')
