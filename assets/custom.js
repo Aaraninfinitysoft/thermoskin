@@ -72,7 +72,7 @@ document.querySelectorAll('.facets__item').forEach(
   $('small p').each(function () {
     $(this).prepend('<strong>Best For</strong>')
   })
-      },500)
+      },1000)
       cd.forEach((cdm) => {
         cdm.childElementCount;
         console.log('count')
