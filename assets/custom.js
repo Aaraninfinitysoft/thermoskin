@@ -5,6 +5,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('small p').each(function () {
     $(this).prepend('<strong>Best For</strong>')
   })
+  $(document).on('change',function(){
+    $('small p').each(function () {
+      $(this).prepend('<strong>Best For</strong>')
+    })
+  })
   // best sellers dropown
 
   // about page tag
