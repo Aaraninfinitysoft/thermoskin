@@ -6,9 +6,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     $(this).prepend('<strong>Best For</strong>')
   })
   $(document).on('change',function(){
-    $('small p').each(function () {
-      $(this).prepend('<strong>Best For</strong>')
-    })
+setTimeout(() => {
+  $('small p').each(function () {
+    $(this).prepend('<strong>Best For</strong>')
+  })
+}, 1000);
   })
   // best sellers dropown
 
