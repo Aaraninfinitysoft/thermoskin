@@ -74,12 +74,7 @@ cd.forEach((cdm) =>{
 document.querySelectorAll('.facets__item').forEach(
   function (item) {
     item.addEventListener('click', function () {
-      setTimeout(function(){
-          // add best for
-  $('small p').each(function () {
-    $(this).prepend('<strong>Best For</strong>')
-  })
-      },1000)
+    
       cd.forEach((cdm) => {
         cdm.childElementCount;
         console.log('count')
