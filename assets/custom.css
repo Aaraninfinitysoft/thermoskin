@@ -3200,8 +3200,11 @@ letter-spacing: initial;
   max-width: 100% !important;
 }
 
-.compression.template-collection h1 {
+.thermal.compression.template-collection h1 {
   color: #0092D7;
+}
+.thermal.sport.template-collection h1 {
+  color: var(--heading--color);
 }
 
 .layout-fix-collection,.section--collection--headear {
