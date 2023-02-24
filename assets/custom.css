@@ -6635,6 +6635,12 @@ border-color: transparent !important;
     .color.swatch-element input+label:after{
       display: none !important;
     }
+    .collection-variant-wrapper .collection-variant:nth-child(3){
+      width: 100% !important;
+    }
+    .collection-variant-wrapper .collection-variant:nth-child(3) >div{
+width: fit-content;
+    }
     /* brows body parts */
     #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
       margin-bottom: 75px !important;
