@@ -112,7 +112,7 @@
               />
               {% if is_color %}
                 <label
-                  for="{{ product.handle }}-swatch-{{ option_index }}-{{ value | escape }}" style="background-color: {{ value | split: ' ' | last | handle }}; background-image: url({{ value | handle | append: '.' | append: file_extension | asset_url }})"
+                  for="{{ product.handle }}-swatch-{{ option_index }}-{{ value | escape }}" style="background-color: {{ value | split: ' ' | last | handle }} !important; background-image: url({{ value | handle | append: '.' | append: file_extension | asset_url }})"
                 >
                 </label>
               {% else %}
