@@ -10,7 +10,7 @@ setTimeout(() => {
   $('small p').each(function () {
     $(this).prepend('<strong>Best For</strong>')
   })
-}, 1000);
+}, 2000);
   })
   // best sellers dropown
 
