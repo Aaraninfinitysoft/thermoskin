@@ -925,7 +925,7 @@ a.thermoskin-range-view-list-btn:active:focus{
 outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
 }
-}
+
 a.thermoskin-range-view-list-btn:hover {
   text-decoration: none;
   background: #d1d3d4;
