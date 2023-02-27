@@ -896,12 +896,12 @@ h3.thermoskin-range-section-title {
 }
 
 a.thermoskin-range-view-list-btn {
-  padding: 10px 20px;
+ 
     border-radius: 30px;
     line-height: 24px;
     font-size: 18px;
     display: inline-block;
-    text-transform: uppercase;
+   
     max-width: fit-content;
     width: 100%;
     text-align: center;
@@ -4564,11 +4564,11 @@ h3:empty {
     padding:0 !important;
   }
 
-  a.thermoskin-range-view-list-btn {
+/*   a.thermoskin-range-view-list-btn {
     font-size: 15px;
     margin-top: 20px;
   }
-
+ */
   .image-content-text {
     margin-left: 30px;
   }
@@ -5505,11 +5505,11 @@ h3:empty {
     padding: 20px 20px;
   }
 
-  a.thermoskin-range-view-list-btn {
+/*   a.thermoskin-range-view-list-btn {
     margin-top: 10px;
     position: relative !important;
     bottom: 0 !important;
-  }
+  } */
 
   .centered.small--one-whole.three-quarters.store-locator-main-wrap {
     display: block;
