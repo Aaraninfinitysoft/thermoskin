@@ -897,28 +897,13 @@ h3.thermoskin-range-section-title {
 
 a.thermoskin-range-view-list-btn {
   padding: 10px 20px;
-    border-radius: 30px;
-    line-height: 24px;
-    font-size: 18px;
-    display: inline-block;
-    text-transform: uppercase;
-    max-width: fit-content;
-    width: 100%;
-    text-align: center;
-    padding: 8px 25px!important;
-    margin-top: 10px;
-    font-weight: 600!important;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase!important;
-    vertical-align: middle;
-    white-space: nowrap;
-    cursor: pointer;
-    border: 1px solid transparent;
-    -webkit-appearance: none;
-    transition: all .15s ease-in-out 0s;
-    background-color: var(--primary-btn-bg-color);
-    color: var(--primary-btn-text-color);
+  border-radius: 30px;
+  line-height: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  max-width: fit-content;
+  width: 100%;
+  text-align: center;
 }
 
 a.thermoskin-range-view-list-btn:hover {
