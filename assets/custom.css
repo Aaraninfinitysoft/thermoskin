@@ -6136,6 +6136,12 @@ padding-top: 40px !important;
   h1.homepage-sections--title.why-choose-title {
     transform: translateX(-50px);
   }
+/*HOme Page*/
+  .homepage-content--image img {
+    display: block;
+    max-width: 100%!important;
+    object-fit: cover;
+}
 
   .store-locator-form h3 {
     font-size: 26px;
