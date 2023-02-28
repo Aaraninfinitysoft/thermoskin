@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Landslide Sample";
-   src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff?v=160295423106057967571677561648')
-      url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff2?v=160295423106057967571677561649')
+   src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff?v=160295423106057967571677561648') format("[woff]"),
+      url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff2?v=160295423106057967571677561649') format("[woff2]");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
