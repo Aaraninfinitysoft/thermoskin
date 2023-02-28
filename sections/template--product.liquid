@@ -164,27 +164,30 @@
                 
                       {{ product.description }}
                       </div>
-                      {% if collection.metafields.custom.icon_text_1 %}}
+                      {% if collection.metafields.custom.icon_text_1 %}
                       <div class="text-with-icon ">
                         <div>
                         {{ collection.metafields.custom.icon_1 | img_tag }}
                         <span>{{ collection.metafields.custom.icon_text_1 }}</span>
                         </div>
                       </div>
-                        {% endif %}}
+                        {% endif %}
+                      {% if collection.metafields.custom.icon_text_2 %}
                       <div class="text-with-icon ">
                         <div>
                         {{ collection.metafields.custom.icon_2 | img_tag }}
                         <span>{{ collection.metafields.custom.icon_text_2 }}</span>
                         </div>
                       </div>
+                        {% endif %}
+                      {% if collection.metafields.custom.icon_text_3 %}
                       <div class="text-with-icon ">
                         <div>
                         {{ collection.metafields.custom.icon_3 | img_tag }}
                         <span>{{ collection.metafields.custom.icon_text_3 }}</span>
                         </div>
                       </div>
-
+                      {% endif %}
                     {%- when 'price' -%}
                       {% if product.metafields.custom.support_level.value != blank %}
                         <p class="thermo-sup-level"><strong>Support level: </strong>{{ product.metafields.custom.support_level.value }}</p>
