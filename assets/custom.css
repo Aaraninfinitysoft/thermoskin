@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Landslide Sample";
-    src: url({{ "LandslideSample" | asset_url }}) format("ttf");
+    src: url('{{ "LandslideSample" | asset_url }}') format("ttf"),
+      url('{{ "LandslideSample" | asset_url }}') format("woff"),
+      url('{{ "LandslideSample" | asset_url }}') format("woff2");
 }
 /* @font-face {
   font-family: "Landslide Sample";
