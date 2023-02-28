@@ -3,6 +3,9 @@
     src: url('{{ "LandslideSample" | asset_url }}') format("ttf"),
       url('{{ "LandslideSample" | asset_url }}') format("woff"),
       url('{{ "LandslideSample" | asset_url }}') format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 /* @font-face {
   font-family: "Landslide Sample";
