@@ -47,7 +47,7 @@
             {% render 'responsive-image' with block.settings.image, alt: img_alt | escape crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch: true %}
           </div>
         {% endif %}
-<div>
+        <div>
         {% if block.settings.stars > 0 %}
           <div class="testimonials--star-wrapper">
             {% assign star_total = block.settings.stars %}
