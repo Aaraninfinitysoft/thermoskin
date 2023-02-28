@@ -3119,7 +3119,7 @@ h3.metafield-title {
     background: #0092d7;
 }
 
-#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set:before {
+/* #thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set:before {
     content: "";
     position: absolute;
     width: 120px;
@@ -3131,7 +3131,7 @@ h3.metafield-title {
     z-index: 2;
     right: 7%;
     top: 45.7%;
-}
+} */
 .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 font-size: 18px !important;
