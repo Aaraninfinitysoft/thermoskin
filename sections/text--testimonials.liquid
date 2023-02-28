@@ -12,10 +12,8 @@
     {%- assign color_scheme = 'homepage-sections-wrapper--dark' -%}
 {% endcase %}
 
-<div
-  class="section--text--testimonials homepage-sections-wrapper {{ color_scheme }}{% if section.settings.circle_images %} testimonial--circle-images{% endif %}"
-  data-wetheme-section-type="text--testimonials" data-wetheme-section-id="{{ section.id }}"
->
+<div class="section--text--testimonials homepage-sections-wrapper {{ color_scheme }}{% if section.settings.circle_images %} testimonial--circle-images{% endif %}"
+  data-wetheme-section-type="text--testimonials" data-wetheme-section-id="{{ section.id }}" >
 
 <div class="wrapper show-on-scroll">
 
@@ -46,9 +44,7 @@
               {% assign crop = 'center' %}
             {% endif %}
             {% assign img_alt =  block.settings.image.alt | default: shop.name %}
-            <div class="img-div">
             {% render 'responsive-image' with block.settings.image, alt: img_alt | escape crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch: true %}
-            </div>
           </div>
         {% endif %}
 <div>
