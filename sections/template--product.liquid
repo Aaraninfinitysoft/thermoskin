@@ -539,12 +539,17 @@
                     
                         </div>
                     </div>
+                    <div class="text-with-icon ">
+                      <div>
+                        <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
+                        <span>Compression and support</span>
+                      </div>
+                    </div>
 
-
-                     
+                      {% comment %}
                      {% when 'text-with-icon' %}
                       {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link, block_attributes: block.shopify_attributes  %} 
-                      
+                      {% endcomment %}
                     {%- endcase -%}
                   {%- endfor -%}
 
