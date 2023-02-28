@@ -3234,7 +3234,10 @@ letter-spacing: initial;
   color: var(--heading--color);
 }
 /*Sport Button color*/
-.thermal.sport.template-collection a.Ajax-add-to-cart{
+.thermal.sport.template-collection a.btn{
+    background: #9E0B0F;
+}
+.thermal.sport.template-collection button.btn{
     background: #9E0B0F;
 }
 
