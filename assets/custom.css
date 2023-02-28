@@ -3432,10 +3432,10 @@ text-align: right;
 }
 
 
-.img-pro-tp>img {
+/* .img-pro-tp>img {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-}
+} */
 
 
 .site-header__logowrapper svg {
