@@ -6,6 +6,10 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+  font-family: "Landslide Sample";
+  src: url("{{ '[LandslideSample.woff2]' | asset_url }}") format("[woff2]");
+}
 /* Place any CSS overrides in this file. */
 .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
   margin: 100px 0;
