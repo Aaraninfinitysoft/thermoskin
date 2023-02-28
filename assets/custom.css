@@ -6773,6 +6773,7 @@ margin-top: 0 !important;
     line-height: 26px !important;
     padding-top: 12px !important;
     padding-bottom: 17px !important;
+    text-transform: uppercase !important;
   }
   .paymentButtonsWrapper #AddToCart:hover{
     background-color: #D1D3D4 !important ;
