@@ -46,7 +46,9 @@
               {% assign crop = 'center' %}
             {% endif %}
             {% assign img_alt =  block.settings.image.alt | default: shop.name %}
+            <div class="img-div">
             {% render 'responsive-image' with block.settings.image, alt: img_alt | escape crop: 'center', default_size: '200x200', force_height: 200, force_aspect: 1, allow_stretch: true %}
+            </div>
           </div>
         {% endif %}
 <div>
