@@ -6964,3 +6964,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .inner-absolute-layer span:last-child{
   margin-left: 40px;
 }
+.testimonial-section--image img{
+  object-fit: contain !IMPORTANT;
+    min-height: unset;
+}
