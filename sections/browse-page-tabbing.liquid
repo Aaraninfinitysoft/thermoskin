@@ -32,7 +32,7 @@
                 <div class="best-sellers-single-item" {{ block.shopify_attributes }}>
                   {% for collectionHandle in collectionArr %}
                     {% assign curr_coll = collections[collectionHandle] %}
-                    <div class="sub_header">
+                    <div class="sub_header {{ curr_coll.title }}">
                       <h2>
                         {{ curr_coll.title }}
                         <small><p>{{- curr_coll.metafields.custom.best_for }}</p></small>
