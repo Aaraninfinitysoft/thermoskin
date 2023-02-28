@@ -3111,6 +3111,10 @@ h3.metafield-title {
   text-transform: uppercase !important;
   width: auto !important;
 }
+/*compression button color*/
+.compression_add_to_cart{ 
+   background: #0092d7 !important;
+}
 .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 font-size: 18px !important;
