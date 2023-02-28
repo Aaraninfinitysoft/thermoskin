@@ -6387,6 +6387,11 @@ margin: auto;
     padding: 40px;
 }
 
+.homepage-content--image img {
+    display: block;
+    max-width: 100%!important;
+    object-fit: cover;
+}
 
 @media(max-width:480px) {
   .owl-item {
