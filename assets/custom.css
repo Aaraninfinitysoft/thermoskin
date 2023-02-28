@@ -181,9 +181,8 @@ body {
 }
 
 @font-face {
-  font-family: 'LandslideSample';
-  src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.ttf?v=1677590475') format('ttf'),
-    url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.otf?v=1677590475') format('otf');
+  font-family: 'Landslide';
+  src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Landslide.ttf?v=1677592559') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
