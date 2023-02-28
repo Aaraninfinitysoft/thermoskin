@@ -164,12 +164,14 @@
                 
                       {{ product.description }}
                       </div>
+                      {% if collection.metafields.custom.icon_text_1 %}}
                       <div class="text-with-icon ">
                         <div>
                         {{ collection.metafields.custom.icon_1 | img_tag }}
                         <span>{{ collection.metafields.custom.icon_text_1 }}</span>
                         </div>
                       </div>
+                        {% endif %}}
                       <div class="text-with-icon ">
                         <div>
                         {{ collection.metafields.custom.icon_2 | img_tag }}
