@@ -155,6 +155,7 @@ text-align: left!important;
 }
 .thermo-sup-level + div + div span{
  font-size: 16px;
+  padding:10px;
 }
 .thermoskin-browse-page-product .nav-tabs>li.active>a,
 .thermoskin-browse-page-product .nav-tabs>li>a:hover {
