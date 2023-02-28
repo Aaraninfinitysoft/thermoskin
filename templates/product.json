@@ -46,7 +46,6 @@
         },
         "6c0bf80c-0f0c-472b-b362-7f1642432258": {
           "type": "text-with-icon",
-          "disabled": true,
           "settings": {
             "icon": "icon-512",
             "text": "{{ product.metafields.custom.icon_group.value.icon_text_1.value }}",
