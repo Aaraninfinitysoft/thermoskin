@@ -180,6 +180,15 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'LandslideSample';
+  src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.ttf?v=1677590475') format('ttf'),
+    url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.otf?v=1677590475') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 input:focus-visible {
   outline: 3px solid #414042;
   /* That'll show 'em */
