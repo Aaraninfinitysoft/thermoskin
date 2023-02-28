@@ -3230,6 +3230,10 @@ letter-spacing: initial;
 .thermal.sport.template-collection h1 {
   color: var(--heading--color);
 }
+/*Sport Button color*/
+.thermal.sport.template-collection a.Ajax-add-to-cart{
+    background: #9E0B0F;
+}
 
 .layout-fix-collection,.section--collection--headear {
   max-width: 1640px !important;
