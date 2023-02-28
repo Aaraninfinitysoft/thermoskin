@@ -49,7 +49,7 @@ h2,
 .product__meta--sku,
 .newsletter-footer .footer-header,h2 small {
   color: var(--heading--color)
-      font-family: "Landslide Sample";
+    
 }
 .prod-detatila-spec ul{
   margin: 0 !important;
@@ -178,9 +178,10 @@ text-align: left!important;
 /*----------Header ----------*/
 body {
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif !important;
+/*   font-family: 'Open Sans', sans-serif !important; */
   font-weight: normal;
   font-style: normal;
+    font-family: "LandslideSample";
 }
 
 @font-face {
