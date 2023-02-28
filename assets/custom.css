@@ -3227,7 +3227,10 @@ letter-spacing: initial;
 #browse-by-body-part .btn.Ajax-add-to-cart{
   margin-top: 20px;
 }
-
+/*Banner Content*/
+.homepage-featured-content-box-inner {
+    margin-bottom: 115px!important;
+}
 .collection-filters__item.sorting,.facets__wrapper{
   padding-top: 0 !important;
 }
