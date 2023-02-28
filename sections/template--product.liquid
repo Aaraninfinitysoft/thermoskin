@@ -160,8 +160,10 @@
                     {%- when 'title' -%}
                       <h1 itemprop="name" {{ block.shopify_attributes }} class="product-details-product-title" {{ block.shopify_attributes }}>{{ product.title | escape }}</h1>
                     {%- when 'description' -%}    
-                      <div class="product-descriptoon-thermoskin">{{ product.description }}</div>
-                      
+                      <div class="product-descriptoon-thermoskin">
+                
+                      {{ product.description }}
+                      </div>
               
 
                     {%- when 'price' -%}
@@ -492,33 +494,15 @@
                         {% if block.settings.link != blank and block.settings.image != blank %}
                           </a>
                         {% endif %}
-                        
                       </div>
-                      
-                    {% when 'text-with-icon' %}
-                      <div class="product_icon_section">
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                      
+
+
+                     {% when 'text-with-icon' %}
+                      {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link, block_attributes: block.shopify_attributes  %} 
+
                     {%- endcase -%}
                   {%- endfor -%}
-                  
+
                   <div class="errors qty-error" v-if="hasErrors" v-html="hasErrors" v-cloak></div>
 
                   {% endform %}
