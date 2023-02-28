@@ -39,7 +39,9 @@
 {%- endcapture -%}
 
 <div class="responsive-image-wrapper{% if wrapper_class %} {{ wrapper_class }}{% endif %}" style="{{ divStyle }}">
-
+{% if template == "index" %}
+  <div class="slider-logo-img">
+    {% endif %}
 <noscript aria-hidden="true">
   <img
     {% if image_block_attributes %} {{ image_block_attributes }}{% endif %}
@@ -78,4 +80,7 @@
           {{ responsive-image | img_url: 'master' }} {{ responsive-image.width }}w"
   sizes="{{ sizes }}"
   src="{{ responsive-image | img_url: '1445x' }}" />
+    {% if template == "index" %}
+  </div>>
+    {% endif %}
 </div>
