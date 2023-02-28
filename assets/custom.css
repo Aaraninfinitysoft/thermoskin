@@ -178,6 +178,14 @@ body {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+    font-family: 'landslide_sampleregular';
+    src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/landslidesample-webfont.woff2?v=1668770497') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/landslidesample-webfont.woff?v=1668770498') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 input:focus-visible {
   outline: 3px solid #414042;
