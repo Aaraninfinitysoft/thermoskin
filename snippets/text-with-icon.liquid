@@ -6,7 +6,7 @@
     {% endif %}
 
     {% assign iconSize = settings.typography-body-font-size | remove: "px" | plus: 2 %}
-    <img src="{{ collection.metafields.custom.icon_1 }}" width=" 18" height="18" fill="#414042">
+    {{ collection.metafields.custom.icon_1 | img_tag }}
     <span>{{ collection.metafields.custom.icon_text_1 }}</span>
     {% if link %}
         </a>
