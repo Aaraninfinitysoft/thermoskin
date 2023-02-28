@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Landslide Sample';
+    src: url('LandslideSample.woff2') format('woff2'),
+        url('LandslideSample.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /* Place any CSS overrides in this file. */
 .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
   margin: 100px 0;
