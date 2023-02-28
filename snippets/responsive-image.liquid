@@ -27,7 +27,7 @@
 {% endif %}
 
 {% if crop == blank %}
-  {% assign default_src = responsive-image | img_url: '1400x1400' %}
+  {% assign default_src = responsive-image | img_url: '1000x1000' %}
   {% assign src = responsive-image | img_url: default_size %}
 {% else %}
   {% assign default_src = responsive-image | img_url: '1000x1000', crop: crop %}
