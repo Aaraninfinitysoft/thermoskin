@@ -54,6 +54,7 @@
         },
         "cbcf6445-9631-45f5-b292-f9f19b0d3066": {
           "type": "text-with-icon",
+          "disabled": true,
           "settings": {
             "icon": "icon-513",
             "text": "{{ product.metafields.custom.icon_group.value.icon_text_2.value }}",
@@ -62,6 +63,7 @@
         },
         "a357b9f4-f5e1-4980-893b-98ab76951be3": {
           "type": "text-with-icon",
+          "disabled": true,
           "settings": {
             "icon": "icon-514",
             "text": "{{ product.metafields.custom.icon_group.value.icon_text_3.value }}",
