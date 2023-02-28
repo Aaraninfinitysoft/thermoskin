@@ -3042,8 +3042,8 @@ h3.metafield-title {
 }
 
 .homepage-featured-content-wrapper {
-  max-width: 100% !important;
-  max-height: auto !important;
+  max-width: 1920px;
+  margin: auto !important;
 }
 
 .aboutpage-sections-wrapper2>div,
