@@ -3017,11 +3017,12 @@ margin-left: 8px;
   padding-top: 30px;
 }
 
-/* h3.metafield-title {
+h3.metafield-title {
   margin-top: 20px;
-} */
+}
 
-.metafield-right-wrap h3.metafield-title:first-child {
+.metafield-right-wrap h3.metafield-title:first-child,
+.metafield-left-wrap h3.metafield-title:first-child{
   margin-top: 0;
 }
 
