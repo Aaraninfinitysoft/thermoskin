@@ -3041,11 +3041,11 @@ h3.metafield-title {
   margin: auto;
 }
 
-/* .homepage-featured-content-wrapper {
-  max-width: 1920px;
+.homepage-featured-content-wrapper {
+  max-width: 100% !important;
   margin: auto !important;
 }
- */
+
 .aboutpage-sections-wrapper2>div,
 .aboutpage-sections-wrapper3>div {
   flex-basis: 50%;
