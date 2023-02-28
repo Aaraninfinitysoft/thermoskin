@@ -139,6 +139,27 @@ a.thermoskin-range-view-list-btn {
 .best-sellers-single-item .sub_header:nth-child(7) h2 small {
   color: #002C62;
 }
+.best-sellers-single-item .sub_header.header-Compression h2,
+.best-sellers-single-item .sub_header.header-Compression h2 small{
+  color: #00aeef;
+}
+.best-sellers-single-item .sub_header.header-Compression+.product-listing-wrapper a{
+      background: #00AEEF;
+}
+.best-sellers-single-item .sub_header.header-Thermal h2,
+.best-sellers-single-item .sub_header.header-Thermal h2 small{
+  color: #ed1c24;
+}
+.best-sellers-single-item .sub_header.header-Thermal+.product-listing-wrapper a{
+      background: #ed1c24;
+}
+.best-sellers-single-item .sub_header.header-Sport h2,
+.best-sellers-single-item .sub_header.header-Sport h2 small{
+  color: #414042;
+}
+.best-sellers-single-item .sub_header.header-Sport+.product-listing-wrapper a{
+      background: #9E0B0F;
+}
 .thermo-sup-level{
   clear: both;
   margin-top: 34px !important;
