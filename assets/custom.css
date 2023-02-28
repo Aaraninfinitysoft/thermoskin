@@ -49,6 +49,7 @@ h2,
 .product__meta--sku,
 .newsletter-footer .footer-header,h2 small {
   color: var(--heading--color)
+      font-family: "Landslide Sample";
 }
 .prod-detatila-spec ul{
   margin: 0 !important;
