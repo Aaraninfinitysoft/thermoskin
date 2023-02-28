@@ -496,9 +496,8 @@
                         {% endif %}
                       </div>
 
-
-                     {% when 'text-with-icon' %}
-                      {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link, block_attributes: block.shopify_attributes  %} 
+                    {% when 'text-with-icon' %}
+                      {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link, block_attributes: block.shopify_attributes  %}
 
                     {%- endcase -%}
                   {%- endfor -%}
