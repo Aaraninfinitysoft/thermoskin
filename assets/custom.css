@@ -1373,6 +1373,7 @@ a.product-related-view-btn:hover {
 div#ex1 {
   width: 100% !important;
   max-width: 800px;
+  padding:16px;
 }
 
 .size-chart-img {
