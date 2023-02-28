@@ -495,67 +495,20 @@
                           </a>
                         {% endif %}
                       </div>
-
-                      <div class="text-with-icon {% if link %}is-link-wrapper{% endif %}"{% if block_attributes %} {{ block_attributes }}{% endif %}>
-                        <div {% if link %}class="is-link"{% endif %}>
-                    
-                        {{ collection.metafields.custom.icon_1 | img_tag }}
-                        <span>{{ collection.metafields.custom.icon_text_1 }}</span>
-                        
-                    
+                      <div class="text-with-icon ">
+                        <div>
+                          <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
+                          <span>Compression and support</span>
                         </div>
-                    </div>
-
-      <div class="text-with-icon {% if link %}is-link-wrapper{% endif %}"{% if block_attributes %} {{ block_attributes }}{% endif %}>
-                        <div {% if link %}class="is-link"{% endif %}>
-                    
-                        {% if link %}
-                            <a href={{ link }} class="link">
-                        {% endif %}
-                    
-                        {% assign iconSize = settings.typography-body-font-size | remove: "px" | plus: 2 %}
-                        {{ collection.metafields.custom.icon_1 | img_tag }}
-                        <span>{{ collection.metafields.custom.icon_text_1 }}</span>
-                        {% if link %}
-                            </a>
-                        {% endif %}
-                    
-                        </div>
-                    </div>
-
-      <div class="text-with-icon {% if link %}is-link-wrapper{% endif %}"{% if block_attributes %} {{ block_attributes }}{% endif %}>
-                        <div {% if link %}class="is-link"{% endif %}>
-                    
-                        {% if link %}
-                            <a href={{ link }} class="link">
-                        {% endif %}
-                    
-                        {% assign iconSize = settings.typography-body-font-size | remove: "px" | plus: 2 %}
-                        {{ collection.metafields.custom.icon_1 | img_tag }}
-                        <span>{{ collection.metafields.custom.icon_text_1 }}</span>
-                        {% if link %}
-                            </a>
-                        {% endif %}
-                    
-                        </div>
-                    </div>
-                    <div class="text-with-icon ">
-                      <div>
-                        <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                        <span>Compression and support</span>
                       </div>
-                    </div>
+      
+                    
 
                       {% comment %}
                      {% when 'text-with-icon' %}
                       {% render 'text-with-icon', icon: block.settings.icon, text: block.settings.text, link: block.settings.link, block_attributes: block.shopify_attributes  %} 
                       {% endcomment %}
-                                          <div class="text-with-icon ">
-                      <div>
-                        <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                        <span>Compression and support</span>
-                      </div>
-                    </div>
+                      
                     {%- endcase -%}
                   {%- endfor -%}
                   
