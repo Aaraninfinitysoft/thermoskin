@@ -1,14 +1,6 @@
 @font-face {
-    font-family: 'Landslide Sample';
-    src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.woff2?v=1668770488') format('woff2'),
-         url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/LandslideSample.woff?v=1668770488') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
   font-family: "Landslide Sample";
-  src: url("{{ '[LandslideSample.woff2]' | asset_url }}") format("[woff2]");
+  src: url("{{ '[LandslideSample]' | asset_url }}") format("[ttf]");
 }
 /* Place any CSS overrides in this file. */
 .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
