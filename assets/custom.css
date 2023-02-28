@@ -6377,6 +6377,17 @@ margin: auto;
   }
 }
 
+/*Home Page Slider*/
+.slider-logo-img {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    padding: 40px;
+}
+
+
 @media(max-width:480px) {
   .owl-item {
     width: 320px !important;
