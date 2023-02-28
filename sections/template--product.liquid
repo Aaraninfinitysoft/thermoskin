@@ -520,8 +520,24 @@
                       {% endif %}
                   
                       {% assign iconSize = settings.typography-body-font-size | remove: "px" | plus: 2 %}
-                      {{ collection.metafields.custom.icon_1 | img_tag }}
-                      <span>{{ collection.metafields.custom.icon_text_1 }}</span>
+                      {{ collection.metafields.custom.icon_2 | img_tag }}
+                      <span>{{ collection.metafields.custom.icon_text_2 }}</span>
+                      {% if link %}
+                          </a>
+                      {% endif %}
+                  
+                      </div>
+                  </div>
+                    <div class="text-with-icon {% if link %}is-link-wrapper{% endif %}"{% if block_attributes %} {{ block_attributes }}{% endif %}>
+                      <div {% if link %}class="is-link"{% endif %}>
+                  
+                      {% if link %}
+                          <a href={{ link }} class="link">
+                      {% endif %}
+                  
+                      {% assign iconSize = settings.typography-body-font-size | remove: "px" | plus: 2 %}
+                      {{ collection.metafields.custom.icon_3 | img_tag }}
+                      <span>{{ collection.metafields.custom.icon_text_3 }}</span>
                       {% if link %}
                           </a>
                       {% endif %}
