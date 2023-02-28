@@ -3118,6 +3118,20 @@ h3.metafield-title {
 .thermal.compression button.btn{
     background: #0092d7;
 }
+
+#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set:before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0625/2694/7534/files/Path_4139.png?v=1676353206);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 2;
+    right: 7%;
+    top: 45.7%;
+}
 .template-collection .quick-add-wrapper .Ajax-add-to-cart,
 .template-collection .quick-add-wrapper .sold-out-button {
 font-size: 18px !important;
