@@ -3112,7 +3112,10 @@ h3.metafield-title {
   width: auto !important;
 }
 /*compression button color*/
-.thermal.compression.btn{
+.thermal.compression a.btn{
+    background: #0092d7;
+}
+.thermal.compression button.btn{
     background: #0092d7;
 }
 .template-collection .quick-add-wrapper .Ajax-add-to-cart,
