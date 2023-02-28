@@ -1,15 +1,3 @@
-@font-face {
-    font-family: "Landslide Sample";
-   src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff?v=160295423106057967571677561648') format("[woff]"),
-      url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/LandslideSample.woff2?v=160295423106057967571677561649') format("[woff2]");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-/* @font-face {
-  font-family: "Landslide Sample";
-  src: url("{{ '[LandslideSample]' | asset_url }}") format("[ttf]");
-} */
 /* Place any CSS overrides in this file. */
 .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
   margin: 100px 0;
@@ -49,7 +37,6 @@ h2,
 .product__meta--sku,
 .newsletter-footer .footer-header,h2 small {
   color: var(--heading--color)
-    
 }
 .prod-detatila-spec ul{
   margin: 0 !important;
@@ -178,10 +165,9 @@ text-align: left!important;
 /*----------Header ----------*/
 body {
   overflow-x: hidden;
-/*   font-family: 'Open Sans', sans-serif !important; */
+  font-family: 'Open Sans', sans-serif !important;
   font-weight: normal;
   font-style: normal;
-    font-family: "LandslideSample";
 }
 
 @font-face {
@@ -3449,8 +3435,8 @@ text-align: right;
 /* .img-pro-tp>img {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-} */
-
+}
+ */
 
 .site-header__logowrapper svg {
   width: 100%;
