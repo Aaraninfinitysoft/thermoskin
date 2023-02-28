@@ -161,26 +161,7 @@
                       <h1 itemprop="name" {{ block.shopify_attributes }} class="product-details-product-title" {{ block.shopify_attributes }}>{{ product.title | escape }}</h1>
                     {%- when 'description' -%}    
                       <div class="product-descriptoon-thermoskin">{{ product.description }}</div>
-                      <div class="product_icon_section">
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                        <div class="text-with-icon ">
-                            <div>
-                              <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
-                              <span>Compression and support</span>
-                            </div>
-                        </div>
-                    </div>
+                      
               
 
                     {%- when 'price' -%}
@@ -515,7 +496,7 @@
                       </div>
                       
                     {% when 'text-with-icon' %}
-                    <div class="product_icon_section">
+                      <div class="product_icon_section">
                         <div class="text-with-icon ">
                             <div>
                               <img src="//cdn.shopify.com/s/files/1/0625/2694/7534/files/Group_580_small.png?v=1677230618" alt=""> 
@@ -534,7 +515,6 @@
                               <span>Compression and support</span>
                             </div>
                         </div>
-                    </div>
 
                       {% comment %}
                      {% when 'text-with-icon' %}
