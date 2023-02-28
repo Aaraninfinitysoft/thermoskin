@@ -69,7 +69,7 @@
   height="{{ responsive-image.height }}"
   srcset="{%- if responsive-image.width >= 550 -%}{{ responsive-image | img_url: '550x' }} 550w,{%- endif -%}
           {%- if responsive-image.width >= 750 -%}{{ responsive-image | img_url: '750x' }} 750w,{%- endif -%}
-          {%- if responsive-image.width >= 1100 -%}{{ responsive-image | img_url: '1500x' }} 1100w,{%- endif -%}
+          {%- if responsive-image.width >= 1100 -%}{{ responsive-image | img_url: '1500x' }} 1500w,{%- endif -%}
           {%- if responsive-image.width >= 1445 -%}{{ responsive-image | img_url: '1445x' }} 1445w,{%- endif -%}
           {%- if responsive-image.width >= 1680 -%}{{ responsive-image | img_url: '1680x' }} 1680w,{%- endif -%}
           {%- if responsive-image.width >= 2048 -%}{{ responsive-image | img_url: '2048x' }} 2048w,{%- endif -%}
