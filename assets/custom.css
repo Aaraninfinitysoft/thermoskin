@@ -7148,10 +7148,14 @@ body.Body-overlay .product-details-wrapper:before {
     content: '';
     z-index: 9999999999;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 .size-chart-model#ex1 .size-chart-img {
     width: 100%;
     max-width: 100%;
+}
+  .size-chart-model#ex1 {
+    transform: inherit;
+    top: 5%;
 }
   }
 /************ custom end **********/
