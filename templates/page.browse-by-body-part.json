@@ -1,7 +1,7 @@
 {
   "sections": {
-    "9b667c1f-30d7-4fc2-8cf6-441aff907d8d": {
-      "type": "common-hero-banner",
+    "a9ad61be-26c1-4fae-97ca-6ae7caf8db8f": {
+      "type": "banner-with-icon-set",
       "settings": {
         "image": "shopify:\/\/shop_images\/02.jpg",
         "image_height": "original",
@@ -13,7 +13,28 @@
         "textPosition": "left",
         "textAlignment": "left",
         "heading--text-size": 40,
-        "text--text-size": 16,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "9b667c1f-30d7-4fc2-8cf6-441aff907d8d": {
+      "type": "common-hero-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02.jpg",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "Browse By body Parts",
+        "text": "",
+        "colors": "dark",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "heading--text-size": 40,
+        "text--text-size": 18,
         "link": "",
         "button_label": "",
         "button-text": "#ffffff",
@@ -151,6 +172,7 @@
     }
   },
   "order": [
+    "a9ad61be-26c1-4fae-97ca-6ae7caf8db8f",
     "9b667c1f-30d7-4fc2-8cf6-441aff907d8d",
     "47937955-07f3-47f4-868e-aafa63291b57",
     "7eee2116-ab10-4fd6-b367-a920627c193f",
