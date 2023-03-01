@@ -259,6 +259,7 @@
                           <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
                           <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         </div>
+                      <div class="size-chart-content">
                         {% if product.metafields.custom.measurement_instructions.value != blank %}
                         <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
                         {% endif %}
@@ -270,19 +271,17 @@
                           {% assign items_cms = item_str_cms | split: ", " %}
                           {% assign items_inch = item_size_inches | split: ", " %}
                      
-                      {% for product_option in product.options_with_values %}
-                      {% if product_option.name == 'Sizes' or product_option.name == 'sizes' or product_option.name == 'size' or product_option.name == 'Size' %}
-                        <div class="chart-size-list">
-                        <ul>
-                      {% for value in product_option.values %}
-                        <li>{{ value }}</li>
-                      {% endfor %}
-                        </ul>
-                        </div>
-                      {% endif %}
-                      {% endfor %}
-                      
-                      
+                          {% for product_option in product.options_with_values %}
+                            {% if product_option.name == 'Sizes' or product_option.name == 'sizes' or product_option.name == 'size' or product_option.name == 'Size' %}
+                            <div class="chart-size-list">
+                              <ul>
+                              {% for value in product_option.values %}
+                                <li>{{ value }}</li>
+                              {% endfor %}
+                              </ul>
+                           </div>
+                          {% endif %}
+                        {% endfor %}
                     
                         {% if item_str_cms != blank  %}
                           <div class="chart-cm-list">
@@ -305,6 +304,7 @@
                         </div>
                           {% endif %}
                           </div>
+                        </div>
                       </div>
                       
                        <!-- end Size chart code custome -->
