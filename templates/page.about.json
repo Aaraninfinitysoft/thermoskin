@@ -1,25 +1,5 @@
 {
   "sections": {
-    "d3d2aaa3-d007-4884-a2ad-ede278cce354": {
-      "type": "image--image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_579_1.png",
-        "image_height": "original",
-        "bg_image_overlay_opacity": 0,
-        "parallax": true,
-        "title": "Share your story",
-        "text": "Add a large image with text overlay to give focus to your chosen product, collection, or blog post",
-        "colors": "dark",
-        "textPosition": "left",
-        "textAlignment": "left",
-        "heading--text-size": 40,
-        "text--text-size": 18,
-        "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#000000"
-      }
-    },
     "0fdf8c23-1607-47d9-876c-3f5ab6decf40": {
       "type": "common-hero-banner",
       "settings": {
@@ -348,7 +328,6 @@
     }
   },
   "order": [
-    "d3d2aaa3-d007-4884-a2ad-ede278cce354",
     "0fdf8c23-1607-47d9-876c-3f5ab6decf40",
     "4dc4e380-cc98-44ea-988d-de83b78f554c",
     "cb20765d-147c-45ab-aaac-345c75029766",
