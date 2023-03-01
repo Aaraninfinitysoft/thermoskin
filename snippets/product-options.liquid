@@ -12,7 +12,7 @@ Parameters:
 {% endif %}
 
 {% if product.variants.size > 0  %}
-  <div {% if block_attributes %}{{ block_attributes }}{% endif %}>
+  <div class="test" {% if block_attributes %}{{ block_attributes }}{% endif %}>
     {% if variant_style == 'dropdowns' %}
 
       {% for option in product.options_with_values %}
