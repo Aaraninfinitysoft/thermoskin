@@ -3400,6 +3400,9 @@ letter-spacing: initial;
 .qtn-option-wrapper{
   margin-top: 19.7px;
 }
+.qtn-option-wrapper > div:first-child {
+    padding-right: 20px;
+}
 .thermoskin-product-type {
   color: #d9000d;
   font-weight: bold;
