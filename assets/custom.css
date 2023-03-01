@@ -7072,7 +7072,6 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     padding: 5px;
 }
 
-.size-chart-content {}
 
 .size-chart-model#ex1 .size-chart-content span {
     padding: 0 0 16px;
@@ -7110,5 +7109,8 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 }
 .size-chart-model h2 {
     text-transform: uppercase;
+}
+.size-chart-model .size-chart-details > div > span {
+    height: 30px;
 }
 /************ custom end **********/
