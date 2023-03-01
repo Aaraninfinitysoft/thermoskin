@@ -3755,7 +3755,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 
 .Support-Selector .image-content-text h2 {
   padding-top: 0 !important;
-  font-size: 55px !important;
+  font-size: 45px !important;
 }
 
 .Support-Selector .responsive-image-wrapper {
@@ -6588,7 +6588,7 @@ margin-bottom: 140px;
     transform: translate(100px) rotate(345deg);
 }
   .image-content-text h2 {
-    padding-right: 150px;
+    padding-right: 50px;
   }
   .customized-heading{
     font-size: 69px;
