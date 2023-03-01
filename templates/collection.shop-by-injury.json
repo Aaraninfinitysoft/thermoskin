@@ -1,8 +1,29 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
+    "6f907f41-d411-4f60-9032-6b8cccee7492": {
+      "type": "banner-with-icon-set",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_586.jpg",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "{{ collection.title }}",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "colors": "dark",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "heading--text-size": 40,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1": {
       "type": "common-hero-banner",
+      "disabled": true,
       "settings": {
         "image": "{{ collection.image }}",
         "image_height": "original",
@@ -230,6 +251,7 @@
     }
   },
   "order": [
+    "6f907f41-d411-4f60-9032-6b8cccee7492",
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1",
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
     "collection-header",
