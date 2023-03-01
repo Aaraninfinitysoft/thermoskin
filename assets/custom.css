@@ -3763,7 +3763,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 }
 .Support-Selector .responsive-image-wrapper img{
   width:80%;
-  margin-top:-35%;
+  margin-top:-250px;
 }
 
 .customized-heading {
@@ -6908,7 +6908,7 @@ h2 small{
   }
 }
 .template-index .Support-Selector{
-  margin-top:35% !important;
+  margin-top:155px !important;
 }
 .best-sellers-sub-heading{
   font-weight: normal !important;
