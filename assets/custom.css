@@ -3402,15 +3402,15 @@ letter-spacing: initial;
   margin-bottom: 20px !important;
 
 }
-.qtn-option-wrapper,.qtn-option-wrapper> div:first-child{
+.qtn-option-wrapper
+{
   display: flex;
-  flex-wrap: wrap;
-}
-.qtn-option-wrapper{
   margin-top: 19.7px;
 }
-.qtn-option-wrapper > div:first-child {
-    padding-right: 20px;
+.qtn-option-wrapper> div:first-child{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
 }
 .thermoskin-product-type {
   color: #d9000d;
