@@ -1419,6 +1419,7 @@ div#ex1 {
 
 .size-chart-details ul{
   list-style:none;
+  margin:0;
 }
 
 .size-chart-details > div{
