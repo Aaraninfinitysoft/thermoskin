@@ -1421,7 +1421,10 @@ div#ex1 {
   list-style:none;
   margin:0;
 }
-
+.size-chart-details ul li {
+    background: #D1D3D4;
+    padding: 5px;
+}
 .size-chart-details > div{
   flex: 1;
 }
