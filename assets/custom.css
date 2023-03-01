@@ -6657,11 +6657,11 @@ max-width: 710px !important;
 }
 
 /* thermal collection template end*/
-.thermal.template-collection .banner-with-icon-set{
+/* .thermal.template-collection .banner-with-icon-set{
   max-width: 1920px;
   margin: auto;
   position: relative;
-}
+} */
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon:first-child  img{
   width: 63px;
     }
