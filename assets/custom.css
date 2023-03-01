@@ -7015,10 +7015,11 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     position: absolute;
     right: -10px;
     top: -10px;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 0;
     width: 26px;
     height: 26px;
+  text-align:center;
     line-height: 26px;
     color: #fff;
     background: #414042;
