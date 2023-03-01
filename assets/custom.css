@@ -7130,6 +7130,16 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     top: 0;
     margin: 0 auto;
     height: fit-content;
-  z-index:999;
+  z-index:99999999999;
+}
+body.Body-overlay:after {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.75);
+    content: '';
+    z-index: 9999999999;
 }
 /************ custom end **********/
