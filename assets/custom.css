@@ -6999,6 +6999,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .inner-absolute-layer span:last-child{
   margin-left: 40px;
 }
+/************ custom start **********/
 .testimonial-section--image img{
   object-fit: contain !IMPORTANT;
     min-height: unset;
@@ -7021,3 +7022,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     display: flex;
     flex-wrap: wrap;
 }
+.shopify-section.image-with-text-overlay-wrapper.banner-with-icon-set {
+    position: relative;
+}
+/************ custom end **********/
