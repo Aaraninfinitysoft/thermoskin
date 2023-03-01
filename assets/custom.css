@@ -7123,6 +7123,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     line-height: 24px;
     border-radius: 50%;
     color: #fff;
+  font-size:13px;
 }
 .size-chart-model h2 {
     text-transform: uppercase;
