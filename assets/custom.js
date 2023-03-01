@@ -92,7 +92,7 @@ document.querySelectorAll('.facets__item').forEach(
 
 
 setTimeout(function(){
-$('.shopify-payment-button__button').text('SHOP IT NOW');
+$('.shopify-payment-button__button').text('BUY NOW');
 },2000),
   theme.init = function() {
   theme.customerTemplates.init();
