@@ -630,6 +630,7 @@ input#search-input {
   padding-top: 76px;
   margin: 0;
   font-weight: 100;
+  text-transform:uppercase;
 }
 
 /* .thermoskin-range-wrap{
