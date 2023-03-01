@@ -3761,6 +3761,10 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 .Support-Selector .responsive-image-wrapper {
   justify-content: center !important;
 }
+.Support-Selector .responsive-image-wrapper img{
+  width:80%;
+  margin-top:-35%;
+}
 
 .customized-heading {
   display: inline-block;
