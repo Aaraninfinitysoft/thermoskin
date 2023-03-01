@@ -7047,6 +7047,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 
 .size-chart-model#ex1 .size-chart-img {
     max-width: 165px;
+    width:35%;
 }
 
 .size-chart-model#ex1 .size-chart-details {
