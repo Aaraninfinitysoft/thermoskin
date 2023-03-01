@@ -542,8 +542,8 @@ font-size:17px!important;
   transform: translateY(-50%);
   background-size: contain;
   z-index: 883;
-  font-family: TrashHand !important;
-  font-size: 40px;
+  font-family: landslide_sampleregular !important;
+  font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
   padding: 28px 10px;
@@ -624,9 +624,9 @@ input#search-input {
 }
 
 .image-content-text h2 {
-  font-size: 40px !important;
+  font-size: 30px !important;
   line-height: 1.2 !important;
-  font-family: 'TrashHand' !important;
+  font-family: 'landslide_sampleregular' !important;
   padding-top: 76px;
   margin: 0;
   font-weight: 100;
@@ -3706,10 +3706,10 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 /* home page banner lable  */
 .banner-lable-wrapper {
   position: absolute;
-  font-family: TrashHand !important;
+  font-family: 'landslide_sampleregular' !important;
   position: absolute;
   display: flex;
-  font-size: 85px;
+  font-size: 75px;
   text-transform: uppercase;
   bottom: 32%;
   left: 50%;
@@ -3765,8 +3765,8 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   display: inline-block;
   position: absolute;
   white-space: nowrap;
-  font-family: TrashHand !important;
-  font-size: 55px;
+  font-family: 'landslide_sampleregular' !important;
+  font-size: 45px;
   line-height: 1;
   text-transform: uppercase;
   padding: 35px 30px;
@@ -4045,8 +4045,8 @@ h3:empty {
 }
 
 .browse-banner-lable-wrapper{
-    font-family: TrashHand!important;
-    font-size: 60px;
+    font-family: 'landslide_sampleregular' !important;
+    font-size: 50px;
     line-height: 1;
     color: var(--heading--color);
 }
