@@ -4,9 +4,9 @@
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1": {
       "type": "common-hero-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wrist_brace.webp",
+        "image": "shopify:\/\/shop_images\/Group_579_1.png",
         "image_height": "original",
-        "bg_image_overlay_opacity": 20,
+        "bg_image_overlay_opacity": 0,
         "parallax": true,
         "title": "{{ collection.title }}",
         "text": "",
