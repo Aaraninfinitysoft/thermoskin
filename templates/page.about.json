@@ -5,8 +5,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/about.jpg",
         "image_height": "original",
-        "bg_image_overlay_opacity": 15,
-        "parallax": false,
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
         "title": "About us",
         "text": "We believe injury does not define you but makes you stronger, physically, and mentally.",
         "colors": "dark",
