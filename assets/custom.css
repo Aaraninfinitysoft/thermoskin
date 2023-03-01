@@ -169,10 +169,7 @@ a.thermoskin-range-view-list-btn {
   float: none !important;
   padding: 0;
 }
-.size-chart-model .size-div-flex{
-display: flex;
-text-align: left!important;
-}
+
 .size-chart-model span{
  font-size: 16px;
   padding:10px;
@@ -7043,6 +7040,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .size-chart-model#ex1 .size-div-flex {
   display: flex!important;
   gap: 25px;
+  flex-wrap:wrap;
 }
 
 .size-chart-model#ex1 .size-chart-img {
