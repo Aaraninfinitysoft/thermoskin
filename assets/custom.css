@@ -203,8 +203,8 @@ body {
 
 @font-face {
   font-family: 'landslide_sampleregular';
-  src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/landslidesample_1-webfont.woff2?v=1677592559') format('woff2'),
-       url('https://cdn.shopify.com/s/files/1/0625/2694/7534/t/19/assets/landslidesample_1-webfont.woff?v=1677592559') format('woff');
+  src: url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/landslidesample_1-webfont.woff2?v=1677654958') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0625/2694/7534/files/landslidesample_1-webfont.woff?v=1677654958') format('woff');
   font-weight: normal;
    font-style: normal;
 }
