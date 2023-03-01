@@ -4980,6 +4980,7 @@ h3:empty {
     height: 490px; */
     margin: 0 !important;
     overflow: visible;
+    padding:50px 0;
   }
 
   .banner-lable-wrapper {
