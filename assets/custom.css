@@ -7048,7 +7048,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     max-width: 700px;
 /*     transform: translate(0%, 50%); */
     top: 0;
-    margin: 20px auto;
+    margin: 10vh auto;
     height: fit-content;
     z-index:99999999999;
 }
@@ -7147,7 +7147,7 @@ body.Body-overlay .product-details-wrapper:before {
     z-index: 9999999999;
 }
 .size-chart-model .model-content {
-    max-height: 85vh;
+    max-height: 80vh;
     overflow-y: scroll;
 }
 @media (max-width: 767px){
