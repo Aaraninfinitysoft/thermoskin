@@ -51,7 +51,6 @@
     },
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1": {
       "type": "common-hero-banner",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1_095afc52-c1db-4500-8e1b-f3601c6e83aa.png",
         "image_height": "original",
