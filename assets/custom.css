@@ -6594,6 +6594,7 @@ margin-bottom: 140px;
   }
   .customized-heading{
     font-size: 59px;
+    padding-bottom:15px;
   }
   .collection-grid {
     width: calc(100% - 400px) !important;
