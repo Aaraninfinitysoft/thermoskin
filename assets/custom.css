@@ -5717,7 +5717,7 @@ h3:empty {
   }
 
   .Support-Selector img {
-    max-height: 290px !important;
+/*     max-height: 290px !important; */
   }
 
   .Support-Selector .image-content-text {
