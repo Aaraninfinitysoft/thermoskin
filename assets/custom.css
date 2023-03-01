@@ -7108,4 +7108,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     border-radius: 50%;
     color: #fff;
 }
+.size-chart-model h2 {
+    text-transform: uppercase;
+}
 /************ custom end **********/
