@@ -7119,7 +7119,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   font-weight:600;
 }
 .grid__item.large--six-twelfths.product-sticky {
-    position: static;
+    position: static !important;
 }
 .size-chart-model#ex1 {
     padding: 30px;
@@ -7130,5 +7130,6 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     top: 0;
     margin: 0 auto;
     height: fit-content;
+  z-index:999;
 }
 /************ custom end **********/
