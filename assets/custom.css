@@ -7118,6 +7118,9 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   color:#414042;
   font-weight:600;
 }
+.grid__item.large--six-twelfths.product-sticky {
+    position: static;
+}
 .size-chart-model#ex1 {
     padding: 30px;
     color: #000;
