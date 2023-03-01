@@ -1398,11 +1398,11 @@ a.product-related-view-btn:hover {
   display: none;
 }
 
-div#ex1 {
+/* div#ex1 {
   width: 100% !important;
   max-width: 800px;
   padding:16px;
-}
+} */
 
 /* .size-chart-img {
   width: 40%;
@@ -7042,7 +7042,8 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .size-chart-model#ex1 {
     padding: 30px;
     color: #000;
-  overflow:visible;
+    overflow:visible;
+    width:90%;
 }
 .size-chart-model#ex1 .size-div-flex {
   display: flex!important;
