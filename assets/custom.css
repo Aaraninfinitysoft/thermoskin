@@ -3732,7 +3732,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 
 .Support-Selector .grid {
   display: flex;
-  max-height: 420px;
+/*   max-height: 420px; */
   overflow: visible;
 }
 
@@ -4972,8 +4972,8 @@ h3:empty {
 
   .Support-Selector .grid {
     display: flex;
-    max-height: 490px !important;
-    height: 490px;
+/*     max-height: 490px !important;
+    height: 490px; */
     margin: 0 !important;
     overflow: visible;
   }
@@ -6141,8 +6141,8 @@ padding-top: 40px !important;
 
   .Support-Selector .grid {
     display: flex;
-    max-height: 420px;
-    max-width: 1640px;
+/*     max-height: 420px;
+    max-width: 1640px; */
     margin: auto;
     overflow: visible;
   }
