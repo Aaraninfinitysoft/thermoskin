@@ -1412,9 +1412,16 @@ div#ex1 {
 }
 
 .size-chart-details {
-  width: 49%;
-  float: right;
+  width: 100%;
   display: flex;
+}
+
+.size-chart-details ul{
+  list-style:none;
+}
+
+.size-chart-details > div{
+  flex: 1;
 }
 
 ul.product-instruction-list li img {
