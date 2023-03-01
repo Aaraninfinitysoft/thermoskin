@@ -62,7 +62,7 @@
     <div class="swatch clearfix" data-option-index="{{ option_index }}">
 
       {% if product.options_with_values.size > 0 or is_color == true %}
-        <div class="header">
+        <div class="header test">
           <span>{{ swatch }}</span>
           {%- if swatch == 'Size' -%}
             {% if product.metafields.custom.item_size_cms_.value != blank or product.metafields.custom.item_size_inches.value %}

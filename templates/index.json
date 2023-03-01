@@ -45,7 +45,7 @@
           "type": "text",
           "settings": {
             "heading": "Proudly Australian owned",
-            "icon": "shopify:\/\/shop_images\/Group_451_c96e4a8e-d943-4b87-a8cc-d0fb3b06de21.png",
+            "icon": "shopify:\/\/shop_images\/Group_451.png",
             "subheading": "Based in Melbourne",
             "link": ""
           }
@@ -54,7 +54,7 @@
           "type": "text",
           "settings": {
             "heading": "Trusted by Physios",
-            "icon": "shopify:\/\/shop_images\/Group_539_1dfb9c40-8072-4ba2-8a85-0103259847ad.png",
+            "icon": "shopify:\/\/shop_images\/Group_539_70bf452c-264c-4f04-b4bc-ea3300f93f34.png",
             "subheading": "Only supports and braces brand endorsed by the APA",
             "link": ""
           }
@@ -63,7 +63,7 @@
           "type": "text",
           "settings": {
             "heading": "Australia’s #1 choice",
-            "icon": "shopify:\/\/shop_images\/Group_541_e1e98636-3180-44e5-8c13-9cc17071beeb.png",
+            "icon": "shopify:\/\/shop_images\/Group_541_59c846b8-576d-4f2c-96de-779b8d084333.png",
             "subheading": "The #1 support and brace brand in Australian Pharmacies*",
             "link": ""
           }
@@ -72,7 +72,7 @@
           "type": "text",
           "settings": {
             "heading": "Industry Experts",
-            "icon": "shopify:\/\/shop_images\/Group_454.png",
+            "icon": "shopify:\/\/shop_images\/Group_453.png",
             "subheading": "Supporting Australians for over 30 years",
             "link": ""
           }
@@ -183,7 +183,7 @@
       "type": "support-selector",
       "settings": {
         "colors": "light",
-        "image": "shopify:\/\/shop_images\/Group_578_0261d3ef-dccf-43c2-b1f6-d44a6b4197d1.png",
+        "image": "shopify:\/\/shop_images\/Image.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "left",
@@ -202,7 +202,7 @@
           "settings": {
             "tab_content": "<p>Compression supports contour to the shape of the affected area to provide even compression to reduce swelling and support for injured muscles and joints.<\/p><p> <strong>Best for:<\/strong> Within the first 72 hours of an acute (sudden) injury to reduce swelling & general support for ongoing muscle maintenance post injury.<\/p>",
             "tab_title": "COMPRESSION",
-            "link": "shopify:\/\/collections\/compression",
+            "link": "",
             "image3": "shopify:\/\/shop_images\/Group_327.png",
             "image4": "shopify:\/\/shop_images\/M7A2585.png"
           }
