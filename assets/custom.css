@@ -7040,10 +7040,17 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 }
 
 .size-chart-model#ex1 {
-    padding: 30px;
-    color: #000;
     overflow:visible;
     width:90%;
+    padding: 30px;
+    color: #000;
+    position: fixed;
+    max-width: 700px;
+/*     transform: translate(0%, 50%); */
+    top: 0;
+    margin: 20px auto;
+    height: fit-content;
+    z-index:99999999999;
 }
 .size-chart-model#ex1 .size-div-flex {
   display: flex!important;
@@ -7130,17 +7137,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .template-product .product-sticky {
     position: static !important;
 }
-.size-chart-model#ex1 {
-    padding: 30px;
-    color: #000;
-    position: fixed;
-    max-width: 700px;
-    transform: translate(0%, 50%);
-    top: 0;
-    margin: 0 auto;
-    height: fit-content;
-  z-index:99999999999;
-}
+
 body.Body-overlay .product-details-wrapper:before {
     position: fixed;
     left: 0;
