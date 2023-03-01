@@ -7011,17 +7011,21 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   object-fit: contain !IMPORTANT;
     min-height: unset;
 }
-.close-button {
-    float: right;
-    width: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: #414042;
-    color:#fff;
-    display: inline-table;
-  }
+.size-chart-model span.close-button {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 15px;
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background: #414042;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .close-button:hover {
   background-color: darkgray;
 }
