@@ -7143,7 +7143,7 @@ body.Body-overlay .product-details-wrapper:before {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.75);
+    background: rgba(0,0,0,0.6);
     content: '';
     z-index: 9999999999;
 }
