@@ -7142,4 +7142,10 @@ body.Body-overlay:after {
     content: '';
     z-index: 9999999999;
 }
+@media (max-width: 768px){
+.size-chart-model#ex1 .size-chart-img {
+    width: 100%;
+    max-width: 100%;
+}
+  }
 /************ custom end **********/
