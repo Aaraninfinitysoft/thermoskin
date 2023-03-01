@@ -5965,6 +5965,9 @@ h3:empty {
   .Support-Selector .img-wrapper-31 {
     align-self: start;
   }
+  .Support-Selector .responsive-image-wrapper img{
+    margin-top:-150px;
+  }
 
   .mobile-grid--table {
     display: flex !important;
