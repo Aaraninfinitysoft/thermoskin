@@ -332,8 +332,12 @@ var varTitle = '';
 setTimeout(()=>{
   var toggler = document.querySelector('.size-chart-toggler');
   var size_chart = document.querySelector('.size-chart-model');
+  var close = document.querySelector('.close-button');
   toggler.addEventListener('click',function(){
     size_chart.style.display = 'block'
+  })
+  close.addEventListener('click',function(){
+    size_chart.style.display = 'none'
   })
 },3000)
   
