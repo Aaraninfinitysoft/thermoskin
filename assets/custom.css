@@ -6996,7 +6996,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   object-fit: contain !IMPORTANT;
     min-height: unset;
 }
-button.shopify-payment-button__button {
+/* button.shopify-payment-button__button {
   font-size: 0px !important;
 }
 button.shopify-payment-button__button:before {
@@ -7006,4 +7006,4 @@ button.shopify-payment-button__button:before {
   text-align: center;
   white-space: normal;
   font-size: 19px;
-}
+} */
