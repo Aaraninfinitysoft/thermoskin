@@ -4988,7 +4988,7 @@ h3:empty {
   }
 
   .banner-lable-wrapper span {
-    padding: 10px 20px !important;
+    padding: 10px 20px 0 !important;
   }
 
   .text-advert-section {
