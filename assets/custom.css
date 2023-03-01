@@ -6604,7 +6604,7 @@ margin-bottom: 140px;
   }
   .store-locator-form .find,
 .store-locator-form .near-you {
-  padding: 28px 30px;
+  padding: 28px 30px 10px;
 }
 }
 @media (min-width:1199px) {
