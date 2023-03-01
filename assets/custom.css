@@ -3734,6 +3734,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   display: flex;
 /*   max-height: 420px; */
   overflow: visible;
+  justify-content:center;
 }
 
 .Support-Selector {
