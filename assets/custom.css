@@ -1407,7 +1407,7 @@ div#ex1 {
   padding:16px;
 }
 
-.size-chart-img {
+/* .size-chart-img {
   width: 40%;
   padding-right:20px;
 }
@@ -1427,7 +1427,7 @@ div#ex1 {
 }
 .size-chart-details > div{
   flex: 1;
-}
+} */
 
 ul.product-instruction-list li img {
   width: 65px;
@@ -7034,5 +7034,78 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 }
 .shopify-section.image-with-text-overlay-wrapper.banner-with-icon-set {
     position: relative;
+}
+
+.size-chart-model#ex1 {
+    padding: 30px;
+    color: #000;
+}
+.size-chart-model#ex1 .size-div-flex {
+  display: flex!important;
+  gap: 25px;
+}
+
+.size-chart-model#ex1 .size-chart-img {
+    max-width: 165px;
+}
+
+.size-chart-model#ex1 .size-chart-details {
+    display: flex!important;
+    width: 100%;
+}
+
+.size-chart-model#ex1 .chart-size-list, .size-chart-model#ex1 .chart-cm-list {
+    width: 33.33%;
+    display: block !important;
+}
+
+.size-chart-model#ex1 .size-chart-img + span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.size-chart-model#ex1 .chart-size-list ul li, .size-chart-model#ex1 .chart-cm-list ul li {
+    list-style: none;
+    list-style-type: none;
+    background: #ccc;
+    padding: 5px;
+}
+
+.size-chart-content {}
+
+.size-chart-model#ex1 .size-chart-content span {
+    padding: 0 0 16px;
+}
+
+.size-chart-model#ex1 .chart-size-list ul, .size-chart-model#ex1 .chart-cm-list ul {
+    margin: 0;
+    width: 100%;
+}
+
+.size-chart-model#ex1 .chart-size-list span, .size-chart-model#ex1 .chart-cm-list span {
+    display: block;
+}
+
+.size-chart-model#ex1 .size-chart-content span span {
+    padding-bottom: 0;
+}
+
+.size-chart-model#ex1 .size-chart-content span.chart-cm {
+    padding-bottom: 0;
+    height: 30px;
+}
+
+.size-chart-model#ex1 .chart-size-list ul li span.size-span {
+    width: 24px;
+    padding: 0;
+    margin: 0;
+    height: 24px;
+    display: inline-block;
+    background: #333;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #fff;
 }
 /************ custom end **********/
