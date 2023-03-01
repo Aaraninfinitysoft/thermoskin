@@ -202,6 +202,14 @@ color:#000!important;
     height: 100%;
   }
 }
-
+.tab-title1 a {
+    background-color: #00aeef;
+}
+.tab-title2 a {
+    background-color: #ed1c24;
+}
+.tab-title3 a {
+    background-color: #414042;
+}
 /* sixth block end */
 /* rs css started */
