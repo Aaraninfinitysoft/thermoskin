@@ -333,12 +333,15 @@ setTimeout(()=>{
   var toggler = document.querySelector('.size-chart-toggler');
   var size_chart = document.querySelector('.size-chart-model');
   var close = document.querySelector('.close-button');
+  var body = document.body;
   toggler.addEventListener('click',function(){
-    size_chart.style.display = 'block'
+    size_chart.style.display = 'block';
+    body.classList.add("Body-overlay");
   })
   close.addEventListener('click',function(){
     console.log("close");
-    size_chart.style.display = 'none'
+    size_chart.style.display = 'none';
+    body.classList.remove("Body-overlay");
   })
 },3000)
   
