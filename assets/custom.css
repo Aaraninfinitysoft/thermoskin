@@ -6996,3 +6996,11 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   object-fit: contain !IMPORTANT;
     min-height: unset;
 }
+button.shopify-payment-button__button:before {
+  content: "BUY NOW";
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  
+}
