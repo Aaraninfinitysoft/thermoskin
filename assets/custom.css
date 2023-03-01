@@ -4040,10 +4040,10 @@ h3:empty {
   display: none !important;
 }
 
-#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy{
+/* #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy{
   position: relative;
 }
-/* #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::before{
+#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set::before{
   content: '';
   position: absolute;
   width: 120px;
@@ -4056,12 +4056,12 @@ h3:empty {
   right: 7%;
   top: 45.7%;
 
-} */
+}
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
 .banner-with-icon-set .banner-lable-wrapper span:first-child{
   transform: translate(150px,-50px);
 }
-
+ */
 .browse-banner-lable-wrapper{
     font-family: 'landslide_sampleregular' !important;
     font-size: 50px;
@@ -4153,10 +4153,10 @@ h3:empty {
   .shopify-section:not(.footer-wrapper):not(.icon-with-text):not(#shopify-section-footer):not(.homepage-section--slideshow-wrapper):not(.image-with-text-overlay-wrapper) {
     margin: 60px 0;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
     top: calc(25% + 62px);
     font-size: 33px;
-  }
+  } */
 
   .product-tabbing .product-tab-img {
     width: calc(100% - 55px);
@@ -4551,11 +4551,11 @@ h3:empty {
   input#subscribe {
     margin-left: 35px;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
     font-size: 45px;
     right: 14%;
     top: calc(48% + 62px);
-  }
+  } */
 
 }
 
@@ -6333,14 +6333,14 @@ margin: auto;
   .product-details-wrapper, .metafield-main-wrap{
     border: 0!important;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     font-size: 37px;
   }
   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
     right: 4%;
     top: 20%;
     height: 65px;
-  }
+  } */
 }
 
 @media(min-width:769px) and (max-width:1199px) {
@@ -6353,11 +6353,11 @@ margin: auto;
     top: 55%;
     font-size: 45px;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
     height: 75px;
     right: 4%;
     top: 38.7%;
-  }
+  } */
   .footer-logo-social-wrap+div .grid__item {
     width: 33.33% !important;
 
@@ -6436,11 +6436,11 @@ margin: auto;
   #about .customized-heading{
     transform: translate(15%,-9px) rotate(345deg)!important;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     right: 35% !important;
     top: calc(20% + 62px) !important;
 
-  }
+  } */
  
   .text-advert-section {
     display: flex !important;
@@ -6471,11 +6471,11 @@ padding: 0 40px;
   .owl-item {
     width: 430px !important;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     font-size: 37px;
     top: calc(25% + 62px);
   right: 20%;
-  }
+  } */
 }
 
 @media(min-width:601px) and (max-width:768px) {
@@ -6518,7 +6518,7 @@ padding: 0 40px;
     .active-facets.active-facets-desktop{
       top: 14px;   
     }
-    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
+/*     #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set .banner-lable-wrapper{
       font-size: 37px;
       top: 64%;
     right: 12%;
@@ -6527,7 +6527,7 @@ padding: 0 40px;
       right: 2%;
     top: 36%;
     height: 65px;
-    }
+    } */
   .thermoskin-range--single-item {
     flex: 0 0 40% !important;
   }
@@ -6678,7 +6678,7 @@ max-width: 710px !important;
   max-width: 1920px;
   margin: auto;
   position: relative;
-} */
+} 
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon:first-child  img{
   width: 63px;
     }
@@ -6689,7 +6689,7 @@ max-width: 710px !important;
     }
     #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .icon-set-wrapper .text-with-icon:last-child  img{
   width: 70px;
-    }
+    } */
    .template-index .text-advert-section .grid__item,.text-advert-section .grid__item{
       justify-content: start;
     }
@@ -6967,14 +6967,14 @@ small p strong::first-letter{
 text-transform: capitalize;
 
 }
-#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
+/* #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
 .banner-with-icon-set .banner-lable-wrapper .banner-lable{
   background: transparent !important;
 }
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy 
 .banner-with-icon-set .banner-lable-wrapper span:first-child{
   transform: translate(180px,-50px);
-}
+} */
 .collection-filters .collection-filters__sort{
   width: 100% !important;
 }
