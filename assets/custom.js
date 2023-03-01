@@ -90,3 +90,4 @@ document.querySelectorAll('.facets__item').forEach(
   }
 )
 
+
