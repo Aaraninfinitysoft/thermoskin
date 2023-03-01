@@ -7010,7 +7010,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .close-button:hover {
   background-color: darkgray;
 }
-.template-product.swatch.clearfix.styleclass {
+.swatch.clearfix.styleclass {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
