@@ -7037,6 +7037,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 .size-chart-model#ex1 {
     padding: 30px;
     color: #000;
+  overflow:visible;
 }
 .size-chart-model#ex1 .size-div-flex {
   display: flex!important;
