@@ -383,7 +383,22 @@
                         </noscript>
 
                         {% if buttons_block.settings.show_smart_checkout %}
+                          {% comment %}
                           {{ form | payment_button }}
+                          {% endcomment %}
+                          /* for desktop view */
+                          <script>
+                          
+                          setTimeout(function(){
+                          $('.shopify-payment-button__button').text('DONE SHOPPING');
+                          },1000),
+                          
+                          
+                          /* for mobile view */
+                          setTimeout(function(){
+                          $('.shopify-payment-button__button--unbranded').text('DONE SHOPPING');
+                          },2000),
+                          </script>
                         {% endif %}
                       </div>
 
