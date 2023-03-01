@@ -254,13 +254,13 @@
                       
                       <div id="ex1" class="modal size-chart-model">
                       <span class="close-button">&times;</span>
-                          <h2>{{ product.title }}</h2>
-                          <div class="size-chart-img">
-                       <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
-                      <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
-                          </div>
-                      {% if product.metafields.custom.measurement_instructions.value != blank %}
-                       <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
+                        <h2>{{ product.title }}</h2>
+                        <div class="size-chart-img">
+                          <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
+                          <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
+                        </div>
+                        {% if product.metafields.custom.measurement_instructions.value != blank %}
+                        <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
                         {% endif %}
                           <div class="size-chart-details">
                          
