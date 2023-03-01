@@ -1,6 +1,26 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
+    "c355966e-9371-46ff-b9af-659f04fae546": {
+      "type": "banner-with-icon-set",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_579_1.png",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "{{ collection.title }}",
+        "text": "",
+        "colors": "dark",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "heading--text-size": 40,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1": {
       "type": "common-hero-banner",
       "settings": {
@@ -137,6 +157,7 @@
     }
   },
   "order": [
+    "c355966e-9371-46ff-b9af-659f04fae546",
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1",
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
     "collection-header",
