@@ -7004,4 +7004,5 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: lightgray;
+    display: inline-table;
   }
