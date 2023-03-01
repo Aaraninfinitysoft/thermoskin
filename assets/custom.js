@@ -89,15 +89,12 @@ document.querySelectorAll('.facets__item').forEach(
     })
   }
 )
-/* for desktop view */
+
 
 setTimeout(function(){
-$('.shopify-payment-button__button').text('BUY NOW');
-},1000),
-
-
-/* for mobile view */
-setTimeout(function(){
-$('.shopify-payment-button__button--unbranded').text('BUY NOW');
+$('.shopify-payment-button__button').text('SHOP IT NOW');
 },2000),
-
+  theme.init = function() {
+  theme.customerTemplates.init();
+    
+$(theme.init);
