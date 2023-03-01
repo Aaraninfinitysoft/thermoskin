@@ -7131,7 +7131,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     height: fit-content;
   z-index:99999999999;
 }
-body.Body-overlay:after {
+body.Body-overlay .product-details-wrapper:before {
     position: fixed;
     left: 0;
     right: 0;
