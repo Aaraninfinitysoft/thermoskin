@@ -54,7 +54,20 @@
     loading="lazy"
   />
 </noscript>
-
+  <img
+  loading="lazy"
+  class="{{ class }} js"
+  style="{% unless allow_stretch %}max-width: {{ responsive-image.width }}px; max-height: {{ responsive-image.height }}px; {% endunless %}{{ styles }}"
+  {% if alt %}
+    alt="{{ alt | escape }}"
+  {% else %}
+    alt="{{ responsive-image.alt | escape }}"
+  {% endif %}
+  {{ props }}
+  width="{{ responsive-image.width }}"
+  height="{{ responsive-image.height }}"
+  src="{{ responsive-image | img_url: '1445x' }}" />
+{% comment %}
 <img
   loading="lazy"
   class="{{ class }} js"
@@ -78,5 +91,5 @@
           {{ responsive-image | img_url: 'master' }} {{ responsive-image.width }}w"
   sizes="{{ sizes }}"
   src="{{ responsive-image | img_url: '1445x' }}" />
-
+{% endcomment %}
 </div>
