@@ -3765,7 +3765,7 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
 }
 .Support-Selector .responsive-image-wrapper img{
   width:80%;
-  margin-top:-250px;
+  margin-top:-100px;
 }
 
 .customized-heading {
@@ -5964,9 +5964,6 @@ h3:empty {
 
   .Support-Selector .img-wrapper-31 {
     align-self: start;
-  }
-  .Support-Selector .responsive-image-wrapper img{
-    margin-top:-100px;
   }
 
   .mobile-grid--table {
