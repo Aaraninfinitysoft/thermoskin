@@ -89,5 +89,15 @@ document.querySelectorAll('.facets__item').forEach(
     })
   }
 )
+/* for desktop view */
 
+setTimeout(function(){
+$('.shopify-payment-button__button').text('BUY NOW');
+},1000),
+
+
+/* for mobile view */
+setTimeout(function(){
+$('.shopify-payment-button__button--unbranded').text('BUY NOW');
+},2000),
 
