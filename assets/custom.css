@@ -7115,5 +7115,6 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
 }
 .size-chart-model .size-chart-details > div > span {
     height: 30px;
+  color:#414042;
 }
 /************ custom end **********/
