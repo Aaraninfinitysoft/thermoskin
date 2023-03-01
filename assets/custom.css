@@ -164,17 +164,16 @@ a.thermoskin-range-view-list-btn {
   clear: both;
   margin-top: 34px !important;
 }
-.thermo-sup-level + div + div{
+.size-chart-model{
   width: 100% !important;
-  color: #ED1C24;
   float: none !important;
   padding: 0;
 }
-.thermo-sup-level + div + div div{
-display: block!important;
+.size-chart-model .size-div-flex{
+display: flex;
 text-align: left!important;
 }
-.thermo-sup-level + div + div span{
+.size-chart-model span{
  font-size: 16px;
   padding:10px;
 }
