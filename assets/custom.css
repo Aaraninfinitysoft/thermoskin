@@ -7041,6 +7041,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
   display: flex!important;
   gap: 25px;
   flex-wrap:wrap;
+  width:100%;
 }
 
 .size-chart-model#ex1 .size-chart-img {
