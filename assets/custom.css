@@ -7006,3 +7006,6 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     background-color: lightgray;
     display: inline-table;
   }
+.close-button:hover {
+  background-color: darkgray;
+}
