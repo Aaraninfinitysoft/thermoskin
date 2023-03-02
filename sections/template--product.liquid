@@ -259,11 +259,11 @@
                       <div class="size-div-flex">
                         <div class="size-chart-img">
                           <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
-                          <p>Made in {{ product.metafields.custom.country_of_origin.value }} </p>
+                          <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         </div>
                       <div class="size-chart-content">
                         {% if product.metafields.custom.measurement_instructions.value != blank %}
-                        <p>{{ product.metafields.custom.measurement_instructions.value }}</p>
+                        <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
                         {% endif %}
                           <div class="size-chart-details">
                          
@@ -393,7 +393,7 @@
                           {{ form | payment_button }} 
                           {% endcomment %}
                           <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="document.querySelector('[data-testid]').click();">BUY NOW</button>
-                          <div style="display:none;">
+                          <div>
                               {{ form | payment_button }}
                           </div>
                          
