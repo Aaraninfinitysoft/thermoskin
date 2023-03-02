@@ -7174,9 +7174,10 @@ body.Body-overlay .product-details-wrapper:before {
   .qtn-option-wrapper {
     flex-wrap: wrap;
 }
-/*   .size-chart-model#ex1 {
-    transform: inherit;
-    top: 5%;
-} */
+  .image-with-text-overlay-wrapper .homepage-featured-content-box {
+      background: 0 0;
+      margin: 0;
+      padding: 20px 5%;
+  }
   }
 /************ custom end **********/
