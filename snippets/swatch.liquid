@@ -118,6 +118,10 @@
                 v-model="option{{ option_index | plus: 1 }}"
               />
               {% if is_color %}
+                {% comment %}
+                <label for="{{ section.id }}-swatch-{{ option_index }}-{{ value | escape }}" style="background-color: {{ value | split: ' ' | last | handle }}; background-image: url({{ value | handle | append: '.' | append: file_extension | asset_url }})">
+                </label>
+                {% endcomment %}
                 <label for="{{ section.id }}-swatch-{{ option_index }}-{{ value | escape }}" style="background-color: {{ value | split: ' ' | last | handle }}; background-image: url({{ value | handle | append: '.' | append: file_extension | asset_url }})">
                 </label>
               {% else %}
