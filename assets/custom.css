@@ -7120,7 +7120,7 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     display: inline-block;
     background: #414042;
     text-align: center;
-    line-height: 24px;
+    line-height: 26px;
     border-radius: 50%;
     color: #fff;
   font-size:13px;
