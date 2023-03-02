@@ -7167,10 +7167,7 @@ body.Body-overlay .product-details-wrapper:before {
   top: 38%;
   right: 34%;
 }
-.text-with-icon:first-child {
-    padding-right: 15px;
-}
-.text-with-icon:nth-child(2) {
+.text-with-icon:first-child, .text-with-icon:nth-child(2) {
     padding-right: 15px;
 }
 @media (max-width: 767px){
