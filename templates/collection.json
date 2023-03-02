@@ -4,7 +4,7 @@
     "c355966e-9371-46ff-b9af-659f04fae546": {
       "type": "banner-with-icon-set",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_579_1.png",
+        "image": "{{ collection.image }}",
         "image_height": "original",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
