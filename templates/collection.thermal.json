@@ -44,6 +44,8 @@
         "heading--text-size": 40,
         "text--text-size": 18,
         "link": "",
+        "overlay_text_1": "{{ collection.metafields.custom.overlay_text_1.value }}",
+        "overlay_text_2": "{{ collection.metafields.custom.overlay_text_2.value }}",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#000000"

@@ -7174,7 +7174,7 @@ body.Body-overlay .product-details-wrapper:before {
   .qtn-option-wrapper {
     flex-wrap: wrap;
 }
-  .image-with-text-overlay-wrapper .homepage-featured-content-box {
+  .image-with-text-overlay-wrapper.banner-with-icon-set .homepage-featured-content-box {
       background: 0 0;
       margin: 0;
       padding: 20px 5%;
