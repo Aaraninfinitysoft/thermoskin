@@ -7158,7 +7158,6 @@ body.Body-overlay .product-details-wrapper:before {
 #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .inner-absolute-layer {
   top: 70%;
   right: 12%;
-  position: absolute;
 }
 #thermoskin-compression-range-of-supports-and-braces .inner-absolute-layer{
   
@@ -7166,7 +7165,6 @@ body.Body-overlay .product-details-wrapper:before {
 #thermoskin-sport-supports-and-braces .inner-absolute-layer {
   top: 38%;
   right: 34%;
-  position: absolute;
 }
 @media (max-width: 767px){
 .size-chart-model#ex1 .size-chart-img {
