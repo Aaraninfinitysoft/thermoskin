@@ -4908,11 +4908,11 @@ h3:empty {
   .product-form-vue,.template-product .form-vertical,.template-product .product-details--form-wrapper{
     margin: 0 !important; 
   }
-  #browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
+/*   #browse-by-injury .homepage-featured-content-box,#browse-by-body-part .homepage-featured-content-box-inner{
     width: 90% !important;
     margin: auto !important;
     float: none !important;
-  }
+  } */
 /*   #browse-by-injury .homepage-featured-content-box-inner{
     margin-top: 40px;
   }
