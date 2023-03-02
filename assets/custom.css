@@ -92,9 +92,10 @@ a.thermoskin-range-view-list-btn {
 }
 
 .swatch label {
-  background: #D1D3D4;
+  background: #414042;
   color: #fff;
   border-color: #ccc !important;
+  opacity: 0.7;
 }
 
 .swatch input:checked+label {
