@@ -5,13 +5,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('small p').each(function () {
     $(this).prepend('<strong>Best For</strong>')
   })
-  $(document).on('change',function(){
-setTimeout(() => {
-  $('small p').each(function () {
-    $(this).prepend('<strong>Best For</strong>')
-  })
-}, 3000);
-  })
+//   $(document).on('change',function(){
+// setTimeout(() => {
+//   $('small p').each(function () {
+//     $(this).prepend('<strong>Best For</strong>')
+//   })
+// }, 3000);
+//   })
   // best sellers dropown
 
   // about page tag
