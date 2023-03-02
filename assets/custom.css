@@ -7152,7 +7152,10 @@ body.Body-overlay .product-details-wrapper:before {
     max-height: 80vh;
     overflow-y: scroll;
 }
-
+#thermoskin-sport-supports-and-braces .inner-absolute-layer {
+    top: 24%;
+    right: 38%;
+}
 @media (max-width: 767px){
 .size-chart-model#ex1 .size-chart-img {
     width: 100%;
