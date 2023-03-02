@@ -17,7 +17,7 @@
 
 .image-with-text-overlay-wrapper .image-with-text-overlay__content-box {
     display: flex;
-    justify-content: center !important
+/*     justify-content: center !important */
 }
 
 .image-with-text-overlay-wrapper .homepage-featured-content-wrapper {
