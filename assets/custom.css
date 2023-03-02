@@ -3406,6 +3406,7 @@ letter-spacing: initial;
 {
   display: flex;
   margin-top: 19.7px;
+  flex-wrap: wrap;
 }
 .qtn-option-wrapper> div:first-child{
   display: flex;
