@@ -259,11 +259,11 @@
                       <div class="size-div-flex">
                         <div class="size-chart-img">
                           <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
-                          <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
+                          <p>Made in {{ product.metafields.custom.country_of_origin.value }} </p>
                         </div>
                       <div class="size-chart-content">
                         {% if product.metafields.custom.measurement_instructions.value != blank %}
-                        <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
+                        <p>{{ product.metafields.custom.measurement_instructions.value }}</p>
                         {% endif %}
                           <div class="size-chart-details">
                          
