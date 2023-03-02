@@ -6750,9 +6750,9 @@ border-color: transparent !important;
 width: fit-content;
     }
     /* brows body parts */
-    #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
+/*     #browse-by-body-part .homepage-featured-content-box-inner.shown-on-scroll.animated.fadeInUp{
       margin-bottom: 75px !important;
-    }
+    } */
     #browse-by-body-part .browse-heading-top-left h2{
 display: none !important;
     }
