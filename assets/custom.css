@@ -3116,9 +3116,9 @@ h3.metafield-title {
 .centered.small--one-whole.three-quarters.custom-news-letter-main-wrap,
 .mobile-nav-bar-wrapper .wrapper-padded,
 .wrapper-padded.product-description-container {
-  max-width: 1920px;
-  width: 90%;
-  margin: auto !important;
+  max-width: 1660px;
+  width: 100%;
+  margin: 0 auto !important;
 }
 
 .centered.small--one-whole.three-quarters.custom-news-letter-main-wrap {
