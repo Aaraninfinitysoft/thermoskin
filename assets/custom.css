@@ -5860,7 +5860,7 @@ h3:empty {
   .image-with-text-overlay-wrapper .homepage-featured-content-box {
 /*     align-items: end !important; */
     max-width: calc(1640px / 2);
-    padding: 0 !important;
+/*     padding: 0 !important; */
   }
 }
 
