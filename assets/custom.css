@@ -7181,6 +7181,7 @@ body.Body-overlay .product-details-wrapper:before {
   .image-with-text-overlay-wrapper.banner-with-icon-set .homepage-featured-content-box {
     margin: 0;
     padding: 20px 5%;
+    display: block;
 }
   #thermoskin-sport-supports-and-braces .inner-absolute-layer {
     top: 58%;
