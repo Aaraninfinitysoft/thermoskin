@@ -3096,7 +3096,7 @@ h3.metafield-title {
 
 .text-with-icon {
   border: 0 !important;
-  padding-top: 0 !important;
+  padding-top: 10px !important;
   margin-top: 0 !important;
   line-height: 1 !important;
 }
