@@ -7019,12 +7019,13 @@ summary .icon-caret, .select .icon-caret, .customer select + svg{
     padding: 0;
     width: 26px;
     height: 26px;
-  text-align:center;
+    text-align:center;
     line-height: 26px;
     color: #fff;
     background: #414042;
     font-weight: 700;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .close-button:hover {
