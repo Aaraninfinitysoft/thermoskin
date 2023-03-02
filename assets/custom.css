@@ -99,7 +99,7 @@ a.thermoskin-range-view-list-btn {
 
 .swatch input:checked+label {
 /*   background: #da2128 !important; */
-  border-color: #da2128 !important;
+/*   border-color: #da2128 !important; */
 }
 
 .sub_header h2 + span{
