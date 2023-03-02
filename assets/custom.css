@@ -4844,10 +4844,10 @@ h3:empty {
   .product-related-img img{
     border-radius: 10px;
   }
-  .thermal.template-collection .homepage-featured-content-box-inner{
+/*   .thermal.template-collection .homepage-featured-content-box-inner{
     margin-top: 22px !important;
     margin-bottom: 22px !important;
-  }
+  } */
   .mobile-dropdown{
     max-width: 100% !important;
   }
