@@ -3406,7 +3406,6 @@ letter-spacing: initial;
 {
   display: flex;
   margin-top: 19.7px;
-  flex-wrap: wrap;
 }
 .qtn-option-wrapper> div:first-child{
   display: flex;
@@ -7153,10 +7152,14 @@ body.Body-overlay .product-details-wrapper:before {
     max-height: 80vh;
     overflow-y: scroll;
 }
+
 @media (max-width: 767px){
 .size-chart-model#ex1 .size-chart-img {
     width: 100%;
     max-width: 100%;
+}
+  .qtn-option-wrapper {
+    flex-wrap: wrap;
 }
 /*   .size-chart-model#ex1 {
     transform: inherit;
