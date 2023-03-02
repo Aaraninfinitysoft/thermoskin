@@ -4863,11 +4863,11 @@ h3:empty {
     font-size: 20px !important; 
     line-height: 27px !important;
   }
-  #about .homepage-featured-content-box-inner{
+/*   #about .homepage-featured-content-box-inner{
     margin-bottom: 60px !important;
     margin-top: 40px !important;
    
-      }
+      } */
       .Support-Selector .grid__item{
         padding-left: 0 !important;
       }
@@ -6511,9 +6511,9 @@ padding: 0 40px;
     .best-sellers-wrap {
      flex: 0 0 40%;
     }
-    #about .homepage-featured-content-box-inner{
+/*     #about .homepage-featured-content-box-inner{
       margin-bottom: 60px !important;
-    }
+    } */
     #about .homepage-section-title{
       margin-bottom: 0 !important;
     }
