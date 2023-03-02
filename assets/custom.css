@@ -419,12 +419,7 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
 .why-choose-section {
   padding: 20px 0 !important;
 }
-.inner-absolute-layer{
-  position: absolute;
-  right: 11%;
-  top: 60%;
-  transform: rotate(350deg);
-}
+
 
 /* rs css started */
 .template-index .header-section.sticky-header.sticky-header-open:not(.unstuck) .overlay-header .top-links a:hover {
@@ -7154,9 +7149,15 @@ body.Body-overlay .product-details-wrapper:before {
     line-height: 1;
     color: var(--heading--color);
 }
+.inner-absolute-layer{
+  position: absolute;
+  right: 11%;
+  top: 60%;
+  transform: rotate(350deg);
+}
 #thermoskin-sport-supports-and-braces .inner-absolute-layer {
-    top: 24%;
-    right: 38%;
+    top: 38%;
+    right: 34%;
 }
 
 @media (max-width: 767px){
