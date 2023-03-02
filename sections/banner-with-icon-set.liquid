@@ -183,14 +183,16 @@
 
     {% endif %}
 </div>
+{% if section.settings.overlay_text_1 and section.settings.overlay_text_2 %}
 <div class="browse-banner-lable-wrapper">
   <div class="inner-relative-layer">
     <div class="inner-absolute-layer">
-      <span class="banner-lable">Enhanced </span>
-      <span class="banner-lable"> Protection</span>
+      <span class="banner-lable">{{ section.settings.overlay_text_1 }} </span>
+      <span class="banner-lable"> {{ section.settings.overlay_text_1 }}</span>
     </div>
   </div>
 </div>
+  {% endif %}
 <style>
   .homepage-content--{{ section.id }} .homepage-section-btn {
     color: {{ section.settings.button-text }};
