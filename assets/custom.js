@@ -28,8 +28,8 @@ var tag3 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-
 $('#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set').append(tag3);
 
 // browse by body Parts Tag
-// var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
-// $('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
+var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
+$('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
 
 
   var popup = document.querySelector('.best-sellers-nav');
