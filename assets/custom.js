@@ -24,8 +24,12 @@ var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-
 $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set').append(tag2);
 
 // browse by body Parts Tag
-var tag3 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> recovery</span></div></div></div>'
+var tag3 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Reduces </span><span class="banner-lable"> Swelling</span></div></div></div>'
 $('#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set').append(tag3);
+
+// browse by body Parts Tag
+var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
+$('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
 
 
   var popup = document.querySelector('.best-sellers-nav');
