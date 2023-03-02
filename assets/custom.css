@@ -7175,9 +7175,8 @@ body.Body-overlay .product-details-wrapper:before {
     flex-wrap: wrap;
 }
   .image-with-text-overlay-wrapper.banner-with-icon-set .homepage-featured-content-box {
-      background: 0 0;
-      margin: 0;
-      padding: 20px 5%;
-  }
+    margin: 0;
+    padding: 20px 5%;
+}
   }
 /************ custom end **********/
