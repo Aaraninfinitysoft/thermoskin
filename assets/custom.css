@@ -6427,11 +6427,11 @@ margin: auto;
   #about .customized-heading{
     transform: translate(15%,-9px) rotate(345deg)!important;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     right: 35% !important;
     top: calc(20% + 62px) !important;
 
-  }
+  } */
  
   .text-advert-section {
     display: flex !important;
@@ -6462,11 +6462,11 @@ padding: 0 40px;
   .owl-item {
     width: 430px !important;
   }
-  #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
+/*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     font-size: 37px;
     top: calc(25% + 62px);
   right: 20%;
-  }
+  } */
 }
 
 @media(min-width:601px) and (max-width:768px) {
@@ -6514,11 +6514,11 @@ padding: 0 40px;
       top: 64%;
     right: 12%;
     }
-    #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
+/*     #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:before{
       right: 2%;
     top: 36%;
     height: 65px;
-    }
+    } */
   .thermoskin-range--single-item {
     flex: 0 0 40% !important;
   }
@@ -7155,9 +7155,9 @@ body.Body-overlay .product-details-wrapper:before {
   top: 60%;
   transform: rotate(350deg);
 }
-#thermoskin-sport-supports-and-braces .inner-absolute-layer {
-    top: 24%;
-    right: 38%;
+#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .inner-absolute-layer {
+    top: 12%;
+    right: 70%;
 }
 #thermoskin-sport-supports-and-braces .inner-absolute-layer {
     top: 38%;
