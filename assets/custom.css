@@ -6594,9 +6594,9 @@ padding: 0 40px;
   }
 }
 @media(min-width:1441px) {
-  #about .homepage-featured-content-box-inner{
+/*   #about .homepage-featured-content-box-inner{
 margin-bottom: 140px;
-  }
+  } */
   #browse-by-body-part .Support-Selector{
     margin-top: 270px !important;
   
