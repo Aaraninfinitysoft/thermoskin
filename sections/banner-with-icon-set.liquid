@@ -66,9 +66,8 @@
                             </div>
                         {% endif %}
 
-                        {% if section.settings.text != blank %}
-                            <div class="rte featured-row__subtext textarea">{{ section.settings.text }}</div>
-                        {% elsif template contains 'collection' %}
+                        
+                        {% if template contains 'collection' %}
                         <div class="rte featured-row__subtext textarea">
                           <div class="icon-set-wrapper">
                           {% for block in section.blocks %}
@@ -82,7 +81,11 @@
                           {% endfor %}
                           </div>
                           </div>
-                        {% endif %}
+                          {% else %}
+                            {% if section.settings.text != blank %}
+                                <div class="rte featured-row__subtext textarea">{{ section.settings.text }}</div>
+                            {% endif %}
+                          {% endif %}
 
                         {% render 'home-section-button', link: section.settings.link, label: section.settings.button_label %}
                     </div>
