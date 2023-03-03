@@ -74,7 +74,7 @@
       </div>
       {% when 'product_card_description' %}
        <div class="product-grid--descripiton" data-block-type="product_card_description"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
-        {{ product.description |strip_html | escape | truncate:20}}
+        {{ product.description |strip_html | escape | truncate:200}}
       </div>
       {%- when 'product_card_vendor' -%}
       <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
