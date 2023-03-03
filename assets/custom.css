@@ -3343,10 +3343,10 @@ letter-spacing: initial;
 
 
 
-.product-grid--price {
+/* .product-grid--price {
   margin-top: auto !important;
 }
-
+ */
 .collection-variant-wrapper {
   display: flex;
   flex-wrap: wrap;
