@@ -3362,6 +3362,8 @@ letter-spacing: initial;
 
 .product-grid--title a {
   text-decoration: none;
+  min-height:55px;
+  display:inline-block;
 }
 
 .active.pagination-number a:before,
