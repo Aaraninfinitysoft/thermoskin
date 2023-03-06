@@ -99,7 +99,6 @@ a.thermoskin-range-view-list-btn {
 }
 
 .swatch input:checked+label {
-/*   background: #da2128 !important; */
    border-color: #da2128 !important; 
 }
 
@@ -7185,6 +7184,13 @@ a.read-more-collection {
     background: inherit;
     border: inherit;
     box-shadow: unset;
+}
+.swatch.colorclass input:checked+label{
+  background:inherit;
+}
+.fancybox-desktop {
+    min-width: 60vw;
+    max-width: 800px;
 }
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
