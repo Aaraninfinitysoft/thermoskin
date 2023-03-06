@@ -344,7 +344,19 @@ setTimeout(()=>{
     body.classList.remove("Body-overlay");
   })
 },3000)
-  
+  var jq224 = jQuery.noConflict(true);
+  jq224('.read-more-collection').on('click', function(e){
+    e.preventDefault();
+    if (!jq224('#fullDescription').is(':visible')){
+      jq224('#truncated').fadeOut(300, function(){ 
+        jq224('#fullDescription').fadeIn(500);
+      });
+    }else{
+      jq224('#fullDescription').fadeOut(300, function(){ 
+        jq224('#truncated').fadeIn(500);
+      });
+    }
+  });
 </script>
  {% include 'smile-initializer' %}
 
