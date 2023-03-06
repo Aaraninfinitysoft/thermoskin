@@ -255,6 +255,18 @@
     autoplayHoverPause:true
       });
 })($);
+
+jQuery(document).ready(function () {
+    jQuery(".fullDescription").hide();
+    jQuery(".read-more-collection").on("click", function () {
+      var par = jQuery(this).parent();
+      console.log(par);
+        //var txt = $(".content").is(':visible') ? 'Read More' : 'Read Less';
+        //$(".show_hide").text(txt);
+        //$(this).next('.content').slideToggle(200);
+    });
+});
+      
 $(document).ready(function(){
    
  setTimeout(()=>{ if($("body#challenge").length) $(window).scrollTop(0)},2000);
