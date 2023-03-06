@@ -74,7 +74,9 @@
       </div>
       {% when 'product_card_description' %}
        <div class="product-grid--descripiton" data-block-type="product_card_description"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
-        {{ product.description |strip_html | escape | truncatewords:20}}
+          <div id="truncated">{{ product.description | truncatewords: 10, "... <a class='read-more-collection' data-no-instant>Read More</a>" }}</div>
+          <div id="fullDescription" style="display: none">{{ product.description | append: " <a class='read-more-collection' data-no-instant>Read Less</a>" }}</div>
+          {%  comment %}{{ product.description |strip_html | escape | truncatewords:20}} {%  endcomment %}
       </div>
     {%- when 'product_card_vendor' -%}
       <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
