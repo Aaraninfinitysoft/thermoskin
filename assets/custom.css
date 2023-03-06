@@ -7177,7 +7177,9 @@ a.read-more-collection {
     color: var(--primary-btn-bg-color);
     font-weight: 600;
 }
-
+.fancybox-overlay-fixed {
+    background: rgba(0,0,0,0.5);
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
   word-wrap: break-word;
