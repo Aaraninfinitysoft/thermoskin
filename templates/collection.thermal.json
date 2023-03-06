@@ -195,7 +195,7 @@
         "title": "Unsure which product is right for you?",
         "text": "<p>Searching through the endless options can be confusing. Let us recommend the best product for your need.<\/p>",
         "button_label": "lets go",
-        "button_link": "#"
+        "button_link": "shopify:\/\/pages\/store-locator"
       }
     }
   },
