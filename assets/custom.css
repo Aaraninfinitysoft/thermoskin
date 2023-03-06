@@ -7172,6 +7172,11 @@ body.Body-overlay .product-details-wrapper:before {
 .text-with-icon:first-child, .text-with-icon:nth-child(2) {
     padding-right: 15px;
 }
+a.read-more-collection {
+    cursor: pointer;
+    color: var(--primary-btn-bg-color);
+    font-weight: 600;
+}
 @media (max-width: 768px){
 .size-chart-model#ex1 .size-chart-img {
     width: 100%;
@@ -7196,4 +7201,5 @@ body.Body-overlay .product-details-wrapper:before {
     right: 30%;
 }
 }
+
 /************ custom end **********/
