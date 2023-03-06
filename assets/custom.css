@@ -4966,11 +4966,11 @@ h3:empty {
 /*   .customized-heading {
     transform: translate(0, 0px) rotate(345deg)  !important;
   } */
-  #about .customized-heading{
+/*   #about .customized-heading{
     transform: translate(-5%) rotate(345deg)!important;
     padding: 20px 10px;
     font-size: 40px!important;
-  }
+  } */
   .browse-img-section {
     margin-top: 40px !important;
   }
@@ -6426,9 +6426,9 @@ margin: auto;
   .owl-item {
     width: 320px !important;
   }
-  #about .customized-heading{
+/*   #about .customized-heading{
     transform: translate(15%,-9px) rotate(345deg)!important;
-  }
+  } */
 /*   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set:after{
     right: 35% !important;
     top: calc(20% + 62px) !important;
