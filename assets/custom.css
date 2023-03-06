@@ -7177,7 +7177,11 @@ a.read-more-collection {
     color: var(--primary-btn-bg-color);
     font-weight: 600;
 }
+
 @media (max-width: 768px){
+  .template-collection .product-grid--descripiton{
+  word-wrap: break-word;
+}
 .size-chart-model#ex1 .size-chart-img {
     width: 100%;
     max-width: 100%;
