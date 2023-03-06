@@ -7181,7 +7181,6 @@ a.read-more-collection {
     background: rgba(0,0,0,0.5);
 }
 .popup--body .input-group .form-control {
-    width: 100%;
     height: unset;
     background: inherit;
     border: inherit;
