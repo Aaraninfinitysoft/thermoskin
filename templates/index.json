@@ -316,6 +316,7 @@
     },
     "1cae527a-d1f4-44c6-a96e-f6d74466c715": {
       "type": "thermoskin-range-collection",
+      "disabled": true,
       "blocks": {
         "a791cbe6-7236-4510-bc02-55ca07852dae": {
           "type": "text",
