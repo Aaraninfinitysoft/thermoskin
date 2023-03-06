@@ -367,6 +367,42 @@
         "title": "Latest recovery tips",
         "viewurl": "shopify:\/\/collections\/elbow"
       }
+    },
+    "9de87d6a-42ba-4d1c-88dc-e3f0e9692a66": {
+      "type": "accordion",
+      "blocks": {
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-0",
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-1",
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
     }
   },
   "order": [
@@ -377,6 +413,7 @@
     "09cb0b88-a229-44bc-b02a-8feb6e185621",
     "d7171adc-3734-48a6-9634-3990226fe598",
     "663c8e68-404f-4ff8-aeac-61711d2db7a0",
-    "1cae527a-d1f4-44c6-a96e-f6d74466c715"
+    "1cae527a-d1f4-44c6-a96e-f6d74466c715",
+    "9de87d6a-42ba-4d1c-88dc-e3f0e9692a66"
   ]
 }
