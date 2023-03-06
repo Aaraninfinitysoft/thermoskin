@@ -7185,9 +7185,9 @@ a.read-more-collection {
     border: inherit;
     box-shadow: unset;
 }
-.swatch.colorclass input:checked+label{
+/* .swatch.colorclass input:checked+label{
   background:inherit;
-}
+} */
 .fancybox-desktop {
     min-width: 60vw;
     max-width: 800px;
