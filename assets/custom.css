@@ -7221,6 +7221,10 @@ a.read-more-collection {
   .img-wrapper-32 {
     margin-bottom: 50px;
   }
+  .template-collection .quick-add-wrapper .Ajax-add-to-cart, 
+  .template-collection .quick-add-wrapper .sold-out-button{
+    font-size:15px;
+  }
 }
 
 /************ custom end **********/
