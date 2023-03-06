@@ -15,6 +15,8 @@
         "heading--text-size": 40,
         "text--text-size": 18,
         "link": "",
+        "overlay_text_1": "",
+        "overlay_text_2": "",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#000000"
@@ -167,7 +169,7 @@
         "title": "Unsure which product is right for you?",
         "text": "<p>Searching through the endless options can be confusing. Let us recommend the best product for your need.<\/p>",
         "button_label": "Lets Go",
-        "button_link": "#"
+        "button_link": "shopify:\/\/pages\/store-locator"
       }
     }
   },
