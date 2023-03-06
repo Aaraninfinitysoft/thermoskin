@@ -4955,7 +4955,7 @@ h3:empty {
     text-align: center !important;
   }
   .layout-fix-collection .grid__item {
-    margin-bottom: 83px !important;
+    margin-bottom: 50px;
   }
   .banner-with-icon-set .homepage-featured-content-wrapper .responsive-image-wrapper img{
   height: 310px !important ;
