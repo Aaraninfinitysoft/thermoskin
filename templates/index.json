@@ -391,12 +391,28 @@
             "question": "Place your question or heading here",
             "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
+        },
+        "1888283f-76a2-4097-aef9-d5f72766bb1e": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-0",
         "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-1",
-        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-2"
+        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-2",
+        "1888283f-76a2-4097-aef9-d5f72766bb1e",
+        "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46"
       ],
       "settings": {
         "colors": "white",
