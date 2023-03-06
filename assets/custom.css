@@ -7180,6 +7180,13 @@ a.read-more-collection {
 .fancybox-overlay-fixed {
     background: rgba(0,0,0,0.5);
 }
+.popup--body .input-group .form-control {
+    width: 100%;
+    height: unset;
+    background: inherit;
+    border: inherit;
+    box-shadow: unset;
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
   word-wrap: break-word;
