@@ -258,10 +258,7 @@
 
 jQuery(document).ready(function () {
     jQuery(".fullDescription").hide();
-    jQuery(".read-more-collection").on("click", function () {
-      var par = jQuery(this).parent();
-      console.log(par);
-      jQuery(par).find('.fullDescription').hide()
+    jQuery(document).on('click',".read-more-collection", function () {
         var txt = jQuery(this).parent().find('.fullDescription').is(':visible') ? 'Read More' : 'Read Less';
         jQuery(this).text(txt);
         jQuery(this).parent().find('.lessDescription').slideToggle(200);
