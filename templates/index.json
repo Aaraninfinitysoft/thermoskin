@@ -401,7 +401,7 @@
       "settings": {
         "colors": "white",
         "title": "Frequently asked questions",
-        "faq_icon": "plus_minus"
+        "faq_icon": "caret"
       }
     }
   },
