@@ -7192,6 +7192,9 @@ a.read-more-collection {
     min-width: 60vw;
     max-width: 800px;
 }
+.black-grey label {
+    background: #000 !important;
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
   word-wrap: break-word;
