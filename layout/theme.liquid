@@ -255,13 +255,13 @@
     autoplayHoverPause:true
       });
 })($);
-jQuery(document).ready(function(){
+$(document).ready(function(){
    
- setTimeout(()=>{ if(jQuery("body#challenge").length) jQuery(window).scrollTop(0)},2000);
-  jQuery('.homepage-section-thermoskin-range-wrapper .nav-tabs li').hover(function(){
-  var contentId = jQuery(this).find('a').attr('href');
-jQuery(this).addClass('active').siblings().removeClass('active')
-  jQuery(contentId).addClass('active').siblings().removeClass('active')
+ setTimeout(()=>{ if($("body#challenge").length) $(window).scrollTop(0)},2000);
+  $('.homepage-section-thermoskin-range-wrapper .nav-tabs li').hover(function(){
+  var contentId = $(this).find('a').attr('href');
+$(this).addClass('active').siblings().removeClass('active')
+  $(contentId).addClass('active').siblings().removeClass('active')
 })
 
 
@@ -343,21 +343,8 @@ setTimeout(()=>{
     size_chart.style.display = 'none';
     body.classList.remove("Body-overlay");
   })
-},3000);
+},3000)
   
-  var jq224 = jQuery.noConflict(true);
-  jq224('.read-more-collection').on('click', function(e){
-    e.preventDefault();
-    if (!jq224('#fullDescription').is(':visible')){
-      jq224('#truncated').fadeOut(300, function(){ 
-        jq224('#fullDescription').fadeIn(500);
-      });
-    }else{
-      jq224('#fullDescription').fadeOut(300, function(){ 
-        jq224('#truncated').fadeIn(500);
-      });
-    }
-  });
 </script>
  {% include 'smile-initializer' %}
 
