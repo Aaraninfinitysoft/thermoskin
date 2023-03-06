@@ -264,7 +264,7 @@ jQuery(document).ready(function () {
       jQuery(par).find('.fullDescription').hide()
         var txt = jQuery(this).parent().find('.fullDescription').is(':visible') ? 'Read More' : 'Read Less';
         jQuery(this).text(txt);
-        jQuery(this).parent().find('.lessDescription').hide(200);
+        jQuery(this).parent().find('.lessDescription').slideToggle(200);
         jQuery(this).parent().find('.fullDescription').slideToggle(200);
     });
 });
