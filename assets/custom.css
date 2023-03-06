@@ -4877,10 +4877,10 @@ h3:empty {
     right: 25px;
     top: 6px;
   }
-  #browse-by-body-part .customized-heading {
+/*   #browse-by-body-part .customized-heading {
     transform: translate(90px ,-56px) rotate(345deg) !important;
     padding: 25px 30px !important;
-}
+} */
 .product-related-img {
  border-radius: 10px;
 }
