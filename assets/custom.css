@@ -4963,9 +4963,9 @@ h3:empty {
   object-fit: cover;
   object-position: right;
   }
-  .customized-heading {
+/*   .customized-heading {
     transform: translate(0, 0px) rotate(345deg)  !important;
-  }
+  } */
   #about .customized-heading{
     transform: translate(-5%) rotate(345deg)!important;
     padding: 20px 10px;
