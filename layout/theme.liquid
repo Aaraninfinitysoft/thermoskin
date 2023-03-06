@@ -261,9 +261,11 @@ jQuery(document).ready(function () {
     jQuery(".read-more-collection").on("click", function () {
       var par = jQuery(this).parent();
       console.log(par);
-        //var txt = $(".content").is(':visible') ? 'Read More' : 'Read Less';
-        //$(".show_hide").text(txt);
-        //$(this).next('.content').slideToggle(200);
+      jQuery(par).find('.fullDescription').hide()
+        var txt = jQuery(this).parent().find('.fullDescription').is(':visible') ? 'Read More' : 'Read Less';
+        jQuery(this).text(txt);
+        jQuery(this).parent().find('.lessDescription').hide(200);
+        jQuery(this).parent().find('.fullDescription').slideToggle(200);
     });
 });
       
