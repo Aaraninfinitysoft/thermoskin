@@ -97,7 +97,7 @@
           {% assign names = optionNames | split:',' %}
         {% for option in product.options %}
            {%- assign names1 = names[forloop.index0] -%}
-          <div class="collection-variant collection-variant-{{ names1}} ">
+          <div class="collection-variant collection-variant-{{ names1}}">
           {% render 'swatch-collection' ,swatch:option, product:product, hide_soldout_variants: hide_soldout_variants %}
           </div>
         {% endfor %}
