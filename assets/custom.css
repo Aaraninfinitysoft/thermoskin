@@ -3839,7 +3839,10 @@ span.brows-pop-icon,span.dot {
 }
 
 .collection-variant-wrapper .collection-variant:first-child {
-  margin-left: 0;
+/*   margin-left: 0; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .collection-grid--title,
