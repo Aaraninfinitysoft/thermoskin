@@ -7205,6 +7205,9 @@ a.read-more-collection {
 .shop-by-injury details.disclosure-has-popup.facets__disclosure.js-filter[data-index="2"] {
     display: none;
 }
+body.template-customers-account header {
+    box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 10%);
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
   word-wrap: break-word;
