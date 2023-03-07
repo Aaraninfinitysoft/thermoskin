@@ -7208,32 +7208,35 @@ a.read-more-collection {
 body.template-customers-account header {
     box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 10%);
 }
+#CollectionProductGrid .quick-add-wrapper {
+    margin-top: auto;
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
-  word-wrap: break-word;
-}
-.size-chart-model#ex1 .size-chart-img {
-    width: 100%;
-    max-width: 100%;
-}
+    word-wrap: break-word;
+  }
+  .size-chart-model#ex1 .size-chart-img {
+      width: 100%;
+      max-width: 100%;
+  }
   .qtn-option-wrapper {
     flex-wrap: wrap;
-}
+  }
   .image-with-text-overlay-wrapper.banner-with-icon-set .homepage-featured-content-box {
     margin: 0;
     padding: 20px 5%;
     display: block;
-}
+  }
   #thermoskin-sport-supports-and-braces .inner-absolute-layer {
     top: 10%;
     right: unset;
-}
+  }
   #thermoskin-compression-range-of-supports-and-braces .inner-absolute-layer {
     right: 45%;
-}
+  }
   #thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .inner-absolute-layer {
     right: 30%;
-}
+  }
   .img-wrapper-32 {
     margin-bottom: 50px;
   }
