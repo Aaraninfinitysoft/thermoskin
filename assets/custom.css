@@ -7202,6 +7202,9 @@ a.read-more-collection {
 .black-grey label {
     background: #000 !important;
 }
+.shop-by-injury details.disclosure-has-popup.facets__disclosure.js-filter[data-index="2"] {
+    display: none;
+}
 @media (max-width: 768px){
   .template-collection .product-grid--descripiton{
   word-wrap: break-word;
