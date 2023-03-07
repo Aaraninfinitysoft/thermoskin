@@ -112,62 +112,7 @@
                       assign uses_comma_decimals = true
                     endif
                   %}
-<!--                   <details class="disclosure-has-popup facets__disclosure js-filter" data-index="{{ forloop.index }}">
-                    <summary class="facets__summary">
-                      <div>
-                        <span>{{ filter.label | escape }}</span>
-                        <span class="count-bubble{%- if filter.min_value.value or filter.max_value.value -%}{{ filter.active_values.size }} count-bubble--dot{% endif %}"></span>
-                        {{ icon_caret }}
-                      </div>
-                    </summary>
-                    <div class="facets__display">
-                      <div class="facets__header">
-                        {%- assign max_price_amount = filter.range_max | money | escape -%}
-                        <span class="facets__selected">{{ "sections.collection_template.max_price" | t: price: max_price_amount }}</span>
-                        <a href="{{ filter.url_to_remove }}" class="facets__reset link underlined-link js-facet-remove" >{{ 'sections.collection_template.reset' | t }}</a>
-                      </div>
-                      <price-range-selector class="facets__price">
-                        <div class="field">
-                          <span class="field__currency">{{ cart.currency.symbol }}</span>
-                          <input class="field__input"
-                            name="{{ filter.min_value.param_name }}"
-                            id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
-                            {%- if filter.min_value.value -%}
-                              {%- if uses_comma_decimals -%}
-                                value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
-                              {%- else -%}
-                                value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
-                              {% endif %}
-                            {%- endif -%}
-                            type="number"
-                            placeholder="0"
-                            min="0"
-                            max="{{ filter.range_max | money_without_currency | replace: ',', '' }}">
-                          </input>
-                          <label class="field__label" for="Search-In-Modal">{{ 'sections.collection_template.from' | t }}</label>
-                        </div>
-                        <div class="field">
-                          <span class="field__currency">{{ cart.currency.symbol }}</span>
-                          <input class="field__input"
-                            name="{{ filter.max_value.param_name }}"
-                            id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
-                            {%- if filter.max_value.value -%}
-                              {%- if uses_comma_decimals -%}
-                                value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
-                              {%- else -%}
-                                value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
-                              {% endif %}
-                            {%- endif -%}
-                            type="number"
-                            placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
-                            min="0"
-                            max="{{ filter.range_max | money_without_currency | replace: ',', '' }}">
-                          </input>
-                          <label class="field__label" for="Search-In-Modal">{{ 'sections.collection_template.to' | t }}</label>
-                        </div>
-                      </div>
-                    </price-range-selector>
-                  </details> -->
+<!--                    -->
                 {% endcase %}
               {%- endfor -%}
               <noscript>
