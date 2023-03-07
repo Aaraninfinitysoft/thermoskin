@@ -93,7 +93,7 @@
         {% if product.variants.size > 1 and product.available %}
       <div class="collection-variant-wrapper">
         {% for option in product.options %}
-          <div class="collection-variant {{ product.variants.option1 }}{% if is_color %} colorcust {% endif %}">
+          <div class="collection-variant {{ product.options.first }} {% if is_color %} colorcust {% endif %}">
           {% render 'swatch-collection' ,swatch:option, product:product, hide_soldout_variants: hide_soldout_variants %}
           </div>
         {% endfor %}
