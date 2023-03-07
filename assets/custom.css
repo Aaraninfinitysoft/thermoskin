@@ -6737,7 +6737,7 @@ border-color: transparent !important;
       display: none !important;
     }
     .collection-variant-wrapper .collection-variant:nth-child(3){
-      width: 100% !important;
+/*       width: 100% !important; */
     }
     .collection-variant-wrapper .collection-variant:nth-child(3) >div{
 width: fit-content;
