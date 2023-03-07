@@ -92,8 +92,16 @@
       <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}" data-block-type="product_card_button"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_button","type":"product_card_button"}'{% endif %}>
         {% if product.variants.size > 1 and product.available %}
       <div class="collection-variant-wrapper">
+        {% capture optionNames %}
+          {% for option in product.options_with_values %}
+      {{ option.name }},
+            {% endfor %}
+        {% endcapture %}
+          {{ optionNames }}
+          {% assign names = optionNames | split:',' %}
         {% for option in product.options %}
-          <div class="collection-variant collection-variant--{{ product_option.name }} ">
+           {% assign names1 = names[forloop.index] %}
+          <div class="collection-variant collection-variant--{{ names1 }} ">
           {% render 'swatch-collection' ,swatch:option, product:product, hide_soldout_variants: hide_soldout_variants %}
           </div>
         {% endfor %}
