@@ -93,7 +93,7 @@
         {% if product.variants.size > 1 and product.available %}
       <div class="collection-variant-wrapper">
         {% for option in product.options %}
-          <div class="collection-variant {{ swatch }} {{ product.options }}{% if product.options[option_index] == "1" %} sizecustclass {% endif %}">
+          <div class="collection-variant {{ swatch }} {{ product.options }}{% if product.options[option_index] == 1 %} sizecustclass {% endif %}">
           {% render 'swatch-collection' ,swatch:option, product:product, hide_soldout_variants: hide_soldout_variants %}
           </div>
         {% endfor %}
