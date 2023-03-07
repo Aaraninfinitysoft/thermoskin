@@ -3834,9 +3834,9 @@ span.brows-pop-icon,span.dot {
   color: var(--heading--color) !important;
 }
 
-.collection-variant-wrapper{
+/* .collection-variant-wrapper{
   gap: 24px;
-}
+} */
 
 .collection-variant-wrapper .collection-variant {
   margin-left: 0;
