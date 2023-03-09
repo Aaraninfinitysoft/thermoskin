@@ -7233,7 +7233,7 @@ body.store-locater div#shopify-section-store-locator-section {
 }
 .ajaxcart__footer .grid--full>.grid__item > p {
     padding-left: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 768px)
