@@ -7231,6 +7231,9 @@ body.store-locater div#shopify-section-store-locator-section {
 .mega-menu-block .medium--one-fifth .h5 a span {
     font-weight: bold;
 }
+.ajaxcart__footer .grid--full>.grid__item > p {
+    padding-left: 30px;
+}
 
 @media (max-width: 768px)
 {
