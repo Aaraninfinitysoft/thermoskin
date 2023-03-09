@@ -1,10 +1,17 @@
  
  {% assign imgUrl = section.settings.right_image | img_url:"160x" %}
 <div class="review-wrapper">
-  <div class="review-header" ><h2 class="heading">{{product.title}}</h2>  <img src="{{imgUrl}}"></div>
+  <div class="review-header" >
+    <h2 class="heading">{{product.title}}</h2>  
+    {% if section.settings.right_image != blank %}<img src="{{imgUrl}}">{%  endif %}
+  </div>
   <div class="review-counter"><div class="review_html"></div> </div>
   <div class="review-footer review-bg">
-  <div>{{section.settings.desccription}}</div><div calss="btn_group"><span class="btn btn-blu write-review-trigger">Yes</span> <span class="btn">No</span> </div>
+  <div>{{section.settings.desccription}}</div>
+    <div calss="btn_group">
+      <span class="btn btn-blu write-review-trigger">Yes</span> 
+      <span class="btn">No</span> 
+    </div>
   </div>
 </div>
 
