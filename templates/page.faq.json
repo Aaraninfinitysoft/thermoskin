@@ -1,1 +1,213 @@
-{"sections":{"image-with-text-overlay":{"type":"image--image-with-text-overlay","settings":{"image_height":"30vw","bg_image_overlay_opacity":5,"parallax":false,"colors":"light","textPosition":"center","textAlignment":"center","heading--text-size":26,"text--text-size":18,"link":"","button_label":"","button-text":"#ffffff","button-background":"#000000"}},"gallery-00":{"type":"image--gallery","blocks":{"164580781507f34c38-0":{"type":"image","settings":{"subheading":"Share brand or product details"}},"164580781507f34c38-1":{"type":"image","settings":{"subheading":"Share brand or product details"}},"164580781507f34c38-2":{"type":"image","settings":{"subheading":"Share brand or product details"}}},"block_order":["164580781507f34c38-0","164580781507f34c38-1","164580781507f34c38-2"],"settings":{"colors":"white","title":"","richtext":"","remove-spacing":false,"full-width":false,"section-width":"content","content-position":"below-image"}},"main":{"type":"template--page","disabled":true,"settings":{"page_width":"full-width"}},"accordion-00":{"type":"accordion","blocks":{"164572426857089649-0":{"type":"tab_content","settings":{}},"164572426857089649-1":{"type":"tab_content","settings":{}},"164572426857089649-2":{"type":"tab_content","settings":{}}},"block_order":["164572426857089649-0","164572426857089649-1","164572426857089649-2"],"settings":{"colors":"white","faq_icon":"caret"}},"accordion-01":{"type":"accordion","blocks":{"164572438495310fd3-0":{"type":"tab_content","settings":{}},"164572438495310fd3-1":{"type":"tab_content","settings":{}},"164572438495310fd3-2":{"type":"tab_content","settings":{}}},"block_order":["164572438495310fd3-0","164572438495310fd3-1","164572438495310fd3-2"],"settings":{"colors":"white","faq_icon":"caret"}},"accordion-02":{"type":"accordion","blocks":{"164572442464b4aa49-0":{"type":"tab_content","settings":{}},"164572442464b4aa49-1":{"type":"tab_content","settings":{}},"164572442464b4aa49-2":{"type":"tab_content","settings":{}}},"block_order":["164572442464b4aa49-0","164572442464b4aa49-1","164572442464b4aa49-2"],"settings":{"colors":"white","faq_icon":"caret"}},"gallery-01":{"type":"image--gallery","blocks":{"164735127391452ea4-0":{"type":"image","settings":{}},"164735127391452ea4-1":{"type":"image","settings":{}},"164735127391452ea4-2":{"type":"image","settings":{}},"93a09d38-dc11-40f6-b293-f5a8e245fc82":{"type":"image","settings":{}}},"block_order":["164735127391452ea4-0","164735127391452ea4-1","164735127391452ea4-2","93a09d38-dc11-40f6-b293-f5a8e245fc82"],"settings":{"colors":"white","title":"","richtext":"","remove-spacing":true,"full-width":false,"section-width":"full","content-position":"hide"}},"rich-text":{"type":"text--rich-text","settings":{"colors":"accent","button_label":"LEARN MORE","button_link":"shopify:\/\/collections\/all"}}},"order":["image-with-text-overlay","gallery-00","main","accordion-00","accordion-01","accordion-02","gallery-01","rich-text"]}
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us.png",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 5,
+        "parallax": false,
+        "title": "FAQ's",
+        "text": "",
+        "colors": "dark",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "gallery-00": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "164580781507f34c38-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164580781507f34c38-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164580781507f34c38-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "Share brand or product details",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "164580781507f34c38-0",
+        "164580781507f34c38-1",
+        "164580781507f34c38-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": false,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "below-image"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_width": "full-width"
+      }
+    },
+    "accordion-00": {
+      "type": "accordion",
+      "blocks": {
+        "164572426857089649-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572426857089649-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572426857089649-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572426857089649-0",
+        "164572426857089649-1",
+        "164572426857089649-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "caret"
+      }
+    },
+    "gallery-01": {
+      "type": "image--gallery",
+      "disabled": true,
+      "blocks": {
+        "164735127391452ea4-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164735127391452ea4-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "164735127391452ea4-2": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "93a09d38-dc11-40f6-b293-f5a8e245fc82": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "164735127391452ea4-0",
+        "164735127391452ea4-1",
+        "164735127391452ea4-2",
+        "93a09d38-dc11-40f6-b293-f5a8e245fc82"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "rich-text": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "colors": "accent",
+        "section-pos": "left",
+        "section-size": "50%",
+        "title": "Welcome to our store",
+        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "gallery-00",
+    "main",
+    "accordion-00",
+    "gallery-01",
+    "rich-text"
+  ]
+}
