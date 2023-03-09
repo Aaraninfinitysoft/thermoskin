@@ -113,7 +113,7 @@
 
               <div class="product-details-wrapper">
                 {% if product.type != blank %}
-                 <span class="thermoskin-product-type">{{ product.type }}</span>
+                 <span class="product-type {{ product.type }}-product-type">{{ product.type }}</span>
                 {% endif %}
 
               <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="product-details--form-wrapper{% if product.available %} product-details--form-wrapper---in-stock{% else %} product-details--form-wrapper---out-of-stock{% endif %}">
