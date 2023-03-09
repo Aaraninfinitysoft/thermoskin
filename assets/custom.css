@@ -7198,7 +7198,7 @@ a.read-more-collection {
 .black-grey label {
     background: #000 !important;
 }
-.shop-by-injury details.disclosure-has-popup.facets__disclosure.js-filter[data-index="2"] {
+details.disclosure-has-popup.facets__disclosure.js-filter[data-index="2"] {
     display: none;
 }
 body.template-customers-account header {
