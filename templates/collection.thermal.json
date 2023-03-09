@@ -187,7 +187,7 @@
       "type": "support-selector",
       "settings": {
         "colors": "light",
-        "image": "shopify:\/\/shop_images\/Image_1_5ae43f83-feb3-43df-92b1-1e97a03dc464.png",
+        "image": "shopify:\/\/shop_images\/Image_1.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "left",
