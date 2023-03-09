@@ -7242,6 +7242,11 @@ body.store-locater div#shopify-section-store-locator-section {
     text-align: left!important;
     margin-left: 30px;
 }
+.ajaxcart__footer button.cart__checkout {
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+}
 
 @media (max-width: 768px)
 {
