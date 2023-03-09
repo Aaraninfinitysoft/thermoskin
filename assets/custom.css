@@ -7235,6 +7235,9 @@ body.store-locater div#shopify-section-store-locator-section {
     padding-left: 30px;
   text-align: left;
 }
+.ajaxcart__footer .rte p {
+    padding-left: 30px;
+}
 
 @media (max-width: 768px)
 {
