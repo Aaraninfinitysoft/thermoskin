@@ -7225,6 +7225,9 @@ body.store-locater div#shopify-section-store-locator-section {
 .product-details-wrapper .product-type.Compression-product-type {
   color: #00aeef;
 }
+.Support-Selector a.support-bg-clr {
+    background: transparent;
+}
 
 @media (max-width: 768px)
 {
