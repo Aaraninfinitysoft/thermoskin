@@ -83,6 +83,8 @@
       "disabled": true,
       "settings": {
         "colors": "light",
+        "section-pos": "left",
+        "section-size": "50%",
         "title": "Welcome to our store",
         "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
         "button_label": "",
@@ -180,6 +182,8 @@
       "disabled": true,
       "settings": {
         "colors": "white",
+        "section-pos": "left",
+        "section-size": "50%",
         "title": "Welcome to our store",
         "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
         "button_label": "",
@@ -350,6 +354,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -359,6 +365,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -368,6 +376,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -381,6 +391,7 @@
       "settings": {
         "colors": "light",
         "circle_images": true,
+        "read_more": "Read More",
         "title": "Testimonials"
       }
     },
@@ -474,6 +485,18 @@
       "settings": {
         "page_width": "full-width"
       }
+    },
+    "8722f911-ce1e-48a8-812f-9f25be8871bf": {
+      "type": "text--rich-text",
+      "settings": {
+        "colors": "white",
+        "section-pos": "left",
+        "section-size": "100%",
+        "title": "",
+        "text": "<p>United Pacific Industries Pty Ltd ABN 65 050 278 361 (trading as Thermoskin, iHealthSphere and Arestape) (together UPI, we, us, our) recognizes the importance of protecting the privacy of personally identifiable information collected about our customers. For the purposes of this Privacy Policy, the word 'customers' includes visitors to our website at http:\/\/www.upi.com.au\/, http:\/\/www.thermoskin.com\/, http:\/\/www.arestape.com.au\/ and purchasers of UPI products at http:\/\/www.ihealthsphere.com.au\/(together the Websites) who are registering their warranty information. We are bound by the Australian Privacy Principles ('APPs') in the Privacy Act 1988 (Cth). <br\/><br\/>Types of personal information we collect<br\/><br\/>Unless you specifically tell us, our Websites will never know who you are. We only collect personal information when we provide our service to you. We usually collect personal information such as your name, address, email address, telephone number, mobile phone number, date of birth, and in purchase instances, your financial details. We do not collect, use or disclose any sensitive information about you (such as racial or ethnic origin, political opinions, memberships, religious beliefs, sexual preference, health or criminal record). <br\/><br\/>We use your information to provide services to you, to fulfill administrative functions associated with these services and for billing purposes. We may also use your personal information to send you promotional material (if you choose to receive them).<br\/><br\/>How we collect personal information<br\/><br\/>UPI will collect and hold your personal information in a fair and lawful manner, and not in an unreasonably intrusive way. Where it is reasonably practical to do so, we will collect your personal information directly from you. However, in certain cases we may collect personal information from third parties, including from publically available sources.<br\/><br\/>UPI collects personal information about you in a number of ways, including:<br\/>a) Directly from you, when you provide information by phone, email, online or through warranty information; and<br\/>b) From third parties such as our related branded websites including www.thermoskin.com, www.iHealthsphere.com.au, www.arestape.com.au and https:\/\/www.facebook.com\/ThermoskinAU. <br\/><br\/>How we use your personal information<br\/><br\/>As a general rule, UPI only processes personal information for purposes that would be considered relevant and reasonable in the circumstances. UPI will only collect information that is necessary for the purposes as described in this Privacy Policy, or other purposes specifically communicated to you.<br\/>UPI collects, holds, uses and discloses to: <br\/>a) Give you access to our Websites and other content, products and services available from UPI; <br\/>b) Enter you into and manage our competitions and promotions; <br\/>c) Administer a contest, promotion, survey or other site feature; <br\/>d) Process your transactions; <br\/>e) Administer and manage our Websites; <br\/>f) Inform you of changes to our Websites or the content, products and services available from UPI; <br\/>g) Research and develop the Websites and our products; <br\/>h) Gain an understanding of your information and communication needs in order for UPI to provide you with improved website content and products; <br\/>i) Maintain and develop our business systems and infrastructure, including testing and upgrading of these systems; and <br\/>j) Involving you in market research, gauging customer satisfaction and seeking feedback regardless of our relationship with you. <br\/><br\/>How we use your personal information<br\/><br\/>Protection of personal information <br\/>At UPI, your personal information is treated with the greatest of care. UPI maintains appropriate physical, procedural and technical security for its offices and information storage facilities so as to prevent any loss, misuse, unauthorized access, disclosure, or modification of personal information. This also applies to disposal of personal information. UPI further protects personal information by restricting access to personal information by our staff on a need to know basis only. Physical, electronic and managerial procedures have been employed to safeguard the security and integrity of your personal information. We implement a variety of security measures to maintain the safety of your personal information. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. When you place orders or access your personal information, we offer the use of a secure server. All credit information you supply is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our databases to be only accessed as stated above. <br\/><br\/>Disclosure of personal information <br\/><br\/>In general, we do not disclose your personal information for a purpose other than: <br\/>• a purpose set out in this Privacy Policy; <br\/>• a purpose you would reasonably expect; <br\/>• a purpose required or permitted by law; or <br\/>• a purpose otherwise disclosed to you to which you have consent. <br\/><br\/>Transfer of personal information overseas<br\/><br\/>As the internet is a global environment, using the internet to collect and process personal information necessarily involves the transmission of that information worldwide. We may disclose your personal information to companies that are associated with us overseas, including to the USA, UK, Denmark, Finland, France, Germany, Hong Kong, Italy, Kuwait, Lithuania, Macau, Malaysia, Malta, Netherlands, New Zealand, Russia, Singapore, Spain, South Korea, Sri Lanka, Thailand and Vietnam.  <br\/><br\/>Value-added messages<br\/><br\/>Like most business, marketing is important to UPI's continued success. We believe we have a unique range of products and services that we provide to customers at a high standard. We therefore like to stay in touch with customers and let them know about new opportunities. We may provide you with information about new products, services and promotions. <br\/>We may disclose your personal information to third parties for marketing purposes. <br\/>You may opt out at any time if you no longer wish to receive commercial messages from us. You can make this request by contacting our Privacy Officer. <br\/><br\/>Online - Cookies<br\/><br\/>Web servers may receive cookies from our web server in order to improve the functionality of our website and for security purposes. These cookies do not store any personal information, are not stored on your hard drive and expire when you exit your web browser.<br\/><br\/>Accessing and correcting your personal information<br\/><br\/>You may contact our Privacy Officer to request access to the personal information that we hold about you and\/or to make corrections to that information, at any time. On the rare occasions when we refuse access, we will provide you with a written notice stating our reasons for refusing access. We may seek to recover from you reasonable costs incurred for providing you with access to any of the personal information about you held by us. <br\/>UPI is not obliged to correct any of your personal information if it does not agree that it requires correction and may refuse to do so. If UPI refuses a correction request, we will provide you with a written notice stating our reasons for refusing. <br\/><br\/>Third party links<br\/><br\/>Our Websites may contain links to other websites. We are not responsible for the privacy practices or the content of such websites. We encourage you to read the privacy statements of any linked websites as their privacy policy may differ from ours.<br\/><br\/>Resolving personal information concerns<br\/><br\/>If you have any questions, concerns or complaints about this Privacy Policy, or how we handle your personal information, please email our Privacy Officer Kobe Quinlan at kobe@upi.com.au or write to; <br\/>The Privacy Officer <br\/>Kobe Quinlan <br\/>United Pacific Industries <br\/>10 Eastspur Court <br\/>Kilsyth VIC 3137 <br\/>Australia <br\/>Phone: +61 3 97617599 <br\/>Fax: +61 3 97617533 <br\/>Toll Free: 1800 188 019 (Australia Only) <br\/>Email: kobe@upi.com.au<br\/><br\/>Once a complaint has been lodged, the Privacy Officer will respond to you as soon as possible. You may also lodge a complaint with the Office of the Australian Information Commissioner by telephone: 1300 363 992 or email: enquiries@oaic.gov.au.<br\/><br\/>Changes to Privacy Policy<br\/><br\/>From time to time it may be necessary for us to review and revise this Policy. We reserve the right to change our Policy at any time, should this occur the amendment would be posted on our Website. <br\/><br\/>For further details in regard to information security please contact: <br\/>Kobe Quinlan (Digital & Marketing Coordinator) - kobe@upi.com.au<br\/>The last update to this document was 14 June 2015.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -495,6 +518,7 @@
     "custom-html-03",
     "logo-list",
     "blog-posts",
-    "main"
+    "main",
+    "8722f911-ce1e-48a8-812f-9f25be8871bf"
   ]
 }
