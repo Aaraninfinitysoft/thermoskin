@@ -105,12 +105,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable_announcement_bar": false,
-          "message_text": "Free Shipping on order above $200",
+          "enable_announcement_bar": true,
+          "message_text": "We provide the shipping within Australia.",
           "message_link": "",
           "announcement-bar--background-color": "#242424",
           "announcement-bar--text-color": "#ffffff",
-          "enable_social_icons": true
+          "enable_social_icons": false
         }
       },
       "header": {
