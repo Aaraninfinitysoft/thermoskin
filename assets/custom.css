@@ -324,7 +324,7 @@ position:absolute;
   color: #414042 !important;
   font-weight: 600 !important;
   padding-bottom: 10px !important;
-  text-align: center !important;
+  text-align: left !important;
 }
 
 .mega-menu-wrapper .mega-menu .site-nav__dropdown {
@@ -338,7 +338,7 @@ position:absolute;
   border-bottom: 2px solid #D1D3D4;
   padding-bottom: 5px !important;
   width: fit-content;
-  text-align: center !important;
+  text-align: left !important;
   margin: auto !important;
 }
 
