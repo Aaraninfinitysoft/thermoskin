@@ -3410,11 +3410,7 @@ letter-spacing: initial;
   flex-wrap: wrap;
   padding-right: 20px;
 }
-.thermoskin-product-type {
-  color: #d9000d;
-  font-weight: bold;
-  line-height: 27px;
-}
+
 .js__currentVariantSKU-wrapper{
   display: flex;
   font-size: 16px;
@@ -7218,6 +7214,18 @@ body.store-locater div#shopify-section-store-locator-section {
 {
   width:100%;
 }
+.product-details-wrapper .product-type {
+  color: #414042;
+  font-weight: bold;
+  line-height: 27px;
+}
+.product-details-wrapper .product-type.Thermal-product-type {
+  color: #d9000d;
+}
+.product-details-wrapper .product-type.Compression-product-type {
+  color: #00aeef;
+}
+
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
