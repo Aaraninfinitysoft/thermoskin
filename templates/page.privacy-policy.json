@@ -490,7 +490,7 @@
     "3700bf0f-f671-4654-87cb-a7c8394f9f9b": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "image": "shopify:\/\/shop_images\/About_Us.png",
         "image_height": "30vw",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
