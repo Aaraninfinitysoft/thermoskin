@@ -339,7 +339,7 @@ position:absolute;
   padding-bottom: 5px !important;
   width: fit-content;
   text-align: left !important;
-  margin: auto !important;
+/*   margin: auto !important; */
 }
 
 .inner p.h4 {
