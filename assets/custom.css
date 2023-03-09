@@ -7228,6 +7228,9 @@ body.store-locater div#shopify-section-store-locator-section {
 .Support-Selector a.support-bg-clr {
     background: transparent;
 }
+.mega-menu-block .medium--one-fifth .h5 a span {
+    font-weight: bold;
+}
 
 @media (max-width: 768px)
 {
