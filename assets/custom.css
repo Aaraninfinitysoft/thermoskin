@@ -7214,6 +7214,10 @@ body.template-customers-account header {
 body.store-locater div#shopify-section-store-locator-section {
     display: none;
 }
+.product-single-wrapper .swatch[data-option-index]
+{
+  width:100%;
+}
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
