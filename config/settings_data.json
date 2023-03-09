@@ -219,9 +219,9 @@
           "5b55e5eb-c78d-49c6-a809-dd22b96a15bb": {
             "type": "menu",
             "settings": {
-              "menu_title": "Browse BY INJURY",
+              "menu_title": "",
               "menu_title-2": "",
-              "footer_linklist": "browse-by-sport",
+              "footer_linklist": "",
               "footer_linklist-2": ""
             }
           },
