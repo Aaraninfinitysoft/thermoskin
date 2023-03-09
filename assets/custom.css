@@ -7238,6 +7238,10 @@ body.store-locater div#shopify-section-store-locator-section {
 .ajaxcart__footer .rte p {
     padding-left: 30px;
 }
+.ajaxcart__footer button.cart__checkout {
+    text-align: left!important;
+    margin-left: 30px;
+}
 
 @media (max-width: 768px)
 {
