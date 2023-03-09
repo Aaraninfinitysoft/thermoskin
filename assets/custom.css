@@ -7211,7 +7211,11 @@ body.template-customers-account header {
 #CollectionProductGrid .quick-add-wrapper {
     margin-top: auto;
 }
-@media (max-width: 768px){
+body.store-locater div#shopify-section-store-locator-section {
+    display: none;
+}
+@media (max-width: 768px)
+{
   .template-collection .product-grid--descripiton{
     word-wrap: break-word;
   }
