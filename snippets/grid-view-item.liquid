@@ -75,7 +75,7 @@
       {% when 'product_card_description' %}
        <div class="product-grid--descripiton" data-block-type="product_card_description"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
           <div class="lessDescription">{{ product.description |strip_html | escape | truncate: 100, "..." }}</div>
-          <div class="fullDescription">{{ product.description |strip_html | escape }}</div>
+<!--           <div class="fullDescription">{{ product.description |strip_html | escape }}</div> -->
           <a class='read-more-collection' data-no-instant>Read More</a>
           {%  comment %}{{ product.description |strip_html | escape | truncatewords:20}} {%  endcomment %}
       </div>
