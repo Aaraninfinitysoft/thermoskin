@@ -182,6 +182,7 @@
           "cart-style": "shopping-bag",
           "cart-number": "quantity",
           "enable_search": true,
+          "enable_account": false,
           "overlay_header_homepage": false,
           "overlay_header_collection": false,
           "overlay_header_list_collection": false,
