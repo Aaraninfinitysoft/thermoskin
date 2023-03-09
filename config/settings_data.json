@@ -62,7 +62,7 @@
     "ajax_cart_method": "drawer",
     "cart_vendor_enable": false,
     "cart_notes_enable": true,
-    "giftwrap_gift_note": true,
+    "giftwrap_gift_note": false,
     "enable-additional-checkout-buttons": true,
     "show_discount": "hide",
     "product-grid": "square",
