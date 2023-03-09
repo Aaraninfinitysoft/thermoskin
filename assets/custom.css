@@ -7231,22 +7231,6 @@ body.store-locater div#shopify-section-store-locator-section {
 .mega-menu-block .medium--one-fifth .h5 a span {
     font-weight: bold;
 }
-.ajaxcart__footer .grid--full>.grid__item > p {
-    padding-left: 30px;
-  text-align: left;
-}
-.ajaxcart__footer .rte p {
-    padding-left: 30px;
-}
-.ajaxcart__footer button.cart__checkout {
-    text-align: left!important;
-    margin-left: 30px;
-}
-.ajaxcart__footer button.cart__checkout {
-    margin-left: 30px;
-    display: flex;
-    justify-content: left;
-}
 
 @media (max-width: 768px)
 {
