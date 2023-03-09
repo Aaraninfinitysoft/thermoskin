@@ -3290,7 +3290,7 @@ letter-spacing: initial;
 }
 /*Sport Button color*/
 .thermal.sport.template-collection a.btn{
-    background: #9E0B0F;
+/*     background: #9E0B0F; */
 }
 .thermal.sport.template-collection button.btn{
     background: #9E0B0F;
