@@ -3259,7 +3259,7 @@ text-transform: lowercase;
 letter-spacing: initial;
 }
 .collection-filters__sort:focus{
-   border-radius: 55px 55px 0 0!important;
+/*    border-radius: 55px 55px 0 0!important; */
   outline-color: rgba(65, 64, 66, 0.5) ;
 }
 #browse-by-body-part .btn.Ajax-add-to-cart{
