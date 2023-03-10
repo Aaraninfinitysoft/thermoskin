@@ -2,6 +2,7 @@
   "sections": {
     "937b03a4-156b-45a7-9ffb-eae693041004": {
       "type": "advanced-layout--custom-html",
+      "disabled": true,
       "blocks": {
         "template--15542929588430__937b03a4-156b-45a7-9ffb-eae693041004-1670839492db229bb4-0": {
           "type": "html",
@@ -83,6 +84,8 @@
       "disabled": true,
       "settings": {
         "colors": "light",
+        "section-pos": "left",
+        "section-size": "50%",
         "title": "Welcome to our store",
         "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
         "button_label": "",
@@ -180,6 +183,8 @@
       "disabled": true,
       "settings": {
         "colors": "white",
+        "section-pos": "left",
+        "section-size": "50%",
         "title": "Welcome to our store",
         "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
         "button_label": "",
@@ -350,6 +355,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -359,6 +366,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -368,6 +377,8 @@
           "settings": {
             "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
             "customer_name": "John Smith",
+            "customer_occupation": "",
+            "publish-date": "",
             "link": "",
             "stars": 5
           }
@@ -381,6 +392,7 @@
       "settings": {
         "colors": "light",
         "circle_images": true,
+        "read_more": "Read More",
         "title": "Testimonials"
       }
     },
@@ -474,6 +486,36 @@
       "settings": {
         "page_width": "full-width"
       }
+    },
+    "d22048c5-7c70-4902-9d30-3265c8088e9c": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us.png",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 5,
+        "parallax": false,
+        "title": "Testimonial",
+        "text": "",
+        "colors": "dark",
+        "textPosition": "left",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "e4f7e828-6674-4992-a135-8f471ef86379": {
+      "type": "about-image-left-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/badge-light-logo-01-01_2.jpg",
+        "title": "Share brand or product details",
+        "text": "<p>I have been using Thermoskin products at the South Sydney Rabbitohs since 2007. They allow players to recover quicker from sports injuries by providing additional support, compression, and heat therapy to injured sites.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -495,6 +537,8 @@
     "custom-html-03",
     "logo-list",
     "blog-posts",
-    "main"
+    "main",
+    "d22048c5-7c70-4902-9d30-3265c8088e9c",
+    "e4f7e828-6674-4992-a135-8f471ef86379"
   ]
 }
