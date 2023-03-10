@@ -4116,6 +4116,10 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
+  span.customized-heading:nth-child(3) {
+    right: 66px;
+    bottom: -40px;
+}
   #about .homepage-featured-rich-text {
     max-width: 100%;
     width: 100% !important;
