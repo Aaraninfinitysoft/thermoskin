@@ -7231,6 +7231,14 @@ body.store-locater div#shopify-section-store-locator-section {
 .mega-menu-block .medium--one-fifth .h5 a span {
     font-weight: bold;
 }
+.image_with_content {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.image_with_content {
+    width: 80%;
+    display: flex;
+}
 
 @media (max-width: 768px)
 {
