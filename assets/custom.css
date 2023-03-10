@@ -736,7 +736,7 @@ input#search-input {
 
 .browse-heading-top-left p {
   font-size: 21px;
-  padding: 20px;
+/*   padding: 20px; */
   text-align: center;
 }
 
