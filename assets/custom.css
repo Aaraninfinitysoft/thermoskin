@@ -7172,7 +7172,7 @@ body.Body-overlay .product-details-wrapper:before {
   right: 32%;
 }
 .text-with-icon:first-child, .text-with-icon:nth-child(2) {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 a.read-more-collection {
     cursor: pointer;
