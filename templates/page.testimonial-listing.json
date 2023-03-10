@@ -511,8 +511,8 @@
       "type": "image_with_content",
       "settings": {
         "image": "shopify:\/\/shop_images\/badge-light-logo-01-01_2.jpg",
-        "title": "Share brand or product details",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+        "title": "",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Konrad Shultz<\/strong><\/p><p>Head Physiotherapist, Canberra Raiders (NRL)<\/p>"
       }
     }
   },
