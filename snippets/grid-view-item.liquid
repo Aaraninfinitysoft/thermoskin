@@ -87,10 +87,10 @@
         {%- render 'product-grid-item-price', product: product, collection: collection -%}
       </div>
 
-     {{ product.variants.size }}
+     
     {%- when 'product_card_button' -%}
       <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}" data-block-type="product_card_button"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_button","type":"product_card_button"}'{% endif %}>
-        {% if  product.available %}
+        {{ product.variants.size }}{% if  product.available %}
       <div class="collection-variant-wrapper">
         {% capture optionNames %}{% for option in product.options_with_values %}{{ option.name }},{% endfor %}{% endcapture %}
          
