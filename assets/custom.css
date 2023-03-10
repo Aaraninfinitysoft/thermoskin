@@ -7300,6 +7300,10 @@ span.customized-heading:nth-child(3) {
   .image_with_content img.js {
     padding-bottom: 15px;
 }
+  span.customized-heading:nth-child(3) {
+      right: 100px!important;
+      bottom: -54px!important;
+  }
   
 }
 
