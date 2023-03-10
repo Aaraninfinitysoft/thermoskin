@@ -310,6 +310,7 @@
         "colors": "white",
         "circle_images": true,
         "read_more": "Read More",
+        "read_more_link": "shopify:\/\/pages\/testimonial-listing",
         "title": "Testimonials"
       }
     },
