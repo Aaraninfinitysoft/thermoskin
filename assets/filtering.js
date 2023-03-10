@@ -369,7 +369,7 @@ class PriceRange extends HTMLElement {
   setMinAndMaxValues() {
     const inputs = this.querySelectorAll('input');
     const minInput = inputs[0];
-    const maxInput = inputs[9]; 
+    const maxInput = inputs[9];  
     if (maxInput.value) minInput.setAttribute('max', maxInput.value);
     if (minInput.value) maxInput.setAttribute('min', minInput.value);
     if (minInput.value === '') maxInput.setAttribute('min', '0');
