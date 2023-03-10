@@ -18,8 +18,12 @@
     <div class="img-wrapper-32">
     <a href="{{ section.settings.button_link }}" class="support-bg-clr">
     {% render 'responsive-image' with section.settings.image, alt: img_alt | escape, sizes: '100vw' %}
+      {% if section.settings.image_overlay_text_1 != blank %}
       <span class="customized-heading">{{ section.settings.image_overlay_text_1 }}</span>
+        {% endif %}
+    {% if section.settings.image_overlay_text_2 != blank %}
       <span class="customized-heading">{{ section.settings.image_overlay_text_2 }}</span>
+      {% endif %}
     </a>
     </div>
   </div>
