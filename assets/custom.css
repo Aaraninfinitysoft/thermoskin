@@ -7238,7 +7238,11 @@ body.store-locater div#shopify-section-store-locator-section {
 .image_with_content {
     width: 80%;
     display: flex;
-    padding: 80px 0;
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+.image_with_content .thermoskin-quality-content-rigt{
+    width: calc(100% - 300px);
 }
 
 @media (max-width: 768px)
