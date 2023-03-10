@@ -526,9 +526,17 @@
     "9ee4272c-59c9-4fac-b3ae-189d9deba341": {
       "type": "image_with_content",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dockers_1-01_1.png",
+        "image": "shopify:\/\/shop_images\/Dockers_1-01_1_1445x_bd493095-07fd-40ec-b82f-c2a87737f80a.webp",
         "title": "",
         "text": "<p>I believe Thermoskin products are the most supportive and best heat products available. They are an essential part of my medical kit.<\/p><p><strong>Dr Jeffrey Boyle<\/strong><\/p><p>Senior Physiotherapist, Fremantle Football Club<\/p>"
+      }
+    },
+    "abb2d147-8abc-4b7e-9628-84cd84dbe425": {
+      "type": "image_with_content",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Downloads_1-01_1.png",
+        "title": "",
+        "text": "<p>Thermoskin is an essential component in our return to play rehabilitation.<\/p><p><strong>Alex Kountouris<\/strong><\/p><p>Senior Physiotherapist, Australian Cricket Team<\/p>"
       }
     }
   },
@@ -555,6 +563,7 @@
     "d22048c5-7c70-4902-9d30-3265c8088e9c",
     "4939595f-7ac1-48be-a099-e41de85a88e0",
     "55f388f6-ef83-4307-86ff-226732cc9cea",
-    "9ee4272c-59c9-4fac-b3ae-189d9deba341"
+    "9ee4272c-59c9-4fac-b3ae-189d9deba341",
+    "abb2d147-8abc-4b7e-9628-84cd84dbe425"
   ]
 }
