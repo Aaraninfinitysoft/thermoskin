@@ -517,6 +517,14 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "4939595f-7ac1-48be-a099-e41de85a88e0": {
+      "type": "image_with_content",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/badge-light-logo-01-01_2.jpg",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+      }
     }
   },
   "order": [
@@ -540,6 +548,7 @@
     "blog-posts",
     "main",
     "d22048c5-7c70-4902-9d30-3265c8088e9c",
-    "d95107b8-f35c-48bf-abe3-d99926c3c64f"
+    "d95107b8-f35c-48bf-abe3-d99926c3c64f",
+    "4939595f-7ac1-48be-a099-e41de85a88e0"
   ]
 }
