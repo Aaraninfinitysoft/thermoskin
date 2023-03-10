@@ -4117,8 +4117,8 @@ h3:empty {
     line-height: 25px !important;
   }
   span.customized-heading:nth-child(3){
-    right: 66px;
-    bottom: -40px;
+    right: 66px!important;
+    bottom: -40px!important;
 }
   #about .homepage-featured-rich-text {
     max-width: 100%;
