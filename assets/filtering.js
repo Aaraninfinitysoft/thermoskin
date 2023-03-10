@@ -112,12 +112,12 @@ class CollectionFiltersForm extends HTMLElement {
     let lastInput;
 
     menu.addEventListener('keydown', function (e) {
-      const getLastToggler = (togglers[togglers.length - 9]);
+      const getLastToggler = (togglers[togglers.length - 1]);
       const lastGroupCollapsed = !getLastToggler.hasAttribute('open');
 
       // If the last tag list is collapsed, the toggle button becomes the 'last input'
       // else the last input is equal to the last input in the array
-      lastInput = lastGroupCollapsed ? getLastToggler : (inputs[inputs.length - 9]);
+      lastInput = lastGroupCollapsed ? getLastToggler : (inputs[inputs.length - 1]);
 
       // Redirect last tab to first input
       if (e.code === 'Tab' && !e.shiftKey && document.activeElement == lastInput) {
@@ -369,7 +369,7 @@ class PriceRange extends HTMLElement {
   setMinAndMaxValues() {
     const inputs = this.querySelectorAll('input');
     const minInput = inputs[0];
-    const maxInput = inputs[1];  
+    const maxInput = inputs[1];
     if (maxInput.value) minInput.setAttribute('max', maxInput.value);
     if (minInput.value) maxInput.setAttribute('min', minInput.value);
     if (minInput.value === '') maxInput.setAttribute('min', '0');
