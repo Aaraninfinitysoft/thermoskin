@@ -511,6 +511,7 @@
       "type": "about-image-left-with-text",
       "settings": {
         "image": "shopify:\/\/shop_images\/badge-light-logo-01-01_2.jpg",
+        "image1": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
         "title": "Share brand or product details",
         "text": "<p>I have been using Thermoskin products at the South Sydney Rabbitohs since 2007. They allow players to recover quicker from sports injuries by providing additional support, compression, and heat therapy to injured sites.<\/p>",
         "button_label": "",
