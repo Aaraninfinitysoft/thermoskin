@@ -7305,5 +7305,12 @@ span.customized-heading:nth-child(3) {
       bottom: -52px!important;
   }  
 }
+@media (max-width: 425px) {
+span.customized-heading:nth-child(3) {
+    right: 98px!important;
+    bottom: -52px!important;
+ }
+}
+
 
 /************ custom end **********/
