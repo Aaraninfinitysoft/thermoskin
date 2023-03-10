@@ -7305,7 +7305,7 @@ span.customized-heading:nth-child(3) {
       bottom: -52px!important;
   }  
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 span.customized-heading:nth-child(3) {
     right: 98px!important;
     bottom: -52px!important;
