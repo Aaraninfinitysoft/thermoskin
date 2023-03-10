@@ -7247,6 +7247,10 @@ body.store-locater div#shopify-section-store-locator-section {
 .image_with_content .thermoskin-quality-content-rigt{
     width: calc(100% - 300px);
 }
+span.customized-heading:nth-child(3) {
+    right: 112px;
+    bottom: -29px;
+}
 
 @media (max-width: 768px)
 {
