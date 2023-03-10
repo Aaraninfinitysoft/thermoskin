@@ -514,6 +514,14 @@
         "title": "",
         "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Konrad Shultz<\/strong><\/p><p>Head Physiotherapist, Canberra Raiders (NRL)<\/p>"
       }
+    },
+    "55f388f6-ef83-4307-86ff-226732cc9cea": {
+      "type": "image_with_content",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/RAb-logo_1.png",
+        "title": "",
+        "text": "<p>After meeting strict criteria, the Thermoskin range of heat retainer products have been endorsed – the first and only such range to carry the APA name. We are excited to put our name to such an excellent range of products.<\/p><p><strong>Eddie Farrah<\/strong><\/p><p>Head Physiotherapist, South Sydney Rabbitohs (NRL)<\/p>"
+      }
     }
   },
   "order": [
@@ -537,6 +545,7 @@
     "blog-posts",
     "main",
     "d22048c5-7c70-4902-9d30-3265c8088e9c",
-    "4939595f-7ac1-48be-a099-e41de85a88e0"
+    "4939595f-7ac1-48be-a099-e41de85a88e0",
+    "55f388f6-ef83-4307-86ff-226732cc9cea"
   ]
 }
