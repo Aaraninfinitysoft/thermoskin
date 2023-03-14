@@ -274,7 +274,7 @@
           "23b0b61f-5b89-419b-a556-223f0fe80bd9"
         ],
         "settings": {
-          "show_methods_of_payment": true,
+          "show_methods_of_payment": false,
           "alignment": "left",
           "footer_text": "",
           "show_currency_selector": true,
