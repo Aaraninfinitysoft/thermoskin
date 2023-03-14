@@ -444,7 +444,7 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
   width: auto;
 } */
 .bg_color_left img {
-    right: 0;
+    right: -10px;
     top: 0;
     position: absolute;
     max-width: 65%;
