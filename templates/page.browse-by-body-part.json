@@ -47,7 +47,7 @@
       "type": "browse-by-body-section",
       "settings": {
         "browse_body_content": "<h2>Browse by body part<\/h2>\n<p><strong>Tap<\/strong> or <strong>Hover<\/strong><span class=\"dot\"><\/span> to explore<br> treatment areas.<\/p>",
-        "ankle_content": "<h4>ANKLE\/FOOT<\/h4>\n<p>Ankle sprains and strains<br> through to Planter Fasciitis,<br> arch and arthritic pain.<\/p>\n<a href=\"https:\/\/thermo-skin.myshopify.com\/collections\/ankle\">View Products<\/a>",
+        "ankle_content": "<h4>ANKLE\/FOOT<\/h4>\n<p>Ankle sprains and strains through to Planter Fasciitis, arch and arthritic pain.<\/p>\n<a href=\"\/collections\/ankle\">View Products<\/a>",
         "image": "shopify:\/\/shop_images\/Group_326_1_750x1260_1_1.png",
         "image_m": "shopify:\/\/shop_images\/Group_326_1_750x1260_1_1.png",
         "wrist_content": "<h4>WRIST\/HAND<\/h4>\n<p>This is some text that goes in the label. It describes the item.1<\/p>\n<a href=\"https:\/\/thermo-skin.myshopify.com\/collections\/wrist\">View Products<\/a>",

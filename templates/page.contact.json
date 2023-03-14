@@ -74,6 +74,9 @@
         "a379cb7a-ba34-48da-b0af-2b0379b8db62",
         "f81d6782-a0ae-4ca0-a089-88171b48667e"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "colors": "white",
         "title": "Frequently asked questions",
@@ -248,6 +251,7 @@
         "colors": "white",
         "circle_images": true,
         "read_more": "Read More",
+        "read_more_link": "",
         "title": "Testimonials"
       }
     }
