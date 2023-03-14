@@ -24,6 +24,7 @@
     },
     "main": {
       "type": "template--404",
+      "disabled": true,
       "settings": {
       }
     },
