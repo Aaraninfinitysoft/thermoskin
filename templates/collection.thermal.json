@@ -33,7 +33,7 @@
       ],
       "settings": {
         "image": "{{ collection.image }}",
-        "image_height": "original",
+        "image_height": "30vw",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
         "title": "Why {{ collection.title }}?",
