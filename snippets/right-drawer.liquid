@@ -274,6 +274,7 @@
                 </div>
                 <div class="" v-for="group in searchGroups" v-if="!searching">
                   <h2 v-text="group.name" v-if="group.results.length"></h2>
+  <span>{{ group.results.length }}</span>
                   <div class="indiv-search-listing-grid" v-for="result in group.results">
                     <div class="grid">
                       <div class="grid__item large--one-fifth live-search--image" v-if="result.featured_image">
