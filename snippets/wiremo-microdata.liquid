@@ -1,0 +1,57 @@
+
+{%- assign microdata = product.metafields.WIREMO_PRODUCTS.WIREMO -%}
+{% if microdata != blank and microdata.statistics.reviewCount != 0 %}
+<script type ="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "name": "{{product.title | escape}}",
+    "url": "{{shop.url | append: product.url | escape}}",
+    "sku": "{{ product.selected_or_first_available_variant.sku | escape }}",
+    "image": "{{product.featured_image | escape}}",
+    "sameAs": ["{{shop.url | append: product.url | escape}}"],
+    "description": "{{product.description | strip_html | escape}}",
+    "brand": {
+      "@type": "Thing",
+      "name": "{{product.vendor | escape }}"
+   },
+    {%- if product.variants.first.barcode.size == 12 -%}
+    "gtin12": {{ product.variants.first.barcode }},
+    {%- endif -%}
+    {%- if product.variants.first.barcode.size == 13 -%}
+    "gtin13": {{ product.variants.first.barcode }},
+    {%- endif -%}{%- if product.variants.first.barcode.size == 14 -%}
+    "gtin14": {{ product.variants.first.barcode }},
+    {%- endif -%}
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{microdata.statistics.averageRating | escape}}",
+        "reviewCount": "{{microdata.statistics.reviewCount | escape}}",
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {% for review in  microdata.reviews%}
+        {
+        "@type": "Review",
+        "author": {
+            "name": "{{review.name | escape}}",
+            "@type": "Person"
+        },
+        "datePublished": "{{review.datePublished | escape}}",
+        "description": "{{review.message | escape}}",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "{{review.rating | escape}}",
+            "bestRating": 5,
+            "worstRating": 1
+        }
+        }
+        {% if forloop.last == false %}
+        ,
+        {% endif %}
+    {% endfor %}
+    ]
+}
+</script>
+{% endif %}

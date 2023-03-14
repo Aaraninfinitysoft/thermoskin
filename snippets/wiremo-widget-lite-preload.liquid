@@ -1,0 +1,183 @@
+
+{%- assign microdata = product.metafields.WIREMO_PRODUCTS.WIREMO -%}
+
+{%- assign wiremo_lite_count = microdata.statistics.reviewCount -%}
+{%- assign wiremo_lite_average = microdata.statistics.averageRating -%}
+
+{% assign widget_lite_options = shop.metafields.wiremo.wiremo_site_options %}
+
+{% assign starSizes = "15,20,25" | split: ',' %}
+{% assign starSize = starSizes[widget_lite_options.starSize] %}
+
+{% assign strokeStar = '<svg xmlns="http://www.w3.org/2000/svg" height="{{starSize}}"viewBox="0 0 1792 1792"><path d="M1201 1004l306-297-422-62-189-382-189 382-422 62 306 297-73 421 378-199 377 199zm527-357q0 22-26 48l-363 354 86 500q1 7 1 20 0 50-41 50-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"/></svg>' | replace: '{{starSize}}', starSize %}
+{% assign fullShapeStar = '<svg xmlns="http://www.w3.org/2000/svg" height="{{starSize}}" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"/></svg>' | replace: '{{starSize}}', starSize %}
+
+{% assign starColor = widget_lite_options.starColor %}
+
+{% if widget_lite_options.starStyle == 0  %}
+  {%- assign starStyle = strokeStar -%}
+{% else %}
+  {%- assign starStyle = fullShapeStar -%}
+{% endif %}
+
+{%- assign statistics = microdata.statistics -%}
+{%- assign productReviews = microdata.reviews -%}
+{% if statistics and statistics.reviewCount != 0 %}
+  {%- assign star_5 = statistics.detailedData[4].count | times: 100.0 | divided_by: statistics.reviewCount | round -%}
+  {%- assign star_4 = statistics.detailedData[3].count | times: 100.0 | divided_by: statistics.reviewCount | round -%}
+  {%- assign star_3 = statistics.detailedData[2].count | times: 100.0 | divided_by: statistics.reviewCount | round -%}
+  {%- assign star_2 = statistics.detailedData[1].count | times: 100.0 | divided_by: statistics.reviewCount | round -%}
+  {%- assign star_1 = statistics.detailedData[0].count | times: 100.0 | divided_by: statistics.reviewCount | round -%}
+{% endif %}
+
+<style>
+  .wrm-hide {
+    display: none!important;
+  }
+  .table-wrapper {
+    overflow: hidden !important;
+  }
+</style>
+
+<div class="widget-lite wrm-hide">
+    <div class="widget-lite__container">
+        <div class="widget-lite__rating-stars">
+            <div class="widget-lite__rating-stars__gray" style="height: {{starSize}}px; line-height: {{starSize}}px; font-size: {{starSize}}px;">{{starStyle}}{{starStyle}}{{starStyle}}{{starStyle}}{{starStyle}}</div>
+            <div class="widget-lite__rating-stars__active"
+                style="height: {{starSize}}px; line-height: {{starSize}}px; font-size: {{starSize}}px; fill: {{starColor}}; width: {{wiremo_lite_average | times: 20 }}%;">{{starStyle}}{{starStyle}}{{starStyle}}{{starStyle}}{{starStyle}}</div>
+        </div>
+        <div class="widget-lite__count" style="height: {{starSize}}px; line-height: {{starSize}}px; font-size: {{starSize}}px; padding-left: 8px;">
+            {% if template.name == 'collection' %}
+                ({{wiremo_lite_count | at_least: 0}})
+            {% else %}
+                ({{wiremo_lite_count | at_least: 0}}) 
+            {% endif %}
+        </div>
+    </div>
+    <div class="widget-lite__score">
+    <table class="widget-lite__score-detailed">
+        <tbody>
+            <tr>
+                <td>5 {% render "wiremo-translation", lang: widget_lite_options.language, number: 5, type: 'star' %}</td>
+                <td>
+                    <div class="score-gray-bar">
+                      {% if productReviews == blank %}
+                      	<div
+                           class="score-active-bar"
+                           style="width: 0%; background-color: {{starColor}};"
+                        ></div>
+                      {% else %}
+                      	<div
+                        	class="score-active-bar"
+                        	style="width: {{star_5}}%; background-color: {{starColor}};"
+                        >&nbsp;</div>
+                      {% endif %}
+                    </div>
+                </td>
+              	{% if productReviews == blank %}
+                	<td>0%</td>
+                {% else %}
+                  	<td>{{star_5}}%</td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>4 {% render "wiremo-translation", lang: widget_lite_options.language, number: 4, type: 'star' %}</td>
+                <td>
+                    <div class="score-gray-bar">
+                      {% if productReviews == blank %}
+                      	<div
+                           class="score-active-bar"
+                           style="width: 0%; background-color: {{starColor}};"
+                        ></div>
+                      {% else %}
+                      	<div
+                        	class="score-active-bar"
+                        	style="width: {{star_4}}%; background-color: {{starColor}};"
+                        >&nbsp;</div>
+                      {% endif %}
+                    </div>
+                </td>
+              	{% if productReviews == blank %}
+                	<td>0%</td>
+                {% else %}
+                  	<td>{{star_4}}%</td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>3 {% render "wiremo-translation", lang: widget_lite_options.language, number: 3, type: 'star' %}</td>
+                <td>
+                    <div class="score-gray-bar">
+                      {% if productReviews == blank %}
+                      	<div
+                           class="score-active-bar"
+                           style="width: 0%; background-color: {{starColor}};"
+                        ></div>
+                      {% else %}
+                      	<div
+                        	class="score-active-bar"
+                        	style="width: {{star_3}}%; background-color: {{starColor}};"
+                        >&nbsp;</div>
+                      {% endif %}
+                    </div>
+                </td>
+              	{% if productReviews == blank %}
+                	<td>0%</td>
+                {% else %}
+                  	<td>{{star_3}}%</td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>2 {% render "wiremo-translation", lang: widget_lite_options.language, number: 2, type: 'star' %}</td>
+                <td>
+                    <div class="score-gray-bar">
+                      {% if productReviews == blank %}
+                      	<div
+                           class="score-active-bar"
+                           style="width: 0%; background-color: {{starColor}};"
+                        ></div>
+                      {% else %}
+                      	<div
+                        	class="score-active-bar"
+                        	style="width: {{star_2}}%; background-color: {{starColor}};"
+                        >&nbsp;</div>
+                      {% endif %}
+                    </div>
+                </td>
+              	{% if productReviews == blank %}
+                	<td>0%</td>
+                {% else %}
+                  	<td>{{star_2}}%</td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>1 {% render "wiremo-translation", lang: widget_lite_options.language, number: 1, type: 'star' %}</td>
+                <td>
+                  {%- assign theme_name = theme.name -%}
+                  {% if theme_name == "Minimal" %}
+                     <div class="score-gray-bar" style="margin-left: 10px">
+                  {% else %}
+                    <div class="score-gray-bar">
+                  {% endif %} 
+                      {% if productReviews == blank %}
+                      	<div
+                           class="score-active-bar"
+                           style="width: 0%; background-color: {{starColor}};"
+                        ></div>
+                      {% else %}
+                      	<div
+                        	class="score-active-bar"
+                        	style="width: {{star_1}}%; background-color: {{starColor}};"
+                        >&nbsp;</div>
+                      {% endif %}
+                    </div>
+                </td>
+              	{% if productReviews == blank %}
+                	<td>0%</td>
+                {% else %}
+                  	<td>{{star_1}}%</td>
+                {% endif %}
+            </tr>
+          </tbody>
+       </table>
+    </div>
+</div>

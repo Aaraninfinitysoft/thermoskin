@@ -1,0 +1,28 @@
+
+{%- assign language = shop.metafields.wiremo.languages[lang] -%}
+
+{% if type == 'star' %}
+	{% if number == 1 %}
+		{{language['star']}}
+	{% elsif number == 4 %}
+		{{language['stars']}}
+	{% else %}
+		{{ language['star235']}}
+	{% endif %}
+
+{% elsif type == 'review' %}
+	{% assign d = number | modulo:10 %}
+
+	{% if number == 1 %}
+		{{language['Review']}}
+	{% elsif number > 10 and number < 15 %}
+		{{language['Reviews-11-14']}}
+	{% elsif d == 0 or d == 1 %}
+		{{language['Reviews-5-9']}}
+	{% elsif d < 5 %}
+		{{language['Reviews-2-4']}}
+	{%else%}
+		{{language['Reviews-5-9']}}
+	{% endif %}
+
+{% endif %}

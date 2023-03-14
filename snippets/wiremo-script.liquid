@@ -1,0 +1,78 @@
+{%- assign shop_meta = shop.metafields.wiremo -%}
+<script>
+;(function(){
+    function onHover(e) {
+        var target = e.target;
+        var stars = target.getElementsByClassName('widget-lite__rating-stars')[0];
+        var position = stars.getBoundingClientRect();
+        var scoreEl = target.getElementsByClassName('widget-lite__score')[0];
+        var portal = document.getElementById('widget-lite-portal');
+        if (!portal) {
+            portal = document.createElement("DIV");
+            portal.id = 'widget-lite-portal';
+            document.body.appendChild(portal);
+        }
+        if (scoreEl) {
+            // this workaround is done for specific themes(widget lite score alignment)
+            var moveLeft = 0;   
+            var moveDown = 0;   
+        	{% if theme and theme.name == 'Boundless' %}
+                moveLeft = -178;
+                moveDown = 20
+          	{% endif %}
+          	{% if theme and theme.name == 'Venture' or theme.name == 'Simple' %}
+                moveLeft = -98;
+                moveDown = 20;
+            {% endif %}
+              
+            portal.innerHTML = scoreEl.outerHTML;
+            portal.style.left = position.right + moveLeft + 'px';
+            portal.style.top = position.top + moveDown + 'px';
+          	portal.style.position = 'fixed';
+        }
+    }
+
+    function onBlur(e) {
+        var portal = document.getElementById('widget-lite-portal');
+        if (portal) portal.remove();
+    }
+
+    Array.from(document.getElementsByTagName('wiremo-widget-lite'))
+        .forEach(el => {
+            el.addEventListener('mouseenter', onHover);
+            el.addEventListener('mouseleave', onBlur);
+        });
+})();
+</script>
+<script>
+    window.wiremo_config = function () {
+        this.identifier = "{{ product.id }}";
+        this.reviewSource = "{{ product.id }}";
+        {% if customer and customer.email and shop_meta.auto_login != 0 %}
+        this.shopifyCustomer = {
+            "key":"shopify:{{customer.email | append: shop.metafields.wiremo.apikey | md5}}",
+            "email":"{{customer.email | escape }}",
+            "name":"{{customer.first_name | escape }}",
+            "surname": "{{customer.last_name | escape }}",
+            "host":"{{shop.domain | escape }}"
+        };
+        {% endif %}
+        this.platform = "shopify";
+        {% if template.name == "product" %}
+            this.reviewType = "product";
+            this.product = {
+                "title": "{{ product.title | escape }}",
+                "url": "{{ shop.url | append: product.url | escape }}",
+                "image": "{{ product | img_url | escape }}",
+                "sku": "{{ product.selected_or_first_available_variant.sku | escape }}"
+            };
+        {% endif %}
+    };
+    !function(){var e=window.wiremo_config?new window.wiremo_config:{},
+    t={ reviewSource:location.pathname,identifier:location.pathname },
+    n=document.createElement("script");for (var attr in e) {
+        t[attr] = e[attr];} n.type="text/javascript",n.async=!0,
+        n.src="https://wapi.wiremo.co/v2/script?w="+encodeURIComponent(JSON.stringify(t));
+        var o=document.getElementsByTagName("script")[0];
+        o.parentNode.insertBefore(n,o)}();
+</script>

@@ -1,0 +1,19 @@
+
+  <style>
+    td::after {
+      border: none!important;
+    }
+    table {
+      margin: 0 !important;
+    }
+  </style>
+  {%- assign microdata = product.metafields.WIREMO_PRODUCTS -%}
+  {%- assign shop_meta = shop.metafields.wiremo -%}
+  {%- assign wiremo_widget_lite_product_url = product.url -%}
+  {% if shop_meta.hide_no_reviews == 0  or microdata.WIREMO != blank and microdata.WIREMO.statistics.reviewCount != 0 %}
+  <div style="position:relative">
+    <wiremo-widget-lite onclick="event.preventDefault();window.location.href='{{wiremo_widget_lite_product_url}}#wiremo-widget'" data-type=1 data-source="{{ product.id }}" data-platform="shopify">
+        {% render "wiremo-widget-lite-preload", product: product %}
+    </wiremo-widget-lite>
+  </div>
+  {% endif %}
