@@ -6502,9 +6502,9 @@ padding: 0 40px;
     .product-tabbing .product-tab-img{
       width: calc(100% - 250px);
     }
-    #browse-by-body-part .customized-heading{
+/*     #browse-by-body-part .customized-heading{
       font-size: 45px !important;
-    }
+    } */
     .best-sellers-wrap {
      flex: 0 0 40%;
     }
@@ -6604,10 +6604,10 @@ margin-bottom: 140px;
   .image-content-text h2 {
     padding-right: 50px;
   }
-  .customized-heading{
+/*   .customized-heading{
     font-size: 59px;
     padding-bottom:15px;
-  }
+  } */
   .collection-grid {
     width: calc(100% - 400px) !important;
   }
