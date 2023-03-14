@@ -2,6 +2,7 @@
   "sections": {
     "b59b8c87-0efb-4a25-a0c8-af4dd994d279": {
       "type": "banner-with-icon-set",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/about_1.jpg",
         "image_height": "30vw",
@@ -24,7 +25,6 @@
     },
     "main": {
       "type": "template--404",
-      "disabled": true,
       "settings": {
       }
     },
