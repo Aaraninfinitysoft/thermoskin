@@ -66,7 +66,7 @@
     "enable-additional-checkout-buttons": true,
     "show_discount": "hide",
     "product-grid": "square",
-    "predictive_search_enabled": true,
+    "predictive_search_enabled": false,
     "predictive_search_products": true,
     "predictive_search_pages": false,
     "predictive_search_articles": false,
