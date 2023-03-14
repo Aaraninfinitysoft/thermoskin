@@ -106,7 +106,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "We provide the shipping within Australia.",
+          "message_text": "Free Shipping | Shipping only available within Australia",
           "message_link": "",
           "announcement-bar--background-color": "#242424",
           "announcement-bar--text-color": "#ffffff",
