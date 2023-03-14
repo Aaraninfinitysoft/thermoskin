@@ -1176,7 +1176,7 @@
     >
 
       <div class="search--header">
-        <input type="hidden" name="type" value="{{ product_search }}" />
+        <input type="hidden" name="type" value="{{ article_search }}{{ product_search }}{{ page_search }}" />
         <div class="sitewide--title-wrapper">
           {% if search.performed %}
             {% if search.results_count == 0 %}
