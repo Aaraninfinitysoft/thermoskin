@@ -12,7 +12,7 @@
 {% endcapture %}
 
 {% if settings.predictive_search_articles %}
-  {% assign article_search = "product" %}
+  {% assign article_search = "article," %}
 {% else %}
   {% assign article_search = "" %}
 {% endif %}
@@ -1415,8 +1415,10 @@
                 {% case result.object_type %}
                 {% when 'product' %}
                   {% assign product_count = product_count | plus: 1 %}
+                  {% comment %}
                 {% when 'article' %}
                   {% assign article_count = article_count | plus: 1 %}
+                  {% endcomment %}
                 {% when 'page' %}
                   {% assign page_count = page_count | plus: 1 %}
                 {% endcase %}
