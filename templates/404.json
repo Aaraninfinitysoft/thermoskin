@@ -1,1 +1,90 @@
-{"sections":{"main":{"type":"template--404","settings":{}},"collection-list":{"type":"collection--collection-list","blocks":{"1646003943dd939117-0":{"type":"featured_collection","settings":{"subheading":""}},"1646003943dd939117-1":{"type":"featured_collection","settings":{"subheading":""}},"1646003943dd939117-2":{"type":"featured_collection","settings":{"subheading":""}}},"block_order":["1646003943dd939117-0","1646003943dd939117-1","1646003943dd939117-2"],"settings":{"colors":"white","items-per-row":3,"fill-the-area":true,"remove-spacing":false,"section-width":"content","content-position":"overlay"}}},"order":["main","collection-list"]}
+{
+  "sections": {
+    "b59b8c87-0efb-4a25-a0c8-af4dd994d279": {
+      "type": "banner-with-icon-set",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 5,
+        "parallax": false,
+        "title": "404 PAGE NOT FOUND",
+        "text": "he page you requested does not exist. Click here to continue shopping.",
+        "colors": "dark",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "shopify:\/\/collections\/all",
+        "overlay_text_1": "",
+        "overlay_text_2": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
+    "main": {
+      "type": "template--404",
+      "settings": {
+      }
+    },
+    "collection-list": {
+      "type": "collection--collection-list",
+      "disabled": true,
+      "blocks": {
+        "1646003943dd939117-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "1646003943dd939117-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "1646003943dd939117-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "1646003943dd939117-0",
+        "1646003943dd939117-1",
+        "1646003943dd939117-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Featured Collections",
+        "richtext": "",
+        "items-per-row": 3,
+        "fill-the-area": true,
+        "remove-spacing": false,
+        "section-width": "content",
+        "content-position": "overlay"
+      }
+    }
+  },
+  "order": [
+    "b59b8c87-0efb-4a25-a0c8-af4dd994d279",
+    "main",
+    "collection-list"
+  ]
+}
