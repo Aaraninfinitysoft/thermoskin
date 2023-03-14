@@ -427,13 +427,14 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
 
 .bg_color_left {
   background-color: #f2f2f2;
-  border-radius: 30px;
-  position: relative;
-  height: 182px;
-  padding: 25px;
+    border-radius: 30px;
+    position: relative;
+    height: 182px;
+    padding: 25px;
+    display: flex;
 }
 
-.bg_color_left img {
+/* .bg_color_left img {
 
   height: 242px;
   object-fit: contain;
@@ -441,8 +442,13 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
   bottom: 0px;
   right: -12px;
   width: auto;
+} */
+.bg_color_left img {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 65%;
 }
-
 .bg_color_left p {
   max-width: 110px;
   text-align: left;
@@ -472,11 +478,11 @@ ul.the-rmoskon-site-nav1.site-header__links.top-links--icon-links li a {
   color: #fff;
 }
 
-.bg_color_left .wrap__inside {
+/* .bg_color_left .wrap__inside {
   position: absolute;
   bottom: 20px;
   width: 100%;
-}
+} */
 
 .site-nav__dropdown .container {
   max-width: 100%;
@@ -5840,10 +5846,10 @@ h3:empty {
 
   }
 
-  .bg_color_left img {
+/*   .bg_color_left img {
     height: 200px;
 
-  }
+  } */
 
   .mega-menu-wrapper .inner .mega-menu--image .h4 a:after {
 
