@@ -16,8 +16,8 @@
 
 <form action="{{ routes.search_url }}" method="get" class="input-group search-bar" role="search">
   <div class="search-bar-input-group">
-    <input type="hidden" name="type" value="product" class="input-group-field">
-    {% comment %}<input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" class="input-group-field" aria-label="{{ 'general.search.placeholder' | t }}">{% endcomment %}
+    <input type="hidden" name="type" value="product">
+    <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" class="input-group-field" aria-label="{{ 'general.search.placeholder' | t }}">
     <div tabindex="0" class="search-drawer--clear">
       <span class="search-drawer--clear-icon"></span>
     </div>
