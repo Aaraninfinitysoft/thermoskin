@@ -82,7 +82,7 @@
     "share_twitter": true,
     "share_pinterest": true,
     "enable_breadcrumbs": false,
-    "popup--enable": true,
+    "popup--enable": false,
     "pop-up-time": "7",
     "popup-newsletter-top": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
     "pop-up-text-header-text": "OUR MISSION",
