@@ -7262,7 +7262,9 @@ body.store-locater div#shopify-section-store-locator-section {
     width: 100%;
     display: flex;
     left: 0;
+    align-items: center;
     right: 0;
+    padding: 0 50px;
     justify-content: center;
 }
 .Support-Selector .support-text .customized-heading:last-child {
