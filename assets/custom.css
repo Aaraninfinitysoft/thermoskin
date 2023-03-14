@@ -4121,10 +4121,10 @@ h3:empty {
   .Support-Selector .image-content-text p {
     line-height: 25px !important;
   }
-  span.customized-heading:nth-child(3){
+/*   span.customized-heading:nth-child(3){
     right: 66px!important;
     bottom: -40px!important;
-}
+} */
   #about .homepage-featured-rich-text {
     max-width: 100%;
     width: 100% !important;
@@ -6549,8 +6549,8 @@ padding: 0 40px;
 }
 @media (max-width:991px) {
   .customized-heading {
-    font-size: 33px !important;
-    white-space: nowrap;
+    font-size: 33px;
+    line-height:33px;
   }
 }
 @media(min-width:1201px) {
