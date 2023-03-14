@@ -89,7 +89,6 @@ a.thermoskin-range-view-list-btn {
   background: var(--heading--color) !important;
   font-size: var(--btn-primary-font-size) !important;
 }
-
 .btn1:hover {
   background: #ccc !important;
 
@@ -7284,6 +7283,11 @@ body.store-locater div#shopify-section-store-locator-section {
 .Support-Selector .support-text .customized-heading:last-child {
     margin: -15px -10px 15px;
 }
+.accordion-container.wrapper-padded {
+    width: 1120px!important;
+    padding: 0!important;
+}
+
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
