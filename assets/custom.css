@@ -3781,9 +3781,11 @@ body .verticle-section.text-advert-section .icon-with-text-item.grid__item {
   white-space: nowrap;
   font-family: 'landslide_sampleregular' !important;
   font-size: 45px;
+  line-height:45px;
   text-transform: uppercase;
-  padding: 20px 20px 10px;
+  padding: 20px 20px 0px;
   color: #fff;
+  text-align: center;
 /*   padding: 35px 30px 25px;
   transform: translate(27px,0px) rotate(345deg);
   background: rgb(255, 255, 255);
