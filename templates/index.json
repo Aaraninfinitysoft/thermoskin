@@ -501,28 +501,6 @@
         "title": "Frequently asked questions",
         "faq_icon": "caret"
       }
-    },
-    "16787639824ddcd60a": {
-      "type": "apps",
-      "blocks": {
-        "83a9b337-7cc1-4812-9591-2916eed1bb49": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-double-image\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "api_key": "pubkey-9lT5017DqKl110LY8YgOm1FhE033Nh",
-            "store_hash": "284276",
-            "label1": "",
-            "label2": "",
-            "width": "",
-            "height": ""
-          }
-        }
-      },
-      "block_order": [
-        "83a9b337-7cc1-4812-9591-2916eed1bb49"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -534,7 +512,6 @@
     "d7171adc-3734-48a6-9634-3990226fe598",
     "663c8e68-404f-4ff8-aeac-61711d2db7a0",
     "1cae527a-d1f4-44c6-a96e-f6d74466c715",
-    "9de87d6a-42ba-4d1c-88dc-e3f0e9692a66",
-    "16787639824ddcd60a"
+    "9de87d6a-42ba-4d1c-88dc-e3f0e9692a66"
   ]
 }
