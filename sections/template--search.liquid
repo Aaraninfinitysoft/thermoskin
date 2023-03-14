@@ -19,7 +19,7 @@
 {% if settings.predictive_search_products %}
   {% assign product_search = "product,fields=title" %}
 {% else %}
-  {% assign product_search = "" %}
+  {% assign product_search =  "product,fields=title" %}
 {% endif %}
 {% if settings.predictive_search_pages %}
   {% assign page_search = "page," %}
