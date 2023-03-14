@@ -7265,6 +7265,9 @@ body.store-locater div#shopify-section-store-locator-section {
     right: 0;
     justify-content: center;
 }
+.Support-Selector .support-text .customized-heading:last-child {
+    margin: -15px -10px 15px;
+}
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
