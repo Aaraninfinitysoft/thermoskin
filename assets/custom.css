@@ -7311,6 +7311,9 @@ body.store-locater div#shopify-section-store-locator-section {
 .footer-content a.footer-sub-menu-cust-cls {
     font-weight: 700;
 }
+#shopify-section-template--15650287354062__main .wrapper-padded {
+    max-width: 1120px;
+}
 
 @media (max-width: 768px)
 {
