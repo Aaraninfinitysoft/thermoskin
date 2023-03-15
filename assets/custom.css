@@ -7314,6 +7314,9 @@ body.store-locater div#shopify-section-store-locator-section {
 #shopify-section-template--15650287354062__main .wrapper-padded {
     max-width: 1120px!important;
 }
+.footer-content a[href="#"] {
+    pointer-events: none;
+}
 
 @media (max-width: 768px)
 {
