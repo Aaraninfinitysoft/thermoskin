@@ -133,7 +133,7 @@
       "settings": {
         "banner-image-size": "20vh",
         "parallax": true,
-        "layout": "right"
+        "layout": "left"
       }
     },
     "image-with-text": {
