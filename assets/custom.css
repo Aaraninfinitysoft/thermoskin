@@ -7312,7 +7312,7 @@ body.store-locater div#shopify-section-store-locator-section {
     font-weight: 700;
 }
 #shopify-section-template--15650287354062__main .wrapper-padded {
-    max-width: 1120px;
+    max-width: 1120px!important;
 }
 
 @media (max-width: 768px)
