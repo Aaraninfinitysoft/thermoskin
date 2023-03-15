@@ -7302,6 +7302,9 @@ body.store-locater div#shopify-section-store-locator-section {
 ul#AccessibleNav li.site-nav--has-dropdown.mega-menu:nth-child(2) > ul {
     background: #ed1c24;
 }
+.image-with-text-overlay-wrapper .homepage-sections-wrapper {
+  height: 45vh;
+}
 
 @media (max-width: 768px)
 {
