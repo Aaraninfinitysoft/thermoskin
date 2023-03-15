@@ -22,6 +22,7 @@
     },
     "accordion": {
       "type": "accordion",
+      "disabled": true,
       "blocks": {
         "16456333831a200dc8-0": {
           "type": "tab_content",
