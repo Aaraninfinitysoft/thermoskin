@@ -401,6 +401,13 @@
             "text": "<p>Thermoskin thermal supports can be worn at any time. For best results we recommend the following:<\/p><ul><li>During the winter months Thermoskin thermal supports can be worn prior to, during or after the activity. During the summer months Thermoskin should be worn before and after the activity only.<\/li><li>Use during the activity should be at the users discretion and comfort.<\/li><\/ul>"
           }
         },
+        "1ecb5de7-df2a-401c-881a-b37120414e71": {
+          "type": "tab_content",
+          "settings": {
+            "question": "When is the best time to wear support or brace?",
+            "text": "<p>For thermal treatment to be truly effective, the heat needs to be applied continuously for long periods and during a range of activity levels. This is obviously impossible with traditional thermal treatment that require immobility. Thermoskin thermal supports are an easier and convenient form of thermal treatment.<\/p>"
+          }
+        },
         "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46": {
           "type": "tab_content",
           "settings": {
@@ -429,13 +436,6 @@
             "text": "<p>If a rash appears, discontinue use until the rash subsides. Wash the product and re-apply periodically. To discourage the rash reappearing we recommend to users, that while bathing they scrub the area that the product has covered. If a rash continues, please consult your Doctor.<\/p>"
           }
         },
-        "1ecb5de7-df2a-401c-881a-b37120414e71": {
-          "type": "tab_content",
-          "settings": {
-            "question": "When is the best time to wear it?",
-            "text": "<p>For thermal treatment to be truly effective, the heat needs to be applied continuously for long periods and during a range of activity levels. This is obviously impossible with traditional thermal treatment that require immobility. Thermoskin thermal supports are an easier and convenient form of thermal treatment.<\/p>"
-          }
-        },
         "30143b2f-eb48-4390-b4b0-e40d797ff018": {
           "type": "tab_content",
           "settings": {
@@ -456,11 +456,11 @@
         "a82f2673-e933-4c61-8f15-c91a6ec4a5f8",
         "4a782f1a-676a-407d-8276-4fc637c72487",
         "1888283f-76a2-4097-aef9-d5f72766bb1e",
+        "1ecb5de7-df2a-401c-881a-b37120414e71",
         "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46",
         "187a142a-5502-4d29-bbf1-f236f61935c0",
         "1c147a0b-b9b1-4822-a464-2429594c612c",
         "fd994450-9f09-4eba-9149-ef61a522a32a",
-        "1ecb5de7-df2a-401c-881a-b37120414e71",
         "30143b2f-eb48-4390-b4b0-e40d797ff018",
         "43ba0865-7519-40c9-8c78-d9f5a942aeb2"
       ],
