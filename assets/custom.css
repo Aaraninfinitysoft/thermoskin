@@ -2450,10 +2450,10 @@ p.h4.mega-menu--image-title a.hover_effect--3 {
   padding-bottom: 10px !important;
 }
 
-p.h4.mega-menu--image-title a.hover_effect--1:hover {
+/* p.h4.mega-menu--image-title a.hover_effect--1:hover {
   color: #939393 !important;
   border-bottom: 2px solid #939393;
-}
+} */
 
 p.h4.mega-menu--image-title a.hover_effect--2:hover {
   color: #ed1c24 !important;
