@@ -86,7 +86,7 @@
 						{% for link in menu2.links %}
 							{% if link.links != blank %}
 								<li>
-									<a href="{{ link.url }}" class="footer--has-dropdown-title">{{ link.title }}</a>
+									<a href="{{ link.url }}" class="footer--has-dropdown-title footer-sub-menu-cust-cls">{{ link.title }}</a>
 									<ul class="footer--level-2">
 										{% for sub_link in link.links %}
 												<li><a href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a></li>
