@@ -401,13 +401,6 @@
             "text": "<p>Thermoskin thermal supports can be worn at any time. For best results we recommend the following:<\/p><ul><li>During the winter months Thermoskin thermal supports can be worn prior to, during or after the activity. During the summer months Thermoskin should be worn before and after the activity only.<\/li><li>Use during the activity should be at the users discretion and comfort.<\/li><\/ul>"
           }
         },
-        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-0": {
-          "type": "tab_content",
-          "settings": {
-            "question": "How should I wash my Thermoskin products?",
-            "text": "<p>It is recommended to place the product in a delicates washing bag. Machine wash in cold water. Drip dry. Do not wring, twist, tumble dry, bleach or dry in direct sunlight. Do not wash in hot water as this may cause the product to shrink in size.<\/p>"
-          }
-        },
         "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46": {
           "type": "tab_content",
           "settings": {
@@ -420,13 +413,6 @@
           "settings": {
             "question": "Do Thermoskin Thermal Supports contain Latex?",
             "text": "<p>No. Thermoskin Thermal Supports are manufactured using 3 types of materials: nylon (outer layer), a non porous rubberised material (mid layer) and a synthetic fibre (Trioxon inner layer). None of these materials contain latex.<\/p>"
-          }
-        },
-        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-1": {
-          "type": "tab_content",
-          "settings": {
-            "question": "How often do you wash a Thermoskin thermal support or elastic?",
-            "text": "<p>If worn, around the house, at the office or in bed, wash Thermoskin every 2 or 3 days. If worn during sports activity or heavy work, wash daily.<\/p>"
           }
         },
         "1c147a0b-b9b1-4822-a464-2429594c612c": {
@@ -456,6 +442,13 @@
             "question": "What is the warranty for these products?",
             "text": "<p>Thermoskin product warranty covers manufacturing faults for twelve months from the date of purchase. Does not cover misuse or wear and tear or change of mind.<\/p>"
           }
+        },
+        "43ba0865-7519-40c9-8c78-d9f5a942aeb2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I wash my Thermoskin products and how often?",
+            "text": "<p>It is recommended to place your support or brace in a delicates washing bag. Machine wash in cold water. Drip dry. Do not wring, twist, tumble dry, bleach or dry in direct sunlight. Do not wash in hot water as this may cause the product to shrink in size.<\/p><p>If worn, around the house, at the office or in bed, wash Thermoskin every 2 or 3 days. If worn during sports activity or heavy work, wash daily.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -463,14 +456,13 @@
         "a82f2673-e933-4c61-8f15-c91a6ec4a5f8",
         "4a782f1a-676a-407d-8276-4fc637c72487",
         "1888283f-76a2-4097-aef9-d5f72766bb1e",
-        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-0",
         "c9eccb2e-28b4-46f9-86f8-b1d4a828fa46",
         "187a142a-5502-4d29-bbf1-f236f61935c0",
-        "template--15650287452366__9de87d6a-42ba-4d1c-88dc-e3f0e9692a66-1678083000a2a0ac74-1",
         "1c147a0b-b9b1-4822-a464-2429594c612c",
         "fd994450-9f09-4eba-9149-ef61a522a32a",
         "1ecb5de7-df2a-401c-881a-b37120414e71",
-        "30143b2f-eb48-4390-b4b0-e40d797ff018"
+        "30143b2f-eb48-4390-b4b0-e40d797ff018",
+        "43ba0865-7519-40c9-8c78-d9f5a942aeb2"
       ],
       "settings": {
         "colors": "white",
