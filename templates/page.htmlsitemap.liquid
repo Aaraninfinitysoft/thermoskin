@@ -1,15 +1,15 @@
-<div class="page-width">
-    <div class="grid">
-        <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-            <div class="section-header text-center">
+<div class="wrapper-padded main-page-container">
+  <div class="grid clearfix">
+        <div class="grid__item large--two-thirds push--large--one-sixth">
+            <div class="sitewide--title-wrapper">
                 <h1>{{ page.title }}</h1>
             </div>
  
-            <div class="rte">
+            <div class="grid">
+              <div class="rte grid__item large--two-thirds">
              {%- comment -%} Start of HTML SiteMap code {%- endcomment -%}
-              <div class="row">
-                  <div class="col-md-6">
-                      <h2>Collections</h2>
+                <div>
+                  <h2>Collections</h2>
                       <ul>
                           {% for c in collections %}
                               <li>
@@ -18,7 +18,7 @@
                           {% endfor %}
                       </ul>
                   </div>
-                  <div class="col-md-6">
+                  <div>
                       <h2>Products</h2>
                       <ul>
                 
@@ -32,6 +32,7 @@
                 
                       </ul>
                   </div>
+                <div>
                 <h2>Blog Posts</h2>
                  <ul>
                     {% assign blog_handles = "news" | split: "," %}
@@ -54,4 +55,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
