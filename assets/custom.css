@@ -7315,14 +7315,7 @@ body.store-locater div#shopify-section-store-locator-section {
 .image-with-text-overlay-wrapper .homepage-featured-content-wrapper{
   
 }
-/* .image-with-text-overlay-wrapper .homepage-content--image .img {
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: 37% auto;
-} */
-.image-with-text-overlay-wrapper .homepage-content--image{
-  background-image:unset;
-}
+
 .footer-content a.footer-sub-menu-cust-cls {
     font-weight: 700;
 }
@@ -7332,7 +7325,11 @@ body.store-locater div#shopify-section-store-locator-section {
 .footer-content a[href="#"] {
     pointer-events: none;
 }
-
+@media (min-width:1200px){
+  .image-with-text-overlay-wrapper .homepage-featured-content-wrapper{
+    max-height:300px ;
+  }
+}
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
