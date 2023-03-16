@@ -28,7 +28,7 @@
         "template--15650287354062__1f4f8a49-829c-4451-addb-d909aa93eabf-16789707279884f721-0": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"wrapper-padded main-page-container\">\n<div class=\"row\">\n<div class=\"col-sm-12 col-lg-2\"><\/div>\n<div class=\"col-sm-12 col-lg-8\">\n<p>At United Pacific Industries, we value our customers immensely. If you have questions, concerns, or feedback about our products or services, we would like to hear from you!<\/p>\n<p>\n<\/p>\n<div class=\"row\">\n<div class=\"col-lg-6 col-md-6\">\n<p><strong>Australia<\/strong><br>\nUnited Pacific Industries Pty Ltd<\/p>\n\n<p>10 Eastspur Court <br>\nKilsyth VIC 3137<\/p>\n<\/div>\n<div class=\"col-lg-6 col-md-6\">\n<p>E: <a href=\"mailto:enquiries@upi.com.au\">enquiries@upi.com.au<\/a><br>\nW: <a href=\"http:\/\/www.upi.com.au\" target=\"_blank\">www.upi.com.au<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-12 col-lg-2\"><\/div>\n<\/div>\n            <\/div>",
+            "code": "<div class=\"wrapper-padded main-page-container\">\n<div class=\"row\">\n<div class=\"col-sm-12 col-lg-2 text-center\"><\/div>\n<div class=\"col-sm-12 col-lg-8\">\n<p>At United Pacific Industries, we value our customers immensely. If you have questions, concerns, or feedback about our products or services, we would like to hear from you!<\/p>\n<p>\n<\/p>\n<div class=\"row\">\n<div class=\"col-lg-6 col-md-6\">\n<p><strong>Australia<\/strong><br>\nUnited Pacific Industries Pty Ltd<\/p>\n\n<p>10 Eastspur Court <br>\nKilsyth VIC 3137<\/p>\n<\/div>\n<div class=\"col-lg-6 col-md-6\">\n<p>E: <a href=\"mailto:enquiries@upi.com.au\">enquiries@upi.com.au<\/a><br>\nW: <a href=\"http:\/\/www.upi.com.au\" target=\"_blank\">www.upi.com.au<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"col-sm-12 col-lg-2\"><\/div>\n<\/div>\n            <\/div>",
             "width": "100%"
           }
         }
@@ -39,10 +39,10 @@
       "settings": {
       }
     },
-    "e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1": {
-      "type": "verticle-icon-with-richtext",
+    "42fb4b97-a334-456e-a72a-0af922ca867c": {
+      "type": "icon-with-text",
       "blocks": {
-        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-2": {
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-0": {
           "type": "text",
           "settings": {
             "heading": "Melb Metro",
@@ -50,7 +50,7 @@
             "link": ""
           }
         },
-        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-3": {
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-1": {
           "type": "text",
           "settings": {
             "heading": "Toll Free",
@@ -58,7 +58,7 @@
             "link": ""
           }
         },
-        "4ebddc64-cf89-492b-a087-c39ca56a4b36": {
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-2": {
           "type": "text",
           "settings": {
             "heading": "Fax",
@@ -68,14 +68,12 @@
         }
       },
       "block_order": [
-        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-2",
-        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-3",
-        "4ebddc64-cf89-492b-a087-c39ca56a4b36"
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-0",
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-1",
+        "template--15650287354062__42fb4b97-a334-456e-a72a-0af922ca867c-16789701005b80b4fb-2"
       ],
       "settings": {
-        "colors": "light",
-        "title": "",
-        "description": ""
+        "colors": "light"
       }
     },
     "main": {
@@ -121,7 +119,7 @@
   "order": [
     "56f1eee3-1d21-4190-a544-31c1a6a06688",
     "1f4f8a49-829c-4451-addb-d909aa93eabf",
-    "e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1",
+    "42fb4b97-a334-456e-a72a-0af922ca867c",
     "main"
   ]
 }
