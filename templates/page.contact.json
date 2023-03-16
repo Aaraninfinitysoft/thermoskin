@@ -1,7 +1,7 @@
 {
   "sections": {
-    "7ea56260-2c60-488d-ad88-e5fcead57217": {
-      "type": "common-hero-banner",
+    "56f1eee3-1d21-4190-a544-31c1a6a06688": {
+      "type": "banner-with-icon-set",
       "settings": {
         "image": "shopify:\/\/shop_images\/Wrist_brace.webp",
         "image_height": "original",
@@ -9,92 +9,73 @@
         "parallax": true,
         "title": "contact us",
         "text": "",
-        "colors": "dark",
+        "colors": "accent",
         "textPosition": "left",
         "textAlignment": "left",
-        "heading--text-size": 50,
-        "text--text-size": 22,
+        "heading--text-size": 40,
+        "text--text-size": 18,
         "link": "",
+        "overlay_text_1": "",
+        "overlay_text_2": "",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#000000"
       }
     },
-    "accordion": {
-      "type": "accordion",
-      "disabled": true,
+    "1f4f8a49-829c-4451-addb-d909aa93eabf": {
+      "type": "advanced-layout--custom-html",
       "blocks": {
-        "16456333831a200dc8-0": {
-          "type": "tab_content",
+        "template--15650287354062__1f4f8a49-829c-4451-addb-d909aa93eabf-16789707279884f721-0": {
+          "type": "html",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "16456333831a200dc8-1": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "16456333831a200dc8-2": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "b8952142-22e1-4b16-b9bd-9e42747928c9": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "a379cb7a-ba34-48da-b0af-2b0379b8db62": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "f81d6782-a0ae-4ca0-a089-88171b48667e": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\">At United Pacific Industries, we value our customers immensely. If you have questions, concerns, or feedback about our products or services, we would like to hear from you!<\/div><\/div>\n<div class=\"row\">\n<div class=\"col-lg-6 col-md-6\">\n<p><strong>Australia<\/strong><br>\nUnited Pacific Industries Pty Ltd<\/p>\n\n<p>10 Eastspur Court <br>\nKilsyth VIC 3137<\/p>\n<\/div>\n<div class=\"col-lg-6 col-md-6\">\n<p>E: <a href=\"mailto:enquiries@upi.com.au\">enquiries@upi.com.au<\/a><br>\nW: <a href=\"http:\/\/www.upi.com.au\" target=\"_blank\">www.upi.com.au<\/a><\/p>\n<\/div>\n            <\/div>",
+            "width": "100%"
           }
         }
       },
       "block_order": [
-        "16456333831a200dc8-0",
-        "16456333831a200dc8-1",
-        "16456333831a200dc8-2",
-        "b8952142-22e1-4b16-b9bd-9e42747928c9",
-        "a379cb7a-ba34-48da-b0af-2b0379b8db62",
-        "f81d6782-a0ae-4ca0-a089-88171b48667e"
-      ],
-      "custom_css": [
-
+        "template--15650287354062__1f4f8a49-829c-4451-addb-d909aa93eabf-16789707279884f721-0"
       ],
       "settings": {
-        "colors": "white",
-        "title": "Frequently asked questions",
-        "faq_icon": "plus_minus"
       }
     },
-    "rich-text": {
-      "type": "text--rich-text",
-      "disabled": true,
+    "e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1": {
+      "type": "verticle-icon-with-richtext",
+      "blocks": {
+        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-2": {
+          "type": "text",
+          "settings": {
+            "heading": "Melb Metro",
+            "subheading": "(03) 9761 7599",
+            "link": ""
+          }
+        },
+        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-3": {
+          "type": "text",
+          "settings": {
+            "heading": "Toll Free",
+            "subheading": "1800 188 019",
+            "link": ""
+          }
+        },
+        "4ebddc64-cf89-492b-a087-c39ca56a4b36": {
+          "type": "text",
+          "settings": {
+            "heading": "Fax",
+            "subheading": "(03) 9761 7533",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-2",
+        "template--15650287354062__e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1-1678970387ccd14309-3",
+        "4ebddc64-cf89-492b-a087-c39ca56a4b36"
+      ],
       "settings": {
-        "colors": "accent",
-        "section-pos": "left",
-        "section-size": "50%",
-        "title": "Welcome to our store",
-        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/collections"
+        "colors": "light",
+        "title": "",
+        "description": ""
       }
     },
     "main": {
@@ -135,136 +116,12 @@
         "parallax": true,
         "layout": "left"
       }
-    },
-    "image-with-text": {
-      "type": "image--image-with-text",
-      "disabled": true,
-      "settings": {
-        "colors": "light",
-        "text_overlapping_image": false,
-        "section-width": "content",
-        "layout": "left",
-        "text_alignment": "center",
-        "title": "Share brand or product details",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "gallery": {
-      "type": "image--gallery",
-      "disabled": true,
-      "blocks": {
-        "gallery-2": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "Heading",
-            "subheading": "Subheading",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "gallery-1": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "Heading",
-            "subheading": "Subheading",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "gallery-0": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "Heading",
-            "subheading": "Subheading",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "3a856712-4c09-43a7-8bd1-8e9d920e9093": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "Heading",
-            "subheading": "Subheading",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        }
-      },
-      "block_order": [
-        "gallery-2",
-        "gallery-1",
-        "gallery-0",
-        "3a856712-4c09-43a7-8bd1-8e9d920e9093"
-      ],
-      "settings": {
-        "colors": "accent",
-        "title": "Gallery",
-        "richtext": "<p><\/p>",
-        "remove-spacing": true,
-        "full-width": false,
-        "section-width": "full",
-        "content-position": "hover"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter--newsletter",
-      "disabled": true,
-      "settings": {
-        "colors": "accent",
-        "newsletter_heading": "Join our Mailing List",
-        "newsletter_description": "<p><\/p>"
-      }
-    },
-    "7cfb6d01-d2e4-41c4-a9f7-76e35bb0294d": {
-      "type": "text--testimonials",
-      "disabled": true,
-      "blocks": {
-        "template--15542929522894__7cfb6d01-d2e4-41c4-a9f7-76e35bb0294d-1670489970506244e5-0": {
-          "type": "text",
-          "settings": {
-            "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
-            "customer_name": "John Smith",
-            "customer_occupation": "",
-            "publish-date": "",
-            "link": "",
-            "stars": 5
-          }
-        }
-      },
-      "block_order": [
-        "template--15542929522894__7cfb6d01-d2e4-41c4-a9f7-76e35bb0294d-1670489970506244e5-0"
-      ],
-      "settings": {
-        "colors": "white",
-        "circle_images": true,
-        "read_more": "Read More",
-        "read_more_link": "",
-        "title": "Testimonials"
-      }
     }
   },
   "order": [
-    "7ea56260-2c60-488d-ad88-e5fcead57217",
-    "accordion",
-    "rich-text",
-    "main",
-    "image-with-text",
-    "gallery",
-    "newsletter",
-    "7cfb6d01-d2e4-41c4-a9f7-76e35bb0294d"
+    "56f1eee3-1d21-4190-a544-31c1a6a06688",
+    "1f4f8a49-829c-4451-addb-d909aa93eabf",
+    "e408cb4c-87f1-4ce4-a573-9e3e0b1e3bd1",
+    "main"
   ]
 }
