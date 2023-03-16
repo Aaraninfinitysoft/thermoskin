@@ -1,31 +1,5 @@
 {
   "sections": {
-    "937b03a4-156b-45a7-9ffb-eae693041004": {
-      "type": "advanced-layout--custom-html",
-      "blocks": {
-        "template--15542929588430__937b03a4-156b-45a7-9ffb-eae693041004-1670839492db229bb4-0": {
-          "type": "html",
-          "settings": {
-            "code": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u14660\">Loading store locator from <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\/\/ <![CDATA[\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n\/\/ ]]><\/script>\n<!-- End Stockist.co widget -->",
-            "width": "100%"
-          }
-        },
-        "6e5a4242-5a94-43bc-ba87-8d8757989871": {
-          "type": "html",
-          "disabled": true,
-          "settings": {
-            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\">\n<h2 class=\"homepage-sections--title\">Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div><\/div>",
-            "width": "100%"
-          }
-        }
-      },
-      "block_order": [
-        "template--15542929588430__937b03a4-156b-45a7-9ffb-eae693041004-1670839492db229bb4-0",
-        "6e5a4242-5a94-43bc-ba87-8d8757989871"
-      ],
-      "settings": {
-      }
-    },
     "838b9686-3f04-4e2f-910c-347fa12c5a53": {
       "type": "banner-with-icon-set",
       "settings": {
@@ -56,7 +30,6 @@
     }
   },
   "order": [
-    "937b03a4-156b-45a7-9ffb-eae693041004",
     "838b9686-3f04-4e2f-910c-347fa12c5a53",
     "main"
   ]
