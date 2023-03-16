@@ -1445,6 +1445,7 @@ ul.product-instruction-list li img {
 
 ul.product-instruction-list {
   display: flex;
+  column-gap: 20px;
 }
 
 ul.product-instruction-list li {
