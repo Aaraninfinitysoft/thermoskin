@@ -28,7 +28,7 @@
         "template--15650287354062__1f4f8a49-829c-4451-addb-d909aa93eabf-16789707279884f721-0": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"wrapper-padded main-page-container\">\n<div style=\"text-align:center; padding: 30px 0;\">At United Pacific Industries, we value our customers immensely. If you have questions, concerns, or feedback about our products or services, we would like to hear from you!<\/div>\n<div class=\"row\">\n<div class=\"col-lg-6 col-md-6\">\n<p><strong>Australia<\/strong><br>\nUnited Pacific Industries Pty Ltd<\/p>\n\n<p>10 Eastspur Court <br>\nKilsyth VIC 3137<\/p>\n<\/div>\n<div class=\"col-lg-6 col-md-6\">\n<p>E: <a href=\"mailto:enquiries@upi.com.au\">enquiries@upi.com.au<\/a><br>\nW: <a href=\"http:\/\/www.upi.com.au\" target=\"_blank\">www.upi.com.au<\/a><\/p>\n<\/div>\n<\/div>\n            <\/div>",
+            "code": "<div class=\"wrapper-padded main-page-container\">\n<div class=\"row\">\n<div class=\"col-sm-12 col-lg-8\">\n<p>At United Pacific Industries, we value our customers immensely. If you have questions, concerns, or feedback about our products or services, we would like to hear from you!<\/p>\n<p>\n<\/p>\n<div class=\"row\">\n<div class=\"col-lg-6 col-md-6\">\n<p><strong>Australia<\/strong><br>\nUnited Pacific Industries Pty Ltd<\/p>\n\n<p>10 Eastspur Court <br>\nKilsyth VIC 3137<\/p>\n<\/div>\n<div class=\"col-lg-6 col-md-6\">\n<p>E: <a href=\"mailto:enquiries@upi.com.au\">enquiries@upi.com.au<\/a><br>\nW: <a href=\"http:\/\/www.upi.com.au\" target=\"_blank\">www.upi.com.au<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n            <\/div>",
             "width": "100%"
           }
         }
