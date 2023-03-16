@@ -25,7 +25,7 @@
     "main": {
       "type": "template--page",
       "settings": {
-        "page_width": "full-width"
+        "page_width": "narrow"
       }
     }
   },
