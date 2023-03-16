@@ -3,8 +3,8 @@
     "b7572ca4-1867-4038-8dbb-64e2a236b1ca": {
       "type": "banner-with-icon-set",
       "settings": {
-        "image": "shopify:\/\/shop_images\/About_Us.png",
-        "image_height": "original",
+        "image": "shopify:\/\/shop_images\/About.png",
+        "image_height": "40vw",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
         "title": "About Us",
