@@ -78,17 +78,14 @@
         </div>
       {% endunless %}
       
-      {% for block in section.blocks %}
-        {% unless block.settings.text == blank and block.settings.question == blank %}
           <details class="accordion-content" {{ block.shopify_attributes }}>
             <summary role="button" aria-expanded="false" tabindex="0">
-              {{ block.settings.question }}<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
+              Questions 1<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
             </summary>
             <div class="rte">
-              {{ block.settings.text }}
+              Answer 1
             </div>
           </details>
-        {% endunless %}
 
         <style>
           {% if section.settings.title == blank %}
@@ -97,8 +94,7 @@
             }
           {% endif %}
         </style>
-        
-      {% endfor %}
+  
     </div>
 
 </section>
