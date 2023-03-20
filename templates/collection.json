@@ -188,13 +188,53 @@
             "question": "{{ collection.metafields.custom.faq_s_question_4.value }}",
             "text": "{{ collection.metafields.custom.faq_s_answer_4 | metafield_tag }}"
           }
+        },
+        "ad43f930-3bc6-4670-b9c1-1ff00492c9cd": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_questions_5.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_5 | metafield_tag }}"
+          }
+        },
+        "c2cd6c46-4909-497d-8fd3-59b6d5b059b0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_6.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_6 | metafield_tag }}"
+          }
+        },
+        "1675990b-4f4b-4b31-853c-38f887922de4": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_7.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_7 | metafield_tag }}"
+          }
+        },
+        "331b90ec-8e49-41d3-87b3-ab27e4c0d9bb": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_8.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_8 | metafield_tag }}"
+          }
+        },
+        "acfe477b-5f40-4de3-aee0-26b28db3409b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_9.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_9 | metafield_tag }}"
+          }
         }
       },
       "block_order": [
         "121266e7-9e44-4c8a-a809-0e884b4ceb39",
         "b73f2510-c082-461d-981c-c9b1168c4fe1",
         "045030d7-ab86-4a04-bd20-b65c48219a43",
-        "9f3a510b-6f9e-48a1-908e-3714178f6ea7"
+        "9f3a510b-6f9e-48a1-908e-3714178f6ea7",
+        "ad43f930-3bc6-4670-b9c1-1ff00492c9cd",
+        "c2cd6c46-4909-497d-8fd3-59b6d5b059b0",
+        "1675990b-4f4b-4b31-853c-38f887922de4",
+        "331b90ec-8e49-41d3-87b3-ab27e4c0d9bb",
+        "acfe477b-5f40-4de3-aee0-26b28db3409b"
       ],
       "settings": {
         "colors": "white",
