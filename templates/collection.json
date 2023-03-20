@@ -172,13 +172,29 @@
           "type": "tab_content",
           "settings": {
             "question": "{{ collection.metafields.custom.faq_s_question_2.value }}",
-            "text": "{{ collection.metafields.custom.faq_s_answer_2 | metafield_tag }}"
+            "text": "<p>{{ collection.metafields.custom.faq_s_answer_2 | metafield_tag }}<\/p>"
+          }
+        },
+        "045030d7-ab86-4a04-bd20-b65c48219a43": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_3.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_3 | metafield_tag }}"
+          }
+        },
+        "9f3a510b-6f9e-48a1-908e-3714178f6ea7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_4.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_4 | metafield_tag }}"
           }
         }
       },
       "block_order": [
         "121266e7-9e44-4c8a-a809-0e884b4ceb39",
-        "b73f2510-c082-461d-981c-c9b1168c4fe1"
+        "b73f2510-c082-461d-981c-c9b1168c4fe1",
+        "045030d7-ab86-4a04-bd20-b65c48219a43",
+        "9f3a510b-6f9e-48a1-908e-3714178f6ea7"
       ],
       "settings": {
         "colors": "white",
