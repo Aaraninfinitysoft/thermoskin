@@ -110,7 +110,7 @@ var accr = document.querySelectorAll('.accordion-content');
     console.log('under if ')
     var titlebar = document.querySelector('.title-bar'); 
     titlebar.style.display = 'none';
-    titlebar.closest('.accordion--faq-wrapper').style.display = 'none';
+    titlebar.closest('.accordion--faq-wrapper').parentElement.style.display = 'none';
   }
   
 </script>
