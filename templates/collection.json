@@ -160,35 +160,6 @@
     },
     "1ef78443-d5b4-4bcf-932a-ce6a5ea73e85": {
       "type": "collection_faqs",
-      "disabled": true,
-      "blocks": {
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-0": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-1": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-2": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-0",
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-1",
-        "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-2"
-      ],
       "settings": {
         "colors": "white",
         "title": "Frequently asked questions",
