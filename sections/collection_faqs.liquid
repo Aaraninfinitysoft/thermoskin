@@ -77,7 +77,7 @@
           <h2 class="homepage-sections--title">{{ section.settings.title }}</h2>
         </div>
       {% endunless %}
-      
+      {% assign count = 0 %}
       {% for block in section.blocks %}
         {% unless block.settings.text == blank and block.settings.question == blank %}
           <details class="accordion-content" {{ block.shopify_attributes }}>
@@ -88,21 +88,17 @@
               {{ block.settings.text }}
             </div>
           </details>
+        {% assign count = count | plus: 1 %}
         {% endunless %}
-
-        <style>
-          {% if section.settings.title == blank %}
-            .accordion-faq--{{ section.id }} details:first-of-type summary {
-              padding-top: 0;
-            }
-          {% endif %}
-        </style>
-        
       {% endfor %}
     </div>
-
 </section>
-<script>
+<style>
+  {%  if count > 0 %}
+    .collection-faq{display:none;}
+  {%  endif %}
+</style>
+<!-- <script>
   //alert('called')
 var accr = document.querySelectorAll('.accordion-content');
   //alert(accr.length)
@@ -113,14 +109,14 @@ var accr = document.querySelectorAll('.accordion-content');
     titlebar.closest('.accordion--faq-wrapper').parentElement.style.display = 'none';
   }
   
-</script>
+</script> -->
 
 {% schema %}
   {
     "name": {
         "en": "Collection FAQ's"
     },
-    "class": "main-accordion--wrapper",
+    "class": "main-accordion--wrapper collection-faq",
     "max_blocks": 10,
     "settings": [
         {
