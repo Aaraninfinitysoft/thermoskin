@@ -86,6 +86,22 @@
               Answer 1
             </div>
           </details>
+           <details class="accordion-content" {{ block.shopify_attributes }}>
+            <summary role="button" aria-expanded="false" tabindex="0">
+              Questions 2<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
+            </summary>
+            <div class="rte">
+              Answer 2
+            </div>
+          </details>
+           <details class="accordion-content" {{ block.shopify_attributes }}>
+            <summary role="button" aria-expanded="false" tabindex="0">
+              Questions 3<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
+            </summary>
+            <div class="rte">
+              Answer 3
+            </div>
+          </details>
 
         <style>
           {% if section.settings.title == blank %}
