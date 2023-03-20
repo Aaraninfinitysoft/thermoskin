@@ -147,7 +147,7 @@
               Questions 9<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
             </summary>
             <div class="rte">
-              {{ collection.metafields.custom.faq_s_answer_9 }}
+              {{ collection.metafields.custom.faq_s_answer_9.value }}
             </div>
           </details>
            <details class="accordion-content" {{ block.shopify_attributes }}>
