@@ -78,86 +78,17 @@
         </div>
       {% endunless %}
       
+      {% for block in section.blocks %}
+        {% unless block.settings.text == blank and block.settings.question == blank %}
           <details class="accordion-content" {{ block.shopify_attributes }}>
             <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 1<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
+              {{ block.settings.question }}<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
             </summary>
             <div class="rte">
-              Answer 1
+              {{ block.settings.text }}
             </div>
           </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 2<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 2
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 3<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 3
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 4<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 4
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 5<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 5
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 6<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 6
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 7<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 7
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 8<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              Answer 8
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              Questions 9<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              {{ collection.metafields.custom.faq_s_answer_9.value }}
-            </div>
-          </details>
-           <details class="accordion-content" {{ block.shopify_attributes }}>
-            <summary role="button" aria-expanded="false" tabindex="0">
-              {{ collection.metafields.custom.faq_s_question_10 }}<span>{% if section.settings.faq_icon == "plus_minus" %}{{ plus_icon }}{{ minus_icon }}{% elsif section.settings.faq_icon == "caret" %}{{ chevron_down }}{{ chevron_up }}{% endif %}</span>
-            </summary>
-            <div class="rte">
-              {{section.settings.answer-10}}
-            </div>
-          </details>
+        {% endunless %}
 
         <style>
           {% if section.settings.title == blank %}
@@ -166,7 +97,8 @@
             }
           {% endif %}
         </style>
-  
+        
+      {% endfor %}
     </div>
 
 </section>
@@ -174,7 +106,7 @@
 {% schema %}
   {
     "name": {
-        "en": "Collection FAQ's"
+        "en": "Accordion/FAQ"
     },
     "class": "main-accordion--wrapper",
     "settings": [
@@ -232,17 +164,6 @@
               }
           ]
         },
-          {
-          "type": "richtext",
-          "id": "answer-10",
-          "label": {
-              "en": "answer 10",
-              "de": "Überschrift",
-              "es": "Encabezado",
-              "fr": "Rubrique",
-              "pt-PT": "Título"
-          }
-        },
         {
           "type": "text",
           "id": "title",
@@ -280,14 +201,63 @@
           "default": "plus_minus"
         }
     ],
+    "blocks": [
+      {
+        "type": "tab_content",
+        "name": {
+            "en": "Tab content"
+        },
+        "settings": [
+          {
+            "type": "text",
+            "id": "question",
+            "label": {
+                "en": "Heading",
+                "de": "Überschrift",
+                "es": "Encabezado",
+                "fr": "Rubrique",
+                "pt-PT": "Título"
+            },
+            "default": {
+                "en": "Place your question or heading here"
+            }
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            },
+            "default": {
+                "en": "<p>Here you can place an explanation or answer to the question.</p>"
+            }
+          }
+        ]
+      }
+    ],
     "presets": [
         {
             "name": {
-                "en": "Collection FAQ's"
+                "en": "Accordion/FAQ"
             },
             "category": {
                 "en": "Store information"
-            }
+            },
+            "blocks": [
+                {
+                  "type": "tab_content"
+                },
+                {
+                  "type": "tab_content"
+                },
+                {
+                  "type": "tab_content"
+                }
+            ]
         }
     ]
   }
