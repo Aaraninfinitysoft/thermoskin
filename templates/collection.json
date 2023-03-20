@@ -160,7 +160,6 @@
     },
     "1ef78443-d5b4-4bcf-932a-ce6a5ea73e85": {
       "type": "collection_faqs",
-      "disabled": true,
       "settings": {
         "colors": "white",
         "title": "{{ collection.title }}",
