@@ -164,13 +164,21 @@
         "121266e7-9e44-4c8a-a809-0e884b4ceb39": {
           "type": "tab_content",
           "settings": {
-            "question": "{{ collection.metafields.custom.faq_s_question_10.value }}",
-            "text": "{{ collection.metafields.custom.faq_s_answer_10 | metafield_tag }}"
+            "question": "{{ collection.metafields.custom.faq_s_question_1.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_1 | metafield_tag }}"
+          }
+        },
+        "b73f2510-c082-461d-981c-c9b1168c4fe1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
         }
       },
       "block_order": [
-        "121266e7-9e44-4c8a-a809-0e884b4ceb39"
+        "121266e7-9e44-4c8a-a809-0e884b4ceb39",
+        "b73f2510-c082-461d-981c-c9b1168c4fe1"
       ],
       "settings": {
         "colors": "white",
