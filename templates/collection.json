@@ -223,6 +223,13 @@
             "question": "{{ collection.metafields.custom.faq_s_question_9.value }}",
             "text": "{{ collection.metafields.custom.faq_s_answer_9 | metafield_tag }}"
           }
+        },
+        "da8a7f38-0ab4-41a5-8180-07012636663c": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.faq_s_question_10.value }}",
+            "text": "{{ collection.metafields.custom.faq_s_answer_10 | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -234,7 +241,8 @@
         "c2cd6c46-4909-497d-8fd3-59b6d5b059b0",
         "1675990b-4f4b-4b31-853c-38f887922de4",
         "331b90ec-8e49-41d3-87b3-ab27e4c0d9bb",
-        "acfe477b-5f40-4de3-aee0-26b28db3409b"
+        "acfe477b-5f40-4de3-aee0-26b28db3409b",
+        "da8a7f38-0ab4-41a5-8180-07012636663c"
       ],
       "settings": {
         "colors": "white",
