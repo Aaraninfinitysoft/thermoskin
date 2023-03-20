@@ -162,6 +162,7 @@
       "type": "collection_faqs",
       "settings": {
         "colors": "white",
+        "answer-10": "{{ collection.metafields.custom.faq_s_answer_10 | metafield_tag }}",
         "title": "{{ collection.title }}",
         "faq_icon": "plus_minus"
       }
