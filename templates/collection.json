@@ -160,6 +160,7 @@
     },
     "1ef78443-d5b4-4bcf-932a-ce6a5ea73e85": {
       "type": "collection_faqs",
+      "disabled": true,
       "blocks": {
         "template--15650288042190__1ef78443-d5b4-4bcf-932a-ce6a5ea73e85-167929048170986791-0": {
           "type": "tab_content",
