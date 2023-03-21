@@ -4,76 +4,20 @@
       "type": "image--image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/About_Us.png",
-        "image_height": "30vw",
+        "image_height": "original",
         "bg_image_overlay_opacity": 5,
-        "parallax": false,
+        "parallax": true,
         "title": "FAQ's",
         "text": "",
         "colors": "dark",
         "textPosition": "left",
         "textAlignment": "left",
-        "heading--text-size": 26,
+        "heading--text-size": 40,
         "text--text-size": 18,
         "link": "",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#000000"
-      }
-    },
-    "gallery-00": {
-      "type": "image--gallery",
-      "disabled": true,
-      "blocks": {
-        "164580781507f34c38-0": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "Share brand or product details",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "164580781507f34c38-1": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "Share brand or product details",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "164580781507f34c38-2": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "Share brand or product details",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        }
-      },
-      "block_order": [
-        "164580781507f34c38-0",
-        "164580781507f34c38-1",
-        "164580781507f34c38-2"
-      ],
-      "settings": {
-        "colors": "white",
-        "title": "",
-        "richtext": "",
-        "remove-spacing": false,
-        "full-width": false,
-        "section-width": "content",
-        "content-position": "below-image"
       }
     },
     "main": {
@@ -204,7 +148,6 @@
   },
   "order": [
     "image-with-text-overlay",
-    "gallery-00",
     "main",
     "accordion-00",
     "gallery-01",
