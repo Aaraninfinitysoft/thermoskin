@@ -7375,8 +7375,11 @@ body.store-locater div#shopify-section-store-locator-section {
   }   */
 }
 @media(min-width:768px){
-  .image-with-text-overlay-wrapper .homepage-sections-wrapper {
+/*   .image-with-text-overlay-wrapper .homepage-sections-wrapper {
     height: 45vh;
+  } */
+  .image-with-text-overlay-wrapper .homepage-featured-content-wrapper{
+    min-height:45vh !important;
   }
 }
 /* @media (max-width: 426px) {
