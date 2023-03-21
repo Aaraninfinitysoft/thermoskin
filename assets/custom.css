@@ -7298,7 +7298,7 @@ body.store-locater div#shopify-section-store-locator-section {
 }
 .accordion-container.wrapper-padded {
     max-width: 1120px!important;
-    padding: 0!important;
+/*     padding: 0!important; */
 }
 .accordion-container h2.homepage-sections--title {
     text-align: left;
