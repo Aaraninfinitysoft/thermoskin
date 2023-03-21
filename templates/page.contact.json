@@ -9,7 +9,7 @@
         "parallax": true,
         "title": "contact us",
         "text": "",
-        "colors": "accent",
+        "colors": "dark",
         "textPosition": "left",
         "textAlignment": "left",
         "heading--text-size": 40,
