@@ -3,7 +3,7 @@
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/About_Us.png",
+        "image": "shopify:\/\/shop_images\/About_Us_be00aaf7-2720-47ec-ae69-0bb6b410fb92.png",
         "image_height": "original",
         "bg_image_overlay_opacity": 5,
         "parallax": true,
