@@ -52,7 +52,7 @@ h3,
 }
 .accordion-container .homepage-sections--title {
   font-size: 40px !important;
-  line-height: 56px;
+  line-height: 1.5;
 }
 
 h3.best-sellers-title,
@@ -5901,6 +5901,9 @@ h3:empty {
 
 
 @media(max-width:768px) {
+  .accordion-container .homepage-sections--title{
+    font-size: 26px!important;
+  }
   body:not(.template-collection) .homepage-indiv-section-wrapper .homepage-content--image img {
 /*     min-height: 400px; */
     width: 100%;
