@@ -123,7 +123,7 @@
         "d29c248a-ecef-4a74-9e31-f9d18e9b2d91": {
           "type": "best_seller",
           "settings": {
-            "best_seller_id": "elbow",
+            "best_seller_id": "elbow-compression-sleeve",
             "name": "Elbow"
           }
         },
@@ -367,7 +367,7 @@
         "colors": "white",
         "circle_images": true,
         "title": "Latest recovery tips",
-        "viewurl": "shopify:\/\/collections\/elbow"
+        "viewurl": "shopify:\/\/collections\/elbow-compression-sleeve"
       }
     },
     "9de87d6a-42ba-4d1c-88dc-e3f0e9692a66": {
