@@ -167,6 +167,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
       // price update on subtotal end
     }, 2000);
   })
+
+  // price update on ajax qtn Chnage button click
+  var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
+  QTNbutton.forEach(() => {
+    setTimeout(() => {
+      var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
+      let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
+      updateGSTprice(subtotalNode, subtotalWithGst)
+    }, 1000);
+  })
+   // price update on ajax qtn Chnage button click
 })
 
 
