@@ -122,13 +122,16 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
   let span = document.createElement('span');
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
-    span.setAttribute("class", "d-block")
+    span.setAttribute("class", "d-block withGSTPrice")
     span.textContent = gstprice + ' with GST ';
     currentElm.parentElement.appendChild(span)
   } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
     span.setAttribute("class", "d-block")
     span.textContent = gstprice + ' with GST ';
-    currentElm.parentElement.appendChild(span);
+    if( currentElm.parentElement.querySelector('.withGSTPrice') == null){
+      currentElm.parentElement.appendChild(span);
+    }
+    // currentElm.parentElement.appendChild(span);
     currentElm.parentElement.classList.add('d-flex');
   }
   else {
