@@ -202,7 +202,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
               updateGSTprice(m, WIthGSTPriceNew)
             }) 
-          }, 500);
+          }, 1000);
         }
       }, 2000);
     }
