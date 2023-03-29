@@ -130,6 +130,9 @@ var gst = parseInt(window.taxPercentage);
  span.textContent = WIthGSTPriceNew ;
  updateGSTprice(m,'.price-with-gst-wrapper','.with-gst-price',span)
   })
+  document.addEventListener('change',()=>{
+    alert('changed in document')
+  })
 })
 
 
