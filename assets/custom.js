@@ -116,7 +116,7 @@ function priceWIthGST(gst,price){
 }
 
 function updateGSTprice(currentElm,closestWrapperSelector,toBeUpdatedSelector,gstNode){
-  currentElm.closest(closestWrapperSelector'.price-with-gst-wrapper').querySelector(toBeUpdatedSelector'.with-gst-price').appendChild(gstNode);
+  currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(gstNode);
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
