@@ -123,8 +123,8 @@ var gst = parseInt(window.taxPercentage);
  var WIthGSTPriceNew =  priceWIthGST(gst,m.textContent);
  console.log(WIthGSTPriceNew);
  let span = document.createElement('span');
- span.textContent = ` | including GST ${WIthGSTPriceNew}` ;
- m.parentElement.appendChild(span);
+ span.textContent = WIthGSTPriceNew ;
+ m.parentElement.querySelector('.with-gst-price').appendChild(span);
   })
 })
 
