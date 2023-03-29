@@ -107,6 +107,8 @@ for (let i = 0, linksLength = links.length; i < linksLength; i++) {
 }
 
 // Tax calculetor for product price
+
+// price with gst 
 function priceWIthGST(gst, price) {
   var pr = price.split('$')
   var newPrice = parseInt(pr[1]);
@@ -115,17 +117,26 @@ function priceWIthGST(gst, price) {
   return (`$` + newPriceWithGST)
 }
 
-function updateGSTprice(currentElm, gstNode, closestWrapperSelector, toBeUpdatedSelector,) {
+// update GST
+function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
+  let span = document.createElement('span');
+  span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
-    currentElm.parentElement.appendChild(gstNode)
+    span.setAttribute("class", "d-block")
+    span.textContent = gstprice + ' with GST ';
+    currentElm.parentElement.appendChild(span)
   } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
-    currentElm.parentElement.appendChild(gstNode);
+    span.setAttribute("class", "d-block")
+    span.textContent = gstprice + ' with GST ';
+    currentElm.parentElement.appendChild(span);
     currentElm.parentElement.classList.add('d-flex');
   }
   else {
-    currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(gstNode);
+    currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
   }
 }
+
+// end
 
 window.addEventListener('DOMContentLoaded', (event) => {
   console.warn(window.taxPercentage)
@@ -134,11 +145,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // GST price add on document load 
   price.forEach((m) => {
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-    console.log(WIthGSTPriceNew);
-    let span = document.createElement('span');
-    span.textContent = WIthGSTPriceNew;
-    updateGSTprice(m, span, '.price-with-gst-wrapper', '.with-gst-price')
+    updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
   })
+
   // GST price add on addto cart click product page 
   var addtocartBtn = document.querySelector('#AddToCart')
   addtocartBtn.addEventListener('click', () => {
@@ -147,19 +156,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
       var prNodes = document.querySelectorAll('.ajaxcart__product .money');
       prNodes.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        let span = document.createElement('span');
-        span.textContent = WIthGSTPriceNew;
-        updateGSTprice(m, span)
+        updateGSTprice(m, WIthGSTPriceNew)
       })
       // priceupdate on line tiems end
-      
+
       // price update on subtotal
       var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
       let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
-      let span1 = document.createElement('span');
-      span1.textContent = subtotalWithGst;
-      updateGSTprice(subtotalNode, span1)
-
+      updateGSTprice(subtotalNode, subtotalWithGst)
       // price update on subtotal end
     }, 2000);
   })
