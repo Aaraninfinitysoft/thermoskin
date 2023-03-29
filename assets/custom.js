@@ -176,9 +176,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
   QTNbutton.forEach(() => {
     setTimeout(() => {
-      var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
-      let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
-      updateGSTprice(subtotalNode, subtotalWithGst)
+      var subtotalNode1 = document.querySelector('.ajaxcart__subtotal .money');
+      let subtotalWithGst1 = priceWIthGST(gst, subtotalNode1.textContent);
+      updateGSTprice(subtotalNode1, subtotalWithGst1)
     }, 2000);
   })
   // price update on ajax qtn Chnage button click
