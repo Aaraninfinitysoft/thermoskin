@@ -107,9 +107,20 @@ for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
 }
 
 // Tax calculetor for product price
-window.addEventListener('DOMContentLoaded', (event) => {
+function priceWIthGST(gst,price){
+  var newPrice = parseFloat(price);
+  let wIthGST = newPrice * gst / 100;
+  return wIthGST
+}
 
-  alert(window.taxPercentage)
+window.addEventListener('DOMContentLoaded', (event) => {
+console.warn( window.taxPercentage)
+var gst = parseInt(window.taxPercentage);
+  var price = document.querySelectorAll('.money');
+  price.forEach((m)=>{
+ var newWIthGSTPrice =  priceWIthGST(gst,m.textContent);
+ console.log(newWIthGSTPrice)
+  })
 })
 
 
