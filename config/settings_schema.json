@@ -9,6 +9,39 @@
     },
     {
         "name": {
+            "en": "Custom Tax",
+            "de": "Farben",
+            "es": "Colores",
+            "fr": "Couleurs",
+            "pt-PT": "Cores"
+        },
+        "settings": [
+            {
+                "type": "header",
+                "content": {
+                    "en": "General",
+                    "de": "Allgemeines",
+                    "es": "General",
+                    "fr": "Général",
+                    "pt-PT": "Geral"
+                }
+            },
+            {
+                "type": "text",
+                "id": "tax_percentage",
+                "label": {
+                    "en": "Tax Percantage",
+                    "de": "Hintergrund",
+                    "es": "Fondo",
+                    "fr": "Contexte général",
+                    "pt-PT": "Fundo"
+                },
+                "info": "Please put numaric value only and according to tax in your region (Example :14).  we will convert that in percentage and show value  "
+            }
+        ]
+    },
+    {
+        "name": {
             "en": "Colors",
             "de": "Farben",
             "es": "Colores",

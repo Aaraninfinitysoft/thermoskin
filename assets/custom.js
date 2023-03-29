@@ -106,4 +106,10 @@ for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
   }
 }
 
+// Tax calculetor for product price
+window.addEventListener('DOMContentLoaded', (event) => {
+
+  alert(window.taxPercentage)
+})
+
 
