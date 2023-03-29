@@ -175,7 +175,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // price update on ajax qtn Chnage button click
   var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
   QTNbutton.forEach(() => {
+    alert('clicked outside')
     setTimeout(() => {
+      alert('click inside')
       var subtotalNode1 = document.querySelector('.ajaxcart__subtotal .money');
       let subtotalWithGst1 = priceWIthGST(gst, subtotalNode1.textContent);
       updateGSTprice(subtotalNode1, subtotalWithGst1)
