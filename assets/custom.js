@@ -115,6 +115,10 @@ function priceWIthGST(gst,price){
   return (`$`+ newPriceWithGST)
 }
 
+function updateGSTprice(currentElm,closestWrapperSelector,toBeUpdatedSelector,gstNode){
+  currentElm.closest(closestWrapperSelector'.price-with-gst-wrapper').querySelector(toBeUpdatedSelector'.with-gst-price').appendChild(gstNode);
+}
+
 window.addEventListener('DOMContentLoaded', (event) => {
 console.warn( window.taxPercentage)
 var gst = parseInt(window.taxPercentage);
@@ -124,7 +128,7 @@ var gst = parseInt(window.taxPercentage);
  console.log(WIthGSTPriceNew);
  let span = document.createElement('span');
  span.textContent = WIthGSTPriceNew ;
- m.closest('.price-with-gst-wrapper').querySelector('.with-gst-price').appendChild(span);
+ updateGSTprice(m,'.price-with-gst-wrapper','.with-gst-price',span)
   })
 })
 
