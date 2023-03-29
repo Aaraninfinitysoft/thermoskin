@@ -111,7 +111,8 @@ function priceWIthGST(gst,price){
   var pr = price.split('$')
   var newPrice = parseFloat(pr[1]);
   let wIthGST = newPrice * gst / 100;
-  return wIthGST
+  let newPriceWithGST = parseFloat(pr[1]) + wIthGST.toFixed(2)
+  return (`$`+ newPriceWithGST)
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -119,8 +120,11 @@ console.warn( window.taxPercentage)
 var gst = parseInt(window.taxPercentage);
   var price = document.querySelectorAll('.money');
   price.forEach((m)=>{
- var newWIthGSTPrice =  priceWIthGST(gst,m.textContent);
- console.log(newWIthGSTPrice)
+ var WIthGSTPriceNew =  priceWIthGST(gst,m.textContent);
+ console.log(WIthGSTPriceNew);
+ let span = document.createElement('span');
+ span.textContent(WIthGSTPriceNew)
+ m.parentElement.appendChild(span);
   })
 })
 
