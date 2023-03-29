@@ -189,8 +189,24 @@ window.addEventListener('DOMContentLoaded', (event) => {
     })
   })
 
-
-
+  // price update on search button click
+  var searchButtons = document.querySelectorAll('.search-button');
+  searchButtons.forEach((button)=>{
+    button.onclick = ()=>{
+      setTimeout(() => {
+        var SearchInput = document.querySelector('#SearchContainer #search-input')
+        SearchInput.onkeyup = ()=>{
+          setTimeout(() => {
+            var searchResultPrices = document.querySelectorAll('#search-results .money');
+            searchResultPrices.forEach((m)=>{
+              let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+              updateGSTprice(m, WIthGSTPriceNew)
+            }) 
+          }, 500);
+        }
+      }, 1500);
+    }
+  })
 
 })
 
