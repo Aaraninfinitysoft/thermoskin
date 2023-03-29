@@ -108,7 +108,8 @@ for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
 
 // Tax calculetor for product price
 function priceWIthGST(gst,price){
-  var newPrice = parseFloat(price);
+  var pr = price.split('$')
+  var newPrice = parseFloat(pr[1]);
   let wIthGST = newPrice * gst / 100;
   return wIthGST
 }
