@@ -5,31 +5,31 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('small p').each(function () {
     $(this).prepend('<strong>Best For</strong>')
   })
-//   $(document).on('change',function(){
-// setTimeout(() => {
-//   $('small p').each(function () {
-//     $(this).prepend('<strong>Best For</strong>')
-//   })
-// }, 3000);
-//   })
+  //   $(document).on('change',function(){
+  // setTimeout(() => {
+  //   $('small p').each(function () {
+  //     $(this).prepend('<strong>Best For</strong>')
+  //   })
+  // }, 3000);
+  //   })
   // best sellers dropown
 
   // about page tag
   var tag = '<div class="banner-lable-wrapper"><span class="banner-lable">LIFE </span><span class="banner-lable"> UNSTOPPABLE</span></div>'
-$('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper').append(tag);
-// end
+  $('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper').append(tag);
+  // end
 
-// browse by body Parts Tag
-// var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Recovery</span></div></div></div>'
-// $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set').append(tag2);
+  // browse by body Parts Tag
+  // var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Recovery</span></div></div></div>'
+  // $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set').append(tag2);
 
-// browse by body Parts Tag
-// var tag3 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Reduces </span><span class="banner-lable"> Swelling</span></div></div></div>'
-// $('#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set').append(tag3);
+  // browse by body Parts Tag
+  // var tag3 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Reduces </span><span class="banner-lable"> Swelling</span></div></div></div>'
+  // $('#thermoskin-compression-range-of-supports-and-braces .banner-with-icon-set').append(tag3);
 
-// browse by body Parts Tag
-// var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
-// $('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
+  // browse by body Parts Tag
+  // var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
+  // $('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
 
 
   var popup = document.querySelector('.best-sellers-nav');
@@ -71,18 +71,18 @@ setTimeout(() => {
 
 }, 3000);
 var cd = document.querySelectorAll('.active-facets');
-cd.forEach((cdm) =>{
+cd.forEach((cdm) => {
   cdm.childElementCount;
   console.log('count')
   console.log(cdm.childElementCount)
-  if (cdm.childElementCount == 1){
+  if (cdm.childElementCount == 1) {
     cdm.style.display = 'none';
   }
 })
 document.querySelectorAll('.facets__item').forEach(
   function (item) {
     item.addEventListener('click', function () {
-    
+
       cd.forEach((cdm) => {
         cdm.childElementCount;
         console.log('count')
@@ -99,7 +99,7 @@ document.querySelectorAll('.facets__item').forEach(
 )
 
 var links = document.links;
-for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
+for (let i = 0, linksLength = links.length; i < linksLength; i++) {
   if (links[i].hostname !== window.location.hostname) {
     links[i].target = '_blank';
     links[i].rel = 'noreferrer noopener';
@@ -107,32 +107,62 @@ for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
 }
 
 // Tax calculetor for product price
-function priceWIthGST(gst,price){
+function priceWIthGST(gst, price) {
   var pr = price.split('$')
   var newPrice = parseInt(pr[1]);
   let wIthGST = newPrice * gst / 100;
   let newPriceWithGST = parseInt(pr[1]) + parseFloat(wIthGST.toFixed(2))
-  return (`$`+ newPriceWithGST)
+  return (`$` + newPriceWithGST)
 }
 
-function updateGSTprice(currentElm,closestWrapperSelector,toBeUpdatedSelector,gstNode){
-  currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(gstNode);
+function updateGSTprice(currentElm, gstNode, closestWrapperSelector, toBeUpdatedSelector,) {
+  if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
+    currentElm.parentElement.appendChild(gstNode)
+  } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
+    currentElm.parentElement.appendChild(gstNode);
+    currentElm.parentElement.classList.add('d-flex');
+  }
+  else {
+    currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(gstNode);
+  }
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
-console.warn( window.taxPercentage)
-var gst = parseInt(window.taxPercentage);
+  console.warn(window.taxPercentage)
+  var gst = parseInt(window.taxPercentage);
   var price = document.querySelectorAll('.money');
-  price.forEach((m)=>{
- var WIthGSTPriceNew =  priceWIthGST(gst,m.textContent);
- console.log(WIthGSTPriceNew);
- let span = document.createElement('span');
- span.textContent = WIthGSTPriceNew ;
- updateGSTprice(m,'.price-with-gst-wrapper','.with-gst-price',span)
+  // GST price add on document load 
+  price.forEach((m) => {
+    let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+    console.log(WIthGSTPriceNew);
+    let span = document.createElement('span');
+    span.textContent = WIthGSTPriceNew;
+    updateGSTprice(m, span, '.price-with-gst-wrapper', '.with-gst-price')
   })
-  document.onchange = ()=>{
-    alert('changed in document')
-  }
+  // GST price add on addto cart click product page 
+  var addtocartBtn = document.querySelector('#AddToCart')
+  addtocartBtn.addEventListener('click', () => {
+    setTimeout(() => {
+      // priceupdate on line tiems
+      var prNodes = document.querySelectorAll('.ajaxcart__product .money');
+      prNodes.forEach((m) => {
+        let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+        let span = document.createElement('span');
+        span.textContent = WIthGSTPriceNew;
+        updateGSTprice(m, span)
+      })
+      // priceupdate on line tiems end
+      
+      // price update on subtotal
+      var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
+      let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
+      let span1 = document.createElement('span');
+      span1.textContent = subtotalWithGst;
+      updateGSTprice(subtotalNode, span1)
+
+      // price update on subtotal end
+    }, 2000);
+  })
 })
 
 
