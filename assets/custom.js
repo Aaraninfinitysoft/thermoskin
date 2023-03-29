@@ -148,24 +148,28 @@ window.addEventListener('DOMContentLoaded', (event) => {
     updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
   })
 
-  // GST price add on addto cart click product page 
-  var addtocartBtn = document.querySelector('#AddToCart')
-  addtocartBtn.addEventListener('click', () => {
-    setTimeout(() => {
-      // priceupdate on line tiems
-      var prNodes = document.querySelectorAll('.ajaxcart__product .money');
-      prNodes.forEach((m) => {
-        let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        updateGSTprice(m, WIthGSTPriceNew)
-      })
-      // priceupdate on line tiems end
+  // GST price add on addto cart and cartToggler click 
+  var addtocartBtn = document.querySelector('#AddToCart');
+  var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
+  var arr = [addtocartBtn, cartToggleBtn];
+  arr.forEach((el) => {
+    el.addEventListener('click', () => {
+      setTimeout(() => {
+        // priceupdate on line tiems
+        var prNodes = document.querySelectorAll('.ajaxcart__product .money');
+        prNodes.forEach((m) => {
+          let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+          updateGSTprice(m, WIthGSTPriceNew)
+        })
+        // priceupdate on line tiems end
 
-      // price update on subtotal
-      var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
-      let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
-      updateGSTprice(subtotalNode, subtotalWithGst)
-      // price update on subtotal end
-    }, 2000);
+        // price update on subtotal
+        var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
+        let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
+        updateGSTprice(subtotalNode, subtotalWithGst)
+        // price update on subtotal end
+      }, 2000);
+    })
   })
 
   // price update on ajax qtn Chnage button click
@@ -175,9 +179,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
       var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
       let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
       updateGSTprice(subtotalNode, subtotalWithGst)
-    }, 1000);
+    }, 2000);
   })
-   // price update on ajax qtn Chnage button click
+  // price update on ajax qtn Chnage button click
+
+
 })
 
 
