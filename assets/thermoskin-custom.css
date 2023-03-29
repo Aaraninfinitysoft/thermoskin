@@ -222,3 +222,7 @@ color:#000!important;
 }
 /* sixth block end */
 /* rs css started */
+.d-flex{
+  display:flex;
+  flex-wrap: wrap;
+}
