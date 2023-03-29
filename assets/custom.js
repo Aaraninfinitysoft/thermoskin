@@ -204,7 +204,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             }) 
           }, 500);
         }
-      }, 1500);
+      }, 2000);
     }
   })
 
