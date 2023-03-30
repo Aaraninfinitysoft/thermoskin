@@ -235,6 +235,13 @@ if(price != null){
       updateGSTprice(m, WIthGSTPriceNew)
     })
   }, 3000);
+
+  // on varient change 
+  var swatch = document.querySelectorAll('.swatch-element label');
+  swatch.forEach((m)=>{
+    let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+    updateGSTprice(m, WIthGSTPriceNew)
+  })
 })
 
 
