@@ -240,15 +240,15 @@ if(price != null){
   var swatch = document.querySelectorAll('.swatch-element label');
   swatch.forEach((s)=>{
    s.addEventListener('click',(e)=>{
-    if(e.target.closest('.form-vertical').querySelector('.money')){
-
-    }
+  setTimeout(() => {
     var m = e.target.closest('.form-vertical').querySelector('.money');
     var n = e.target.closest('.form-vertical').querySelector('.with-gst-price span');
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         n.textContent = WIthGSTPriceNew;
         m.style.display = 'none'
         console.log('new GST variable price updated');
+  }, 1000);
+
    })
   })
 })
