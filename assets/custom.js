@@ -120,7 +120,7 @@ function priceWIthGST(gst, price) {
   var newPrice = parseInt(pr[1]);
   let wIthGST = newPrice * gst / 100;
   let newPriceWithGST = parseInt(pr[1]) + parseFloat(wIthGST.toFixed(2))
-  return (`$` + newPriceWithGST)
+  return (`$` + newPriceWithGST.toFixed(2))
 }
 
 // update GST
