@@ -237,23 +237,17 @@ if(price != null){
   }, 3000);
 
   // on varient change 
-  document.addEventListener('change',()=>{
-      price.forEach((m) => {
-    let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-    updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
-  })
-  })
   var swatch = document.querySelectorAll('.swatch-element label');
   swatch.forEach((s)=>{
    s.addEventListener('click',(e)=>{
     if(e.target.closest('.form-vertical').querySelector('.money')){
 
     }
-    var m3 = e.target.closest('.form-vertical').querySelector('.money');
+    var m = e.target.closest('.form-vertical').querySelector('.money');
     var n = e.target.closest('.form-vertical').querySelector('.with-gst-price span');
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         n.textContent = WIthGSTPriceNew;
-        m3.style.display = 'none'
+        m.style.display = 'none'
         console.log('new GST variable price updated');
    })
   })
