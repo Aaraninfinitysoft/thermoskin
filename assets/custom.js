@@ -153,12 +153,14 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 window.addEventListener('DOMContentLoaded', (event) => {
   console.warn(window.taxPercentage)
   var gst = parseInt(window.taxPercentage);
-  var price = document.querySelectorAll('.money');
+  var price = document.querySelectorAll('.template-product .money');
   // GST price add on document load 
+if(price != null){
   price.forEach((m) => {
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
     updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
   })
+}
 
   // GST price add on addto cart and cartToggler click 
   var addtocartBtn = document.querySelector('#AddToCart');
