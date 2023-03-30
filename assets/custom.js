@@ -68,10 +68,12 @@ setTimeout(() => {
     reviewBlock2.appendChild(reviewBlock)
   }
   var ii = document.querySelector('.write-review-trigger');
+if (ii != null) {
   ii.addEventListener('click', () => {
     var trig = document.querySelector('.spr-summary-actions-newreview');
     trig.click();
   })
+}
 
 }, 3000);
 var cd = document.querySelectorAll('.active-facets');
