@@ -7390,5 +7390,7 @@ span.customized-heading:nth-child(3) {
 .withGSTPrice{
   font-weight: 600;
 }
-
+#ProductPrice{
+  display: none !important;
+}
 /************ custom end **********/
