@@ -44,15 +44,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
       popup.classList.remove('pop-in')
     })
   })
-  dropdown.addEventListener('click', function () {
-    if (popup.classList.contains('pop-in')) {
-      popup.classList.remove('pop-in')
-      dropdown.classList.remove('dropdown_open')
-    } else {
-      popup.classList.add('pop-in')
-      dropdown.classList.add('dropdown_open')
-    }
-  })
+  if(dropdown != null){
+    dropdown.addEventListener('click', function () {
+      if (popup.classList.contains('pop-in')) {
+        popup.classList.remove('pop-in')
+        dropdown.classList.remove('dropdown_open')
+      } else {
+        popup.classList.add('pop-in')
+        dropdown.classList.add('dropdown_open')
+      }
+    })
+  }
   // end
 });
 
@@ -62,7 +64,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
   var reviewBlock2 = document.querySelector('.review_html');
-  reviewBlock2.appendChild(reviewBlock)
+  if(reviewBlock2 != null){
+    reviewBlock2.appendChild(reviewBlock)
+  }
   var ii = document.querySelector('.write-review-trigger');
   ii.addEventListener('click', () => {
     var trig = document.querySelector('.spr-summary-actions-newreview');
