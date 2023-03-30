@@ -124,17 +124,13 @@ function priceWIthGST(gst, price) {
 }
 
 // update GST
-function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,swatch) {
+function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
   let span = document.createElement('span');
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
     span.setAttribute("class", "d-block withGSTPrice")
     span.textContent = gstprice + ' Inc. GST ';
     if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
-      currentElm.parentElement.appendChild(span);
-      currentElm.style.display = 'none';
-    }
-    if(swatch != null || swatch != 'undefined' ){
       currentElm.parentElement.appendChild(span);
       currentElm.style.display = 'none';
     }
@@ -244,7 +240,7 @@ if(price != null){
   document.addEventListener('change',()=>{
     price.forEach((m) => {
       let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-      updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price',true)
+      updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
     })
   })
 })
