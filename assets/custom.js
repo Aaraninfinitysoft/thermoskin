@@ -240,9 +240,13 @@ if(price != null){
   var swatch = document.querySelectorAll('.swatch-element label');
   swatch.forEach((s)=>{
    s.addEventListener('click',(e)=>{
+    if(e.target.closest('.form-vertical').querySelector('.money')){
+
+    }
     var m = e.target.closest('.form-vertical').querySelector('.money');
+    var n = e.target.closest('.form-vertical').querySelector('.withGSTPrice');
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-    updateGSTprice(m, WIthGSTPriceNew)
+    updateGSTprice(n, WIthGSTPriceNew,'.form-vertical','.withGSTPrice')
    })
   })
 })
