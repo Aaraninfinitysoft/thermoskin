@@ -117,7 +117,7 @@ for (let i = 0, linksLength = links.length; i < linksLength; i++) {
 // price with gst 
 function priceWIthGST(gst, price) {
   var pr = price.split('$')
-  var newPrice = parseInt(pr[1]);
+  var newPrice = parseFloat(pr[1]);
   let wIthGST = newPrice * gst / 100;
   let newPriceWithGST = parseInt(pr[1]) + parseFloat(wIthGST.toFixed(2))
   return (`$` + newPriceWithGST.toFixed(2))
