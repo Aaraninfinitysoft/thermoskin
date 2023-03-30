@@ -124,14 +124,14 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
     span.setAttribute("class", "d-block withGSTPrice")
     span.textContent = gstprice + ' with GST ';
-    if( currentElm.parentElement.querySelector('.withGSTPrice') == null){
+    if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
     }
     // currentElm.parentElement.appendChild(span)
   } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
     span.setAttribute("class", "d-block")
     span.textContent = gstprice + ' with GST ';
-    if( currentElm.parentElement.querySelector('.withGSTPrice') == null){
+    if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
     }
     // currentElm.parentElement.appendChild(span);
@@ -197,31 +197,33 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   // price update on search button click
   var searchButtons = document.querySelectorAll('.search-button');
-  searchButtons.forEach((button)=>{
-    button.onclick = ()=>{
+  searchButtons.forEach((button) => {
+    button.onclick = () => {
       setTimeout(() => {
         var SearchInput = document.querySelector('#SearchContainer #search-input')
-        SearchInput.onkeyup = ()=>{
+        SearchInput.onkeyup = () => {
           setTimeout(() => {
             var searchResultPrices = document.querySelectorAll('#search-results .money');
-            searchResultPrices.forEach((m)=>{
+            searchResultPrices.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
               updateGSTprice(m, WIthGSTPriceNew)
-            }) 
+            })
           }, 1000);
         }
       }, 2000);
     }
   })
-// collection price update
+  // collection price update
 
-// price update on collection page 
-var collecPrList = document.querySelectorAll('.collection-main-body .money');
-collecPrList.forEach((m)=>{
-let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-updateGSTprice(m, WIthGSTPriceNew)
-})
+  // price update on collection page 
 
+  setTimeout(() => {
+    var collecPrList = document.querySelectorAll('.collection-main-body .money');
+    collecPrList.forEach((m) => {
+      let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+      updateGSTprice(m, WIthGSTPriceNew)
+    })
+  }, 3000);
 })
 
 
