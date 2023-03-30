@@ -213,7 +213,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
       }, 2000);
     }
   })
-
+// price update on collection page 
+var collecPrList = document.querySelectorAll('.collection-main-body .money');
+collecPrList.forEach((m)=>{
+  let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+  updateGSTprice(m, WIthGSTPriceNew)
+})
 })
 
 
