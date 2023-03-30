@@ -440,5 +440,16 @@
       "continue": "Continue",
       "powered_by_html": "This store will be powered by <a href=\"http:\/\/www.shopify.com\">Shopify<\/a>"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "information_estimated_taxes_label": "Estimated GST",
+        "estimated_taxes_finalization_tooltip_content": "The final GST and total will be confirmed by email or text after you place your order.",
+        "estimated_taxes_label": "Estimated GST",
+        "taxes_label": "GST",
+        "total_label": "GST"
+      }
+    }
   }
 }
