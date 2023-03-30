@@ -246,7 +246,8 @@ if(price != null){
     var m = e.target.closest('.form-vertical').querySelector('.money');
     var n = e.target.closest('.form-vertical').querySelector('.withGSTPrice');
     let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-    updateGSTprice(n, WIthGSTPriceNew,'.form-vertical','.withGSTPrice')
+        n.textContent = WIthGSTPriceNew;
+        console.log('new GST variable price updated');
    })
   })
 })
