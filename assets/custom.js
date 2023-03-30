@@ -125,8 +125,6 @@ function priceWIthGST(gst, price) {
 
 // update GST
 function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
-  console.log(closestWrapperSelector)
-  console.log(currentElm)
   let span = document.createElement('span');
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
@@ -147,8 +145,6 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
     currentElm.style.display = 'none';
   }
   else {
-    console.log(closestWrapperSelector)
-    console.log(currentElm)
     currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
     currentElm.style.display = 'none';
   }
@@ -242,10 +238,24 @@ if(price != null){
 
   // on varient change 
   document.addEventListener('change',()=>{
-    price.forEach((m) => {
-      let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-      updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
-    })
+      price.forEach((m) => {
+    let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+    updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
+  })
+  })
+  var swatch = document.querySelectorAll('.swatch-element label');
+  swatch.forEach((s)=>{
+   s.addEventListener('click',(e)=>{
+    if(e.target.closest('.form-vertical').querySelector('.money')){
+
+    }
+    var m3 = e.target.closest('.form-vertical').querySelector('.money');
+    var n = e.target.closest('.form-vertical').querySelector('.with-gst-price span');
+    let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+        n.textContent = WIthGSTPriceNew;
+        m3.style.display = 'none'
+        console.log('new GST variable price updated');
+   })
   })
 })
 
