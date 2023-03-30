@@ -444,7 +444,8 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "information_estimated_taxes_label": "Estimated GST"
+        "information_estimated_taxes_label": "Estimated GST",
+        "estimated_taxes_finalization_tooltip_content": "The final GST and total will be confirmed by email or text after you place your order."
       }
     }
   }
