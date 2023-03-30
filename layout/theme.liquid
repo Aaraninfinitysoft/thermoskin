@@ -345,10 +345,12 @@ setTimeout(()=>{
   var size_chart = document.querySelector('.size-chart-model');
   var close = document.querySelector('.close-button');
   var body = document.body;
+if(toggler != null){
   toggler.addEventListener('click',function(){
     size_chart.style.display = 'block';
     body.classList.add("Body-overlay");
   })
+}
   close.addEventListener('click',function(){
     console.log("close");
     size_chart.style.display = 'none';
