@@ -167,6 +167,7 @@ if(price != null){
   var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
   var arr = [addtocartBtn, cartToggleBtn];
   arr.forEach((el) => {
+   if(el != null){
     el.addEventListener('click', () => {
       setTimeout(() => {
         // priceupdate on line tiems
@@ -201,6 +202,7 @@ if(price != null){
 
       }, 2000);
     })
+   }
   })
 
   // price update on search button click
