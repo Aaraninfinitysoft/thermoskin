@@ -196,6 +196,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   })
 
   // price update on search button click
+setTimeout(() => {
   var searchButtons = document.querySelectorAll('.search-button');
   searchButtons.forEach((button)=>{
     button.onclick = ()=>{
@@ -219,6 +220,8 @@ collecPrList.forEach((m)=>{
   let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
   updateGSTprice(m, WIthGSTPriceNew)
 })
+}, 3000);
+// price update on collection page end here
 })
 
 
