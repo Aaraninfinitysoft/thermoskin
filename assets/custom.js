@@ -247,7 +247,7 @@ if(price != null){
         n.textContent = WIthGSTPriceNew;
         m.style.display = 'none'
         console.log('new GST variable price updated');
-  }, 1000);
+  }, 500);
 
    })
   })
