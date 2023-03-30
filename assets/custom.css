@@ -7387,6 +7387,8 @@ span.customized-heading:nth-child(3) {
     bottom: -52px!important;
  }
 } */
-
+.withGSTPrice{
+  font-weight: 600;
+}
 
 /************ custom end **********/
