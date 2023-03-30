@@ -125,6 +125,7 @@ function priceWIthGST(gst, price) {
 
 // update GST
 function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
+  console.log(closestWrapperSelector)
   let span = document.createElement('span');
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
