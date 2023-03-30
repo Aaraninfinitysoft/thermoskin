@@ -220,7 +220,7 @@ collecPrList.forEach((m)=>{
   let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
   updateGSTprice(m, WIthGSTPriceNew)
 })
-}, 3000);
+}, 5000);
 // price update on collection page end here
 })
 
