@@ -196,7 +196,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
   })
 
   // price update on search button click
-setTimeout(() => {
   var searchButtons = document.querySelectorAll('.search-button');
   searchButtons.forEach((button)=>{
     button.onclick = ()=>{
@@ -214,14 +213,15 @@ setTimeout(() => {
       }, 2000);
     }
   })
+// collection price update
+
 // price update on collection page 
 var collecPrList = document.querySelectorAll('.collection-main-body .money');
 collecPrList.forEach((m)=>{
-  let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-  updateGSTprice(m, WIthGSTPriceNew)
+let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+updateGSTprice(m, WIthGSTPriceNew)
 })
-}, 5000);
-// price update on collection page end here
+
 })
 
 
