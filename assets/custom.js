@@ -129,22 +129,24 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
     span.setAttribute("class", "d-block withGSTPrice")
-    span.textContent = gstprice + ' with GST ';
+    span.textContent = gstprice + ' Inc. GST ';
     if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
+      currentElm.style.display = 'none';
     }
     // currentElm.parentElement.appendChild(span)
   } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
     span.setAttribute("class", "d-block")
-    span.textContent = gstprice + ' with GST ';
+    span.textContent = gstprice + ' Inc. GST ';
     if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
     }
     // currentElm.parentElement.appendChild(span);
-    currentElm.parentElement.classList.add('d-flex');
+    currentElm.style.display = 'none';
   }
   else {
     currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
+    currentElm.style.display = 'none';
   }
 }
 
