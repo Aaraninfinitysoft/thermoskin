@@ -274,7 +274,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // on search  page price update
   var searchPrList = document.querySelectorAll('.search-wrapper .money');
   if(searchPrList != null ){
-    searchPrList.forEach(()=>{
+    searchPrList.forEach((m)=>{
       let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew)
     })
