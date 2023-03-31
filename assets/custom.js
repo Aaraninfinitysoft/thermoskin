@@ -258,10 +258,10 @@ if(price != null){
 if(filter != null){
 
   filter.onclick = ()=>{
-    alert('filter clicked')
+
     setTimeout(() => {
       var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
-      alert('func called')
+  
       collectionGridPrice.forEach((m)=>{
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew);
