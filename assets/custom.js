@@ -279,6 +279,23 @@ window.addEventListener('DOMContentLoaded', (event) => {
             updateGSTprice(m, WIthGSTPriceNew)
     })
   }
+  // search page filter click
+  var filter = document.querySelector('.search-wrapper .collection-filters')
+
+  if (filter != null) {
+
+    filter.onclick = () => {
+
+      setTimeout(() => {
+        var collectionGridPrice = document.querySelectorAll('.search-wrapper .money')
+
+        collectionGridPrice.forEach((m) => {
+          let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+          updateGSTprice(m, WIthGSTPriceNew);
+        })
+      }, 2000);
+    }
+  }
   // on search  page end
 
 })
