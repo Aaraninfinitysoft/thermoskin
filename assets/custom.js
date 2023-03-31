@@ -258,7 +258,7 @@ if(filter != null){
 
   filter.onclick = ()=>{
     setTimeout(() => {
-      collectionGridPrice.forEach(()=>{
+      collectionGridPrice.forEach((m)=>{
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew);
       })
