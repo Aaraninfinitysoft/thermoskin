@@ -262,7 +262,7 @@ if(filter != null){
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew);
       })
-    }, 2000);
+    }, 3000);
   }
 }
 })
