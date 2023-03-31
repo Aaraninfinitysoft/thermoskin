@@ -254,12 +254,13 @@ if(price != null){
   })
   // on search page 
   var filter = document.querySelector('.collection-filtering-section')
-  var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
+  
 if(filter != null){
 
   filter.onclick = ()=>{
     alert('filter clicked')
     setTimeout(() => {
+      var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
       alert('func called')
       collectionGridPrice.forEach((m)=>{
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
