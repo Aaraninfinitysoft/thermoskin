@@ -251,6 +251,20 @@ if(price != null){
 
    })
   })
+  // on search page 
+  var filter = document.querySelector('.collection-filtering-section')
+  var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
+if(filter != null){
+
+  filter.onclick = ()=>{
+    setTimeout(() => {
+      collectionGridPrice.forEach(()=>{
+        let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+        updateGSTprice(m, WIthGSTPriceNew);
+      })
+    }, 2000);
+  }
+}
 })
 
 
