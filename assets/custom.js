@@ -258,7 +258,9 @@ if(price != null){
 if(filter != null){
 
   filter.onclick = ()=>{
+    alert('filter clicked')
     setTimeout(() => {
+      alert('func called')
       collectionGridPrice.forEach((m)=>{
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew);
