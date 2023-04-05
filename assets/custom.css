@@ -7401,5 +7401,10 @@ span.customized-heading:nth-child(3) {
     font-style: var(--alt-btn-font-style);
     background: var(--primary-btn-bg-color);
     color: var(--primary-btn-text-color);
+      font-size: 19px!important;
+    line-height: 26px!important;
+    padding-top: 12px!important;
+    padding-bottom: 17px!important;
+    text-transform: uppercase!important;
 }
 /************ custom end **********/
