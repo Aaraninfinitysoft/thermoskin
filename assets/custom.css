@@ -7400,7 +7400,7 @@ button[data-testid="sheet-open-button"] {
       font-weight: var(--alt-btn-font-weight);
     font-style: var(--alt-btn-font-style);
     background: var(--primary-btn-bg-color);
-    color: var(--primary-btn-text-color);
+    color: var(--primary-btn-text-color)!important;
       font-size: 19px!important;
     line-height: 26px!important;
     padding-top: 12px!important;
