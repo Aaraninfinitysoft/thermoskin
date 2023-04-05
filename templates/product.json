@@ -99,7 +99,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_smart_checkout": true
+            "show_smart_checkout": false
           }
         },
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf": {
