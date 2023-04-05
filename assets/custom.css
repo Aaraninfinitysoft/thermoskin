@@ -7406,5 +7406,9 @@ button[data-testid="sheet-open-button"] {
     padding-top: 12px!important;
     padding-bottom: 17px!important;
     text-transform: uppercase!important;
+  width:100% !important;
+}
+button[data-testid="sheet-open-button"]:hover{
+  
 }
 /************ custom end **********/
