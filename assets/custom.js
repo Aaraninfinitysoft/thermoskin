@@ -279,6 +279,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
             updateGSTprice(m, WIthGSTPriceNew)
     })
   }
+  // payment button text change
+  function changeText() {
+    var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
+    if(tt != null){
+      tt.textContent = 'Buy It Now';
+      clearInterval(xy)
+    }
+  }
+  var xy = setInterval(changeText, 500);
+  
   // search page filter click
   var filter = document.querySelector('.search-wrapper .collection-filters')
 
