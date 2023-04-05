@@ -280,6 +280,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     })
   }
   // payment button text change
+  window.onload = function() {
+    var xy = setInterval(changeText, 500);
+  }
   function changeText() {
     var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
     console.log('element',tt)
@@ -288,7 +291,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       clearInterval(xy)
     }
   }
-  var xy = setInterval(changeText, 500);
+  
   
   // search page filter click
   var filter = document.querySelector('.search-wrapper .collection-filters')
