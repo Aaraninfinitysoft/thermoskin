@@ -7393,4 +7393,7 @@ span.customized-heading:nth-child(3) {
 #ProductPrice{
   display: none !important;
 }
+[data-testid="ShopifyPay-button"]{
+  display:none !important;
+}
 /************ custom end **********/
