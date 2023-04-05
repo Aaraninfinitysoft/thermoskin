@@ -282,6 +282,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // payment button text change
   function changeText() {
     var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
+    console.log('element',tt)
     if(tt != null){
       tt.textContent = 'Buy It Now';
       clearInterval(xy)
