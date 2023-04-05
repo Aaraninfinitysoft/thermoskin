@@ -7408,6 +7408,7 @@ button[data-testid="sheet-open-button"] {
     text-transform: uppercase!important;
   width:100% !important;
   border-radius: 55px!important;
+  text-decoration:none !important;
 }
 button[data-testid="sheet-open-button"]:hover{
       background: var(--secondary-btn-bg-color) !important;
