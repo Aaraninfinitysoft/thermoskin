@@ -7393,7 +7393,7 @@ span.customized-heading:nth-child(3) {
 #ProductPrice{
   display: none !important;
 }
- body div .shopify-cleanslate .kqsiVA9Jf8LJAbxw8Bau{
+ body div .shopify-cleanslate .kqsiVA9Jf8LJAbxw8Bau,[data-testid="upstream-button"]{
   display:none !important;
 }
 button[data-testid="sheet-open-button"] {
