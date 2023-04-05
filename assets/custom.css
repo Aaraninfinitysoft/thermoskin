@@ -7396,4 +7396,10 @@ span.customized-heading:nth-child(3) {
  body div .shopify-cleanslate .kqsiVA9Jf8LJAbxw8Bau{
   display:none !important;
 }
+.shopify-product-form .shopify-payment-button__button--unbranded {
+      font-weight: var(--alt-btn-font-weight);
+    font-style: var(--alt-btn-font-style);
+    background: var(--primary-btn-bg-color);
+    color: var(--primary-btn-text-color);
+}
 /************ custom end **********/
