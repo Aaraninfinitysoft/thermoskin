@@ -154,6 +154,10 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 // end
 
 window.addEventListener('DOMContentLoaded', (event) => {
+  var istaxble = window.istaxble;
+if (istaxble == true) {
+  
+
   console.warn(window.taxPercentage)
   var gst = parseInt(window.taxPercentage);
   var price = document.querySelectorAll('.template-product .money');
@@ -311,7 +315,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
   }
   // on search  page end
-
+}
 })
 
 
