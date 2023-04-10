@@ -27,6 +27,17 @@
         }
       },
       {
+        "type": "checkbox",
+        "id": "tax_on_off",
+        "label": {
+          "en": "on of included GST price",
+          "de": "Hintergrund",
+          "es": "Fondo",
+          "fr": "Contexte général",
+          "pt-PT": "Fundo"
+        }
+      },
+      {
         "type": "text",
         "id": "tax_percentage",
         "label": {
