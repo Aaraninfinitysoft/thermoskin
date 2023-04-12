@@ -1,4 +1,4 @@
-<div class="d-flex price-with-gst-wrapper taxable--{{current_variant.taxable}}">
+<div class="d-flex {%- if current_variant.taxable -%}price-with-gst-wrapper{%- endif -%} taxable--{{current_variant.taxable}}">
 <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
 <span id="ProductPrice" class="h2" itemprop="price"
   content="{{ current_variant.price | divided_by: 100 }}"
@@ -7,6 +7,8 @@
 >
   <span class="money">{{ current_variant.price | money }}</span>
 </span>
-<span class="h2"><span class="with-gst-price"></span><small class=""> Inc. GST</small> </span>
+{%- if current_variant.taxable -%}
+  <span class="h2"><span class="with-gst-price"></span><small class=""> Inc. GST</small> </span>
+{%- endif -%}
 
 </div>
