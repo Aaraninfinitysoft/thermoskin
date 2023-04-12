@@ -232,20 +232,10 @@ color:#000!important;
 .drawer-loader #CartContainer{
   opacity: 0;
 }
-.right-drawer-vue.drawer-loader:after{
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  border: 3px solid #f3f3f3; 
-  border-top: 3px solid #414042 ; 
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  animation: spin 2s linear infinite;
-}
-.loader {
+.right-drawer-vue.drawer-loader .cart-loader{
  
+}
+.loader,.right-drawer-vue.drawer-loader .cart-loader {
   border: 3px solid #f3f3f3; 
   border-top: 3px solid #414042 ; 
   border-radius: 50%;
