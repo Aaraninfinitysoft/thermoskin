@@ -247,7 +247,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // price update on collection page 
 
     setTimeout(() => {
-      var collecPrList = document.querySelectorAll('.collection-main-body .money');
+      var collecPrList = document.querySelectorAll('.collection-main-body .taxable--true .money');
       collecPrList.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew)
