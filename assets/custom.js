@@ -124,6 +124,21 @@ function priceWIthGST(gst, price) {
 }
 
 // update GST
+function addLoader(elm){
+  var loader = document.createElement('div');
+  loader.setAttribute('class','loader');
+
+    if(elm.querySelector('.loader') != null){
+      elm.classList.add('loader-on');
+    }else{
+      elm.appendChild(loader);
+      elm.classList.add('loader-on');
+    }
+}
+function removeLoader(elm){
+    elm.classList.remove('loader-on');
+}
+addLoader()
 function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
   let span = document.createElement('span');
   console.log(currentElm)
@@ -150,7 +165,7 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
     currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
     currentElm.style.display = 'none';
   }
-  currentElm.parentElement.parentElement.classList.remove('loader') 
+  removeLoader();
 }
 
 // end
