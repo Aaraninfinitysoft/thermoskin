@@ -173,10 +173,7 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 window.addEventListener('DOMContentLoaded', (event) => {
   var istaxble = window.istaxble;
   if (istaxble == true) {
-    var priceArr = document.querySelectorAll('.money');
-    priceArr.forEach((m) => {
-      m.parentElement.parentElement.classList.add('loader');
-    })
+
     console.warn(window.taxPercentage)
     var gst = parseInt(window.taxPercentage);
     var price = document.querySelectorAll('.template-product .money');
