@@ -83,7 +83,7 @@
       <div class="product-grid--vendor-text" data-block-type="product_card_vendor"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_vendor","type":"product_card_vendor"}'{% endif %}>{{ product.vendor }}</div>
 
     {%- when 'product_card_price' -%}
-      <div class="product-grid--price" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
+      <div class="product-grid--price  taxable--{{product.first_available_variant.taxable}}" data-block-type="product_card_price"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_price","type":"product_card_price"}'{% endif %}>
         {%- render 'product-grid-item-price', product: product, collection: collection -%}
       </div>
 
