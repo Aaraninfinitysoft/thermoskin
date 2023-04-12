@@ -165,7 +165,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     })
     var taxableArr = document.querySelectorAll('.taxable--false');
     taxableArr.forEach((m) => {
-      m.parentElement.parentElement.classList.remove('loader');
+      m.classList.remove('loader');
     })
     // console.warn(window.taxPercentage)
     var gst = parseInt(window.taxPercentage);
