@@ -170,7 +170,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     if (price != null) {
       price.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
+        updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper:not(.taxable--false)', '.with-gst-price')
       })
     }
 
