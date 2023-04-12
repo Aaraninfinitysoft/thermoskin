@@ -231,8 +231,8 @@ color:#000!important;
 }
 
 .loader {
-  border: 8px solid #f3f3f3; 
-  border-top: 8px solid #414042 ; 
+  border: 5px solid #f3f3f3; 
+  border-top: 5px solid #414042 ; 
   border-radius: 50%;
   width: 60px;
   height: 60px;

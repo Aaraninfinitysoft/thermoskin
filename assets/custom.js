@@ -155,167 +155,169 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 
 window.addEventListener('DOMContentLoaded', (event) => {
   var istaxble = window.istaxble;
-if (istaxble == true) {
-  
-
-  console.warn(window.taxPercentage)
-  var gst = parseInt(window.taxPercentage);
-  var price = document.querySelectorAll('.template-product .money');
-  // GST price add on document load 
-  if (price != null) {
-    price.forEach((m) => {
-      let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-      updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
+  if (istaxble == true) {
+    var priceArr = document.querySelectorAll('.money');
+    priceArr.forEach((m) => {
+      m.parentElement.parentElement.classList.add('loader');
     })
-  }
-
-  // GST price add on addto cart and cartToggler click 
-  var addtocartBtn = document.querySelector('#AddToCart');
-  var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
-  var arr = [addtocartBtn, cartToggleBtn];
-  arr.forEach((el) => {
-    if (el != null) {
-      el.addEventListener('click', () => {
-        setTimeout(() => {
-          // priceupdate on line tiems
-          var prNodes = document.querySelectorAll('.ajaxcart__product .money');
-          prNodes.forEach((m) => {
-            let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-            updateGSTprice(m, WIthGSTPriceNew)
-          })
-          // priceupdate on line tiems end
-
-          // price update on subtotal
-          var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
-          let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
-          updateGSTprice(subtotalNode, subtotalWithGst)
-          // price update on subtotal end
-
-          // price update on ajax qtn Chnage button click
-          var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
-          QTNbutton.forEach((QTNBtn) => {
-
-            QTNBtn.onclick = () => {
-              setTimeout(() => {
-                var subtotalNode1 = document.querySelector('.ajaxcart__subtotal .money');
-                let subtotalWithGst1 = priceWIthGST(gst, subtotalNode1.textContent);
-                updateGSTprice(subtotalNode1, subtotalWithGst1)
-              }, 1000);
-            }
-
-          })
-          // price update on ajax qtn Chnage button click
-
-        }, 2000);
+    console.warn(window.taxPercentage)
+    var gst = parseInt(window.taxPercentage);
+    var price = document.querySelectorAll('.template-product .money');
+    // GST price add on document load 
+    if (price != null) {
+      price.forEach((m) => {
+        let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+        updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper', '.with-gst-price')
       })
     }
-  })
 
-  // price update on search button click
-  var searchButtons = document.querySelectorAll('.search-button');
-  searchButtons.forEach((button) => {
-    button.onclick = () => {
-      setTimeout(() => {
-        var SearchInput = document.querySelector('#SearchContainer #search-input')
-        SearchInput.onkeyup = () => {
+    // GST price add on addto cart and cartToggler click 
+    var addtocartBtn = document.querySelector('#AddToCart');
+    var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
+    var arr = [addtocartBtn, cartToggleBtn];
+    arr.forEach((el) => {
+      if (el != null) {
+        el.addEventListener('click', () => {
           setTimeout(() => {
-            var searchResultPrices = document.querySelectorAll('#search-results .money');
-            searchResultPrices.forEach((m) => {
+            // priceupdate on line tiems
+            var prNodes = document.querySelectorAll('.ajaxcart__product .money');
+            prNodes.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
               updateGSTprice(m, WIthGSTPriceNew)
             })
-          }, 1000);
-        }
-      }, 2000);
-    }
-  })
-  // collection price update
+            // priceupdate on line tiems end
 
-  // price update on collection page 
+            // price update on subtotal
+            var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
+            let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
+            updateGSTprice(subtotalNode, subtotalWithGst)
+            // price update on subtotal end
 
-  setTimeout(() => {
-    var collecPrList = document.querySelectorAll('.collection-main-body .money');
-    collecPrList.forEach((m) => {
-      let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-      updateGSTprice(m, WIthGSTPriceNew)
+            // price update on ajax qtn Chnage button click
+            var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
+            QTNbutton.forEach((QTNBtn) => {
+
+              QTNBtn.onclick = () => {
+                setTimeout(() => {
+                  var subtotalNode1 = document.querySelector('.ajaxcart__subtotal .money');
+                  let subtotalWithGst1 = priceWIthGST(gst, subtotalNode1.textContent);
+                  updateGSTprice(subtotalNode1, subtotalWithGst1)
+                }, 1000);
+              }
+
+            })
+            // price update on ajax qtn Chnage button click
+
+          }, 2000);
+        })
+      }
     })
-  }, 3000);
 
-  // on varient change 
-  var swatch = document.querySelectorAll('.swatch-element label');
-  swatch.forEach((s) => {
-    s.addEventListener('click', (e) => {
-      setTimeout(() => {
-        var m = e.target.closest('.form-vertical').querySelector('.money');
-        var n = e.target.closest('.form-vertical').querySelector('.with-gst-price span');
+    // price update on search button click
+    var searchButtons = document.querySelectorAll('.search-button');
+    searchButtons.forEach((button) => {
+      button.onclick = () => {
+        setTimeout(() => {
+          var SearchInput = document.querySelector('#SearchContainer #search-input')
+          SearchInput.onkeyup = () => {
+            setTimeout(() => {
+              var searchResultPrices = document.querySelectorAll('#search-results .money');
+              searchResultPrices.forEach((m) => {
+                let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+                updateGSTprice(m, WIthGSTPriceNew)
+              })
+            }, 1000);
+          }
+        }, 2000);
+      }
+    })
+    // collection price update
+
+    // price update on collection page 
+
+    setTimeout(() => {
+      var collecPrList = document.querySelectorAll('.collection-main-body .money');
+      collecPrList.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        n.textContent = WIthGSTPriceNew;
-        m.style.display = 'none'
-        console.log('new GST variable price updated');
-      }, 500);
+        updateGSTprice(m, WIthGSTPriceNew)
+      })
+    }, 3000);
 
-    })
-  })
-  // on collection page filter click  
-  var filter = document.querySelector('.collection-filtering-section')
-
-  if (filter != null) {
-
-    filter.onclick = () => {
-
-      setTimeout(() => {
-        var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
-
-        collectionGridPrice.forEach((m) => {
+    // on varient change 
+    var swatch = document.querySelectorAll('.swatch-element label');
+    swatch.forEach((s) => {
+      s.addEventListener('click', (e) => {
+        setTimeout(() => {
+          var m = e.target.closest('.form-vertical').querySelector('.money');
+          var n = e.target.closest('.form-vertical').querySelector('.with-gst-price span');
           let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-          updateGSTprice(m, WIthGSTPriceNew);
-        })
-      }, 3000);
-    }
-  }
-  // on collection page filter click end 
-  
-  // on search  page price update
-  var searchPrList = document.querySelectorAll('.search-wrapper .money');
-  if(searchPrList != null ){
-    searchPrList.forEach((m)=>{
-      let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-            updateGSTprice(m, WIthGSTPriceNew)
+          n.textContent = WIthGSTPriceNew;
+          m.style.display = 'none'
+          console.log('new GST variable price updated');
+        }, 500);
+
+      })
     })
-  }
-  // payment button text change
-  window.onload = function() {
-    var xy = setInterval(changeText, 500);
-  }
-  function changeText() {
-    var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
-    console.log('element',tt)
-    if(tt != null){
-      tt.textContent = 'Buy It Now';
-      clearInterval(xy)
+    // on collection page filter click  
+    var filter = document.querySelector('.collection-filtering-section')
+
+    if (filter != null) {
+
+      filter.onclick = () => {
+
+        setTimeout(() => {
+          var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
+
+          collectionGridPrice.forEach((m) => {
+            let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+            updateGSTprice(m, WIthGSTPriceNew);
+          })
+        }, 3000);
+      }
     }
-  }
-  
-  
-  // search page filter click
-  var filter = document.querySelector('.search-wrapper .collection-filters')
+    // on collection page filter click end 
 
-  if (filter != null) {
-
-    filter.onclick = () => {
-
-      setTimeout(() => {
-        var collectionGridPrice = document.querySelectorAll('.search-wrapper .money')
-
-        collectionGridPrice.forEach((m) => {
-          let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-          updateGSTprice(m, WIthGSTPriceNew);
-        })
-      }, 2000);
+    // on search  page price update
+    var searchPrList = document.querySelectorAll('.search-wrapper .money');
+    if (searchPrList != null) {
+      searchPrList.forEach((m) => {
+        let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+        updateGSTprice(m, WIthGSTPriceNew)
+      })
     }
+    // payment button text change
+    window.onload = function () {
+      var xy = setInterval(changeText, 500);
+    }
+    function changeText() {
+      var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
+      console.log('element', tt)
+      if (tt != null) {
+        tt.textContent = 'Buy It Now';
+        clearInterval(xy)
+      }
+    }
+
+
+    // search page filter click
+    var filter = document.querySelector('.search-wrapper .collection-filters')
+
+    if (filter != null) {
+
+      filter.onclick = () => {
+
+        setTimeout(() => {
+          var collectionGridPrice = document.querySelectorAll('.search-wrapper .money')
+
+          collectionGridPrice.forEach((m) => {
+            let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+            updateGSTprice(m, WIthGSTPriceNew);
+          })
+        }, 2000);
+      }
+    }
+    // on search  page end
   }
-  // on search  page end
-}
 })
 
 
