@@ -1576,7 +1576,7 @@
                         <h3>{{ item.title | link_to: item.url }}</h3>
 
                         {% if item.price and settings.predictive_search_show_price %}
-                          <p>
+                          <p class="taxable--{{item.first_available_variant.taxable}}">
                             {% comment %}
                               You can show a leading 'from' or 'up to' by checking 'product.price_varies'
                               if your variants have different prices.
