@@ -138,7 +138,7 @@ function addLoader(elm){
 function removeLoader(elm){
     elm.classList.remove('loader-on');
 }
-addLoader()
+addLoader(document.body)
 function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
   let span = document.createElement('span');
   console.log(currentElm)
