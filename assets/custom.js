@@ -163,6 +163,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     priceArr.forEach((m) => {
       m.parentElement.parentElement.classList.add('loader');
     })
+    var taxableArr = document.querySelectorAll('.taxable--false');
+    taxableArr.forEach((m) => {
+      m.parentElement.parentElement.classList.remove('loader');
+    })
     // console.warn(window.taxPercentage)
     var gst = parseInt(window.taxPercentage);
     var price = document.querySelectorAll('.template-product .money');
