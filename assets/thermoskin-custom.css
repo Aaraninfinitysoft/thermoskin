@@ -229,10 +229,10 @@ color:#000!important;
 .d-block{
   display: block;
 }
-.loader #CartContainer{
+.drawer-loader #CartContainer{
   opacity: 0;
 }
-.right-drawer-vue.loader::after{
+.right-drawer-vue.drawer-loader::after{
   content: '';
   position: absolute;
   left: 50%;
