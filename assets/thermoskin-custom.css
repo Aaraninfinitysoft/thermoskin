@@ -231,9 +231,9 @@ color:#000!important;
 }
 
 .loader {
-  opacity: 0;
-  border: 5px solid #f3f3f3; 
-  border-top: 5px solid #414042 ; 
+ 
+  border: 3px solid #f3f3f3; 
+  border-top: 3px solid #414042 ; 
   border-radius: 50%;
   width: 30px;
   height: 30px;
