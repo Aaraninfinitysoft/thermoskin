@@ -183,7 +183,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         el.addEventListener('click', () => {
           var cartLoder = document.createElement('div')
           cartLoder.setAttribute('class','cart-loader')
-          document.querySelector('.right-drawer-vue');
+          document.querySelector('.right-drawer-vue').classList.add('.drawer-loader');
+          document.querySelector('.right-drawer-vue').appendChild(cartLoder)
           setTimeout(() => {
             // priceupdate on line tiems
             var prNodes = document.querySelectorAll('.ajaxcart__product .money');
