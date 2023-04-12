@@ -124,21 +124,7 @@ function priceWIthGST(gst, price) {
 }
 
 // update GST
-function addLoader(elm){
-  var loader = document.createElement('div');
-  loader.setAttribute('class','loader');
 
-    if(elm.querySelector('.loader') != null){
-      elm.classList.add('loader-on');
-    }else{
-      elm.appendChild(loader);
-      elm.classList.add('loader-on');
-    }
-}
-function removeLoader(elm){
-    elm.classList.remove('loader-on');
-}
-addLoader(document.body)
 function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
   let span = document.createElement('span');
   console.log(currentElm)
@@ -165,7 +151,7 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
     currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
     currentElm.style.display = 'none';
   }
-  removeLoader(document.body);
+  currentElm.parentElement.parentElement.classList.remove('loader') 
 }
 
 // end
@@ -173,7 +159,10 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 window.addEventListener('DOMContentLoaded', (event) => {
   var istaxble = window.istaxble;
   if (istaxble == true) {
-
+    var priceArr = document.querySelectorAll('.money');
+    priceArr.forEach((m) => {
+      m.parentElement.parentElement.classList.add('loader');
+    })
     console.warn(window.taxPercentage)
     var gst = parseInt(window.taxPercentage);
     var price = document.querySelectorAll('.template-product .money');
