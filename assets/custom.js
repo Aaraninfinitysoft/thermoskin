@@ -163,7 +163,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     priceArr.forEach((m) => {
       m.parentElement.parentElement.classList.add('loader');
     })
-    console.warn(window.taxPercentage)
+    // console.warn(window.taxPercentage)
     var gst = parseInt(window.taxPercentage);
     var price = document.querySelectorAll('.template-product .money');
     // GST price add on document load 
@@ -181,6 +181,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
     arr.forEach((el) => {
       if (el != null) {
         el.addEventListener('click', () => {
+          var ErrNodes = document.querySelectorAll('.ajaxcart__product .money');
+          var ErsubtotalNode = document.querySelector('.ajaxcart__subtotal .money');
+          ErsubtotalNode.forEach((m)=>{
+            m.parentElement.parentElement.classList.add('loader');
+          })
+          ErprNodes.forEach((m)=>{
+            m.parentElement.parentElement.classList.add('loader');
+          })
           setTimeout(() => {
             // priceupdate on line tiems
             var prNodes = document.querySelectorAll('.ajaxcart__product .money');
