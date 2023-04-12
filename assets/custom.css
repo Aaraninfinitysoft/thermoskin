@@ -7390,6 +7390,9 @@ span.customized-heading:nth-child(3) {
 #ProductPrice{
   display: none !important;
 }
+.taxable--false #ProductPrice{
+  display: block !important;
+}
  body div .shopify-cleanslate .kqsiVA9Jf8LJAbxw8Bau,[data-testid="upstream-button"]{
   display:none !important;
 }
