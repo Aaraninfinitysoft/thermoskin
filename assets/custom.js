@@ -155,6 +155,24 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 }
 
 // end
+function updateAjaxCartSubtotalGST(){
+  var subtotalselect = document.querySelector('.ajaxcart__subtotal .money');
+  var subtotalAjaxCartGst = 0;
+  var subtotalArr = [];
+  var cartItemsWithTax = document.querySelectorAll('.ajaxcart-item__price .money');
+  // var cartItemsWithoutTax = document.querySelectorAll('.taxable--false .ajaxcart-item__price .money');
+  cartItemsWithTax.forEach((item)=>{
+    var pr = item.textContent.split('$')
+    var prNew =parseInt(pr) ;
+    var qnt = parseInt(item.closest('.grid__item').querySelector('.ajaxcart__qty-num'));
+    var newPrSub = prNew*qnt;
+    subtotalArr.push(newPrSub)
+  })
+  subtotalArr.forEach((prItem)=>{
+    subtotalAjaxCartGst += prItem;
+  })
+  subtotalselect.textContent = '$'+subtotalAjaxCartGst
+}
 
 window.addEventListener('DOMContentLoaded', (event) => {
   var istaxble = window.istaxble;
