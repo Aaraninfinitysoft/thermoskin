@@ -293,6 +293,9 @@
                       </div>
                       <div class="grid__item line-search-content" :class="(result.image || result.featured_image) ? 'large--four-fifths' : 'large--one-whole'">
                         {% if settings.predictive_search_show_vendor %}
+                          <script>
+                          console.log(result)
+                          </script>
                         <div v-if="result.vendor" v-text="result.vendor"></div>
                         {% endif %}
                         <h5>
