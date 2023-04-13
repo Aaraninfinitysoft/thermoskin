@@ -296,12 +296,12 @@
                         <div v-if="result.vendor" v-text="result.vendor"></div>
                         {% endif %}
                         <h5>
-                          <a v-bind:href="result.url" v-text="JSON.stringify(result.variants[0])"></a>
+                          <a v-bind:href="result.url" v-text="result.title"></a>
                         </h5>
                         <div v-if="!result.available && group.name == 'Products'">{{ 'products.product.sold_out' | t }}</div>
                         {% if settings.predictive_search_show_price %}
                           <div class="loader">
-                            <div  v-if="result.price" v-html="result.price"></div>
+                            <div  v-if="result.price" v-html="result.body"></div>
                           </div>
                         {% endif %}
                       </div>
