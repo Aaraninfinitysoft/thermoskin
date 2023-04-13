@@ -320,7 +320,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // on collection page filter click end 
 
     // on search  page price update
-    var searchPrList = document.querySelectorAll('.search-wrapper .money');
+    var searchPrList = document.querySelectorAll('.search-wrapper .taxable--true .money');
     if (searchPrList != null) {
       searchPrList.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
