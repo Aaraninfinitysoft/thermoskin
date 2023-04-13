@@ -300,6 +300,7 @@
                           </h5>
                           <div v-if="!result.available && group.name == 'Products'">{{ 'products.product.sold_out' | t }}</div>
                           {% if settings.predictive_search_show_price %}
+                            console.log(result)
                             <div v-if='result.first_available_variant.taxable' class="taxable--true">
                             <div class="loader">
                               <div  v-if="result.price" v-html="result.price"></div>
