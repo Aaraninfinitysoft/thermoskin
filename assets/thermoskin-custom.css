@@ -232,11 +232,16 @@ color:#000!important;
 .drawer-loader #CartContainer{
   opacity: 0;
 }
-
+.ajaxcart__footer .grid--full{
+  display: flex;
+  flex-direction: column;
+  
+}
 .loader,.right-drawer-vue.drawer-loader .cart-loader {
   border: 3px solid #f3f3f3; 
   border-top: 3px solid #414042 ; 
   border-radius: 50%;
+  margin: auto;
   width: 30px !important;
   height: 30px !important;
   padding: 0 !important;
