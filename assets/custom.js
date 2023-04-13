@@ -167,6 +167,8 @@ function updateAjaxCartSubtotalGST(){
     var qnt = parseInt(item.closest('.grid__item').querySelector('.ajaxcart__qty-num'));
     var newPrSub = prNew*qnt;
     subtotalArr.push(newPrSub)
+    document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
+    
   })
   subtotalArr.forEach((prItem)=>{
     subtotalAjaxCartGst += prItem;
