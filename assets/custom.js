@@ -240,7 +240,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 }, 2000);
                 setTimeout(() => {
                   document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
-                }, 2500);
+                }, 2050);
               }
 
             })
