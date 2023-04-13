@@ -278,7 +278,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
-
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
