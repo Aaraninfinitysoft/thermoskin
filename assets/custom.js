@@ -275,16 +275,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     if (filter != null) {
 
       filter.onclick = () => {
-setTimeout(() => {
-  var priceArr = document.querySelectorAll('.money');
-  priceArr.forEach((m) => {
-    m.parentElement.parentElement.classList.add('loader');
-  })
-  var taxableArr = document.querySelectorAll('.taxable--false');
-  taxableArr.forEach((m) => {
-    m.classList.remove('loader');
-  })
-}, 1000);
+
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
 
