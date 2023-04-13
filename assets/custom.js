@@ -178,7 +178,7 @@ function updateAjaxCartSubtotalGST(){
   subtotalArr.forEach((prItem)=>{
     subtotalAjaxCartGst += prItem;
   })
-  subtotalselect.textContent = '$'+subtotalAjaxCartGst
+  subtotalselect.textContent = '$'+subtotalAjaxCartGst + 'Inc GST'
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -235,10 +235,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
               QTNBtn.onclick = () => {
                 setTimeout(() => {
-                  var subtotalNode1 = document.querySelector('.ajaxcart__subtotal .money');
-                  let subtotalWithGst1 = priceWIthGST(gst, subtotalNode1.textContent);
-                  updateGSTprice(subtotalNode1, subtotalWithGst1)
-                }, 1000);
+                  document.querySelector('.ajaxcart__subtotal').classList.add('loader');
+                  updateAjaxCartSubtotalGST()
+                  document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
+                }, 2000);
               }
 
             })
