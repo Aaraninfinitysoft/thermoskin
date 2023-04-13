@@ -229,7 +229,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
     searchButtons.forEach((button) => {
       button.onclick = () => {
         setTimeout(() => {
-          var SearchInput = document.querySelector('#SearchContainer #search-input')
+          var SearchInput = document.querySelector('#SearchContainer #search-input');
+          var searchResultPrices = document.querySelectorAll('#search-results .money');
+          searchResultPrices.forEach((m) => {
+            let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+            updateGSTprice(m, WIthGSTPriceNew)
+          })
           SearchInput.onkeyup = () => {
             setTimeout(() => {
               var searchResultPrices = document.querySelectorAll('#search-results .money');
