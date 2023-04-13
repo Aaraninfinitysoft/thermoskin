@@ -159,9 +159,14 @@ function updateAjaxCartSubtotalGST(){
   var subtotalselect = document.querySelector('.ajaxcart__subtotal .money');
   var subtotalAjaxCartGst = 0;
   var subtotalArr = [];
-  var cartItemsWithTax = document.querySelectorAll('.ajaxcart-item__price .money');
+  var cartItemsWithTax = document.querySelectorAll('.ajaxcart-item__price');
   // var cartItemsWithoutTax = document.querySelectorAll('.taxable--false .ajaxcart-item__price .money');
   cartItemsWithTax.forEach((item)=>{
+    if(item.querySelector('.withGSTPrice') != null){
+      item = item.querySelector('.withGSTPrice');
+    }else{
+      item = item.querySelector('.money');
+    }
     var pr = item.textContent.split('$')
     var prNew =parseInt(pr[1]) ;
     var qnt = parseInt(item.closest('.grid__item').querySelector('.ajaxcart__qty-num').value );
