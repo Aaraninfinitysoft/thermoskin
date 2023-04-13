@@ -219,7 +219,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
             // priceupdate on line tiems end
 
             // price update on subtotal after tax changes
-            updateAjaxCartSubtotalGST()
+            setTimeout(() => {
+              updateAjaxCartSubtotalGST()
+            }, 4500);
             // price update on subtotal end
 
             // price update on ajax qtn Chnage button click
