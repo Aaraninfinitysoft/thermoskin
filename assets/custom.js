@@ -178,7 +178,7 @@ function updateAjaxCartSubtotalGST(){
   subtotalArr.forEach((prItem)=>{
     subtotalAjaxCartGst += prItem;
   })
-  subtotalselect.textContent = '$'+subtotalAjaxCartGst + 'Inc GST'
+  subtotalselect.textContent = '$'+subtotalAjaxCartGst.toFixed(2) + ' Inc GST'
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
