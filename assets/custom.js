@@ -284,7 +284,7 @@ setTimeout(() => {
   taxableArr.forEach((m) => {
     m.classList.remove('loader');
   })
-}, 550);
+}, 700);
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .money')
 
