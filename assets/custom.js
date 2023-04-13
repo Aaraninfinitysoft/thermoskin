@@ -234,11 +234,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
             QTNbutton.forEach((QTNBtn) => {
 
               QTNBtn.onclick = () => {
+                document.querySelector('.ajaxcart__subtotal').classList.add('loader');
                 setTimeout(() => {
-                  document.querySelector('.ajaxcart__subtotal').classList.add('loader');
                   updateAjaxCartSubtotalGST()
-                  // document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
                 }, 2000);
+                setTimeout(() => {
+                  document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
+                }, 2500);
               }
 
             })
