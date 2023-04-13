@@ -226,8 +226,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
-            }, 4500);
+            }, 3500);
             // price update on subtotal end
+
+            // price update on removeBTN clilck
+            var cartRemoveBtns = document.querySelectorAll('.ajaxcart__qty-remove')
+            cartRemoveBtns.forEach((cartRemoveBtn)=>{
+              cartRemoveBtn.onclick = ()=>{
+                setTimeout(() => {
+                  updateAjaxCartSubtotalGST()
+                }, 2500);
+              }
+            })
 
             // price update on ajax qtn Chnage button click
             var QTNbutton = document.querySelectorAll('.ajaxcart__product .ajaxcart__qty-adjust')
