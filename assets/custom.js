@@ -233,8 +233,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
             var cartRemoveBtns = document.querySelectorAll('.ajaxcart__qty-remove')
             cartRemoveBtns.forEach((cartRemoveBtn)=>{
               cartRemoveBtn.onclick = ()=>{
+                document.querySelector('.ajaxcart__subtotal').classList.add('loader')
                 setTimeout(() => {
                   updateAjaxCartSubtotalGST()
+                  document.querySelector('.ajaxcart__subtotal').classList.remove('loader')
                 }, 2500);
               }
             })
