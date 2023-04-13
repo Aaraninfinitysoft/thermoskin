@@ -80,7 +80,7 @@
                         <span class="has--discount hide" v-text="item.original_price" v-if="item.compare_at_price > 0 && item.original_price < item.compare_at_price"></span>
                         <span class="price-no--discount hide" v-text="item.original_price * item.quantity" v-if="!item.compare_at_price"></span>
 
-                        <span class="ajaxcart-item__price" v-money="item.original_price"></span>
+                        <span class="loader ajaxcart-item__price" v-money="item.original_price"></span>
 
                         {%- case settings.show_discount -%}
                           {%- when 'percentage' -%}
