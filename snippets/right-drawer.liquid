@@ -293,14 +293,10 @@
                       </div>
                       <div class="grid__item line-search-content" :class="(result.image || result.featured_image) ? 'large--four-fifths' : 'large--one-whole'">
                         {% if settings.predictive_search_show_vendor %}
-                       
                         <div v-if="result.vendor" v-text="result.vendor"></div>
                         {% endif %}
                         <h5>
-                          <script>
-                            console.log(result)
-                            </script>
-                          <a v-bind:href="result.taxable" v-text="result.title"></a>
+                          <a v-bind:href="result.url" v-text="JSON.stringify(result)"></a>
                         </h5>
                         <div v-if="!result.available && group.name == 'Products'">{{ 'products.product.sold_out' | t }}</div>
                         {% if settings.predictive_search_show_price %}
