@@ -196,8 +196,18 @@ class CollectionFiltersForm extends HTMLElement {
       const searchParams = new URLSearchParams(formData).toString();
       this.renderPage(searchParams, event);
     }
+    this.addPriceLoader();
   }
-
+addPriceLoader(){
+  var priceArr = document.querySelectorAll('.money');
+  priceArr.forEach((m) => {
+    m.parentElement.parentElement.classList.add('loader');
+  })
+  var taxableArr = document.querySelectorAll('.taxable--false');
+  taxableArr.forEach((m) => {
+    m.classList.remove('loader');
+  })
+}
   onActiveFilterClick(event) {
     event.preventDefault();
     this.toggleActiveFacets();
