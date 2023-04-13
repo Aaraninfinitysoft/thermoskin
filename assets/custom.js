@@ -237,7 +237,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 setTimeout(() => {
                   document.querySelector('.ajaxcart__subtotal').classList.add('loader');
                   updateAjaxCartSubtotalGST()
-                  document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
+                  // document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
                 }, 2000);
               }
 
