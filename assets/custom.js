@@ -216,10 +216,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
             })
             // priceupdate on line tiems end
 
-            // price update on subtotal
-            var subtotalNode = document.querySelector('.ajaxcart__subtotal .money');
-            let subtotalWithGst = priceWIthGST(gst, subtotalNode.textContent);
-            updateGSTprice(subtotalNode, subtotalWithGst)
+            // price update on subtotal after tax changes
+            updateAjaxCartSubtotalGST()
             // price update on subtotal end
 
             // price update on ajax qtn Chnage button click
