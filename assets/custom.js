@@ -349,7 +349,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       filter.onclick = () => {
 
         setTimeout(() => {
-          var collectionGridPrice = document.querySelectorAll('.search-wrapper .money')
+          var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
 
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
