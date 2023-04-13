@@ -19,7 +19,7 @@ class CollectionFiltersForm extends HTMLElement {
 
     this.debouncedOnSubmit = debounce((event) => {
       this.onSubmitHandler(event);
-     
+      this.addPriceLoader();
     }, 500);
 
     this.querySelector('form').addEventListener('input', this.debouncedOnSubmit.bind(this));
@@ -196,7 +196,7 @@ class CollectionFiltersForm extends HTMLElement {
       const searchParams = new URLSearchParams(formData).toString();
       this.renderPage(searchParams, event);
     }
-    this.addPriceLoader();
+   
   }
 addPriceLoader(){
   var priceArr = document.querySelectorAll('.money');
