@@ -201,11 +201,7 @@ class CollectionFiltersForm extends HTMLElement {
 addPriceLoader(){
   var priceArr = document.querySelectorAll('.money');
   priceArr.forEach((m) => {
-    if(this.collectionTemplate){
-      m.parentElement.parentElement.classList.add('loader');
-    }else{
-      m.classList.add('loader');
-    }
+    m.parentElement.parentElement.classList.add('loader');
   })
   var taxableArr = document.querySelectorAll('.taxable--false');
   taxableArr.forEach((m) => {
