@@ -184,7 +184,7 @@ function updateAjaxCartSubtotalGST(){
 window.addEventListener('DOMContentLoaded', (event) => {
   var istaxble = window.istaxble;
   if (istaxble == true) {
-    var priceArr = document.querySelectorAll('.money');
+    var priceArr = document.querySelectorAll('.taxable--true .money');
     priceArr.forEach((m) => {
       m.parentElement.parentElement.classList.add('loader');
     })
