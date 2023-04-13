@@ -191,7 +191,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
           // document.querySelector('.right-drawer-vue').appendChild(cartLoder)
           setTimeout(() => {
             // priceupdate on line tiems
-            var prNodes = document.querySelectorAll('.ajaxcart__product .money');
+            var prNodes = document.querySelectorAll('.ajaxcart__product .taxable--true .money');
             prNodes.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
               updateGSTprice(m, WIthGSTPriceNew)
