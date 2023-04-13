@@ -235,7 +235,7 @@ color:#000!important;
 .ajaxcart__footer .grid--full{
   display: flex;
   flex-direction: column;
-  
+
 }
 .loader,.right-drawer-vue.drawer-loader .cart-loader {
   border: 3px solid #f3f3f3; 
@@ -245,7 +245,7 @@ color:#000!important;
   width: 30px !important;
   height: 30px !important;
   padding: 0 !important;
-  animation: spin 2s linear infinite;
+  animation: spin .5s linear infinite;
 }
 .loader *{
   opacity: 0;
