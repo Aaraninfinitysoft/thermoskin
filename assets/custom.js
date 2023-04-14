@@ -364,8 +364,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
           })
-          nonGStUpdate(nonGstList)
+          
         }, 3000);
+        setTimeout(()=>{
+          nonGStUpdate(nonGstList)
+        },3050)
       }
       var resetLinks = document.querySelectorAll('.facets__reset');
       resetLinks.forEach((resetLink) => {
