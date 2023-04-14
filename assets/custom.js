@@ -421,15 +421,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew);
               m.parentElement.classList.remove('loader')
             })
-            
+
           }, 2000);
-setTimeout(() => {
-  var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-            nonTaxableList.forEach(m => {
-              console.log(m)
-              m.innerHTML += " GST Free";
-            })
-}, 2050);
+          setTimeout(() => {
+            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
+            // nonTaxableList.forEach(m => {
+            //   console.log(m)
+            //   m.innerHTML += " GST Free";
+            // })
+            nonGStUpdate(nonTaxableList)
+          }, 2050);
         }
       })
     }
