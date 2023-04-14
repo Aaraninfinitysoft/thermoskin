@@ -422,6 +422,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonGStUpdate(nonTaxableList)
+            nonGStUpdate(nonTaxableList)
           }, 4000);
         }
       })
