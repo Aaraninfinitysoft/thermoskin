@@ -203,7 +203,6 @@ addPriceLoader(){
   priceArr.forEach((m) => {
     m.classList.add('loader');
   })
-
 }
   onActiveFilterClick(event) {
     event.preventDefault();
