@@ -422,7 +422,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonGStUpdate(nonTaxableList)
-          }, 2000);
+          }, 2500);
         }
       })
     }
@@ -439,7 +439,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonGStUpdate(nonTaxableList)
-          }, 2000);
+          }, 2500);
         }
       })
     }
