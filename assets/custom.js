@@ -422,7 +422,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonGStUpdate(nonTaxableList)
-          }, 2500);
+          }, 4000);
         }
       })
     }
