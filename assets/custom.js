@@ -359,33 +359,41 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .taxable--true .money')
-          
+
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
           })
-          
+
         }, 3000);
-        setTimeout(()=>{
+        setTimeout(() => {
           var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
           // nonGStUpdate(nonGstList)
-          nonGstList.forEach(ng=>{
+          nonGstList.forEach(ng => {
             var sp = document.createElement('span');
             sp.classList.add('gst-free');
             sp.textContent = ' GST Free';
-            if(ng.querySelector('.gst-free') == null ){
+            if (ng.querySelector('.gst-free') == null) {
               ng.appendChild(sp);
             }
           })
-        },3050)
+        }, 3050)
       }
       var resetLinks = document.querySelectorAll('.facets__reset');
       resetLinks.forEach((resetLink) => {
         resetLink.onclick = () => {
           setTimeout(() => {
             var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
-            nonGStUpdate(nonGstList)
-          }, 3000);
+            // nonGStUpdate(nonGstList)
+            nonGstList.forEach(ng => {
+              var sp = document.createElement('span');
+              sp.classList.add('gst-free');
+              sp.textContent = ' GST Free';
+              if (ng.querySelector('.gst-free') == null) {
+                ng.appendChild(sp);
+              }
+            })
+          }, 3050)
         }
       })
 
