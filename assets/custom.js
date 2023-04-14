@@ -443,11 +443,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew);
               m.parentElement.classList.remove('loader')
             })
-            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-            nonTaxableList.forEach(m=>{
-             console.log(m)
-             m.innerHTML+=" GST PAID";
-            })
+            nonGStUpdate(nonTaxableList)
           }, 2500);
         }
       })
