@@ -240,15 +240,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew)
             })
             // priceupdate on line tiems end
-            setTimeout(() => {
+            
               var prNodes2 = document.querySelectorAll('.ajaxcart__product .taxable--false');
               var kl = document.createElement('span');
-              kl.textContent = '&nbsp;GST Free'
+              kl.textContent = ' GST Free'
 
               prNodes2.forEach((m) => {
                 m.appendChild(kl);
               })
-            }, 2000);
+            
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
