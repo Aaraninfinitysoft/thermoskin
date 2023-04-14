@@ -397,7 +397,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
     function changeText() {
       var tt = document.querySelector('.shopify-product-form .shopify-payment-button__more-options');
-      console.log('element', tt)
+
       if (tt != null) {
         tt.textContent = 'Buy It Now';
         clearInterval(xy)
