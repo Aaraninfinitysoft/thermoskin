@@ -359,7 +359,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .taxable--true .money')
-          var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
+          
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
@@ -367,6 +367,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
           
         }, 3000);
         setTimeout(()=>{
+          var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
           nonGStUpdate(nonGstList)
         },3050)
       }
