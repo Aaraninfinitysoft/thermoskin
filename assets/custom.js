@@ -125,13 +125,15 @@ function priceWIthGST(gst, price) {
 // non GST update Text 
 function nonGStUpdate(list) {
   console.log(list)
-  alert('nonGStUpdate')
+  // alert('nonGStUpdate')
   var nonGst = document.createElement('span');
   nonGst.classList.add('non-gst')
   nonGst.textContent = ' GST Free';
   list.forEach((listItem) => {
     var checkNonGst = listItem.querySelector('.non-gst');
     if (checkNonGst == null) {
+      console.log(listItem)
+      alert('non gst Updated')
       listItem.appendChild(nonGst);
     }
   })
@@ -413,7 +415,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       SortBy.forEach((sort) => {
         sort.onchange = () => {
           setTimeout(() => {
-            alert('changed')
+            
             var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
             var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
             collectionGridPrice.forEach((m) => {
@@ -422,7 +424,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonGStUpdate(nonTaxableList)
-            nonGStUpdate(nonTaxableList)
+           
           }, 4000);
         }
       })
