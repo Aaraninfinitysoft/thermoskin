@@ -430,7 +430,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
              var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
              nonTaxableList.forEach(m=>{
               console.log(m)
-              m.innerHTML="<span class='money'>yes</span>";
+              m.innerHTML+=" GST PAID";
              })
             // nonGStUpdate(nonTaxableList)
           }, 3000);
