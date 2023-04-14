@@ -193,10 +193,6 @@ function updateAjaxCartSubtotalGST() {
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  // element to add in non gst 
-  var sp = document.createElement('span');
-  sp.classList.add('gst-free');
-  sp.textContent = ' GST Free';
   // GST free Added on collection page
   var searchPageGstFreeItems = document.querySelectorAll('.search-wrapper .taxable--false')
   var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false')
@@ -363,23 +359,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .taxable--true .money')
-
+          
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
           })
-
+          
         }, 3000);
-        setTimeout(() => {
+        setTimeout(()=>{
           var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
           // nonGStUpdate(nonGstList)
-          nonGstList.forEach(ng => {
-            var check = ng.querySelector('.gst-free')
-            if (check == null) {
-              ng.appendChild(sp)
+          nonGstList.forEach(ng=>{
+            var sp = document.createElement('span');
+            sp.classList.add('gst-free');
+            sp.textContent = ' GST Free';
+            if(ng.querySelector('.gst-free') == null ){
+              ng.appendChild(sp);
             }
           })
-        }, 3050)
+        },3050)
       }
       var resetLinks = document.querySelectorAll('.facets__reset');
       resetLinks.forEach((resetLink) => {
@@ -388,16 +386,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
             var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
             nonGStUpdate(nonGstList)
           }, 3000);
-          setTimeout(() => {
-            var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
-            // nonGStUpdate(nonGstList)
-            nonGstList.forEach(ng => {
-              var check = ng.querySelector('.gst-free')
-              if (check == null) {
-                ng.appendChild(sp)
-              }
-            })
-          }, 3050)
         }
       })
 
@@ -466,7 +454,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             nonTaxableList.forEach(item => {
-
+              var sp = document.createElement('span');
+              sp.classList.add('gst-free');
+              sp.textContent = ' GST Free';
               var checNonGST = item.querySelector('.gst-free');
               if (checNonGST == null) {
                 item.appendChild(sp);
