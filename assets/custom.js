@@ -366,6 +366,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .taxable--true .money')
           var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
           collectionGridPrice.forEach((m) => {
+            m.innerHTML='<span class="money">yes</span>';
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
           })
@@ -424,7 +425,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             
-           
+    
           }, 2000);
           setTimeout(() => {
             var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
