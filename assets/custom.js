@@ -405,24 +405,42 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
     // search page filter click
-    var filter = document.querySelector('.search-wrapper .collection-filters')
+    var filter = document.querySelectorAll('.search-wrapper .facet-checkbox')
+    var SortBy = document.querySelectorAll('.search-wrapper #SortBy')
 
+    if (SortBy != null) {
+      SortBy.forEach((sort) => {
+        sort.onchange = () => {
+          setTimeout(() => {
+            alert('changed')
+            var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
+            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
+            collectionGridPrice.forEach((m) => {
+              let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+              updateGSTprice(m, WIthGSTPriceNew);
+              m.parentElement.classList.remove('loader')
+            })
+            nonGStUpdate(nonTaxableList)
+          }, 2000);
+        }
+      })
+    }
     if (filter != null) {
+      filter.forEach((filt) => {
+        filt.onclick = () => {
+          setTimeout(() => {
+            var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
+            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false')
 
-      filter.onclick = () => {
-
-        setTimeout(() => {
-          var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
-          var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false')
-
-          collectionGridPrice.forEach((m) => {
-            let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-            updateGSTprice(m, WIthGSTPriceNew);
-            m.parentElement.classList.remove('loader')
-          })
-          nonGStUpdate(nonTaxableList)
-        }, 2000);
-      }
+            collectionGridPrice.forEach((m) => {
+              let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
+              updateGSTprice(m, WIthGSTPriceNew);
+              m.parentElement.classList.remove('loader')
+            })
+            nonGStUpdate(nonTaxableList)
+          }, 2000);
+        }
+      })
     }
     // on search  page end
   }
