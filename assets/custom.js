@@ -356,7 +356,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.collection-grid .taxable--true .money')
-          var nonGstList = document.querySelectorAll('.collection-grid .taxable--false ')
+          var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
