@@ -412,11 +412,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
+          var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false ')
 
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
             updateGSTprice(m, WIthGSTPriceNew);
+            m.parentElement.classList.remove('loader')
           })
+          nonGStUpdate(nonTaxableList)
         }, 2000);
       }
     }
