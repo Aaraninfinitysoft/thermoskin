@@ -412,7 +412,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         setTimeout(() => {
           var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
-          var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false ')
+          var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false')
 
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
