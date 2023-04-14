@@ -123,15 +123,15 @@ function priceWIthGST(gst, price) {
   return (`$` + newPriceWithGST.toFixed(2))
 }
 // non GST update Text 
-function nonGStUpdate(list){
+function nonGStUpdate(list) {
   var nonGst = document.createElement('span');
   nonGst.classList.add('non-gst')
   nonGst.textContent = ' GST Free';
-  list.forEach((listItem)=>{
-   var checkNonGst = listItem.querySelector('.non-gst');
-   if(checkNonGst == null){
-     listItem.appendChild(nonGst);
-   }
+  list.forEach((listItem) => {
+    var checkNonGst = listItem.querySelector('.non-gst');
+    if (checkNonGst == null) {
+      listItem.appendChild(nonGst);
+    }
   })
 
 }
@@ -157,47 +157,47 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
     }
     // currentElm.parentElement.appendChild(span);
     currentElm.style.display = 'none';
-   
+
   }
   else {
     currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
     currentElm.style.display = 'none';
   }
-  currentElm.parentElement.parentElement.classList.remove('loader') 
+  currentElm.parentElement.parentElement.classList.remove('loader')
 }
 
 // end
-function updateAjaxCartSubtotalGST(){
+function updateAjaxCartSubtotalGST() {
   var subtotalselect = document.querySelector('.ajaxcart__subtotal .money');
   var subtotalAjaxCartGst = 0;
   var subtotalArr = [];
   var cartItemsWithTax = document.querySelectorAll('.ajaxcart-item__price');
   // var cartItemsWithoutTax = document.querySelectorAll('.taxable--false .ajaxcart-item__price .money');
-  cartItemsWithTax.forEach((item)=>{
-    if(item.querySelector('.withGSTPrice') != null){
+  cartItemsWithTax.forEach((item) => {
+    if (item.querySelector('.withGSTPrice') != null) {
       item = item.querySelector('.withGSTPrice');
-    }else{
+    } else {
       item = item.querySelector('.money');
     }
     var pr = item.textContent.split('$')
-    var prNew =parseFloat(pr[1]) ;
-    var qnt = parseFloat(item.closest('.grid__item').querySelector('.ajaxcart__qty-num').value );
-    var newPrSub = prNew*qnt;
+    var prNew = parseFloat(pr[1]);
+    var qnt = parseFloat(item.closest('.grid__item').querySelector('.ajaxcart__qty-num').value);
+    var newPrSub = prNew * qnt;
     subtotalArr.push(newPrSub)
     document.querySelector('.ajaxcart__subtotal').classList.remove('loader');
 
   })
-  subtotalArr.forEach((prItem)=>{
+  subtotalArr.forEach((prItem) => {
     subtotalAjaxCartGst += prItem;
   })
-  subtotalselect.textContent = '$'+subtotalAjaxCartGst.toFixed(2) + ' Inc GST'
+  subtotalselect.textContent = '$' + subtotalAjaxCartGst.toFixed(2) + ' Inc GST'
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page
   var searchPageGstFreeItems = document.querySelectorAll('.search-wrapper .taxable--false')
-  var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false') 
-  gstFreeItems.forEach((gstFreeItem)=>{
+  var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false')
+  gstFreeItems.forEach((gstFreeItem) => {
     gstFree = document.createElement('span');
     gstFree.textContent = 'GST Free';
     gstFreeItem.appendChild(gstFree);
@@ -205,7 +205,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page end
 
   // GST free Added on search page
-  searchPageGstFreeItems.forEach((gstFreeItem)=>{
+  searchPageGstFreeItems.forEach((gstFreeItem) => {
     gstFree = document.createElement('span');
     gstFree.textContent = 'GST Free';
     gstFreeItem.appendChild(gstFree);
@@ -252,15 +252,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew)
             })
             // priceupdate on line tiems end
-            
-              var prNodes2 = document.querySelectorAll('.ajaxcart__product .taxable--false');
-              var kl = document.createElement('span');
-              kl.textContent = ' GST Free'
 
-              prNodes2.forEach((m) => {
-                m.appendChild(kl);
-              })
-            
+            var prNodes2 = document.querySelectorAll('.ajaxcart__product .taxable--false');
+            var kl = document.createElement('span');
+            kl.textContent = ' GST Free'
+
+            prNodes2.forEach((m) => {
+              m.appendChild(kl);
+            })
+
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
@@ -269,8 +269,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
             // price update on removeBTN clilck
             var cartRemoveBtns = document.querySelectorAll('.ajaxcart__qty-remove')
-            cartRemoveBtns.forEach((cartRemoveBtn)=>{
-              cartRemoveBtn.onclick = ()=>{
+            cartRemoveBtns.forEach((cartRemoveBtn) => {
+              cartRemoveBtn.onclick = () => {
                 document.querySelector('.ajaxcart__subtotal').classList.add('loader')
                 setTimeout(() => {
                   updateAjaxCartSubtotalGST()
@@ -368,6 +368,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
           nonGStUpdate(nonGstList)
         }, 3000);
       }
+      var resetLinks = document.querySelectorAll('.facets__reset');
+      resetLinks.forEach((resetLink) => {
+        resetLink.onclick = () => {
+          setTimeout(() => {
+            var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
+            nonGStUpdate(nonGstList)
+          }, 3000);
+        }
+      })
+
     }
     // on collection page filter click end 
 
