@@ -267,13 +267,14 @@ addPriceLoader(){
             return;
         }
       });
+      this.addPriceLoader();
   }
 
   renderSectionFromCache(filterDataUrl, section, event) {
     const html = this.filterData.find(filterDataUrl).html;
     this.renderFilters(html, event);
     this.renderProductGrid(html);
-    
+    this.addPriceLoader();
   }
 
   renderProductGrid(html) {
