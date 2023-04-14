@@ -183,9 +183,9 @@ function updateAjaxCartSubtotalGST(){
 
 window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page
-  var gstFreeItems = document.querySelectorAll('.product-grid--price.taxable--false') 
+  var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false') 
   gstFreeItems.forEach((gstFreeItem)=>{
-    gstFree = document.createElement('<span>');
+    gstFree = document.createElement('span');
     gstFree.textContent = 'GST Free';
     gstFreeItem.appendChild(gstFree);
   })
