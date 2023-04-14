@@ -415,25 +415,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
       SortBy.forEach((sort) => {
         sort.onchange = () => {
           setTimeout(() => {
-            
             var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
-           
             collectionGridPrice.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
               updateGSTprice(m, WIthGSTPriceNew);
               m.parentElement.classList.remove('loader')
             })
-            
-           
+            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
+            nonTaxableList.forEach(m=>{
+             console.log(m)
+             m.innerHTML+=" GST PAID";
+            })
           }, 2000);
-          setTimeout(() => {
-             var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-             nonTaxableList.forEach(m=>{
-              console.log(m)
-              m.innerHTML+=" GST PAID";
-             })
-            // nonGStUpdate(nonTaxableList)
-          }, 3000);
+
         }
       })
     }
@@ -449,7 +443,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew);
               m.parentElement.classList.remove('loader')
             })
-            nonGStUpdate(nonTaxableList)
+            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
+            nonTaxableList.forEach(m=>{
+             console.log(m)
+             m.innerHTML+=" GST PAID";
+            })
           }, 2500);
         }
       })
