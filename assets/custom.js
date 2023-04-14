@@ -125,6 +125,7 @@ function priceWIthGST(gst, price) {
 // non GST update Text 
 function nonGStUpdate(list) {
   console.log(list)
+  alert('nonGStUpdate')
   var nonGst = document.createElement('span');
   nonGst.classList.add('non-gst')
   nonGst.textContent = ' GST Free';
