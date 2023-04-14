@@ -182,6 +182,15 @@ function updateAjaxCartSubtotalGST(){
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
+  // GST free Added on collection page
+  var gstFreeItems = document.querySelectorAll('.product-grid--price.taxable--false') 
+  gstFreeItems.map((gstFreeItem)=>{
+    gstFree = document.createElement('<span>');
+    gstFree.textContent = 'GST Free';
+    gstFreeItem.appendChild(gstFree);
+  })
+  // GST free Added on collection page end
+
   var istaxble = window.istaxble;
   if (istaxble == true) {
     var priceArr = document.querySelectorAll('.taxable--true .money');
