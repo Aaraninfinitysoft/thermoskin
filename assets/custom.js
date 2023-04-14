@@ -422,9 +422,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
               m.parentElement.classList.remove('loader')
             })
             var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-            nonTaxableList.forEach(m=>{
-             console.log(m)
-             m.innerHTML+=" GST PAID";
+            nonTaxableList.forEach(m => {
+              console.log(m)
+              m.innerHTML += " GST PAID";
             })
           }, 2000);
 
@@ -443,7 +443,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew);
               m.parentElement.classList.remove('loader')
             })
-            nonGStUpdate(nonTaxableList)
+            nonTaxableList.forEach(item => {
+              var sp = document.createElement('span');
+              sp.classList.add('gst-free');
+              sp.textContent = ' GST Free';
+              var checNonGST = item.querySelector('.gst-free');
+              if (checNonGST == null) {
+                item.appendChild(sp);
+              }
+            })
+            // nonGStUpdate(nonTaxableList)
           }, 2500);
         }
       })
