@@ -183,6 +183,7 @@ function updateAjaxCartSubtotalGST(){
 
 window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page
+  var searchPageGstFreeItems = document.querySelectorAll('.search-wrapper .taxable--false')
   var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false') 
   gstFreeItems.forEach((gstFreeItem)=>{
     gstFree = document.createElement('span');
@@ -190,6 +191,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
     gstFreeItem.appendChild(gstFree);
   })
   // GST free Added on collection page end
+
+  // GST free Added on search page
+  searchPageGstFreeItems.forEach((gstFreeItem)=>{
+    gstFree = document.createElement('span');
+    gstFree.textContent = 'GST Free';
+    gstFreeItem.appendChild(gstFree);
+  })
+  // GST free Added on search page end
 
   var istaxble = window.istaxble;
   if (istaxble == true) {
