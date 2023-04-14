@@ -199,14 +199,11 @@ class CollectionFiltersForm extends HTMLElement {
    
   }
 addPriceLoader(){
-  var priceArr = document.querySelectorAll('.money');
+  var priceArr = document.querySelectorAll('.taxable--true');
   priceArr.forEach((m) => {
-    m.parentElement.parentElement.classList.add('loader');
+    m.classList.add('loader');
   })
-  var taxableArr = document.querySelectorAll('.taxable--false');
-  taxableArr.forEach((m) => {
-    m.classList.remove('loader');
-  })
+
 }
   onActiveFilterClick(event) {
     event.preventDefault();
