@@ -124,20 +124,15 @@ function priceWIthGST(gst, price) {
 }
 // non GST update Text 
 function nonGStUpdate(list) {
-  console.log(list)
-  // alert('nonGStUpdate')
   var nonGst = document.createElement('span');
-  nonGst.classList.add('non-gst')
   nonGst.textContent = ' GST Free';
   list.forEach((listItem) => {
     var checkNonGst = listItem.querySelector('.non-gst');
     if (checkNonGst == null) {
       console.log(listItem)
-      alert('non gst Updated')
       listItem.appendChild(nonGst);
     }
   })
-
 }
 // update GST
 
@@ -425,11 +420,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
           }, 2000);
           setTimeout(() => {
             var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-            // nonTaxableList.forEach(m => {
-            //   console.log(m)
-            //   m.innerHTML += " GST Free";
-            // })
-            nonGStUpdate(nonTaxableList)
+            nonTaxableList.forEach(m => {
+              console.log(m)
+              m.innerHTML += " GST Free";
+            })
+            // nonGStUpdate(nonTaxableList)
           }, 2050);
         }
       })
