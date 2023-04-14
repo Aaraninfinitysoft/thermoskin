@@ -243,7 +243,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(() => {
               var prNodes2 = document.querySelectorAll('.ajaxcart__product .taxable--false');
               var kl = document.createElement('span');
-              kl.textContent = 'GST Free'
+              kl.textContent = '&nbsp;GST Free'
 
               prNodes2.forEach((m) => {
                 m.appendChild(kl);
