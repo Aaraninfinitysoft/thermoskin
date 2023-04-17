@@ -267,7 +267,7 @@ jQuery(document).ready(function () {
 });
         window.addEventListener('load', function () {
        var openecartDrawer = localStorage.getItem("openecartDrawer");
-          if(openecartDrawer == true){     
+          if(openecartDrawer == 'true'){     
   document.querySelector(".site-header__cart-toggle").click();
             localStorage.removeItem("openecartDrawer");
           }
