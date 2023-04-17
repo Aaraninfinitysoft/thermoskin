@@ -265,7 +265,13 @@ jQuery(document).ready(function () {
         jQuery(this).parent().find('.fullDescription').slideToggle(200);
     });
 });
-      
+        window.addEventListener('load', function () {
+       var openecartDrawer = localStorage.getItem("openecartDrawer");
+          if(openecartDrawer == true){     
+  document.querySelector(".site-header__cart-toggle").click();
+            localStorage.removeItem("openecartDrawer");
+          }
+})
 $(document).ready(function(){
    
  setTimeout(()=>{ if($("body#challenge").length) $(window).scrollTop(0)},2000);
@@ -291,6 +297,9 @@ $(this).addClass('active').siblings().removeClass('active')
     },
     method: 'POST'
   }).then(function(response) {
+    localStorage.setItem("openecartDrawer", "true");
+localStorage.getItem("lastname");
+
     location.reload()
   }).catch(function(err) {
     /* uh oh, we have error. */

@@ -478,7 +478,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // on search  page end
   }
 })
-  window.addEventListener('load', function () {
-  document.querySelector(".site-header__cart-toggle").click();
-})
+
 
