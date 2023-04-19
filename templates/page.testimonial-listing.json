@@ -1,5 +1,10 @@
 {
   "sections": {
+    "78827ef4-2117-4f11-902c-0b4cdc8bacef": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "main": {
       "type": "template--page",
       "disabled": true,
@@ -71,6 +76,7 @@
     }
   },
   "order": [
+    "78827ef4-2117-4f11-902c-0b4cdc8bacef",
     "main",
     "8b704f6f-6b68-4262-bbfc-14da2943b4a2",
     "4939595f-7ac1-48be-a099-e41de85a88e0",
