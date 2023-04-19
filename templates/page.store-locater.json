@@ -1,5 +1,10 @@
 {
   "sections": {
+    "ede2da58-53b8-46b9-aff7-311344a00379": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "937b03a4-156b-45a7-9ffb-eae693041004": {
       "type": "advanced-layout--custom-html",
       "blocks": {
@@ -162,6 +167,7 @@
     }
   },
   "order": [
+    "ede2da58-53b8-46b9-aff7-311344a00379",
     "937b03a4-156b-45a7-9ffb-eae693041004",
     "slideshow-00",
     "image-with-text-00",
