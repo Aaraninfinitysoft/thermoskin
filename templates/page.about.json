@@ -22,6 +22,11 @@
         "button-background": "#000000"
       }
     },
+    "230e449f-42f9-462d-a9b2-52ca1436abff": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "0fdf8c23-1607-47d9-876c-3f5ab6decf40": {
       "type": "common-hero-banner",
       "disabled": true,
@@ -354,6 +359,7 @@
   },
   "order": [
     "b7572ca4-1867-4038-8dbb-64e2a236b1ca",
+    "230e449f-42f9-462d-a9b2-52ca1436abff",
     "0fdf8c23-1607-47d9-876c-3f5ab6decf40",
     "4dc4e380-cc98-44ea-988d-de83b78f554c",
     "cb20765d-147c-45ab-aaac-345c75029766",
