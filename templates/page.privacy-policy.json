@@ -27,6 +27,11 @@
         "button-background": "#000000"
       }
     },
+    "7d86ea8c-093f-4e2a-bb68-da50a53bfef3": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "8722f911-ce1e-48a8-812f-9f25be8871bf": {
       "type": "text--rich-text",
       "settings": {
@@ -43,6 +48,7 @@
   "order": [
     "main",
     "3700bf0f-f671-4654-87cb-a7c8394f9f9b",
+    "7d86ea8c-093f-4e2a-bb68-da50a53bfef3",
     "8722f911-ce1e-48a8-812f-9f25be8871bf"
   ]
 }
