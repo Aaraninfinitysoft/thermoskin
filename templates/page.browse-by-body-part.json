@@ -43,6 +43,11 @@
         "button-background": "#000000"
       }
     },
+    "7bcbc6df-b429-4093-bc4d-f9082fcb90e3": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "47937955-07f3-47f4-868e-aafa63291b57": {
       "type": "browse-by-body-section",
       "settings": {
@@ -178,6 +183,7 @@
   "order": [
     "a9ad61be-26c1-4fae-97ca-6ae7caf8db8f",
     "9b667c1f-30d7-4fc2-8cf6-441aff907d8d",
+    "7bcbc6df-b429-4093-bc4d-f9082fcb90e3",
     "47937955-07f3-47f4-868e-aafa63291b57",
     "7eee2116-ab10-4fd6-b367-a920627c193f",
     "main",
