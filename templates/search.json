@@ -23,6 +23,11 @@
         "button-background": "#000000"
       }
     },
+    "38064147-99a7-4cc3-9ccc-ef11186b75fc": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "disabled": true,
@@ -77,6 +82,7 @@
   },
   "order": [
     "ee01163e-2cc8-4500-9c0f-5a4743579a9b",
+    "38064147-99a7-4cc3-9ccc-ef11186b75fc",
     "image-with-text-overlay",
     "main",
     "blog-posts"
