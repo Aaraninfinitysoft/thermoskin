@@ -1,5 +1,10 @@
 {
   "sections": {
+    "67518a67-723e-485a-a478-adc9e37ed824": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "product-form": {
       "type": "template--product",
       "blocks": {
@@ -289,6 +294,7 @@
     }
   },
   "order": [
+    "67518a67-723e-485a-a478-adc9e37ed824",
     "product-form",
     "product-description",
     "product-recommendations",
