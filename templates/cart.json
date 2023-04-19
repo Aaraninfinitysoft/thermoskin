@@ -1,5 +1,10 @@
 {
   "sections": {
+    "350a52d9-66b3-4e3a-aafe-a4876b35bc77": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "main": {
       "type": "template--cart",
       "settings": {
@@ -39,6 +44,7 @@
     }
   },
   "order": [
+    "350a52d9-66b3-4e3a-aafe-a4876b35bc77",
     "main",
     "rich-text",
     "featured-product"
