@@ -22,6 +22,11 @@
         "button-background": "#000000"
       }
     },
+    "a7ab5ca3-58db-49de-894a-cb442b00fc83": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "1f4f8a49-829c-4451-addb-d909aa93eabf": {
       "type": "advanced-layout--custom-html",
       "blocks": {
@@ -118,6 +123,7 @@
   },
   "order": [
     "56f1eee3-1d21-4190-a544-31c1a6a06688",
+    "a7ab5ca3-58db-49de-894a-cb442b00fc83",
     "1f4f8a49-829c-4451-addb-d909aa93eabf",
     "42fb4b97-a334-456e-a72a-0af922ca867c",
     "main"
