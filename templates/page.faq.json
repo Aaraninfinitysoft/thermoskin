@@ -20,6 +20,11 @@
         "button-background": "#000000"
       }
     },
+    "8721c877-b014-4092-a965-e4f2a0af67d4": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "main": {
       "type": "template--page",
       "disabled": true,
@@ -148,6 +153,7 @@
   },
   "order": [
     "image-with-text-overlay",
+    "8721c877-b014-4092-a965-e4f2a0af67d4",
     "main",
     "accordion-00",
     "gallery-01",
