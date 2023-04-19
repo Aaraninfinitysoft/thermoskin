@@ -112,6 +112,11 @@
       "settings": {
       }
     },
+    "a35cf9e6-39d4-4a9a-8fb4-09eb508d8cc1": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "filtering": {
       "type": "main-collection-filtering",
       "blocks": {
@@ -206,6 +211,7 @@
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1",
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
     "collection-header",
+    "a35cf9e6-39d4-4a9a-8fb4-09eb508d8cc1",
     "filtering",
     "product-grid",
     "91df2870-25f5-42da-bad2-39332fc33afa"
