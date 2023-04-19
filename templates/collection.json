@@ -1,6 +1,11 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
+    "fdcc6b18-cc87-4532-864a-e8e13e6e73dd": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "c355966e-9371-46ff-b9af-659f04fae546": {
       "type": "banner-with-icon-set",
       "settings": {
@@ -252,6 +257,7 @@
     }
   },
   "order": [
+    "fdcc6b18-cc87-4532-864a-e8e13e6e73dd",
     "c355966e-9371-46ff-b9af-659f04fae546",
     "070b1a98-8fc7-4d62-8d2e-dd1050a081e1",
     "4d73d92f-0648-4122-b576-2bcaca2eb52b",
