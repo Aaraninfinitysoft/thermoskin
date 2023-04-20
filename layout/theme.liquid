@@ -404,10 +404,20 @@ if(toggler != null){
   
 window.taxPercentage = {{settings.tax_percentage}};
 window.istaxble = {{settings.tax_on_off}};  
+{% comment %} cart page redirection {% endcomment %}
+window.addEventListener('load', function () {
+  
+  const param = new URLSearchParams(window.location.search); 
+  var openecartDrawer = param.get('cart_redirected')
+     if(openecartDrawer == 'true'){     
+document.querySelector(".site-header__cart-toggle").click();
+       localStorage.removeItem("openecartDrawer");
+     }
+})
 </script>
 {% if template contains 'cart' %}
   <script>
-    window.location.replace("{{routes.root_url}}?cart_redirected");
+    window.location.replace("{{routes.root_url}}?cart_redirected=true");
   </script>
 {% endif %}
  {% include 'smile-initializer' %}
