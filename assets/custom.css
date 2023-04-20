@@ -7413,4 +7413,7 @@ button[data-testid="sheet-open-button"] {
 button[data-testid="sheet-open-button"]:hover{
       background: var(--secondary-btn-bg-color) !important;
 }
+.taxable--false{
+  font-weight:600;
+}
 /************ custom end **********/
