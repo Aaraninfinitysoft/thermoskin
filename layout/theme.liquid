@@ -405,6 +405,11 @@ if(toggler != null){
 window.taxPercentage = {{settings.tax_percentage}};
 window.istaxble = {{settings.tax_on_off}};  
 </script>
+{% if template contains 'cart' %}
+  <script>
+    window.location.replace("{{routes.root_url}}?cart_redirected");
+  </script>
+{% endif %}
  {% include 'smile-initializer' %}
 
 </body>
