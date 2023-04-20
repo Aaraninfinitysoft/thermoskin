@@ -129,6 +129,47 @@
     {% endif %}
     
     <meta name="google-site-verification" content="oxsglc5MA0lvPeoDNUuOQV0EaUAOpPHiD995bW3b32Y" />
+  {% liquid
+if template contains 'product'
+assign list2id = routes.root_url | append: product.url
+assign list2item =  product.title
+endif
+if template contains 'collection'
+assign list2id = routes.root_url | append: collection.url
+assign list2item =  collection.title
+endif
+if template contains 'page'
+assign list2id = routes.root_url | append: page.url
+assign list2item =  page.title
+endif
+%}
+<script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement":
+   [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item":
+     {
+      "@id": "{{ routes.root_url }}",
+      "name": "Home"
+      }
+    },
+    {
+     "@type": "ListItem",
+    "position": 2,
+    "item":
+     {
+       "@id": "{{list2id}}",
+       "name": "{{list2item}}"
+     }
+    }
+   ]
+  }
+  </script>
 </head>
 
 {% comment %}
