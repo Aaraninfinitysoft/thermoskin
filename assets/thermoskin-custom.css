@@ -250,7 +250,9 @@ color:#000!important;
 .loader *{
   opacity: 0;
 }
-
+.product-grid--price{
+  font-weight: 600 !important;
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
