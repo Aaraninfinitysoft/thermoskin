@@ -43,7 +43,7 @@
           <div class="reveal">
         {% endif %}
 
-        <a href="{{ product.url | within: collection }}" title="{{product.title}}" class="grid__image grid__image__match" tabindex="-1">
+        <a href="{{ product.url }}" title="{{product.title}}" class="grid__image grid__image__match" tabindex="-1">
           {% if image_crop %}<div class="aspect-ratio {{ image_crop }}">{% endif %}
             {% assign image = product.media[0].preview_image %}
             {% render 'responsive-image' with image, alt: image.alt, allow_stretch: image_stretch, blur: false %}
