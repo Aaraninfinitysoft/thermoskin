@@ -398,6 +398,8 @@ Testing Cypress integration
         <h1 class="site-header__logo site-title" itemscope itemtype="http://schema.org/Organization">
           {% elsif template contains 'collection' and collection.title == 'Sport' %}
         <div class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
+          {% elsif template contains 'collection' and collection.title == 'Thermal' %}
+        <div class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
       {% else %}
         <h1 class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
       {% endif %}
@@ -409,6 +411,8 @@ Testing Cypress integration
       {% if template == 'index' %}
         </h1>
           {% elsif template contains 'collection' and collection.title == 'Sport' %}
+        </div>
+          {% elsif template contains 'collection' and collection.title == 'Thermal' %}
         </div>
       {% else %}
         </h1>
