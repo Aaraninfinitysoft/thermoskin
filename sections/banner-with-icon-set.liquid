@@ -60,9 +60,9 @@
                     <div class="homepage-featured-content-box-inner show-on-scroll">
                         {% if section.settings.title != blank %}
                             <div class="sitewide--title-wrapper">
-                                <h2 class="homepage-sections--title homepage-section-title" id="{{ section.id }}_title">
+                                <h1 class="homepage-sections--title homepage-section-title" id="{{ section.id }}_title">
                                     {% if buttonHidden == true %}<a href="{{ section.settings.link }}">{% endif %}{{ section.settings.title | escape }}{% if buttonHidden == true %}</a>{% endif %}
-                                </h2>
+                                </h1>
                             </div>
                         {% endif %}
 
