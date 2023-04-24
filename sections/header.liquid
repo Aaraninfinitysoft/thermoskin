@@ -398,7 +398,7 @@ Testing Cypress integration
         <h1 class="site-header__logo site-title" itemscope itemtype="http://schema.org/Organization">
          
       {% else %}
-        <h1 class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
+         <div class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
       {% endif %}
 
         {{ logo }}
@@ -408,7 +408,7 @@ Testing Cypress integration
       {% if template == 'index' %}
         </h1>
       {% else %}
-        </h1>
+        </div>
       {% endif %}
     </div>
   {% endcapture %}
