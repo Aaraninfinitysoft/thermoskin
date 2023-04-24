@@ -395,7 +395,7 @@ Testing Cypress integration
   {% capture header_logo_desktop %}
     <div class="site-header__logowrapper">
       {% if template == 'index'  %}
-        <h1 class="site-header__logo site-title" itemscope itemtype="http://schema.org/Organization">
+        <div class="site-header__logo site-title" itemscope itemtype="http://schema.org/Organization">
          
       {% else %}
          <div class="site-header__logo h1 site-title" itemscope itemtype="http://schema.org/Organization">
@@ -406,7 +406,7 @@ Testing Cypress integration
         {{ overlay_logo }}
 
       {% if template == 'index' %}
-        </h1>
+        </div>
       {% else %}
         </div>
       {% endif %}
