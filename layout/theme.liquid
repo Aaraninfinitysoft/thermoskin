@@ -185,6 +185,9 @@ endif
 
   <noscript>{{ 'font-awesome.min.css' | asset_url | stylesheet_tag }}</noscript>
   <noscript>{{ 'swiper.min.css' | asset_url | stylesheet_tag }}</noscript>
+  {% if template contains 'index' %}
+    <h1 style="display:none">Knee Braces & Ankle Supports, Compression - Thermoskin</h1>
+    {% endif %}
   {% if settings.animations_enabled %}
   	<noscript>{{ 'animate.min.css' | asset_url | stylesheet_tag }}</noscript>
   {% endif %}
