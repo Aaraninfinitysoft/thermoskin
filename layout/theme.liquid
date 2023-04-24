@@ -216,7 +216,9 @@ endif
         {% render 'breadcrumb' %}
       {% endif %}
     {% endunless%}
-
+{% if page.handle ==  '' %}
+  <h1>Store Locator</h1>
+  {% endif %}
     {% if template == 'index' %}
       <div class="flow-homepage">
     {% elsif template == 'cart' or template contains 'customers/' %}
