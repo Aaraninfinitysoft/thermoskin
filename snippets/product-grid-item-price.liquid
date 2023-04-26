@@ -40,6 +40,7 @@
     {% endunless %}
   {% else %}
     {% if product.price_varies %}
+       {{ 'products.general.from_text' | t }}
        <span class="money">{{ product.price | money }}</span>
     {% else %}
       <span class="money">{{ product.price | money }}</span>
