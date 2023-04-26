@@ -145,7 +145,11 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
   span.textContent = gstprice;
   if (closestWrapperSelector == null && toBeUpdatedSelector == null) {
     span.setAttribute("class", "d-block withGSTPrice")
-    span.textContent = gstprice + ' Inc. GST ';
+        if(resorceType == 'Collection'){
+      span.textContent = gstprice
+    }else{
+      span.textContent = gstprice + ' Inc. GST ';
+    }
     if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
       currentElm.style.display = 'none';
