@@ -317,14 +317,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
           var searchResultPrices = document.querySelectorAll('#search-results .money');
           searchResultPrices.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-            updateGSTprice(m, WIthGSTPriceNew)
+            updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection')
           })
           SearchInput.onkeyup = () => {
             setTimeout(() => {
               var searchResultPrices = document.querySelectorAll('#search-results .money');
               searchResultPrices.forEach((m) => {
                 let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-                updateGSTprice(m, WIthGSTPriceNew)
+                updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection')
               })
             }, 1000);
           }
