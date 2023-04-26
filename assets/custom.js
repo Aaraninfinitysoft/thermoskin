@@ -339,7 +339,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       var collecPrList = document.querySelectorAll('.collection-main-body .taxable--true .money');
       collecPrList.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        updateGSTprice(m, WIthGSTPriceNew)
+        updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection')
       })
     }, 3000);
 
@@ -370,7 +370,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
           collectionGridPrice.forEach((m) => {
             let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-            updateGSTprice(m, WIthGSTPriceNew);
+            updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection');
           })
 
         }, 3000);
@@ -413,7 +413,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     if (searchPrList != null) {
       searchPrList.forEach((m) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-        updateGSTprice(m, WIthGSTPriceNew)
+        updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection')
       })
     }
     // payment button text change
@@ -441,7 +441,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             var collectionGridPrice = document.querySelectorAll('.search-wrapper .taxable--true .money')
             collectionGridPrice.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-              updateGSTprice(m, WIthGSTPriceNew);
+              updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection');
               m.parentElement.classList.remove('loader')
             })
 
@@ -466,7 +466,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
             collectionGridPrice.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-              updateGSTprice(m, WIthGSTPriceNew);
+              updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection');
               m.parentElement.classList.remove('loader')
             })
             nonTaxableList.forEach(item => {
