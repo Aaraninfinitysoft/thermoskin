@@ -123,7 +123,10 @@ function priceWIthGST(gst, price) {
   return (`$` + newPriceWithGST.toFixed(2))
 }
 // non GST update Text 
-function nonGStUpdate(list) {
+function nonGStUpdate(list,resorceType) {
+  if(resorceType == 'Collection'){
+    return
+  }
   var nonGst = document.createElement('span');
   nonGst.textContent = ' GST Free';
   list.forEach((listItem) => {
@@ -136,7 +139,7 @@ function nonGStUpdate(list) {
 }
 // update GST
 
-function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,) {
+function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdatedSelector,resorceType) {
   let span = document.createElement('span');
   console.log(currentElm)
   span.textContent = gstprice;
@@ -150,7 +153,12 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
     // currentElm.parentElement.appendChild(span)
   } else if (closestWrapperSelector == 'undefined' || toBeUpdatedSelector == 'undefined') {
     span.setAttribute("class", "d-block")
-    span.textContent = gstprice + ' Inc. GST ';
+    if(resorceType == 'Collection'){
+      span.textContent = gstprice
+    }else{
+      span.textContent = gstprice + ' Inc. GST ';
+    }
+    
     if (currentElm.parentElement.querySelector('.withGSTPrice') == null) {
       currentElm.parentElement.appendChild(span);
     }
