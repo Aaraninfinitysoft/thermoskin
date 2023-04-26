@@ -208,19 +208,19 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page
   var searchPageGstFreeItems = document.querySelectorAll('.search-wrapper .taxable--false')
   var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false')
-  gstFreeItems.forEach((gstFreeItem) => {
-    gstFree = document.createElement('span');
-    gstFree.textContent = 'GST Free';
-    gstFreeItem.appendChild(gstFree);
-  })
+  // gstFreeItems.forEach((gstFreeItem) => {
+  //   gstFree = document.createElement('span');
+  //   gstFree.textContent = 'GST Free';
+  //   gstFreeItem.appendChild(gstFree);
+  // })
   // GST free Added on collection page end
 
   // GST free Added on search page
-  searchPageGstFreeItems.forEach((gstFreeItem) => {
-    gstFree = document.createElement('span');
-    gstFree.textContent = 'GST Free';
-    gstFreeItem.appendChild(gstFree);
-  })
+  // searchPageGstFreeItems.forEach((gstFreeItem) => {
+  //   gstFree = document.createElement('span');
+  //   gstFree.textContent = 'GST Free';
+  //   gstFreeItem.appendChild(gstFree);
+  // })
   // GST free Added on search page end
 
   var istaxble = window.istaxble;
@@ -378,36 +378,36 @@ window.addEventListener('DOMContentLoaded', (event) => {
           })
 
         }, 3000);
-        setTimeout(() => {
-          var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
-          // nonGStUpdate(nonGstList)
-          nonGstList.forEach(ng => {
-            var sp = document.createElement('span');
-            sp.classList.add('gst-free');
-            sp.textContent = ' GST Free';
-            if (ng.querySelector('.gst-free') == null) {
-              ng.appendChild(sp);
-            }
-          })
-        }, 3050)
+        // setTimeout(() => {
+        //   var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
+        //   // nonGStUpdate(nonGstList)
+        //   nonGstList.forEach(ng => {
+        //     var sp = document.createElement('span');
+        //     sp.classList.add('gst-free');
+        //     sp.textContent = ' GST Free';
+        //     if (ng.querySelector('.gst-free') == null) {
+        //       ng.appendChild(sp);
+        //     }
+        //   })
+        // }, 3050)
       }
-      var resetLinks = document.querySelectorAll('.facets__reset');
-      resetLinks.forEach((resetLink) => {
-        resetLink.onclick = () => {
-          setTimeout(() => {
-            var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
-            // nonGStUpdate(nonGstList)
-            nonGstList.forEach(ng => {
-              var sp = document.createElement('span');
-              sp.classList.add('gst-free');
-              sp.textContent = ' GST Free';
-              if (ng.querySelector('.gst-free') == null) {
-                ng.appendChild(sp);
-              }
-            })
-          }, 3050)
-        }
-      })
+      // var resetLinks = document.querySelectorAll('.facets__reset');
+      // resetLinks.forEach((resetLink) => {
+      //   resetLink.onclick = () => {
+      //     setTimeout(() => {
+      //       var nonGstList = document.querySelectorAll('.collection-grid .taxable--false')
+      //       // nonGStUpdate(nonGstList)
+      //       nonGstList.forEach(ng => {
+      //         var sp = document.createElement('span');
+      //         sp.classList.add('gst-free');
+      //         sp.textContent = ' GST Free';
+      //         if (ng.querySelector('.gst-free') == null) {
+      //           ng.appendChild(sp);
+      //         }
+      //       })
+      //     }, 3050)
+      //   }
+      // })
 
     }
     // on collection page filter click end 
@@ -450,14 +450,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
             })
 
           }, 2000);
-          setTimeout(() => {
-            var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
-            nonTaxableList.forEach(m => {
-              console.log(m)
-              m.innerHTML += " GST Free";
-            })
-            // nonGStUpdate(nonTaxableList)
-          }, 2050);
+          // setTimeout(() => {
+          //   var nonTaxableList = document.querySelectorAll('.search-wrapper .taxable--false');
+          //   nonTaxableList.forEach(m => {
+          //     console.log(m)
+          //     m.innerHTML += " GST Free";
+          //   })
+          //   // nonGStUpdate(nonTaxableList)
+          // }, 2050);
         }
       })
     }
@@ -473,15 +473,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection');
               m.parentElement.classList.remove('loader')
             })
-            nonTaxableList.forEach(item => {
-              var sp = document.createElement('span');
-              sp.classList.add('gst-free');
-              sp.textContent = ' GST Free';
-              var checNonGST = item.querySelector('.gst-free');
-              if (checNonGST == null) {
-                item.appendChild(sp);
-              }
-            })
+            // nonTaxableList.forEach(item => {
+            //   var sp = document.createElement('span');
+            //   sp.classList.add('gst-free');
+            //   sp.textContent = ' GST Free';
+            //   var checNonGST = item.querySelector('.gst-free');
+            //   if (checNonGST == null) {
+            //     item.appendChild(sp);
+            //   }
+            // })
             // nonGStUpdate(nonTaxableList)
           }, 2500);
         }
