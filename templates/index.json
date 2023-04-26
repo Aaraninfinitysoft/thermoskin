@@ -244,9 +244,9 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/Dockers_1-01_1.png",
-            "testimonial_text": "<p>I believe Thermoskin products are the most supportive and best heat products available. They are an essential part of my medical kit.<\/p>",
+            "testimonial_text": "<p>The Fremantle Dockers have used Thermoskin products since our introduction into the AFL in 1995. Universally the players have found these products to be comfortable and effective. In particular, the knee derotation brace is our brace of choice following ACL knee reconstruction for our players returning to the rigours of AFL football.<\/p>",
             "customer_name": "Dr Jeffrey Boyle",
-            "customer_occupation": "Senior Physiotherapist, Fremantle Football Club",
+            "customer_occupation": "Former Senior Physiotherapist, Fremantle Football Club",
             "publish-date": "2 days ago",
             "link": "",
             "stars": 5
@@ -256,7 +256,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/Downloads_1-01_1.png",
-            "testimonial_text": "<p>Thermoskin is an essential component in our return to play rehabilitation.<\/p>",
+            "testimonial_text": "<p>I believe Thermoskin products are the most supportive and best heat products available. They are an essential part of my medical kit.<\/p>",
             "customer_name": "Alex Kountouris",
             "customer_occupation": "Senior Physiotherapist, Australian Cricket Team",
             "publish-date": "2 days ago",
@@ -268,9 +268,9 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/badge-01_1.png",
-            "testimonial_text": "<p>I believe the Thermoskin products are the best to aid in compression and support after an injury as well as assisting players returning to training from injury.<\/p>",
+            "testimonial_text": "<p>Thermoskin is an essential component in our return to play rehabilitation.<\/p>",
             "customer_name": "Albert Alonso",
-            "customer_occupation": "Sports Physiotherapist, Bulldogs Rugby League Club (NRL)",
+            "customer_occupation": "Albert Alonso, Former Sports Physiotherapist, Bulldogs Rugby League Club (NRL)",
             "publish-date": "2 days ago",
             "link": "",
             "stars": 3
@@ -280,7 +280,7 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/badge-light-logo-01-01_2.jpg",
-            "testimonial_text": "<p>I have been using Thermoskin products at the South Sydney Rabbitohs since 2007. They allow players to recover quicker from sports injuries by providing additional support, compression, and heat therapy to injured sites.<\/p>",
+            "testimonial_text": "<p>I believe the Thermoskin products are the best to aid in compression and support after an injury as well as assisting players returning to training from injury.<\/p>",
             "customer_name": "Konrad Shultz",
             "customer_occupation": "Head Physiotherapist, Canberra Raiders (NRL)",
             "publish-date": "2 days ago",
@@ -292,12 +292,24 @@
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/RAb-logo_1.png",
-            "testimonial_text": "<p>After meeting strict criteria, the Thermoskin range of heat retainer products have been endorsed – the first and only such range to carry the APA name. We are excited to put our name to such an excellent range of products.<\/p>",
+            "testimonial_text": "<p>I have been using Thermoskin products at the South Sydney Rabbitohs since 2007. They allow players to recover quicker from sports injuries by providing additional support, compression, and heat therapy to injured sites.<\/p>",
             "customer_name": "Eddie Farrah",
             "customer_occupation": "Head Physiotherapist, South Sydney Rabbitohs (NRL)",
             "publish-date": "",
             "link": "",
             "stars": 5
+          }
+        },
+        "f74f4711-972b-49f5-b30b-42a69bdb1775": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_539_3960d1fa-e352-4b9b-a1f7-e49ca7a5955c.png",
+            "testimonial_text": "<p>After meeting strict criteria, the Thermoskin range of heat retainer products have been endorsed – the first and only such range to carry the APA name. We are excited to put our name to such an excellent range of products.<\/p>",
+            "customer_name": "",
+            "customer_occupation": "Australian Physiotherapy Association Former National President",
+            "publish-date": "",
+            "link": "",
+            "stars": 0
           }
         }
       },
@@ -306,7 +318,8 @@
         "b2aaf341-f4dc-4710-afdf-4b2843a8190f",
         "079d4cbc-5d3b-46ac-a7e0-d80a2dea4408",
         "1fda2f8d-6c80-46b9-b4d4-12ec5f3709d3",
-        "8b9825f6-81ce-42cc-baf5-d9ce2de8b845"
+        "8b9825f6-81ce-42cc-baf5-d9ce2de8b845",
+        "f74f4711-972b-49f5-b30b-42a69bdb1775"
       ],
       "settings": {
         "colors": "white",
