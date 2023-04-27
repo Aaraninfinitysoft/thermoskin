@@ -98,6 +98,7 @@
     "page_fade_enabled": true,
     "ken_burns_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/4.jpg",
+    "checkout_logo_size": "large",
     "enable-sale-badge": true,
     "enable-sold-out-badge": true,
     "show_reviews": true,
