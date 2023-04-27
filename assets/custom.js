@@ -201,27 +201,14 @@ function updateAjaxCartSubtotalGST() {
   subtotalArr.forEach((prItem) => {
     subtotalAjaxCartGst += prItem;
   })
-  subtotalselect.textContent = '$' + subtotalAjaxCartGst.toFixed(2) + ' Inc GST'
+  subtotalselect.textContent = '$' + subtotalAjaxCartGst.toFixed(2);
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
   // GST free Added on collection page
   var searchPageGstFreeItems = document.querySelectorAll('.search-wrapper .taxable--false')
   var gstFreeItems = document.querySelectorAll('.collection-main-body .product-grid--price.taxable--false')
-  // gstFreeItems.forEach((gstFreeItem) => {
-  //   gstFree = document.createElement('span');
-  //   gstFree.textContent = 'GST Free';
-  //   gstFreeItem.appendChild(gstFree);
-  // })
-  // GST free Added on collection page end
-
-  // GST free Added on search page
-  // searchPageGstFreeItems.forEach((gstFreeItem) => {
-  //   gstFree = document.createElement('span');
-  //   gstFree.textContent = 'GST Free';
-  //   gstFreeItem.appendChild(gstFree);
-  // })
-  // GST free Added on search page end
+ 
 
   var istaxble = window.istaxble;
   if (istaxble == true) {
@@ -260,18 +247,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
             var prNodes = document.querySelectorAll('.ajaxcart__product .taxable--true .money');
             prNodes.forEach((m) => {
               let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
-              updateGSTprice(m, WIthGSTPriceNew)
+              updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection')
             })
             // priceupdate on line tiems end
 
-            var prNodes2 = document.querySelectorAll('.ajaxcart__product .taxable--false');
-            var kl = document.createElement('span');
-            kl.textContent = ' GST Free'
-
-            prNodes2.forEach((m) => {
-              m.appendChild(kl);
-            })
-
+  
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
