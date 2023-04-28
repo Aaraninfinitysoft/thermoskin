@@ -256,7 +256,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
-            }, 3000);
+            }, 1000);
             // price update on subtotal end
 
             // price update on removeBTN clilck
