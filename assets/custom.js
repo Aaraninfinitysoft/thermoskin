@@ -462,7 +462,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 setTimeout(() => {
   var reviewBlock = document.querySelector('[data-block-handle="reviews"]');
   var reviewBlock2 = document.querySelector('.review_html');
-  if (reviewBlock2 != null) {
+  if (reviewBlock2 != null && reviewBlock != null) {
     reviewBlock2.appendChild(reviewBlock)
   }
   var ii = document.querySelector('.write-review-trigger');
