@@ -234,6 +234,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // GST price add on addto cart and cartToggler click 
     var addtocartBtn = document.querySelector('#AddToCart');
     var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
+    console.log(cartToggleBtn);
     var arr = [addtocartBtn, cartToggleBtn];
     arr.forEach((el) => {
       if (el != null) {
