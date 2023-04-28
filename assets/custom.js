@@ -397,7 +397,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
       if (tt != null) {
         tt.textContent = 'Buy It Now';
-        clearInterval(xy)
+        //clearInterval(xy)
       }
     }
 
