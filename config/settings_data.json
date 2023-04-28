@@ -1,6 +1,6 @@
 {
   "current": {
-    "tax_on_off": true,
+    "tax_on_off": false,
     "tax_percentage": "10",
     "color_body_text": "#414042",
     "color_primary": "#414042",
