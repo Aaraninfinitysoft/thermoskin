@@ -235,10 +235,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     var addtocartBtn = document.querySelector('#AddToCart');
     var cartToggleBtn = document.querySelector('.site-header__cart-toggle');
     var arr = [addtocartBtn, cartToggleBtn];
-    console.log("test");
     arr.forEach((el) => {
       if (el != null) {
         el.addEventListener('click', () => {
+              console.log("test");
           // var cartLoder = document.createElement('div')
           // cartLoder.setAttribute('class','cart-loader')
           // document.querySelector('.right-drawer-vue').classList.add('drawer-loader');
