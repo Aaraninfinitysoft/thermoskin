@@ -291,18 +291,15 @@ endif
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>  
    <script>
-     (function (jquery){ 
-        jquery(".slidertest").owlCarousel({    
-          loop:true,
-   center: true,
-      autoWidth:true,     
-    items:1,
-    autoplay:true,
-    autoplayHoverPause:true
-      });
-})($);
-
 jQuery(document).ready(function () {
+  jquery(".slidertest").owlCarousel({    
+       loop:true,
+       center: true,
+      autoWidth:true,     
+      items:1,
+      autoplay:true,
+      autoplayHoverPause:true
+      });
     jQuery(".fullDescription").hide();
     jQuery(document).on('click',".read-more-collection", function () {
         var txt = jQuery(this).parent().find('.fullDescription').is(':visible') ? 'Read More' : 'Read Less';
