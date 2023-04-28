@@ -19,6 +19,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $('#shopify-section-template--15650287550670__4dc4e380-cc98-44ea-988d-de83b78f554c .responsive-image-wrapper').append(tag);
   // end
 
+  // // browse by body Parts Tag
+ var tag4 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Protection</span></div></div></div>'
+ if(tag4){
+   jQuery('#thermoskin-sport-supports-and-braces .banner-with-icon-set').append(tag4);
+ }
+
   // browse by body Parts Tag
   // var tag2 = '<div class="browse-banner-lable-wrapper"><div class="inner-relative-layer"><div class="inner-absolute-layer"><span class="banner-lable">Enhanced </span><span class="banner-lable"> Recovery</span></div></div></div>'
   // $('#thermoskin-thermal-range-of-supports-amp-braces-heat-therapy .banner-with-icon-set').append(tag2);
