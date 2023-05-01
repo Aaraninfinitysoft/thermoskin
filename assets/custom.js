@@ -284,10 +284,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
             })
             // price update on ajax qtn Chnage button click
-      document.querySlectorAll('.loader').forEach(lod =>{
+   
+          }, 2000);
+          setTimeout(function(){
+               document.querySlectorAll('.loader').forEach(lod =>{
       lod.classList.remove('loader')
     })
-          }, 2000);
+          },2100)
         })
       }
     })
