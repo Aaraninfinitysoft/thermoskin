@@ -28,11 +28,11 @@
     "main": {
       "type": "template--blog",
       "settings": {
-        "show_author_name": true,
+        "show_author_name": false,
         "blog-sidebar-link": "",
         "show_blog_tags": false,
         "show_recent_posts": true,
-        "blog_show_date": true
+        "blog_show_date": false
       }
     }
   },
