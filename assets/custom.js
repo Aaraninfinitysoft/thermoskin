@@ -221,6 +221,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper:not(.taxable--false)', '.with-gst-price')
       })
+      document.querySlectorAll('.loader').forEach(lod =>{
+      lod.classList.remove('loader')
+    })
     }
 
     // GST price add on addto cart and cartToggler click 
@@ -462,9 +465,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       })
     }
     // on search  page end
-    document.querySlectorAll('.loader').forEach(lod =>{
-      lod.classList.remove('loader')
-    })
+    
   }
 })
 
