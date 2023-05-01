@@ -221,7 +221,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         let WIthGSTPriceNew = priceWIthGST(gst, m.textContent);
         updateGSTprice(m, WIthGSTPriceNew, '.price-with-gst-wrapper:not(.taxable--false)', '.with-gst-price')
       })
-
     }
 
     // GST price add on addto cart and cartToggler click 
@@ -250,9 +249,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
             // price update on subtotal after tax changes
             setTimeout(() => {
               updateAjaxCartSubtotalGST()
-                    document.querySlectorAll('.loader').forEach(lod =>{
-      lod.classList.remove('loader')
-    })
             }, 1000);
             // price update on subtotal end
 
@@ -284,13 +280,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
             })
             // price update on ajax qtn Chnage button click
-   
+
           }, 2000);
-          setTimeout(function(){
-               document.querySlectorAll('.loader').forEach(lod =>{
-      lod.classList.remove('loader')
-    })
-          },2100)
         })
       }
     })
@@ -456,22 +447,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
               updateGSTprice(m, WIthGSTPriceNew,null,null,'Collection');
               m.parentElement.classList.remove('loader')
             })
-            // nonTaxableList.forEach(item => {
-            //   var sp = document.createElement('span');
-            //   sp.classList.add('gst-free');
-            //   sp.textContent = ' GST Free';
-            //   var checNonGST = item.querySelector('.gst-free');
-            //   if (checNonGST == null) {
-            //     item.appendChild(sp);
-            //   }
-            // })
-            // nonGStUpdate(nonTaxableList)
           }, 2500);
         }
       })
     }
     // on search  page end
-    
+
   }
 })
 
