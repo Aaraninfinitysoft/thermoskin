@@ -1,19 +1,22 @@
 {
   "sections": {
-    "image-with-text-overlay": {
-      "type": "image--image-with-text-overlay",
+    "65a7869c-3102-4e54-9d41-a66877245f60": {
+      "type": "banner-with-icon-set",
       "settings": {
-        "image_height": "30vw",
-        "bg_image_overlay_opacity": 20,
-        "parallax": false,
-        "title": "Share your story",
+        "image": "shopify:\/\/shop_images\/About_Us_be00aaf7-2720-47ec-ae69-0bb6b410fb92.png",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "News",
         "text": "",
-        "colors": "light",
-        "textPosition": "center",
-        "textAlignment": "center",
-        "heading--text-size": 32,
+        "colors": "dark",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "heading--text-size": 40,
         "text--text-size": 18,
         "link": "",
+        "overlay_text_1": "",
+        "overlay_text_2": "",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#000000"
@@ -26,21 +29,12 @@
         "blog-sidebar-link": "shopify:\/\/collections\/all",
         "show_blog_tags": false,
         "show_recent_posts": true,
-        "blog_show_date": true
-      }
-    },
-    "newsletter": {
-      "type": "newsletter--newsletter",
-      "settings": {
-        "colors": "accent",
-        "newsletter_heading": "Join our Mailing List",
-        "newsletter_description": ""
+        "blog_show_date": false
       }
     }
   },
   "order": [
-    "image-with-text-overlay",
-    "main",
-    "newsletter"
+    "65a7869c-3102-4e54-9d41-a66877245f60",
+    "main"
   ]
 }
