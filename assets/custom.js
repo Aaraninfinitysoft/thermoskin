@@ -462,6 +462,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
       })
     }
     // on search  page end
+    document.querySlectorAll('.loader').forEach(lod =>{
+      lod.classList.remove('loader')
+    })
   }
 })
 
