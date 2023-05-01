@@ -233,7 +233,7 @@
         {% endif %}
         <div class="bottom-footer-copy-design-wrap">
         <ul class="bottom--footer---links">
-          <li><a href="{{ routes.root_url }}">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name }}</a></li>
+          <li><a href="{{ routes.root_url }}">&copy; {{ 'now' | date: "%Y" }} {{ shop.name }}</a></li>
           {% for link in linklists['footer-bottom-menu'].links  %}
           <li><a href="{{link.url }}">{{ link.title }}</a></li>{% unless forloop.last %}<span>|</span>{% endunless %}
             {% endfor %}
