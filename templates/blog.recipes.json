@@ -27,7 +27,7 @@
       "settings": {
         "show_author_name": false,
         "blog-sidebar-link": "shopify:\/\/collections\/all",
-        "show_blog_tags": true,
+        "show_blog_tags": false,
         "show_recent_posts": true,
         "blog_show_date": false
       }
