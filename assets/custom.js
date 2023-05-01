@@ -231,6 +231,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     arr.forEach((el) => {
       if (el != null) {
         el.addEventListener('click', () => {
+          alert('clicked')
               console.log("test");
           // var cartLoder = document.createElement('div')
           // cartLoder.setAttribute('class','cart-loader')
