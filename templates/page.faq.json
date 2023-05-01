@@ -38,116 +38,98 @@
         "164572426857089649-0": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "Which brace is right for me?",
+            "text": "<p>Search via your injury or via our quick and easy support selector to find the best suited support for your injury or requirements.<\/p>"
           }
         },
         "164572426857089649-1": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "What is the correct fit - Tight or Loose?",
+            "text": "<p>It is important that the correct size is worn to ensure effective treatment. To determine the size required, use a tape measure and check the Thermoskin Measurement Chart to help with selecting the correct size. Thermoskin products should be a comfortable fit, not too tight. These size guides can be found on under each product listing or product box.<\/p>"
           }
         },
         "164572426857089649-2": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "Do you always wear thermal supports against the skin?",
+            "text": "<p>Yes, it should always be worn against the skin.<\/p>"
+          }
+        },
+        "bd81758f-11d3-4f4a-b1c7-6f9291be2bd8": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long do you wear a thermal support for?",
+            "text": "<p>Thermoskin thermal supports can be worn at any time. For best results we recommend the following:<\/p><ul><li>During the winter months Thermoskin thermal supports can be worn prior to, during or after the activity. During the summer months Thermoskin should be worn before and after the activity only.<\/li><li>Use during the activity should be at the users discretion and comfort.<\/li><\/ul>"
+          }
+        },
+        "31f4385b-03a3-4a3c-a3fc-6bce8db3e271": {
+          "type": "tab_content",
+          "settings": {
+            "question": "When is the best time to wear support or brace?",
+            "text": "<p>For thermal treatment to be truly effective, the heat needs to be applied continuously for long periods and during a range of activity levels. This is obviously impossible with traditional thermal treatment that require immobility. Thermoskin thermal supports are an easier and convenient form of thermal treatment.<\/p>"
+          }
+        },
+        "d6dc8efc-7e08-4109-838e-542b28e4c90f": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can you wear a thermal support to bed at night?",
+            "text": "<p>Yes, they can be worn to bed at night. Anecdotal evidence has shown that if the Thermoskin thermal support is worn during sleep there is a minimising of pain occurring.<\/p>"
+          }
+        },
+        "9bc58c0d-9421-40bf-b3d1-2889c6840f41": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do Thermoskin Thermal Supports contain Latex?",
+            "text": "<p>No. Thermoskin Thermal Supports are manufactured using 3 types of materials: nylon (outer layer), a non porous rubberised material (mid layer) and a synthetic fibre (Trioxon inner layer). None of these materials contain latex.<\/p>"
+          }
+        },
+        "4a67e2e8-015e-414c-8721-a6476a0925ea": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can you use it in conjunction with analgesic balms?",
+            "text": "<p>No, do not use ointments, liniments or oils under Thermoskin products as it reduces the life of the product by breaking down the material. Creams and lotions when used under a Thermoskin product could also irritate the skin.<\/p>"
+          }
+        },
+        "371ad95e-f58e-476e-84a4-7ec21abb41fd": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What do you do if it causes skin irritation?",
+            "text": "<p>If a rash appears, discontinue use until the rash subsides. Wash the product and re-apply periodically. To discourage the rash reappearing we recommend to users, that while bathing they scrub the area that the product has covered. If a rash continues, please consult your Doctor.<\/p>"
+          }
+        },
+        "6f519a0a-e502-4386-a9da-8b0a63f66899": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the warranty for these products?",
+            "text": "<p>Thermoskin product warranty covers manufacturing faults for twelve months from the date of purchase. Does not cover misuse or wear and tear or change of mind.<\/p>"
+          }
+        },
+        "4eb75436-e382-4829-b6ea-7b6f68a6b56e": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I wash my Thermoskin products and how often?",
+            "text": "<p>It is recommended to place your support or brace in a delicates washing bag. Machine wash in cold water. Drip dry. Do not wring, twist, tumble dry, bleach or dry in direct sunlight. Do not wash in hot water as this may cause the product to shrink in size.<\/p><p>If worn, around the house, at the office or in bed, wash Thermoskin every 2 or 3 days. If worn during sports activity or heavy work, wash daily.<\/p>"
           }
         }
       },
       "block_order": [
         "164572426857089649-0",
         "164572426857089649-1",
-        "164572426857089649-2"
+        "164572426857089649-2",
+        "bd81758f-11d3-4f4a-b1c7-6f9291be2bd8",
+        "31f4385b-03a3-4a3c-a3fc-6bce8db3e271",
+        "d6dc8efc-7e08-4109-838e-542b28e4c90f",
+        "9bc58c0d-9421-40bf-b3d1-2889c6840f41",
+        "4a67e2e8-015e-414c-8721-a6476a0925ea",
+        "371ad95e-f58e-476e-84a4-7ec21abb41fd",
+        "6f519a0a-e502-4386-a9da-8b0a63f66899",
+        "4eb75436-e382-4829-b6ea-7b6f68a6b56e"
       ],
       "settings": {
         "colors": "white",
         "title": "Frequently asked questions",
         "faq_icon": "caret"
-      }
-    },
-    "gallery-01": {
-      "type": "image--gallery",
-      "disabled": true,
-      "blocks": {
-        "164735127391452ea4-0": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "164735127391452ea4-1": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "164735127391452ea4-2": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        },
-        "93a09d38-dc11-40f6-b293-f5a8e245fc82": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#323232"
-          }
-        }
-      },
-      "block_order": [
-        "164735127391452ea4-0",
-        "164735127391452ea4-1",
-        "164735127391452ea4-2",
-        "93a09d38-dc11-40f6-b293-f5a8e245fc82"
-      ],
-      "settings": {
-        "colors": "white",
-        "title": "",
-        "richtext": "",
-        "remove-spacing": true,
-        "full-width": false,
-        "section-width": "full",
-        "content-position": "hide"
-      }
-    },
-    "rich-text": {
-      "type": "text--rich-text",
-      "disabled": true,
-      "settings": {
-        "colors": "accent",
-        "section-pos": "left",
-        "section-size": "50%",
-        "title": "Welcome to our store",
-        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
-        "button_label": "LEARN MORE",
-        "button_link": "shopify:\/\/collections\/all"
       }
     }
   },
@@ -155,8 +137,6 @@
     "image-with-text-overlay",
     "8721c877-b014-4092-a965-e4f2a0af67d4",
     "main",
-    "accordion-00",
-    "gallery-01",
-    "rich-text"
+    "accordion-00"
   ]
 }
