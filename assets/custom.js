@@ -163,7 +163,7 @@ function updateGSTprice(currentElm, gstprice, closestWrapperSelector, toBeUpdate
 
   }
   else {
-    currentElm.closest(closestWrapperSelector).querySelector(toBeUpdatedSelector).appendChild(span);
+    currentElm.closest(closestWrapperSelector)?.querySelector(toBeUpdatedSelector).appendChild(span);
     currentElm.style.display = 'none';
   }
   currentElm.parentElement.parentElement.classList.remove('loader')
