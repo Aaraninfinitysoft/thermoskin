@@ -366,10 +366,8 @@ $(this).addClass('active').siblings().removeClass('active')
  }
   var AjaxAddtocarts = document.querySelectorAll('.Ajax-add-to-cart');
   AjaxAddtocarts.forEach((AjaxAddtocart)=>{
-    AjaxAddtocart.addEventListener('click',function(e){
+    AjaxAddtocart.onclick = function(e){
       e.preventDefault();
-    
-    
      var chekboxes = e.target.closest('.grid-view-item').querySelectorAll('.swatch-items-wrapper input:checked');
 var varTitle = '';
       chekboxes.forEach((chekboxe, index)=>{
@@ -381,7 +379,8 @@ var varTitle = '';
         }
       })
       
- var handle = e.target.getAttribute('href');
+ var handle0 = e.target.getAttribute('href').split('?');
+ var handle = handle0[0];
      
   var query = `${handle}.json`;
     fetch(query)
@@ -399,7 +398,7 @@ var varTitle = '';
     })
     console.log(data)
   });
-    })
+    }
   })
 </script>
 <script>
