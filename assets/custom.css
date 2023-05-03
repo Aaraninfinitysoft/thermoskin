@@ -7423,4 +7423,7 @@ button[data-testid="sheet-open-button"]:hover{
     -webkit-line-clamp: 2;
     white-space: pre-wrap;
 }
+body  .spr-review-header-title{
+  line-height :initial !important;
+}
 /************ custom end **********/
