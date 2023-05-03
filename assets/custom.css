@@ -7416,4 +7416,11 @@ button[data-testid="sheet-open-button"]:hover{
 .taxable--false{
   font-weight:600;
 }
+.short-description{
+      overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: pre-wrap;
+}
 /************ custom end **********/
