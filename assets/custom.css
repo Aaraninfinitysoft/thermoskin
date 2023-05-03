@@ -3311,7 +3311,7 @@ letter-spacing: initial;
 .thermal.sport.template-collection a.btn{
 /*     background: #9E0B0F; */ 
 }
-.thermal.sport.template-collection button.btn{
+.thermal.sport.template-collection #CollectionProductGrid button.btn{
     background: #9E0B0F;
 }
 
