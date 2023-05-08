@@ -7320,7 +7320,9 @@ body.store-locater div#shopify-section-store-locator-section {
 .footer-content a[href="#"] {
     pointer-events: none;
 }
-
+.image-with-text-overlay-wrapper--textAlignment-left .homepage-sections--title.homepage-section-title {
+    text-align: left;
+}
 @media (max-width: 768px)
 {
   .template-collection .product-grid--descripiton{
