@@ -7432,7 +7432,7 @@ body  .spr-review-header-title{
 
 @media(min-width:1400px){
   #sports-braces-and-supports-thermoskin .inner-absolute-layer{
-        top: 200px;
+        top: 50%;
     right: 31%;
   }
 }
