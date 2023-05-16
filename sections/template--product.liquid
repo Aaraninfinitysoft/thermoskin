@@ -263,9 +263,10 @@
                         {% else %}
                         <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
                         {% endif %}
-                          <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
+                        
                         </div>
                       <div class="size-chart-content">
+                        <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         {% if product.metafields.custom.measurement_instructions.value != blank %}
                         <span>{{ product.metafields.custom.measurement_instructions.value }}</span>
                         {% endif %}
