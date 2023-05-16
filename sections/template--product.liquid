@@ -258,7 +258,11 @@
                         <h2>{{ product.title }}</h2>
                       <div class="size-div-flex">
                         <div class="size-chart-img">
-                          <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
+                      {% if product.metafields.custom.size_chart_image != blank %}
+                        <img src="{{ product.metafields.custom.size_chart_image | img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
+                        {% else %}
+                        <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title | escape  }}" /> 
+                        {% endif %}
                           <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         </div>
                       <div class="size-chart-content">
