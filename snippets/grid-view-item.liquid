@@ -72,7 +72,7 @@
       <div class="product-grid--title" data-block-type="product_card_title"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
         <a href="{{ product.url }}">{{ product.title }}</a>
       </div>
-      {{product.reviews_count}} {{ product.reviews_count | pluralize: 'review', 'reviews' }}
+      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
       {% when 'product_card_description' %}
        <div class="product-grid--descripiton" data-block-type="product_card_description"{% if request.design_mode %} data-shopify-editor-block='{"id":"product_card_title","type":"product_card_title"}'{% endif %}>
          
