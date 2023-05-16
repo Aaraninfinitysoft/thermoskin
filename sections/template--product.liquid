@@ -266,9 +266,11 @@
                         
                         </div>
                       <div class="size-chart-content">
-                        <span>Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         {% if product.metafields.custom.measurement_instructions.value != blank %}
                         <span> {{ product.metafields.custom.measurement_instructions.value }}</span>
+                        {% endif %}
+                        {% if product.metafields.custom.country_of_origin.value != blank %}
+                        <span> Made in {{ product.metafields.custom.country_of_origin.value }} </span>
                         {% endif %}
                           <div class="size-chart-details">
                          
