@@ -65,7 +65,7 @@
                         {% endcapture %}
                          {% assign collectionNamesArr = collectionNames | split: ',' %}
                         {% for  collectionNames in collectionNamesArr %}
-                          {{ collectionNames }}--
+                          {{ collectionNames }}--{{ name }}
                           {% endfor %}
                        
                         {% if collectionNamesArr contains name %}
