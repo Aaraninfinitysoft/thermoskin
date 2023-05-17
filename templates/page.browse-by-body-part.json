@@ -120,7 +120,7 @@
           "type": "multiple_category",
           "settings": {
             "name": "Shoulder\/Neck",
-            "best_seller_id": "thermal,compression,sport"
+            "best_seller_id": "compression,thermal,sport"
           }
         }
       },
