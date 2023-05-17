@@ -65,7 +65,7 @@
                         {% endcapture %}
                          {% assign collectionNamesArr = collectionNames | split: ',' %}
                         {% for  collectionNames in collectionNamesArr %}
-                          {{ collectionNames }}--{{ name }}
+                          {{ collectionNames | downcase }}--{{ name | downcase }}
                           {% if  collectionNames ==  name %}
                             1111 {{ collectionNames }}--{{ name }}
                             {% endif %}
