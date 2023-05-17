@@ -59,18 +59,20 @@
                       {% for product in curr_coll.products limit: 4 %}
                         {% assign name = block.settings.name | escape %}
                         {% capture collectionNames %}
-                        {% for proCOllection in product.collections %}
-                      {{ proCOllection.title }},
-                      {% endfor %}
+
                         {% endcapture %}
-                         {%- assign collectionNamesArr = collectionNames | split: ',' -%}
-                        {%- for  collectionNames in collectionNamesArr -%}
-                          {{ collectionNames | downcase }}--{{ name | downcase }}
-                          {% if  collectionNames  ==  name %}
+                        {%- assign collectionNamesArr = collectionNames | split: ',' -%}
+                        {%- for collectionNames in collectionNamesArr -%}
+                          
+                          {% if collectionNames == name %}
                             1111 {{ collectionNames }}--{{ name }}
+                          {% endif %}
+                        {%- endfor -%}
+                        {% for proCOllection in product.collections %}
+                          {% if  proCOllection.title == name %}
+                          {{ proCOllection.title }}--{{ name }}
                             {% endif %}
-                          {%- endfor -%}
-                       
+                        {% endfor %}
                         {% if collectionNamesArr contains name %}
                           <div class="best-sellers-wrap">
                             <div class="best-sellers-image">
