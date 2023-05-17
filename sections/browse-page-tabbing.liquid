@@ -5,20 +5,34 @@
     <div id="exTab2" class="aaaaaa">
       <div class="best-seller-header">
         <div class="mobile-dropdown">
-          <span class="dropdown_value">{{section.blocks[0].settings.name}}</span><span class="icon-dropdown">
-            <svg xmlns="http://www.w3.org/2000/svg" width="21.0" height="21.0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          <span class="dropdown_value">{{ section.blocks[0].settings.name }}</span
+          ><span class="icon-dropdown">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21.0"
+              height="21.0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
           </span>
-          </div>
-      <ul class="best-sellers-nav nav nav-tabs">
-        {% assign i = 1 %}
-        {% for block in section.blocks %}
-          <li class="{% if i == 1 %} active {% endif %} tab best-sellers-tab">
-            <a href="#best{{ i }}" data-toggle="tab">{{ block.settings.name | escape }}</a>
-          </li>
-          {% assign i = i | plus: 1 %}
-        {% endfor %}
-      </ul>
-    </div>
+        </div>
+        <ul class="best-sellers-nav nav nav-tabs">
+          {% assign i = 1 %}
+          {% for block in section.blocks %}
+            <li class="{% if i == 1 %} active {% endif %} tab best-sellers-tab">
+              <a href="#best{{ i }}" data-toggle="tab">{{ block.settings.name | escape }}</a>
+            </li>
+            {% assign i = i | plus: 1 %}
+          {% endfor %}
+        </ul>
+      </div>
       <div class="tab-content best-sellers-content">
         {% assign i = 1 %}
 
@@ -35,33 +49,36 @@
                     <div class="sub_header header-{{ curr_coll.title }}">
                       <h2>
                         {{ curr_coll.title }}
-                        <small><p>{{- curr_coll.metafields.custom.best_for }}</p></small>
-                 
+                        <small>
+                          <p>{{- curr_coll.metafields.custom.best_for }}</p>
+                        </small>
                       </h2>
                       <span>{{ curr_coll.metafields.custom.short_description }}</span>
                     </div>
                     <div class="product-listing-wrapper product-{{ curr_coll.title }}">
-                    {% for product in curr_coll.products limit: 4 %}
-                      {% assign name = block.settings.name | escape  %} 
-                      {% if  product.collections contains name %}
-                        <div class="best-sellers-wrap">
-                        <div class="best-sellers-image">
-                          <img src="{{ product.featured_image | img_url:"535x535" }}">
-                        </div>
-                        <h3 class="best-sellers-title">{{ product.title }}</h3>
-                        <div class="thermoskin-range-section--text-wrapper">
-                          {% if product.description %}
-                            <p>{{ product.description | strip_html | truncate: 100 }}</p>
-                          {% endif %}
-                        </div>
-                        <a class="thermoskin-range-view-list-btn" href="{{ product.url }}">VIEW PRODUCT</a>
-                      </div>
-                        {% endif %}
-                         {% for proCOllection in product.collections %}
-                      {{ proCOllection.title }}
+                      {% for product in curr_coll.products limit: 4 %}
+                        {% assign name = block.settings.name | escape %}
+                        {% capture collectionNames %}
+                        {% for proCOllection in product.collections %}
+                      {{ proCOllection.title }},
                       {% endfor %}
-                      
-                    {% endfor %}
+                        {% endcapture %}
+                        {% assign collectionNamesArr = collectionNames | split: ',' %}
+                        {% if collectionNamesArr contains name %}
+                          <div class="best-sellers-wrap">
+                            <div class="best-sellers-image">
+                              <img src="{{ product.featured_image | img_url:"535x535" }}">
+                            </div>
+                            <h3 class="best-sellers-title">{{ product.title }}</h3>
+                            <div class="thermoskin-range-section--text-wrapper">
+                              {% if product.description %}
+                                <p>{{ product.description | strip_html | truncate: 100 }}</p>
+                              {% endif %}
+                            </div>
+                            <a class="thermoskin-range-view-list-btn" href="{{ product.url }}">VIEW PRODUCT</a>
+                          </div>
+                        {% endif %}
+                      {% endfor %}
                     </div>
                   {% endfor %}
                 </div>
