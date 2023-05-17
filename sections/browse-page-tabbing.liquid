@@ -63,7 +63,11 @@
                       {{ proCOllection.title }},
                       {% endfor %}
                         {% endcapture %}
-                        {% assign collectionNamesArr = collectionNames | split: ',' %}
+                         {% assign collectionNamesArr = collectionNames | split: ',' %}
+                        {% for  collectionNames in collectionNamesArr %}
+                          {{ collectionNames }}--
+                          {% endfor %}
+                       
                         {% if collectionNamesArr contains name %}
                           <div class="best-sellers-wrap">
                             <div class="best-sellers-image">
