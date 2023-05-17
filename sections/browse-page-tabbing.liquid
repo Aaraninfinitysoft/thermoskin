@@ -75,10 +75,11 @@
                             <a class="thermoskin-range-view-list-btn" href="{{ product.url }}">VIEW PRODUCT</a>
                           </div>
                             {% assign ij = ij | plus: 1 %}
-                            {% if  ij == 4 %}
+
+                            {% endif %}
+                                                      {% if  ij == 4 %}
                               {% break %}
                               {% endif %}
-                            {% endif %}
                         {% endfor %}
                         
                       {% endfor %}
