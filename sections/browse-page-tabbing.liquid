@@ -36,6 +36,9 @@
                       <h2>
                         {{ curr_coll.title }}
                         <small><p>{{- curr_coll.metafields.custom.best_for }}</p></small>
+                    {% for proCOllection in product.collections %}
+                      {{ proCOllection.title }}
+                      {% endfor %}
                       </h2>
                       <span>{{ curr_coll.metafields.custom.short_description }}</span>
                     </div>
