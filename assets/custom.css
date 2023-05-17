@@ -7430,7 +7430,7 @@ body  .spr-review-header-title{
 }
 /************ custom end **********/
 .taxable--false #ProductPrice .money{
-  display:block;
+  display:block !important;
 }
 @media(min-width:1400px){
   #sports-braces-and-supports-thermoskin .inner-absolute-layer{
