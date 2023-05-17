@@ -56,9 +56,10 @@
                       <span>{{ curr_coll.metafields.custom.short_description }}</span>
                     </div>
                     <div class="product-listing-wrapper product-{{ curr_coll.title }}">
+                    {% assign ij = 1 %}
                       {% for product in curr_coll.products  %}
                         {% assign name = block.settings.name | escape %}
-                        {% assign ij = 1 %}
+                        
                         
                         {% for proCOllection in product.collections %}
                           {% if  proCOllection.title == name %}
@@ -77,12 +78,12 @@
                             {% assign ij = ij | plus: 1 %}
 
                             {% endif %}
-                                                      {% if  ij == 4 %}
-                              {% break %}
-                              {% endif %}
+                                                 
                           loop no--{{ ij }}
                         {% endfor %}
-                        
+                             {% if  ij == 4 %}
+                              {% break %}
+                              {% endif %}
                       {% endfor %}
                     </div>
                   {% endfor %}
