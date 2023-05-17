@@ -56,7 +56,7 @@
                       <span>{{ curr_coll.metafields.custom.short_description }}</span>
                     </div>
                     <div class="product-listing-wrapper product-{{ curr_coll.title }}">
-                      {% for product in curr_coll.products limit: 4 %}
+                      {% for product in curr_coll.products  %}
                         {% assign name = block.settings.name | escape %}
                         
                         {% for proCOllection in product.collections %}
