@@ -85,21 +85,21 @@
           "type": "multiple_category",
           "settings": {
             "name": "Elbow",
-            "best_seller_id": "compression"
+            "best_seller_id": "compression,thermal,sport"
           }
         },
         "80982c92-8099-443f-8130-830b7db3ef7e": {
           "type": "multiple_category",
           "settings": {
             "name": "Back\/Torso",
-            "best_seller_id": "sport,compression,thermal"
+            "best_seller_id": "compression,thermal,sport"
           }
         },
         "ee8e5d46-f1b1-42b2-b1c6-43d40a9ef412": {
           "type": "multiple_category",
           "settings": {
             "name": "Leg",
-            "best_seller_id": "sport,compression,thermal"
+            "best_seller_id": "compression,thermal,sport"
           }
         },
         "e329d0eb-f7be-4876-9736-493de2161466": {
@@ -120,7 +120,7 @@
           "type": "multiple_category",
           "settings": {
             "name": "Shoulder\/neck",
-            "best_seller_id": "thermal,sport,compression"
+            "best_seller_id": "compression,thermal,sport"
           }
         }
       },
