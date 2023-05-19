@@ -339,6 +339,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "3141728750423887031": {
+        "type": "shopify:\/\/apps\/conversios-google-analytics-4\/blocks\/app-embed-body\/a5ed6aee-249e-497f-93bc-8eb285acecca",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
