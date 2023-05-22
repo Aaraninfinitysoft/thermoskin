@@ -110,7 +110,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "Free Shipping | Shipping only available within Australia",
+          "message_text": "FREE shipping on Australian orders over $50",
           "message_link": "",
           "announcement-bar--background-color": "#242424",
           "announcement-bar--text-color": "#ffffff",
