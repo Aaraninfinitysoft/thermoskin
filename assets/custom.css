@@ -7433,9 +7433,15 @@ body  .spr-review-header-title{
 .taxable--false #ProductPrice .money{
   display:block !important;
 }
+@media (min-width:1200px){
+  #compression-braces-and-supports-thermoskin .inner-absolute-layer{
+    right:20%;
+  }
+}
 @media(min-width:1400px){
   #sports-braces-and-supports-thermoskin .inner-absolute-layer{
         top: 50%;
     right: 31%;
   }
 }
+
