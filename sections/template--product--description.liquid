@@ -51,14 +51,14 @@
           <h3 class="metafield-title">Warranty Description</h3>
             {{ product.metafields.custom.warranty_description.value }}
           {% endif %}
-          {% if product.metafields.custom.material.value != blank %}
+          {% if product.metafields.custom.warranty_description.value != blank %}
           <h3 class="metafield-title">Material</h3>
             {{ product.metafields.custom.material.value }}
           {% endif %}
           
         </div>
         <div class="metafield-right-wrap">
-          {% if product.metafields.custom.related_injuries.value != blank %}
+          {% if product.metafields.custom.warranty_description.value != blank %}
           <h3 class="metafield-title">Related Injuries</h3>
             {{ product.metafields.custom.related_injuries.value }}
           {% endif %}
