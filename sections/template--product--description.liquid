@@ -75,7 +75,7 @@
             <h3>PEOPLE ALSO BOUGHT</h3>
             <!--  start -->
             {% assign counter = 0 %}
-            {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
+            
             {% assign related_Products = section.settings.related_products %}
             {% for product in related_Products %}
             {% unless product.handle == current_product.handle %}
@@ -94,7 +94,7 @@
             
           
             {% assign counter = counter | plus: 1 %}
-            {% if counter == 3 %}
+            {% if counter == 4 %}
             {% break %}
             {% endif %}
             {% endunless %}
