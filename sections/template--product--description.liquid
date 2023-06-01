@@ -77,7 +77,7 @@
             {% assign counter = 0 %}
             {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
             {% assign related_Products = section.settings.related_products %}
-            {% for product in collection.products %}
+            {% for product in related_Products %}
             {% unless product.handle == current_product.handle %}
             {% unless same_vendor and current_product.vendor != product.vendor %}
             {% unless same_type and current_product.type != product.type %}
