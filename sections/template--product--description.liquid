@@ -76,7 +76,7 @@
             <!--  start -->
             {% assign counter = 0 %}
             {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
-            {% assign current_product = product %}
+            {% assign related_Products = section.settings.related_products %}
             {% for product in collection.products %}
             {% unless product.handle == current_product.handle %}
             {% unless same_vendor and current_product.vendor != product.vendor %}
@@ -131,7 +131,21 @@
         "pt-PT": "Ativar \"ler mais\" para descrição"
       },
       "default": false
+    },
+        {
+      "type": "product_list",
+      "id": "related_products",
+      "label": {
+        "en": "Please select related product",
+        "de": "'Mehr erfahren' für eine Beschreibung aktivieren",
+        "es": "Habilitar «más información» para la descripción",
+        "fr": "Activer « Lire la suite » pour la description",
+        "pt-PT": "Ativar \"ler mais\" para descrição"
+      },
+          "limit":4
+    
     }
+    
   ]
 }
 {% endschema %}
