@@ -144,7 +144,8 @@
     "product-description": {
       "type": "template--product--description",
       "settings": {
-        "enable_readmore": false
+        "enable_readmore": false,
+        "related_products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}"
       }
     },
     "product-recommendations": {
