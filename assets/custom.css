@@ -7181,7 +7181,7 @@ body.Body-overlay .product-details-wrapper:before {
 }
 .browse-banner-lable-wrapper{
     font-family: 'landslide_sampleregular' !important;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 1;
     color: var(--heading--color);
 }
