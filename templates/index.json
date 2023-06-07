@@ -1,7 +1,27 @@
 {
   "sections": {
+    "bbab2c26-4a50-4c25-ae5b-89cb60c3d799": {
+      "type": "video--video-hero",
+      "settings": {
+        "url": "https:\/\/www.youtube.com\/watch?v=FLMXCSoQ_lo",
+        "desktopHeight": "550",
+        "mobileHeight": "fit",
+        "title": "",
+        "subheading": "",
+        "textAlignment": "center",
+        "textColor": "#ffffff",
+        "textShadow": false,
+        "heading--text-size": 50,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000"
+      }
+    },
     "image-slideshow": {
       "type": "image--slideshow",
+      "disabled": true,
       "blocks": {
         "slideshow-0": {
           "type": "image",
@@ -485,6 +505,7 @@
     }
   },
   "order": [
+    "bbab2c26-4a50-4c25-ae5b-89cb60c3d799",
     "image-slideshow",
     "ae204182-fca8-463e-8633-e0f9313a4d50",
     "df1d428d-9c61-4ef8-94f9-b31f0edc68fe",
