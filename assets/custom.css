@@ -7445,3 +7445,6 @@ body  .spr-review-header-title{
   }
 }
 
+#compression-braces-and-supports-thermoskin .inner-absolute-layer{
+  transform:none !important;
+}
