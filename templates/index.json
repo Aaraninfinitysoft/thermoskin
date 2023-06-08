@@ -351,50 +351,39 @@
     },
     "1cae527a-d1f4-44c6-a96e-f6d74466c715": {
       "type": "thermoskin-range-collection",
-      "disabled": true,
       "blocks": {
-        "a791cbe6-7236-4510-bc02-55ca07852dae": {
+        "333a0440-134a-4c11-abaa-ea4254480ad5": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M7A2569.png",
-            "thermoskin_range_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<\/p>",
-            "thermoskin_range_title": "Get the most out of your workout",
-            "link": "#"
+            "image": "shopify:\/\/shop_images\/ice_wrap.jpg",
+            "thermoskin_range_text": "<p>Follow the priniciples of RICE to manage minor acute soft tissue injuries, such as muscle strains, contusions, or ligament sprains. <\/p>",
+            "thermoskin_range_title": "RICE – Rest, Ice, Compression, Elevation – Injury Management",
+            "link": "shopify:\/\/blogs\/news\/rice-rest-ice-compression-elevation-injury-management"
           }
         },
         "abe2c517-7d07-4a0e-93e5-bb0db578d5d6": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PRINTsize-415.png",
-            "thermoskin_range_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<\/p>",
-            "thermoskin_range_title": "Game Day Prep",
-            "link": "#"
+            "image": "shopify:\/\/shop_images\/heat.jpg",
+            "thermoskin_range_text": "<p>Heat therapy is an effective way to reduce pain, loosen muscles, and improve circulation. Find out how you can access the healing power of heat.<\/p>",
+            "thermoskin_range_title": "Harness the Healing Power of Heat",
+            "link": "shopify:\/\/blogs\/news\/harness-the-healing-power-of-heat"
           }
         },
-        "333a0440-134a-4c11-abaa-ea4254480ad5": {
+        "a791cbe6-7236-4510-bc02-55ca07852dae": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/M7A3029.png",
-            "thermoskin_range_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<\/p>",
-            "thermoskin_range_title": "Every day use",
-            "link": "#"
-          }
-        },
-        "231e1186-5dd1-4dde-ae36-0e07dc7782cc": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/M7A3029_bc6bd15d-6597-4769-8987-4f244f62999c.png",
-            "thermoskin_range_text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore<\/p>",
-            "thermoskin_range_title": "Additional item",
-            "link": "#"
+            "image": "shopify:\/\/shop_images\/no-harm.jpg",
+            "thermoskin_range_text": "<p>Used with the RICE principle, the No HARM principle is also recommended for the first 72 hours of managing an acute soft tissue injury.<\/p>",
+            "thermoskin_range_title": "No HARM – What not to do to within the first 72 hours of being injured",
+            "link": "shopify:\/\/blogs\/news\/no-harm-what-not-to-do-to-within-the-first-72-hours-of-being-injured"
           }
         }
       },
       "block_order": [
-        "a791cbe6-7236-4510-bc02-55ca07852dae",
-        "abe2c517-7d07-4a0e-93e5-bb0db578d5d6",
         "333a0440-134a-4c11-abaa-ea4254480ad5",
-        "231e1186-5dd1-4dde-ae36-0e07dc7782cc"
+        "abe2c517-7d07-4a0e-93e5-bb0db578d5d6",
+        "a791cbe6-7236-4510-bc02-55ca07852dae"
       ],
       "settings": {
         "colors": "white",
