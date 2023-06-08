@@ -110,7 +110,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "FREE shipping on Australian orders over $50",
+          "message_text": "FREE shipping on Australian orders over $50 | All orders placed after 12 noon Fri 9\/6 will be processed on Tue 13\/06, due to public holiday.",
           "message_link": "",
           "announcement-bar--background-color": "#242424",
           "announcement-bar--text-color": "#ffffff",
