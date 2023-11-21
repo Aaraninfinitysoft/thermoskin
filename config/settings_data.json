@@ -334,16 +334,11 @@
         "settings": {
         }
       },
-      "5004459476573512578": {
-        "type": "shopify:\/\/apps\/conversios-google-analytics-4\/blocks\/app-embed\/a5ed6aee-249e-497f-93bc-8eb285acecca",
+      "10605408327587305396": {
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
-        }
-      },
-      "3141728750423887031": {
-        "type": "shopify:\/\/apps\/conversios-google-analytics-4\/blocks\/app-embed-body\/a5ed6aee-249e-497f-93bc-8eb285acecca",
-        "disabled": false,
-        "settings": {
+          "version": "v3"
         }
       }
     }
